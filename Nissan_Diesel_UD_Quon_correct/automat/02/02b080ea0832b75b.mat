@@ -1,0 +1,9 @@
+material : "eut2.dif.spec.weight.decal.over.rfx" {
+	texture[0] : "/vehicle/truck/upgrade/paintjob/uroko.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0.1
+	diffuse : { 0.456103 , 0.456103 , 0.456103 }
+	reflection : 0
+	shininess : 7
+	specular : { 0.776579 , 0.776579 , 0.776579 }
+}

@@ -1,0 +1,15 @@
+material : "eut2.dif.spec.add.env.tsnmapuv.rfx" {
+	texture[0] : ".tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/environment/vehicle_reflection.tobj"
+	texture_name[1] : "texture_reflection"
+	texture[2] : ".tobj"
+	texture_name[2] : "texture_nmap"
+	add_ambient : 0
+	diffuse : { 0.582711 , 0.582711 , 0.582711 }
+	env_factor : { 0.0376494 , 0.0376494 , 0.0376494 }
+	fresnel : { 0.2 , 0.9 }
+	reflection : 0
+	shininess : 80
+	specular : { 1 , 1 , 1 }
+}

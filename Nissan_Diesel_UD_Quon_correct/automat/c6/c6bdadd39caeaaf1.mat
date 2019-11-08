@@ -1,0 +1,9 @@
+material : "eut2.dif.rfx" {
+	texture[0] : "/vehicle/wheel/alco/plasti.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 0.949999 , 0.949999 , 0.949999 }
+	reflection : 0
+	shininess : 20
+	specular : { 1 , 1 , 1 }
+}

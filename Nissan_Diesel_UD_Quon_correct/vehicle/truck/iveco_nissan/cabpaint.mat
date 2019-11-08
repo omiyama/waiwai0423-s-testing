@@ -1,0 +1,17 @@
+material : "eut2.truckpaint" {
+	texture[0] : "cab.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/environment/vehicle_reflection.tobj"
+	texture_name[1] : "texture_reflection"
+	texture[2] : "/vehicle/truck/upgrade/paintjob/empty.tobj"
+	texture_name[2] : "texture_paintjob"
+	diffuse : { 1 , 1 , 1 }
+	specular : { 1.5 , 1.5 , 1.5 }
+	shininess : 60
+	add_ambient : 0
+	env_factor : { 0.0732389 , 0.0732389 , 0.0732389 }
+	aux[5] : { 1 , 0 , 0 }
+	aux[6] : { 0 , 1 , 0 }
+	aux[7] : { 0 , 0 , 1 }
+	aux[8] : { 1 , 1 , 1 }
+}

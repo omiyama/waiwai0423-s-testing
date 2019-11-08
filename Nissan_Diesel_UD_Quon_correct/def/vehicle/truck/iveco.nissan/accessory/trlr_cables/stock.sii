@@ -1,0 +1,88 @@
+SiiNunit
+{
+accessory_addon_trailer_cables_data : stock4x2.iveco.nissan.trlr_cables
+{
+	exterior_model: "/vehicle/truck/upgrade/trlr_cables/profia_2017/stock_4x2.pmd"
+
+@include "/def/vehicle/truck/common_trlr_cables.sui"
+
+}
+# これを利用しないでカスタム。
+# hino だけでなく全部書き変わらないように。
+# @include "/def/vehicle/truck/common_trlr_cables_data.sui"
+
+# 	1.32b
+# 	physics_trailer_cable_data が、trailer_cable_data になりました。
+
+trailer_cable_data : .air_cable_y
+{
+	locator_prefix: air_cable_y
+	rest_locator_prefix: rst_cable_y
+
+	vehicle_plug_model: "/vehicle/truck/upgrade/trlr_cables/profia_2017/air_socket_r.pmd"
+	vehicle_plug_model_offset: (0.0, -0.0, -0.01)
+	trailer_plug_model: "/vehicle/truck/upgrade/trlr_cables/profia_2017/air_plug_y.pmd"
+	trailer_plug_model_offset: (-0.0205, 0.0, -0.221)  //最後の数値がロケーターに対しどれだけ離れてコイルが始まるか
+
+	ring_count: 40      // Number of rings in spiral of cable. 何巻あるか。増やせばレスト時に長くなる。
+	ring_resolution: 12  // Resolution of the ring, how many sides each ring has. コイルを何角形で描画するか。
+	diameter: 0.09       // Diameter of spiral. コイル直径、メートル。
+	width: 0.0175       // Width of the cable itself. ケーブルの太さ、メートル。
+	color: (0.1, 0.1, 0.1)     // 色（バーテックスカラー）。
+}
+
+trailer_cable_data : .air_cable_r
+{
+	locator_prefix: air_cable_r
+	rest_locator_prefix: rst_cable_r
+
+	vehicle_plug_model: "/vehicle/truck/upgrade/trlr_cables/profia_2017/air_socket_r.pmd"
+	vehicle_plug_model_offset: (0.0, -0.0, -0.01)
+	trailer_plug_model: "/vehicle/truck/upgrade/trlr_cables/profia_2017/air_plug_r.pmd"
+	trailer_plug_model_offset: (-0.0205, 0.0, -0.221)
+
+# このように指定が無い場合、それなりのデフォルト値がセットされる。
+#  20 , 10 , 0.09 , 0.0175  といった感じ。
+	ring_count: 36
+	ring_resolution: 12
+	color: (0.1, 0.1, 0.1)
+}
+
+trailer_cable_data : .ele_cable_w
+{
+	locator_prefix: ele_cable_w
+	rest_locator_prefix: rst_cable_w
+
+	trailer_plug_model: "/vehicle/share/models/cables_connectors/electric_plug.pmd"
+	trailer_plug_model_offset: (0.0, 0.0, -0.134)
+	vehicle_plug_model: "/vehicle/share/models/cables_connectors/electric_plug.pmd"
+	vehicle_plug_model_offset: (0.0, 0.0, -0.134)
+
+	ring_count: 24      // Number of rings in spiral of cable.
+	ring_resolution: 10  // Resolution of the ring, how many sides each ring has.
+	diameter: 0.042       // Diameter of spiral.
+	width: 0.012       // Width of the cable itself.
+
+	color: (0.1, 0.1, 0.1)
+}
+
+trailer_cable_data : .ele_cable_b
+{
+	locator_prefix: ele_cable_b
+	rest_locator_prefix: rst_cable_b
+
+	trailer_plug_model: "/vehicle/share/models/cables_connectors/electric_plug.pmd"
+	trailer_plug_model_offset: (0.0, 0.0, -0.134)
+	vehicle_plug_model: "/vehicle/share/models/cables_connectors/electric_plug.pmd"
+	vehicle_plug_model_offset: (0.0, 0.0, -0.134)
+
+	ring_count: 18      // Number of rings in spiral of cable.
+	ring_resolution: 10  // Resolution of the ring, how many sides each ring has.
+	diameter: 0.055      // Diameter of spiral.
+	width: 0.012       // Width of the cable itself.
+
+	color: (0.1, 0.1, 0.1)
+}
+
+
+}

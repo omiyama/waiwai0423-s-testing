@@ -1,0 +1,55 @@
+﻿traffic_vehicle : traffic.iveco.nissan
+{
+	accessories[]: .tivecontr.chassis
+	accessories[]: .tivecontr.cabin
+	accessories[]: .tivecontr.fwheel
+	accessories[]: .tivecontr.rwheel
+	accessories[]: .tivecontr.doorstep
+	accessories[]: .tivecontr.doorhndl
+	accessories[]: .tivecontr.mirror
+	accessories[]: .tivecontr.sunshld
+	accessories[]: .tivecontr.fmirror
+	accessories[]: .tivecontr.smirror
+
+	max_speed: 90
+	attachable_trailer[]: ""
+	type: truck
+
+	engine_torque: 2100
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+
+	headlights_diffuse : (0.89, 0.88, 0.72)
+	headlights_offset : -0.8
+	headlights_pitch: -7
+	headlights_range: 20.0
+	headlights_angle: 95.0
+	headlights_aspect: 2
+	headlights_mask: "/material/custom/trucklight_mask_norm.tobj"
+	headlights_attenuation: "/material/custom/trucklight_attn.tobj"
+	headlights_intensity_min: 0.7
+	headlights_intensity_max: 2.5
+
+}
+
+vehicle_accessory : .tivecontr.chassis {
+	data_path: "/def/vehicle/truck/iveco.nissan/chassis/4x2quon.sii"
+}
+
+vehicle_accessory : .tivecontr.cabin {
+	data_path: "/def/vehicle/truck/iveco.nissan/cabin/active_space_higher.sii"
+}
+
+vehicle_wheel_accessory : .tivecontr.fwheel {
+	data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory : .tivecontr.rwheel {
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+vehicle_addon_accessory : .tivecontr.mirror {
+	data_path: "/def/vehicle/truck/iveco.nissan/accessory/mirror/shape5.sii"
+}
+

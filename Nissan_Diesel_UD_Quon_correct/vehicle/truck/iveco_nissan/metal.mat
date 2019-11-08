@@ -1,0 +1,9 @@
+material : "eut2.dif" {
+	texture[0] : "metal.tobj"
+	texture_name[0] : "texture_base"
+	diffuse : { 0.2732389 , 0.2732389 , 0.2732389 }
+	specular : { 0.2732389 , 0.2732389 , 0.2732389 }
+	shininess : 20
+	add_ambient : 1
+	reflection : 0
+}

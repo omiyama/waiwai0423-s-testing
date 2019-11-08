@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : shape3.iveco.nissan.plate_xx
+{
+	name: "両方"
+	price: 15
+	unlock: 0
+	icon: "hino_profia_access01"
+	exterior_model: "/vehicle/truck/upgrade/plate_xx/hino_profia/plate_03.pmd"
+	exterior_model_uk: "/vehicle/truck/upgrade/plate_xx/hino_profia/plate_03.pmd"
+}
+}

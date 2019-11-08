@@ -1,0 +1,28 @@
+﻿SiiNunit
+{
+accessory_cabin_data : at_higher.iveco.nissan.cabin
+{
+	name: "High Roof"
+	price: 35000
+	unlock: 5
+	icon: "cab_stralis_b"
+	model: "/vehicle/truck/iveco_nissan/truck.pmd"
+	lods[]: "/vehicle/truck/iveco_nissan/truck.pmd"
+	lods[]: "/vehicle/truck/iveco_stralis/lod_02.pmd"
+	lods[]: "/vehicle/truck/iveco_stralis/lod_03.pmd"
+	collision: "/vehicle/truck/iveco_nissan/truck.pmc"
+	variant: b_cabin
+	variant_uk: b_cabin_uk
+	look: default
+	wiper_model: "/vehicle/truck/volvo_fh16_2009/wipers.pmd"
+	wiper_anim: "/vehicle/truck/volvo_fh16_2009/wipers.pma"
+	wiper_model_uk: "/vehicle/truck/volvo_fh16_2009/wipers_uk.pmd"
+	wiper_anim_uk: "/vehicle/truck/volvo_fh16_2009/wipers_uk.pma"
+	defaults[]: "/def/vehicle/truck/iveco.nissan/chassis/4x2quon.sii"
+	defaults[]: "/def/vehicle/truck/iveco.nissan/paint_job/color4.sii"
+	defaults[]: "/def/vehicle/truck/iveco.nissan/head_light/xenon.sii"
+	defaults[]: "/def/vehicle/truck/iveco.nissan/accessory/mirror/shape11.sii"
+	defaults[]: "/def/vehicle/truck/iveco.nissan/interior/standard.sii"
+
+}
+}

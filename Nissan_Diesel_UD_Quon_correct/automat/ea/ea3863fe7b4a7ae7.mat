@@ -1,0 +1,9 @@
+material : "eut2.dif.rfx" {
+	texture[0] : "/vehicle/truck/fuso_supergreat_5/chasis_black.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 0.767779 , 0.767779 , 0.767779 }
+	reflection : 0
+	shininess : 110
+	specular : { 0.235482 , 0.235482 , 0.235482 }
+}

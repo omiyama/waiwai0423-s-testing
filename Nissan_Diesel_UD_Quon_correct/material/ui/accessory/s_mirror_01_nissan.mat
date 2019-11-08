@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "s_mirror_01_stralis.tobj"
+	texture_name : "texture"
+}

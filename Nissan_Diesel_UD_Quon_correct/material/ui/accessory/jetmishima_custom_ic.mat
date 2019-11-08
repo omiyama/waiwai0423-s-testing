@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "jetmishima_custom_ic.tobj"
+	texture_name : "texture"
+}

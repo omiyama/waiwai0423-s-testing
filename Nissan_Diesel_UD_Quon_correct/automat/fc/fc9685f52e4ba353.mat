@@ -1,0 +1,9 @@
+material : "eut2.dif.lum.decal.rfx" {
+	texture[0] : "/vehicle/truck/upgrade/rearbumper/scania_2016/plate.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 0.0999999 , 0.0999999 , 0.0999999 }
+	reflection : 0
+	shininess : 60
+	specular : { 0.800001 , 0.800001 , 0.800001 }
+}

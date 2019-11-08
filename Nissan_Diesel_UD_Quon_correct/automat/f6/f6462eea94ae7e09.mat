@@ -1,0 +1,14 @@
+material : "eut2.truckpaint.tsnmapuv.rfx" {
+	texture[0] : "/vehicle/truck/daf_xf/color.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/environment/vehicle_reflection.tobj"
+	texture_name[1] : "texture_reflection"
+	texture[2] : "/vehicle/truck/upgrade/sideskirts/daf_xf/normal.tobj"
+	texture_name[2] : "texture_nmap"
+	add_ambient : 0
+	diffuse : { 1 , 1 , 1 }
+	env_factor : { 0.073239 , 0.073239 , 0.073239 }
+	fresnel : { 0.2 , 0.9 }
+	shininess : 250
+	specular : { 1.08097 , 1.08097 , 1.08097 }
+}

@@ -1,0 +1,10 @@
+material : "eut2.dif.spec.decal.over.rfx" {
+	texture[0] : "/vehicle/truck/volvo_fh16_2009/interior/stitches.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 0.0232988 , 0.0232988 , 0.0232988 }
+	queue_bias : 0
+	reflection : 0
+	shininess : 50
+	specular : { 0.0196066 , 0.0196066 , 0.0196066 }
+}

@@ -1,0 +1,50 @@
+SiiNunit
+{
+accessory_chassis_data : 6x2b.iveco.nissan.chassis
+{
+	name: "6x2 taglift TESTING (Fictional)"
+	price: 40000
+	unlock: 5
+	info[]: "6x2"
+	info[]: "400 @@unit_l@@"
+	icon: "chassis_stralis_6x2"
+	model: "/vehicle/truck/iveco_nissan/truck.pmd"
+#	lods[]: "/vehicle/truck/iveco_stralis/lod_02.pmd"
+#	lods[]: "/vehicle/truck/iveco_stralis/lod_03.pmd"
+	collision: "/vehicle/truck/iveco_nissan/truck.pmc"
+	residual_travel[]: 0.12 	# 1st axle
+	residual_travel[]: 0.08 	# 2nd axle
+	residual_travel[]: 0.08 	# 3rd axle
+
+	tank_size: 400
+	adblue_tank_size: 19
+#	variant: chs_6x2_4_a
+	variant: chs_6x4_a
+	look: default
+
+	extended_shadow_texture: "/vehicle/truck/iveco_nissan/shadow_6x2.tobj"
+	extended_shadow_intensity: 0.95
+	extended_shadow_fadeout_start: 10
+	extended_shadow_fadeout_length: 0
+	ui_shadow: "/vehicle/truck/iveco_nissan/ui_shadow_6x2.pmd"
+
+	steerable_axle[0]: true
+	steerable_axle[1]: false
+	steerable_axle[2]: false
+	
+	liftable_axle[0]: false
+	liftable_axle[1]: false
+	liftable_axle[2]: true
+
+	powered_axle[0]: false	# front axle
+	powered_axle[1]: true	# rear axle
+	powered_axle[2]: false	# rear axle
+
+	kerb_weight[0]: 4250.5
+	kerb_weight[1]: 1535.5
+	kerb_weight[2]: 1535.5
+
+	defaults[]: "/def/vehicle/truck/iveco.stralis/accessory/trlr_cables/stock.sii"
+
+}
+}

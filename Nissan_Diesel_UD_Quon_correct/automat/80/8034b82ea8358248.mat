@@ -1,0 +1,9 @@
+material : "eut2.dif.spec.a.rfx" {
+	texture[0] : "/vehicle/truck/upgrade/plate_xx/hino_profia/textures/plate_xx.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 1 , 1 , 1 }
+	reflection : 0
+	shininess : 60
+	specular : { 0.0999999 , 0.0999999 , 0.0999999 }
+}

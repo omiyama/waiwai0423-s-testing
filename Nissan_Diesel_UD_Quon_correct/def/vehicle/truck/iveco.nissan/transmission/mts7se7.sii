@@ -1,0 +1,27 @@
+SiiNunit
+{
+accessory_transmission_data : mts7se7.iveco.nissan.transmission
+{
+	name: "MTS7SE-7"
+	price: 12000
+	unlock: 0
+	icon: "transmission_generic"
+
+	# Torque Converter: 2.42, 2.34, 1.9, 1.79, 1.58
+	stall_torque_ratio: 2.42
+
+	# Differential Ratio: 2.64, 2.85, 2.93, 3.08, 3.25, 3.36, 3.40?, 3.42, 3.55, 3.58(single) 3.70, 3.73?, 3.78, 3.91, 4.10
+	differential_ratio: 5.285
+
+	ratios_reverse[0]: -6.710
+
+	ratios_forward[0]: 6.710
+	ratios_forward[1]: 4.442
+	ratios_forward[2]: 2.458
+	ratios_forward[3]: 1.459
+	ratios_forward[4]: 1.000
+	ratios_forward[5]: 0.758
+	ratios_forward[6]: 0.609
+	retarder:4
+}
+}

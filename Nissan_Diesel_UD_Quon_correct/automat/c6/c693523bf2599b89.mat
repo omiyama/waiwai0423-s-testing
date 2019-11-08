@@ -1,0 +1,13 @@
+material : "eut2.dif.spec.add.env.rfx" {
+	texture[0] : "/vehicle/truck/profia_2017/texture/chs_silver.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/environment/vehicle_reflection.tobj"
+	texture_name[1] : "texture_reflection"
+	add_ambient : 0
+	diffuse : { 1 , 1 , 1 }
+	env_factor : { 0.235189 , 0.235189 , 0.180704 }
+	fresnel : { 0.5 , 0.9 }
+	reflection : 0
+	shininess : 70
+	specular : { 0.306105 , 0.306105 , 0.306105 }
+}

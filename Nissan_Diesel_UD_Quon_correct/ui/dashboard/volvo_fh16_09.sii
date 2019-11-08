@@ -1,0 +1,547 @@
+﻿SiiNunit
+{
+ui::window : _nameless.01261de50 {
+ window_handler: null
+ clip_children: true
+ keep_aspect: none
+ user_string_data: ""
+ fitting: false
+ my_children: 8
+ my_children[0]: _nameless._.kgroundunlit
+ my_children[1]: _nameless._.ackgroundlit
+ my_children[2]: _nameless._.display0
+ my_children[3]: _nameless._.display1
+ my_children[4]: _nameless._.display2
+ my_children[5]: _nameless._.display3
+ my_children[6]: _nameless._.sharedisplay
+ my_children[7]: _nameless._.luminance.changer
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 864
+ coords_b: 0
+ area_l: 0
+ area_r: 1152
+ area_t: 864
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: null
+}
+
+ui::text : _nameless._.kgroundunlit {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF65734b>\r\n<ret><img src=/material/ui/dashboard/volvo_fh16_2009/display_01.mat xscale=stretch yscale=stretch>\r\n"
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 864
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 10
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.01261de50
+}
+
+ui::text : _nameless._.ackgroundlit {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF36373b>\r\n<ret><img src=/material/ui/dashboard/volvo_fh16_2009/display_01.mat xscale=stretch yscale=stretch>\r\n\r\n"
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 864
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 20
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.01261de50
+}
+
+ui::group : _nameless._.display0 {
+ fitting: false
+ my_children: 4
+ my_children[0]: _nameless.01261de54
+ my_children[1]: _nameless._.water.temp
+ my_children[2]: _nameless.01261de57
+ my_children[3]: _nameless._.cruise.control
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 864
+ coords_b: 0
+ area_l: 0
+ area_r: 1152
+ area_t: 864
+ area_b: 0
+ id: 100
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.01261de50
+}
+
+ui::text : _nameless.01261de54 {
+ text: "<color value=FF067ac7>\r\n<img src=/material/ui/dashboard/volvo_fh16/pict.mat top=0.57 left=0.5 xscale=stretch yscale=stretch>"
+ coords_l: 122
+ coords_r: 288
+ coords_t: 333
+ coords_b: 196
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display0
+}
+
+ui::text_common : _nameless._.water.temp {
+ value: "-53|C"
+ look_template: txt.volvo2009.temp
+ text: ""
+ coords_l: 259
+ coords_r: 1106
+ coords_t: 340
+ coords_b: 220
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1090
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless.01261de57 {
+ text: "<color value=FF067ac7>\r\n<img src=/material/ui/dashboard/share/speed.mat xscale=stretch yscale=stretch>"
+ coords_l: 117
+ coords_r: 271
+ coords_t: 230
+ coords_b: &429301e0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display0
+}
+
+ui::text_common : _nameless._.cruise.control {
+ value: "160|km"
+ look_template: txt.volvo2009.speed
+ text: ""
+ coords_l: 217
+ coords_r: 1106
+ coords_t: 211
+ coords_b: 91
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1100
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display0
+}
+
+ui::group : _nameless._.display1 {
+ fitting: true
+ my_children: 3
+ my_children[0]: _nameless._.icon
+ my_children[1]: _nameless._.fuel
+ my_children[2]: _nameless._.fuel.distance
+ coords_l: 53
+ coords_r: 1106
+ coords_t: 340
+ coords_b: 91
+ area_l: 53
+ area_r: 1106
+ area_t: 340
+ area_b: 91
+ id: 200
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.01261de50
+}
+
+ui::text : _nameless._.icon {
+ text: "<color value=FF067ac7>\r\n<img src=/material/ui/dashboard/volvo_fh16/pict.mat xscale=stretch yscale=stretch top=0.55 left=0.07 right=0.48>\r\n"
+ coords_l: 134
+ coords_r: 261
+ coords_t: &43a90002
+ coords_b: &434fffff
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.fuel {
+ value: "999|l"
+ look_template: txt.volvo2009.speed
+ text: ""
+ coords_l: 480
+ coords_r: 1105
+ coords_t: 340
+ coords_b: 220
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1060
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.fuel.distance {
+ value: "2999|km"
+ look_template: txt.volvo2009.speed
+ text: ""
+ coords_l: 53
+ coords_r: 1106
+ coords_t: 211
+ coords_b: 91
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1080
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display1
+}
+
+ui::group : _nameless._.display2 {
+ fitting: true
+ my_children: 3
+ my_children[0]: _nameless._.icon.1
+ my_children[1]: _nameless._.consump.hour.inst
+ my_children[2]: _nameless._.consump.dist.avg
+ coords_l: 53
+ coords_r: 1106
+ coords_t: 340
+ coords_b: 91
+ area_l: 53
+ area_r: 1106
+ area_t: 340
+ area_b: 91
+ id: 300
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.01261de50
+}
+
+ui::text : _nameless._.icon.1 {
+ text: "<color value=FF067ac7>\r\n<img src=/material/ui/dashboard/volvo_fh16/pict.mat xscale=stretch yscale=stretch top=0.55 left=0.07 right=0.48>\r\n"
+ coords_l: 134
+ coords_r: 261
+ coords_t: &43a90002
+ coords_b: &434fffff
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display2
+}
+
+ui::text_common : _nameless._.consump.hour.inst {
+ value: "999.9|gal/100km"
+ look_template: txt.volvo2009.speed
+ text: ""
+ coords_l: 226
+ coords_r: 1105
+ coords_t: 340
+ coords_b: 220
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1160
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display2
+}
+
+ui::text_common : _nameless._.consump.dist.avg {
+ value: "299.9|gal/100km"
+ look_template: txt.volvo2009.speed
+ text: ""
+ coords_l: 53
+ coords_r: 1106
+ coords_t: 211
+ coords_b: 91
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1170
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display2
+}
+
+ui::group : _nameless._.display3 {
+ fitting: false
+ my_children: 4
+ my_children[0]: _nameless.01261de5d
+ my_children[1]: _nameless._.temperature
+ my_children[2]: _nameless._.oil.temperature
+ my_children[3]: _nameless.01261de510
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 864
+ coords_b: 0
+ area_l: 0
+ area_r: 1152
+ area_t: 864
+ area_b: 0
+ id: 400
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.01261de50
+}
+
+ui::text : _nameless.01261de5d {
+ text: "<color value=FF067ac7>\r\n<img src=/material/ui/dashboard/volvo_fh16/pict.mat xscale=stretch yscale=stretch left=0.55 top=0.08 bottom=0.45 right=0.9>"
+ coords_l: 131
+ coords_r: 256
+ coords_t: 332
+ coords_b: &43510001
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display3
+}
+
+ui::text_common : _nameless._.temperature {
+ value: "-999|C"
+ look_template: txt.volvo2009.temp
+ text: ""
+ coords_l: 272
+ coords_r: 1106
+ coords_t: 340
+ coords_b: 220
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1000
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display3
+}
+
+ui::text_common : _nameless._.oil.temperature {
+ value: "-999|C"
+ look_template: txt.volvo2009.temp
+ text: ""
+ coords_l: 271
+ coords_r: 1106
+ coords_t: 211
+ coords_b: &42b5ffff
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1010
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless.01261de510 {
+ text: "<color value=FF067ac7>\r\n<img src=/material/ui/dashboard/volvo_fh16/pict.mat xscale=stretch yscale=stretch left=0.07 right=0.5 top=0.08 bottom=0.5>"
+ coords_l: 138
+ coords_r: 257
+ coords_t: 194
+ coords_b: 70
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display3
+}
+
+ui::group : _nameless._.sharedisplay {
+ fitting: false
+ my_children: 4
+ my_children[0]: _nameless._.odometer
+ my_children[1]: _nameless._.gear
+ my_children[2]: _nameless._.clock
+ my_children[3]: _nameless._.retarder
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 864
+ coords_b: 0
+ area_l: 0
+ area_r: 1152
+ area_t: 864
+ area_b: 0
+ id: 950
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.01261de50
+}
+
+ui::text_common : _nameless._.odometer {
+ value: "8500000|km"
+ look_template: txt.volvo2009.speed_small
+ text: ""
+ coords_l: 198
+ coords_r: 1106
+ coords_t: &42a12ed8
+ coords_b: 11
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1030
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.gear {
+ value: 2
+ look_template: txt.volvo2009.text
+ text: ""
+ coords_l: 742
+ coords_r: 1106
+ coords_t: 467
+ coords_b: 335
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1040
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.clock {
+ value: "22:50"
+ look_template: txt.volvo2009.clock
+ text: ""
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 468
+ coords_b: 293
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1050
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.retarder {
+ text: "<color value=FF067ac7>\r\n<img src=/material/ui/dashboard/share/retarder.mat xscale=stretch yscale=stretch>"
+ coords_l: 24
+ coords_r: 109
+ coords_t: 83
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1290
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.luminance.changer {
+ text: "<img src=/material/ui/alpha_only.mat xscale=stretch yscale=stretch color=3C000000>\r\n"
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 864
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.01261de50
+}
+
+}

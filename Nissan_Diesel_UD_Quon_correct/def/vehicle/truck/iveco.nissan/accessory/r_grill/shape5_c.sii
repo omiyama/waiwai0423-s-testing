@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : shape5_c.iveco.nissan.r_grill
+{
+	name: "Dragonfly"
+	price: 4260
+	unlock: 15
+	icon: "r_grill_05"
+	exterior_model: "/vehicle/truck/upgrade/roofgrill/iveco_stralis/roofgrill_05_c.pmd"
+	suitable_for[]: "at.iveco.nissan.cabin"
+}
+}

@@ -1,0 +1,14 @@
+﻿SiiNunit
+{
+accessory_addon_data : shape14.iveco.nissan.mirror
+{
+	name: "互換性維持用 JAPAN_mirror @@chrom@@"
+	price: 10000
+	unlock: 1
+	icon: "jetmishima_custom_ic"
+	exterior_model: "/vehicle/truck/upgrade/mirror/volvo_fh16_2012/mirror_14.pmd"
+	exterior_model_uk: "/vehicle/truck/upgrade/mirror/volvo_fh16_2012/mirror_14_uk.pmd"
+	interior_model: "/vehicle/truck/upgrade/mirror/volvo_fh16_2012/mirror_14_interior.pmd"
+	interior_model_uk: "/vehicle/truck/upgrade/mirror/volvo_fh16_2012/mirror_14_interior_uk.pmd"
+}
+}

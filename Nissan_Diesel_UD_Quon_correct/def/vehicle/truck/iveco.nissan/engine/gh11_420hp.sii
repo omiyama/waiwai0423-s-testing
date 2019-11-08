@@ -1,0 +1,21 @@
+﻿SiiNunit
+{
+accessory_engine_data : gh11_420.iveco.nissan.engine
+{
+	name: "GH11-420hp"
+	price: 24000
+	unlock: 5
+	info[]: "420 @@hp@@ (309@@kw@@)"
+	info[]: "1@@dg@@900 @@nm@@"
+	info[]: "1@@dg@@000-1@@dg@@650 @@rpm@@"
+	icon: "engine_01"
+	torque: 1900
+	volume:	10.3
+	torque_curve[]: (300, 0)
+	torque_curve[]: (440, 0.6)
+	torque_curve[]: (1200, 1)
+	torque_curve[]: (1900, 0.8)
+	torque_curve[]: (2100, 0.65)
+	torque_curve[]: (3000, 0)
+}
+}

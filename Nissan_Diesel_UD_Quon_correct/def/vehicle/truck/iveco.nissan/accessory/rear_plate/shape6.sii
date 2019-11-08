@@ -1,0 +1,13 @@
+﻿SiiNunit
+{
+accessory_addon_data : shape6.iveco.nissan.rear_plate
+{
+	name: "枠A"
+	price: 200
+	unlock: 0
+	icon: "hino_profia_access01"
+	exterior_model: "/vehicle/truck/upgrade/n_plate/n_plate_mishima06.pmd"
+	exterior_model_uk: "/vehicle/truck/upgrade//n_plate/n_plate_mishima06.pmd"
+	variant: default
+}
+}
