@@ -1,0 +1,19 @@
+SiiNunit
+{
+
+climate_profile : climate.metro {
+	bad_weather_factor: 0.1
+	wetting_factor: 0.3
+	drying_factor: 0.01
+
+	standard_paralel_1: 37
+	standard_paralel_2: 65
+
+	map_origin: (36, 140)
+	map_offset: (68240.0, 113177.0)
+	map_factor: (-1.71570875e-4, 1.729241463e-4)
+
+#	latitude_a: 35.6895
+#	latitude_b: -139.6917e-9
+}
+}

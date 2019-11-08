@@ -1,0 +1,435 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+sign_model : sign.jp_curve_1 {
+ 	model_desc: "/model/sign/jp_curve1.pmd"
+	category: "signs/jp_signs"
+	sign_name: "danger curve right"
+
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_curve_2 {
+ 	model_desc: "/model/sign/jp_curve2.pmd"
+	category: "signs/jp_signs"
+	sign_name: "danger curve left"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_dblbend_1 {
+ 	model_desc: "/model/sign/jp_doublebend1.pmd"
+	category: "signs/jp_signs"
+	sign_name: "danger s curve right"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_dblbend_2 {
+ 	model_desc: "/model/sign/jp_doublebend2.pmd"
+	category: "signs/jp_signs"
+	sign_name: "danger s curve left"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_tplbend_1 {
+ 	model_desc: "/model/sign/jp_triplebend1.pmd"
+	category: "signs/jp_signs"
+	sign_name: "danger triple curve right"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_tplbend_2 {
+ 	model_desc: "/model/sign/jp_triplebend2.pmd"
+	category: "signs/jp_signs"
+	sign_name: "danger triple curve left"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_traffic {
+ 	model_desc: "/model/sign/jp_traffic.pmd"
+	category: "signs/jp_signs"
+	sign_name: "danger traffic light"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_slippery {
+ 	model_desc: "/model/sign/jp_slippery.pmd"
+	category: "signs/jp_signs"
+	sign_name: "danger slippery road"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_merge_1 {
+ 	model_desc: "/model/sign/jp_merge1.pmd"
+	category: "signs/jp_signs"
+	sign_name: "danger merge from right"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_merge_2 {
+ 	model_desc: "/model/sign/jp_merge2.pmd"
+	category: "signs/jp_signs"
+	sign_name: "danger merge from left"
+
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_twoway {
+ 	model_desc: "/model/sign/jp_twoway.pmd"
+	category: "signs/jp_signs"
+	sign_name: "danger two-way traffic"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_narrow {
+ 	model_desc: "/model/sign/jp_narrow.pmd"
+	category: "signs/jp_signs"
+	sign_name: "danger narrow road"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_warning {
+ 	model_desc: "/model/sign/jp_warning.pmd"
+	category: "signs/jp_signs"
+	sign_name: "danger warning sign"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_T_left {
+ 	model_desc: "/model/sign/jp_T_left.pmd"
+	category: "signs/jp_signs"
+	sign_name: "danger T junction left"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_T_right {
+ 	model_desc: "/model/sign/jp_T_right.pmd"
+	category: "signs/jp_signs"
+	sign_name: "danger T junction right"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_T_bottom {
+ 	model_desc: "/model/sign/jp_T_bottom.pmd"
+	category: "signs/jp_signs"
+	sign_name: "danger T junction bottom"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_cross {
+ 	model_desc: "/model/sign/jp_cross.pmd"
+	category: "signs/jp_signs"
+	sign_name: "danger cross junction"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_construc {
+ 	model_desc: "/model/sign/jp_construction.pmd"
+	category: "signs/jp_signs"
+	sign_name: "danger road works"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_deer {
+ 	model_desc: "/model/sign/jp_deer.pmd"
+	category: "signs/jp_signs"
+	sign_name: "danger animal: deer"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_monkey {
+ 	model_desc: "/model/sign/jp_monkey.pmd"
+	category: "signs/jp_signs"
+	sign_name: "danger animal: monkey"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_vehiconly {
+ 	model_desc: "/model/sign/jp_vehiconly.pmd"
+	category: "signs/jp_signs"
+	sign_name: "vehicle only"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_noUturn {
+ 	model_desc: "/model/sign/jp_noUturn.pmd"
+	category: "signs/jp_signs"
+	sign_name: "no U turn"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_noPassing {
+ 	model_desc: "/model/sign/jp_noPassing.pmd"
+	category: "signs/jp_signs"
+	sign_name: "no passing"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_speed100 {
+ 	model_desc: "/model/sign/jp_speed100.pmd"
+	category: "signs/jp_signs"
+	sign_name: "speed limit 100"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+	traffic_rule: traffic_rule.limit_100
+}
+
+sign_model : sign.jp_speed80 {
+ 	model_desc: "/model/sign/jp_speed80.pmd"
+	category: "signs/jp_signs"
+	sign_name: "speed limit 80"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+	traffic_rule: traffic_rule.limit_80
+}
+
+sign_model : sign.jp_speed70 {
+ 	model_desc: "/model/sign/jp_speed70.pmd"
+	category: "signs/jp_signs"
+	sign_name: "speed limit 70"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+	traffic_rule: traffic_rule.limit_70
+}
+
+sign_model : sign.jp_speed60 {
+ 	model_desc: "/model/sign/jp_speed60.pmd"
+	category: "signs/jp_signs"
+	sign_name: "speed limit 60"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+	traffic_rule: traffic_rule.limit_60
+}
+
+sign_model : sign.jp_speed50 {
+ 	model_desc: "/model/sign/jp_speed50.pmd"
+	category: "signs/jp_signs"
+	sign_name: "speed limit 50"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+	traffic_rule: traffic_rule.limit_50
+}
+
+sign_model : sign.jp_speed40 {
+ 	model_desc: "/model/sign/jp_speed40.pmd"
+	category: "signs/jp_signs"
+	sign_name: "speed limit 40"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+	traffic_rule: traffic_rule.limit_40
+}
+
+sign_model : sign.jp_pedestr1 {
+ 	model_desc: "/model/sign/jp_pedestr1.pmd"
+	category: "signs/jp_signs"
+	sign_name: "pedestrian crossing (male)"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_arr_l_u {
+ 	model_desc: "/model/sign/jp_arr_l_u.pmd"
+	category: "signs/jp_signs"
+	sign_name: "split left up"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_arr_r_u {
+ 	model_desc: "/model/sign/jp_arr_r_u.pmd"
+	category: "signs/jp_signs"
+	sign_name: "split right up"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_noStop {
+ 	model_desc: "/model/sign/jp_noStop.pmd"
+	category: "signs/jp_signs"
+	sign_name: "no stopping/parking"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_noPark {
+ 	model_desc: "/model/sign/jp_noPark.pmd"
+	category: "signs/jp_signs"
+	sign_name: "no parking"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_arr_l {
+ 	model_desc: "/model/sign/jp_arr_l.pmd"
+	category: "signs/jp_signs"
+	sign_name: "arrow left"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_arr_r {
+ 	model_desc: "/model/sign/jp_arr_r.pmd"
+	category: "signs/jp_signs"
+	sign_name: "arrow right"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_arr_u {
+ 	model_desc: "/model/sign/jp_arr_u.pmd"
+	category: "signs/jp_signs"
+	sign_name: "arrow up"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.jp_arr_l_r {
+ 	model_desc: "/model/sign/jp_arr_l_r.pmd"
+	category: "signs/jp_signs"
+	sign_name: "arrow left right"
+	
+	look_name: default
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+}

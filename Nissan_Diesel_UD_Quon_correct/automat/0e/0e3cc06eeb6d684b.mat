@@ -1,9 +1,0 @@
-material : "eut2.dif.spec.weight.rfx" {
-	texture[0] : "/vehicle/truck/upgrade/mirror/volvo_fh16_2012/textures/plastic_001.tobj"
-	texture_name[0] : "texture_base"
-	add_ambient : 0
-	diffuse : { 0.787412 , 0.787412 , 0.787412 }
-	reflection : 0
-	shininess : 50
-	specular : { 0.522522 , 0.522522 , 0.522522 }
-}

@@ -1,0 +1,11 @@
+SiiNunit
+{
+model_def : model.pj_hotel_1 {
+	model_desc: "/model/jpn_panorama/imabari/imabari_international_hotel.pmd"
+	category: "jpn_shikoku"
+	
+
+}
+
+
+}

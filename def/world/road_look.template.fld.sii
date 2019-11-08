@@ -1,0 +1,35 @@
+SiiNunit
+{
+# by FLD / TZ express map
+road_look : road.template0fld {
+	name: 			"sidewalk small"
+	template_right:		"/road_template/road/sidewalk.pmd"
+}
+road_look : road.template1fld {
+	name: 			"x old Hw 3 oneway fld"
+	template_right:		"/road_template/road/hw3_oneway_new.pmd"
+
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+}
+road_look : road.template2fld {
+	name: 			"x old Hw 4 oneway fld"
+	template_right:		"/road_template/road/hw4_oneway_new.pmd"
+
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway	
+}
+road_look : road.template3fld {
+	name: 			"x old Hw 5 oneway fld"
+	template_right:		"/road_template/road/hw5_oneway_new.pmd"
+
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway	
+}
+}

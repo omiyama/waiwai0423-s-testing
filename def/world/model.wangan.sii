@@ -1,0 +1,296 @@
+SiiNunit
+{
+
+model_def : model.tokyo_1 {
+ 	model_desc: "/model/jpn_panorama/daiba/daiba_tokyoko_ventilation.pmd"
+    category: "bayshore/tokyo"
+}
+model_def : model.tokyo_2 {
+ 	model_desc: "/model/jpn_panorama/logistics/logistic_center_japan_huge.pmd"
+	distance_type: 2
+	category: "jpn_mod/logistics"
+}
+model_def : model.tokyo_3 {
+ 	model_desc: "/model/jpn_panorama/logistics/warehouse_medio_6f.pmd"
+    category: "jpn_mod/logistics"
+	
+}
+model_def : model.tokyo_4 {
+ 	model_desc: "/model/jpn_panorama/daiba/daiba_fcg.pmd"
+    category: "bayshore/tokyo"
+
+}
+model_def : model.tokyo_5 {
+ 	model_desc: "/model/jpn_panorama/daiba/pallet_town_ferris_wheel.pmd"
+    category: "bayshore/tokyo"
+
+}
+model_def : model.tokyo_6 {
+ 	model_desc: "/model/jpn_panorama/haneda/haneda_skyarch.pmd"
+    category: "bayshore/tokyo"
+
+}
+model_def : model.tokyo_7 {
+ 	model_desc: "/model/jpn_panorama/haneda/haneda_p3.pmd"
+    category: "bayshore/tokyo"
+	
+}
+model_def : model.tokyo_8 {
+ 	model_desc: "/model/jpn_panorama/haneda/haneda_p1.pmd"
+    category: "bayshore/tokyo"
+
+}
+model_def : model.tokyo_9 {
+ 	model_desc: "/model/jpn_panorama/haneda/haneda_p2.pmd"
+    category: "bayshore/tokyo"
+
+}
+model_def : model.tokyo_10 {
+ 	model_desc: "/model/jpn_panorama/haneda/haneda_atc_tower.pmd"
+    category: "bayshore/tokyo"
+	
+	distance_scale: 75
+	distance_min: 600
+	distance_max: 1600
+
+}
+model_def : model.tokyo_11 {
+ 	model_desc: "/model/jpn_panorama/industry/gantry_crane.pmd"
+    category: "jpn_mod/industry"
+
+}
+model_def : model.tokyo_12 {
+ 	model_desc: "/model/jpn_panorama/industry/gantry_crane_stored.pmd"
+    category: "jpn_mod/industry"
+	
+}
+model_def : model.tokyo_13 {
+ 	model_desc: "/model/jpn_panorama/daiba/tokyo_big_sight.pmd"
+    category: "bayshore/tokyo"
+
+}
+model_def : model.japan_1 {
+ 	model_desc: "/model/pillar/megapillar.pmd"
+    category: "bayshore/pillar"
+
+}
+model_def : model.japan_2 {
+ 	model_desc: "/model/pillar/middlepillar_cylinder.pmd"
+    category: "bayshore/pillar"
+
+}
+model_def : model.japan_3 {
+ 	model_desc: "/model/pillar/middlepillar_dual.pmd"
+    category: "bayshore/pillar"
+
+}
+model_def : model.japan_4 {
+ 	model_desc: "/model/jpn_ship/kawasaki_roro_ship.pmd"
+    category: "bayshore/ship"
+
+}
+model_def : model.japan_5 {
+ 	model_desc: "/model/sign/regulations/road_paint_tomare.pmd"
+    category: "jpn_mod/sign"
+
+}
+model_def : model.japan_6 {
+ 	model_desc: "/model/jpn_vehicle/isuzu_elf_export_low.pmd"
+    category: "bayshroe/vehicle"
+	
+}
+model_def : model.japan_7 {
+ 	model_desc: "/model/jpn_stores/combini.pmd"
+    category: "jpn_mod/stores"
+	
+}
+model_def : model.japan_8 {
+ 	model_desc: "/model/jpn_train/n700_store.pmd"
+    category: "jpn_mod/train"
+
+}
+model_def : model.japan_9 {
+ 	model_desc: "/model/jpn_panorama/highrise/tower_man_far_1.pmd"
+    category: "jpn_mod/residence"
+	
+}
+model_def : model.japan_10 {
+ 	model_desc: "/model/jpn_mansion/clio_daishi.pmd"
+    category: "jpn_mod/residence"
+	
+}
+model_def : model.japan_11 {
+ 	model_desc: "/model/jpn_panorama/mansion/mansion_far_a.pmd"
+    category: "jpn_mod/residence"
+
+}
+model_def : model.japan_12 {
+ 	model_desc: "/model/jpn_city_prop/post/post_13gou.pmd"
+    category: "jpn_mod/city_prop"
+
+}
+model_def : model.japan_13 {
+ 	model_desc: "/model/sign/roadpaints/no_turn_1.pmd"
+    category: "jpn_mod/sign"
+
+}
+model_def : model.japan_14 {
+ 	model_desc: "/model/sign/roadpaints/no_turn_2.pmd"
+    category: "jpn_mod/sign"
+
+}
+model_def : model.japan_15 {
+ 	model_desc: "/model/sign/roadpaints/pedestrian_crossing_ahead.pmd"
+    category: "jpn_mod/sign"
+
+}
+model_def : model.japan_16 {
+ 	model_desc: "/model/sign/roadpaints/priority_ahead.pmd"
+    category: "jpn_mod/sign"
+
+}
+model_def : model.japan_17 {
+ 	model_desc: "/model/sign/roadpaints/roadpaint_20.pmd"
+    category: "jpn_mod/sign"
+
+}
+model_def : model.japan_18 {
+ 	model_desc: "/model/sign/roadpaints/roadpaint_30.pmd"
+    category: "jpn_mod/sign"
+
+}
+model_def : model.japan_19 {
+ 	model_desc: "/model/sign/roadpaints/roadpaint_40.pmd"
+    category: "jpn_mod/sign"
+
+}
+model_def : model.japan_20 {
+ 	model_desc: "/model/sign/roadpaints/roadpaint_50.pmd"
+    category: "jpn_mod/sign"
+
+}
+model_def : model.japan_21 {
+ 	model_desc: "/model/sign/roadpaints/roadpaint_60.pmd"
+    category: "jpn_mod/sign"
+
+}
+model_def : model.japan_22 {
+ 	model_desc: "/prefab/jp_city_level/props/level_concreate_fence.pmd"
+    category: "jpn_mod/level"
+	
+}
+model_def : model.japan_23 {
+ 	model_desc: "/prefab/jp_city_level/props/level_gate_fence.pmd"
+    category: "jpn_mod/level"
+
+}
+model_def : model.japan_24 {
+ 	model_desc: "/model/jpn_city_prop/vending_m/vending_machine.pmd"
+    category: "jpn_mod/city_prop"
+
+}
+
+model_def : model.japan_25 {
+ 	model_desc: "/model/jpn_city_prop/bin/bin_park_jp.pmd"
+    category: "jpn_mod/city_prop"
+
+}
+
+model_def : model.japan_26 {
+ 	model_desc: "/model/sign/roadpaints/arrow_jp.pmd"
+    category: "jpn_mod/sign"
+
+}
+
+model_def : model.japan_27 {
+ 	model_desc: "/model/sign/roadpaints/highway_paint.pmd"
+    category: "jpn_mod/sign"
+
+}
+
+model_def : model.japan_28 {
+ 	model_desc: "/model/sign/roadpaints/highwaypaint_single_text.pmd"
+    category: "jpn_mod/sign"
+
+
+}
+
+model_def : model.kanag_1 {
+ 	model_desc: "/model/jpn_panorama/industry/chimney_tepco_yokohama.pmd"
+    category: "bayshore/kanagawa"
+	
+	distance_scale: 75
+	distance_min: 600
+	distance_max: 1600
+
+}
+model_def : model.kanag_2 {
+ 	model_desc: "/model/jpn_panorama/yokohama/yokohama_landmark_tower.pmd"
+    category: "bayshore/kanagawa"
+
+}
+model_def : model.kanag_3 {
+ 	model_desc: "/model/jpn_panorama/industry/ogishima_gasholder.pmd"
+    category: "bayshore/kanagawa"
+	
+}
+model_def : model.kanag_4 {
+ 	model_desc: "/model/jpn_panorama/kawasaki/daishi_ventilation_tower.pmd"
+    category: "bayshore/kanagawa"
+	
+}
+model_def : model.kanag_5 {
+ 	model_desc: "/model/jpn_panorama/kawasaki/daishi_temple.pmd"
+    category: "bayshore/kanagawa"
+		
+}
+model_def : model.plane_1 {
+ 	model_desc: "/model/jpn_panorama/plane/city_ikegami.pmd"
+    category: "jpn_mod/panorama_plane"
+}
+model_def : model.plane_2 {
+ 	model_desc: "/model/jpn_panorama/plane/city_laketown.pmd"
+    category: "jpn_mod/panorama_plane"
+
+}
+model_def : model.tunnel_1 {
+ 	model_desc: "/model/railing/tunnel/tunnel_entrance_haneda.pmd"
+    category: "bayshore/tokyo"
+
+}
+model_def : model.tunnel_2 {
+ 	model_desc: "/model/railing/tunnel/tunnel_entrance_haneda_k.pmd"
+    category: "bayshore/tokyo"
+
+}
+model_def : model.jhouse_1 {
+ 	model_desc: "/model/jpn_house/house1970_1.pmd"
+    dynamic_lod_desc[]: "/model/jpn_house/house1970_1_lod.pmd"
+	dynamic_lod_dist[]: 100.0
+	category: "jpn_mod/house"
+	static_lod_name[]: "lod from 100m"
+	static_lod_path[]: "/model/jpn_house/house1970_1_lod.pmd"
+
+
+}
+model_def : model.jhouse_2 {
+ 	model_desc: "/model/jpn_house/house1970_2.pmd"
+    category: "jpn_mod/house"
+
+}
+model_def : model.jhouse_3 {
+ 	model_desc: "/model/jpn_house/store_1970.pmd"
+    category: "jpn_mod/house"
+
+}
+model_def : model.jhouse_4 {
+ 	model_desc: "/model/jpn_house/house_mini_kodate_1.pmd"
+    category: "jpn_mod/house"
+
+}
+model_def : model.jhouse_5 {
+ 	model_desc: "/model/jpn_house/keihin_1960_store.pmd"
+    category: "jpn_mod/house"
+
+}
+}

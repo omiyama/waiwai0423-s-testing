@@ -1,0 +1,18 @@
+SiiNunit
+{
+light_source : vending.no.flare
+{
+	ambient_color: (0.0000, 0.0000, 0.0000)
+	diffuse_color: (0.6730, 0.8200, 0.8280)
+	specular_color: (0.6730, 0.8200, 0.8280)
+
+	range: 2
+	cut_range: 2
+	inner_angle: 70.0
+	outer_angle: 80.0
+	attenuation_start_range: 0
+
+
+}
+
+}

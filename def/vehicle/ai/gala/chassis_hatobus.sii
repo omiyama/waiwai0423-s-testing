@@ -1,0 +1,17 @@
+SiiNunit
+{
+accessory_chassis_data : .chassis.gala.hato
+{
+	model: "/vehicle/ai/gala/gala_shd.pmd"
+	lods[]: "/vehicle/ai/gala/lod.pmd"	
+	lods[]: "/vehicle/ai/gala/lod1.pmd"	
+	collision: "/vehicle/ai/gala/gala_shd.pmc"
+
+	shadow_texture: "/vehicle/ai/share/shadow_occlusion.tobj"
+	shadow_intensity: 1.5
+
+	variant: hato
+	variant_uk: hato
+	look: hato
+}
+}

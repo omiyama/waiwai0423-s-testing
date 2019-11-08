@@ -1,0 +1,7 @@
+SiiNunit
+{
+accessory_wheel_data : 15in_comfort.fwheel
+{
+	model: "/vehicle/wheel/car/generic/15in_normal/15in_comfort.pmd"
+}
+}

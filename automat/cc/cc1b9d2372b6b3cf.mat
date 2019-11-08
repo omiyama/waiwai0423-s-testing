@@ -1,0 +1,9 @@
+material : "eut2.dif.spec.rfx" {
+	texture[0] : "/material/jpn_city_prop/conthouse/shouse.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 0.440104 , 0.440104 , 0.440104 }
+	reflection : 0
+	shininess : 85
+	specular : { 0.11074 , 0.11074 , 0.11074 }
+}

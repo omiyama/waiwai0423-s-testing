@@ -1,0 +1,48 @@
+traffic_vehicle : traffic.gala.hato
+{
+	accessories[]: .gala.hato.chassis
+	accessories[]: .gala.hato.fwheel
+	accessories[]: .gala.hato.rwheel
+
+	allow_parked: false
+
+	max_speed: 90
+	engine_torque: 1961
+
+	lod_dist[]: 150
+	lod_dist[]: 300
+
+	spawn_ratio: 0
+	spawn_condition[]: .traffic.gala.hato.condition.time
+
+	vehicle_mass: 15000
+}
+
+vehicle_accessory: .gala.hato.chassis
+{
+	data_path: "/def/vehicle/ai/gala/chassis_hatobus.sii"
+}
+
+vehicle_wheel_accessory: .gala.hato.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/w905_bus_f.sii"
+}
+
+vehicle_wheel_accessory: .gala.hato.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/w905_bus_r.sii"
+}
+
+
+traffic_spawn_condition: .traffic.gala.hato.condition.time
+{
+	# spawn only in following game time intervals
+	type: time
+
+	
+	# 04:00 - 23:00
+	num_param[]: 240
+	num_param[]: 1380
+}

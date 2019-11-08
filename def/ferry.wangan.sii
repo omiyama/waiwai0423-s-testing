@@ -1,0 +1,10 @@
+SiiNunit
+{
+
+@include "ferry/hitachi_naka.sii"
+@include "ferry/ariake.sii"
+@include "ferry/osanbashi.sii"
+@include "ferry/futtsu.sii"
+@include "ferry/kurihama.sii"
+
+}

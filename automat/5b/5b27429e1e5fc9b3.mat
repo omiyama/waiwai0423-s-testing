@@ -1,0 +1,9 @@
+material : "eut2.dif.rfx" {
+	texture[0] : "/material/pjp_sign/kakigenkin/kakigenkin.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 0.561172 , 0.561172 , 0.561172 }
+	reflection : 0
+	shininess : 50
+	specular : { 0.000159752 , 0.000159752 , 0.000159752 }
+}

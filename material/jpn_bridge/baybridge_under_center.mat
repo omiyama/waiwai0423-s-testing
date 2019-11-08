@@ -1,0 +1,10 @@
+material : "eut2.dif.over" {
+	texture[0] : "/material/jpn_bridge/baybridge_under_center.tobj"
+	texture_name[0] : "texture_base"
+	diffuse : { 1 , 1 , 1 }
+	specular : { 0.498039 , 0.498039 , 0.498039 }
+	shininess : 20
+	add_ambient : 0
+	aux[1] : { 0 , 0 }
+
+}

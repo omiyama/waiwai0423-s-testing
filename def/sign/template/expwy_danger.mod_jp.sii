@@ -1,0 +1,68 @@
+SiiNunit
+{
+sign_template : _nameless.dbc.fc88 {
+ template_name: expwy_danger
+ model_name: 1759
+ traffic_rule: null
+ items: 3
+ items[0]: _nameless.380.11e8
+ items[1]: _nameless.d76.a110
+ items[2]: _nameless.d76.a058
+ dynamic_attributes: 0
+}
+
+sign_template_frame : _nameless.380.11e8 {
+ frame_path: "/def/sign/frame/yellow_rounded_dk.sii"
+ color: 16777215
+ opacity: 1
+ id: 3147038718
+ area_name: ml2
+ area_idx: nil
+ coords_l: 0
+ coords_r: &405f5c29
+ coords_t: &402e147b
+ coords_b: 0
+ z_order: 1
+}
+
+sign_template_text : _nameless.d76.a110 {
+ text: "\xe3\x81\x93\xe3\x81\xae\xe5\x85\x88"
+ font_face: "/font/big.font"
+ font_size: &3f666666
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3090153470
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3f269a6c
+ coords_r: &4037df7e
+ coords_t: &401e67b4
+ coords_b: &3fbb1019
+ z_order: 2
+}
+
+sign_template_text : _nameless.d76.a058 {
+ text: "\xe5\xaf\xbe\xe9\x9d\xa2\xe9\x80\x9a\xe8\xa1\x8c"
+ font_face: "/font/big.font"
+ font_size: &3f666666
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1470758911
+ area_name: ml2
+ area_idx: nil
+ coords_l: 0
+ coords_r: &405f5c28
+ coords_t: &3fbaebaf
+ coords_b: &3eebaebc
+ z_order: 3
+}
+
+}

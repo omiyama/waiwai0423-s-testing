@@ -1,0 +1,169 @@
+SiiNunit
+{
+sign_template : _nameless.2fd.6360 {
+ template_name: town_enter
+ model_name: 1452
+ traffic_rule: null
+ items: 8
+ items[0]: _nameless.2f8.aa98
+ items[1]: _nameless.310.b8a0
+ items[2]: _nameless.310.b940
+ items[3]: _nameless.360.b090
+ items[4]: _nameless.360.b148
+ items[5]: _nameless.360.b200
+ items[6]: _nameless.360.b2b8
+ items[7]: _nameless.360.b370
+ dynamic_attributes: 0
+}
+
+sign_template_frame : _nameless.2f8.aa98 {
+ frame_path: "/def/sign/frame/blue_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 4267180030
+ area_name: ml1
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40747ae0
+ coords_t: &3fc28f5c
+ coords_b: 0
+ z_order: 1
+}
+
+sign_template_image : _nameless.310.b8a0 {
+ atlas_path: "/def/sign/atlas/arrow_up_shorter_swe.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 1631453183
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3e76db6c
+ coords_r: &3f45f15f
+ coords_t: &3fbe2be3
+ coords_b: &3d2f8b00
+ z_order: 2
+}
+
+sign_template_image : _nameless.310.b940 {
+ atlas_path: "/def/sign/atlas/jp_route.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 2224291839
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3e55f160
+ coords_r: &3f4a83a8
+ coords_t: &3f7a0ea0
+ coords_b: &3ebb6db8
+ z_order: 3
+}
+
+sign_template_text : _nameless.360.b090 {
+ text: "Central Toyama"
+ font_face: "/font/sign/dk.font"
+ font_size: &3eb33333
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3742498814
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3f55f160
+ coords_r: &40747ae1
+ coords_t: &3f96db6e
+ coords_b: &3e36db6c
+ z_order: 4
+}
+
+sign_template_text : _nameless.360.b148 {
+ text: Km
+ font_face: "/font/sign/dk.font"
+ font_size: &3eb33333
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 2837839871
+ area_name: ml1
+ area_idx: nil
+ coords_l: &4049999a
+ coords_r: &40747ae1
+ coords_t: &3ee2be2c
+ coords_b: 0
+ z_order: 5
+}
+
+sign_template_text : _nameless.360.b200 {
+ text: 16
+ font_face: "/font/sign/dk.font"
+ font_size: &3f0ccccd
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 2901803006
+ area_name: ml1
+ area_idx: nil
+ coords_l: &401e2be3
+ coords_r: &404f15f1
+ coords_t: &3f0ccccc
+ coords_b: &3bea0ec0
+ z_order: 6
+}
+
+sign_template_text : _nameless.360.b2b8 {
+ text: 41
+ font_face: "/font/sign/dk.font"
+ font_size: &3eb851ec
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 2184839167
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3b6a0f00
+ coords_r: &3f77c57c
+ coords_t: &3f9b6db7
+ coords_b: &3e5b6dbc
+ z_order: 7
+}
+
+sign_template_text : _nameless.360.b370 {
+ text: "\xe5\xaf\x8c\xe5\xb1\xb1\xe5\xb8\x82\xe8\xa1\x97"
+ font_face: "/font/big.font"
+ font_size: &3ecccccd
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 656146432
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3f5f15f2
+ coords_r: &404af8b0
+ coords_t: &3fbae147
+ coords_b: &3f39c868
+ z_order: 8
+}
+
+}

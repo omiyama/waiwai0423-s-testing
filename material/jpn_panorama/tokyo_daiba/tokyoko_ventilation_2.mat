@@ -1,0 +1,10 @@
+material : "eut2.dif.spec.over" {
+	texture[0] : "/material/jpn_panorama/tokyo_daiba/tokyokoventilation.tobj"
+	texture_name[0] : "texture_base"
+	diffuse : { 1 , 1 , 1 }
+	specular : { 0.0666667 , 0.0666667 , 0.0666667 }
+	shininess : 8
+	add_ambient : 0
+	aux[1] : { 0 , 0 }
+
+}

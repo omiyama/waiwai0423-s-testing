@@ -1,0 +1,4 @@
+material : "ui.white_font" {
+	texture : "/font/sign/jp_font_0.tobj"
+	texture_name : "texture"
+}

@@ -1,0 +1,12 @@
+SiiNunit
+{
+prefab_model : prefab.pj_toll_1 {
+	model_desc: "/prefab/tollgate/pj_tollgate/tollgate_oneway2_small.pmd"
+	prefab_desc: "/prefab/tollgate/pj_tollgate/tollgate_oneway2_small.ppd"
+	category: "jp_toll"
+	slow_time: true
+	
+}
+
+
+}

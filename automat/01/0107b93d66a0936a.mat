@@ -1,0 +1,9 @@
+material : "eut2.building.day.rfx" {
+	texture[0] : "/material/jpn_prefab/tollgate/tollgate_roof.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	aux[5] : 0
+	diffuse : { 1 , 1 , 1 }
+	shininess : 90
+	specular : { 0.0508761 , 0.0508761 , 0.0508761 }
+}

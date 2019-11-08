@@ -1,0 +1,9 @@
+SiiNunit
+{
+flare_lamp : flare.lamp.mercury
+{
+	dir_type: all
+	model: "/model/flare/lamp_flare_mercury.pmd"
+	scale_factor: 2
+}
+}

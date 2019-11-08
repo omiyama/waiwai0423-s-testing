@@ -1,0 +1,105 @@
+traffic_vehicle : traffic.police_tyo
+{
+	accessories[]: .police_tyo.chassis
+	accessories[]: .police_tyo.fwheel
+	accessories[]: .police_tyo.rwheel
+
+	max_speed: 200
+	engine_torque: 350
+
+	lod_dist[]: 60
+	lod_dist[]: 90
+	
+	spawn_ratio: 0
+
+	vehicle_mass: 2000
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .police_tyo.chassis
+{
+	data_path: "/def/vehicle/ai/crown_athlete/chassis_keishicho.sii"
+}
+
+vehicle_wheel_accessory: .police_tyo.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/18in_crown_1_f.sii"
+}
+
+vehicle_wheel_accessory: .police_tyo.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/18in_crown_1_r.sii"
+}
+
+
+
+traffic_vehicle : traffic.police_kng
+{
+	accessories[]: .police_kng.chassis
+	accessories[]: .police_kng.fwheel
+	accessories[]: .police_kng.rwheel
+
+	max_speed: 200
+
+	lod_dist[]: 60
+	lod_dist[]: 90
+	
+	spawn_ratio: 0
+
+	vehicle_mass: 2000
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .police_kng.chassis
+{
+	data_path: "/def/vehicle/ai/crown_athlete/chassis_kanagawa_police.sii"
+}
+
+vehicle_wheel_accessory: .police_kng.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/18in_crown_1_f.sii"
+}
+
+vehicle_wheel_accessory: .police_kng.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/18in_crown_1_r.sii"
+}
+
+
+traffic_vehicle : traffic.police_jp
+{
+	accessories[]: .police_jp.chassis
+	accessories[]: .police_jp.fwheel
+	accessories[]: .police_jp.rwheel
+
+	max_speed: 200
+
+	lod_dist[]: 60
+	lod_dist[]: 90
+	
+	spawn_ratio: 0
+
+	vehicle_mass: 2000
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .police_jp.chassis
+{
+	data_path: "/def/vehicle/ai/crown_athlete/chassis.sii"
+}
+
+vehicle_wheel_accessory: .police_jp.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/18in_crown_1_f.sii"
+}
+
+vehicle_wheel_accessory: .police_jp.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/18in_crown_1_r.sii"
+}

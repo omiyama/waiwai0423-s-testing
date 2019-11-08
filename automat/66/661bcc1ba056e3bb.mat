@@ -1,0 +1,9 @@
+material : "eut2.dif.spec.rfx" {
+	texture[0] : "/material/pjp_sign/snowpole/snowpole.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 0.436887 , 0.436887 , 0.436887 }
+	reflection : 0
+	shininess : 45
+	specular : { 0.15246 , 0.15246 , 0.15246 }
+}

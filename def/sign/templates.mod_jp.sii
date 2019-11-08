@@ -1,0 +1,147 @@
+SiiNunit
+{
+sign_template_def : sign_templ.jp1 {
+ path: "/def/sign/template/city_ahead.mod_jp.sii"
+}
+
+sign_template_def : sign_templ.jp2 {
+ path: "/def/sign/template/expwy_ahead.mod_jp.sii"
+}
+
+sign_template_def : sign_templ.jp3 {
+ path: "/def/sign/template/expwy_arrow1.mod_jp.sii"
+}
+
+sign_template_def : sign_templ.jp4 {
+ path: "/def/sign/template/expwy_2dir.mod_jp.sii"
+}
+
+sign_template_def : sign_templ.jp5 {
+ path: "/def/sign/template/expwy_exit.mod_jp.sii"
+}
+
+sign_template_def : sign_templ.jp6 {
+ path: "/def/sign/template/expwy_exitahead.mod_jp.sii"
+}
+
+sign_template_def : sign_templ.jp7 {
+ path: "/def/sign/template/expwy_jct1.mod_jp.sii"
+}
+
+sign_template_def : sign_templ.jp8 {
+ path: "/def/sign/template/expwy_exit1km.mod_jp.sii"
+}
+
+sign_template_def : sign_templ.jp9 {
+ path: "/def/sign/template/expwy_exitsahead.mod_jp.sii"
+}
+
+sign_template_def : sign_templ.jp10 {
+ path: "/def/sign/template/route_intersection1.mod_jp.sii"
+}
+
+sign_template_def : sign_templ.jp11 {
+ path: "/def/sign/template/expwy_river.mod_jp.sii"
+}
+
+sign_template_def : sign_templ.jp12 {
+ path: "/def/sign/template/route_intersection2.mod_jp.sii"
+}
+
+sign_template_def : sign_templ.jp13 {
+ path: "/def/sign/template/expwy_tunnellane.mod_jp.sii"
+}
+
+sign_template_def : sign_templ.jp14 {
+ path: "/def/sign/template/expwy_tunnel.mod_jp.sii"
+}
+
+sign_template_def : sign_templ.jp15 {
+ path: "/def/sign/template/route_aheadcities.mod_jp.sii"
+}
+
+sign_template_def : sign_templ.jp16 {
+ path: "/def/sign/template/expwy_split.mod_jp.sii"
+}
+
+sign_template_def : sign_templ.jp17 {
+ path: "/def/sign/template/expwy_interchange.mod_jp.sii"
+}
+
+sign_template_def : sign_templ.jp18 {
+ path: "/def/sign/template/expwy_jctexit.mod_jp.sii"
+}
+
+sign_template_def : sign_templ.jp19 {
+ path: "/def/sign/template/shop_1.mod_jp.sii"
+}
+
+sign_template_def : sign_templ.jp20 {
+ path: "/def/sign/template/shop_2.mod_jp.sii"
+}
+
+sign_template_def : sign_templ.jp21 {
+ path: "/def/sign/template/shop_3.mod_jp.sii"
+}
+
+sign_template_def : sign_templ.jp22 {
+ path: "/def/sign/template/shop_4.mod_jp.sii"
+}
+
+sign_template_def : sign_templ.jp23 {
+ path: "/def/sign/template/expwy_danger.mod_jp.sii"
+}
+
+sign_template_def : sign_templ.jp_24 {
+ path: "/def/sign/template/expwy_2way.sii"
+}
+
+sign_template_def : sign_templ.jp_25 {
+ path: "/def/sign/template/expwy_passinglane.sii"
+}
+
+sign_template_def : sign_templ.jp_26 {
+ path: "/def/sign/template/expwy_vehdistance.sii"
+}
+
+sign_template_def : sign_templ.jp_27 {
+ path: "/def/sign/template/expwy_tunnelinfo.sii"
+}
+
+sign_template_def : sign_templ.jp_28 {
+ path: "/def/sign/template/expwy_1ahead.sii"
+}
+
+sign_template_def : sign_templ.jp_29 {
+ path: "/def/sign/template/expwy_prefecture.sii"
+}
+
+sign_template_def : sign_templ.jp_30 {
+ path: "/def/sign/template/expwy_split2.sii"
+}
+
+sign_template_def : sign_templ.jp_31 {
+ path: "/def/sign/template/expwy_kanazawa.sii"
+}
+
+sign_template_def : sign_templ.jp_32 {
+ path: "/def/sign/template/expwy_exit2.sii"
+}
+
+sign_template_def : sign_templ.jp_33 {
+ path: "/def/sign/template/route_signA.sii"
+}
+
+sign_template_def : sign_templ.jp_34 {
+ path: "/def/sign/template/expwy_kanzawa2.sii"
+}
+
+sign_template_def : sign_templ.jp_35 {
+ path: "/def/sign/template/expwy_tunnelinfo2.sii"
+}
+
+sign_template_def : sign_templ.jp_36 {
+ path: "/def/sign/template/expwy_jct2.sii"
+}
+
+}

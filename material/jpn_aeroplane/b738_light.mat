@@ -1,0 +1,10 @@
+material : "eut2.light.tex" {
+	texture[0] : "/material/jpn_aeroplane/b738_light.tobj"
+	texture_name[0] : "texture_base"
+	ambient : { 0 , 0 , 0 }
+	diffuse : { 0 , 0 , 0 }
+	specular : { 1 , 1 , 1 }
+	shininess : 50
+	aux[1] : { 0 , 0 }
+
+}

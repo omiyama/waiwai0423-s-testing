@@ -1,0 +1,83 @@
+SiiNunit
+{
+sign_board_def : sign_board.jp_1 {
+ path: "/def/sign/board/expwy_2way.sii"
+}
+
+sign_board_def : sign_board.jp_2 {
+ path: "/def/sign/board/expwy_passinglane.sii"
+}
+
+sign_board_def : sign_board.jp_3 {
+ path: "/def/sign/board/expwy_vehicledistance.sii"
+}
+
+sign_board_def : sign_board.jp_4 {
+ path: "/def/sign/board/expwy_tunnelinfo.sii"
+}
+
+sign_board_def : sign_board.jp_5 {
+ path: "/def/sign/board/expwy_tunnelinfo.sii"
+}
+
+sign_board_def : sign_board.jp_6 {
+ path: "/def/sign/board/expwy_1ahead.sii"
+}
+
+sign_board_def : sign_board.jp_7 {
+ path: "/def/sign/board/expwy_prefecture.sii"
+}
+
+sign_board_def : sign_board.jp_8 {
+ path: "/def/sign/board/expwy_kanazawa.sii"
+}
+
+sign_board_def : sign_board.jp_9 {
+ path: "/def/sign/board/expwy_kanazawa2.sii"
+}
+
+sign_board_def : sign_board.jp_10 {
+ path: "/def/sign/board/expwy_kanazawa2.sii"
+}
+
+sign_board_def : sign_board.jp_11 {
+ path: "/def/sign/board/expwy_kanazawa2.sii"
+}
+
+sign_board_def : sign_board.jp_12 {
+ path: "/def/sign/board/expwy_exit2.sii"
+}
+
+sign_board_def : sign_board.jp_13 {
+ path: "/def/sign/board/expwy_exit2.sii"
+}
+
+sign_board_def : sign_board.jp_14 {
+ path: "/def/sign/board/expwy_exit2.sii"
+}
+
+sign_board_def : sign_board.jp_15 {
+ path: "/def/sign/board/expwy_exit2.sii"
+}
+
+sign_board_def : sign_board.jp_16 {
+ path: "/def/sign/board/expwy_exit2.sii"
+}
+
+sign_board_def : sign_board.jp_17 {
+ path: "/def/sign/board/route_signA.sii"
+}
+
+sign_board_def : sign_board.jp_18 {
+ path: "/def/sign/board/wtf.sii"
+}
+
+sign_board_def : sign_board.jp_19 {
+ path: "/def/sign/board/expwy_kanazawa3.sii"
+}
+
+sign_board_def : sign_board.jp_20 {
+ path: "/def/sign/board/expwy_tunnelinfo2.sii"
+}
+
+}

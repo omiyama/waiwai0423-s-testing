@@ -1,0 +1,8 @@
+SiiNunit
+{
+light_source : flare.mansion.flare
+{
+	dir_type: all
+	model: "/model/flare/flare_mansion.pmd"
+}
+}

@@ -1,9 +1,0 @@
-material : "eut2.dif.lum.spec.a.over" {
-	texture[0] : "siba.tobj"
-	texture_name[0] : "texture_base"
-	diffuse : { 0.5732389 , 0.5732389 , 0.5732389 }
-	specular : { 0.0732389 , 0.0732389 , 0.0732389 }
-	shininess : 20
-	add_ambient : 1
-	reflection : 0
-}

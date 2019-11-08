@@ -1,0 +1,25 @@
+
+country_data: country.data.niigata
+{
+	country_id: 219
+	name: "Niigata"
+	name_localized: "@@niigata@@"
+	country_code: "JPNI"
+
+	pos:(11380, 0, -9863)
+
+	fuel_price: 1.06
+
+	lights_mandatory: false
+	leftside_traffic: true
+	driving_tired_offence: true
+	
+	time_zone: 540		# +9 hours in minutes
+	time_zone_name: "JST"
+	
+	mass_limit_per_axle_count[]: 20000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 30000
+	mass_limit_per_axle_count[]: 40000
+	mass_limit_per_axle_count[]: 50000
+}
+

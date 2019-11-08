@@ -1,0 +1,25 @@
+
+country_data: country.data.kanagawa
+{
+	country_id: 218
+	name: "Kanagawa"
+	name_localized: "@@kanagawa@@"
+	country_code: "JPKN"
+
+	pos:(67860, 0, 125490)
+
+	fuel_price: 1.01
+
+	lights_mandatory: false
+	leftside_traffic: true
+	driving_tired_offence: true
+	
+	time_zone: 540		# +9 hours in minutes
+	time_zone_name: "JST"
+	
+	mass_limit_per_axle_count[]: 20000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 30000
+	mass_limit_per_axle_count[]: 40000
+	mass_limit_per_axle_count[]: 50000
+}
+

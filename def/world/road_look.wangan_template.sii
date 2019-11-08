@@ -1,0 +1,624 @@
+SiiNunit
+{
+
+
+road_look : road.jp_templ1 {
+	name: 			"jp 2-2 national 50cm offset tmpl"
+	template_right:		"/road_template/jp/jp_2_kokdo.pmd"
+	template_left:		"/road_template/jp/jp_2_kokdo.pmd"
+	
+	template_repeat: 1
+
+    road_offset: 0.25
+
+
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	
+	lane_offsets_left[]:	(-0.25, 0)
+	lane_offsets_left[]:	(-0.75, 0)
+	lane_offsets_right[]:   (-0.25, 0)
+	lane_offsets_right[]:   (-0.75, 0)
+
+	compatible_edges_right[]: kb_jp
+	compatible_edges_right[]: kb2_jp
+	compatible_edges_right[]: sw_jp_3m
+	compatible_edges_left[]: kb_jp
+	compatible_edges_left[]: kb2_jp
+	compatible_edges_left[]: sw_jp_3m
+
+
+	shoulder_space_left:		0.0
+	shoulder_space_right:		0.0
+}
+
+
+road_look : road.jp_templ2 {
+	name: 			"jp 2-3 national 50cm offset tmpl"
+	template_right:		"/road_template/jp/jp_3_kokdo.pmd"
+	template_left:		"/road_template/jp/jp_2_kokdo.pmd"
+	
+	template_repeat: 1
+	
+    road_offset: 0.25
+
+
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	
+	lane_offsets_left[]:	(-0.25, 0)
+	lane_offsets_left[]:	(-0.75, 0)
+	lane_offsets_left[]:    (-1.25, 0)
+	lane_offsets_right[]:   (-0.25, 0)
+	lane_offsets_right[]:   (-0.75, 0)
+	lane_offsets_right[]:   (-1.25, 0)
+
+
+	compatible_edges_right[]: kb_jp
+	compatible_edges_right[]: kb2_jp
+	compatible_edges_right[]: sw_jp_3m
+	compatible_edges_left[]: kb_jp
+	compatible_edges_left[]: kb2_jp
+	compatible_edges_left[]: sw_jp_3m
+
+
+	shoulder_space_left:		0.0
+	shoulder_space_right:		0.0
+
+}
+road_look : road.jp_templ3 {
+	name: 			"jp 2-2 national 5m offset tmpl"
+	template_right:		"/road_template/jp/jp_2_kokdo.pmd"
+	template_left:		"/road_template/jp/jp_2_kokdo.pmd"
+	
+	template_repeat: 1
+
+    road_offset: 2.5
+
+
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	
+	lane_offsets_left[]:	(-0.25, 0)
+	lane_offsets_left[]:	(-0.75, 0)
+	lane_offsets_right[]:   (-0.25, 0)
+	lane_offsets_right[]:   (-0.75, 0)
+
+	compatible_edges_right[]: kb_jp
+	compatible_edges_right[]: kb2_jp
+	compatible_edges_right[]: sw_jp_3m
+	compatible_edges_left[]: kb_jp
+	compatible_edges_left[]: kb2_jp
+	compatible_edges_left[]: sw_jp_3m
+
+
+	shoulder_space_left:		0.0
+	shoulder_space_right:		0.0
+}
+
+road_look : road.jp_templ4 {
+	name: 			"jp 2-2 city 50cm offset tmpl"
+	template_right:		"/road_template/jp/jp_2_city.pmd"
+	template_left:		"/road_template/jp/jp_2_city.pmd"
+	
+	template_repeat: 2
+
+    road_offset: 0.25
+
+
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	
+	lane_offsets_left[]:	(-0.25, 0)
+	lane_offsets_left[]:	(-0.75, 0)
+	lane_offsets_right[]:   (-0.25, 0)
+	lane_offsets_right[]:   (-0.75, 0)
+
+	compatible_edges_right[]: kb_jp
+	compatible_edges_right[]: kb2_jp
+	compatible_edges_right[]: sw_jp_3m
+	compatible_edges_left[]: kb_jp
+	compatible_edges_left[]: kb2_jp
+	compatible_edges_left[]: sw_jp_3m
+
+
+	shoulder_space_left:		0.0
+	shoulder_space_right:		0.0
+}
+road_look : road.jp_templ5 {
+	name: 			"jp 2-2 national 1m offset tmpl"
+	template_right:		"/road_template/jp/jp_2_kokdo.pmd"
+	template_left:		"/road_template/jp/jp_2_kokdo.pmd"
+	
+	template_repeat: 1
+
+    road_offset: 0.5
+
+
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	
+	lane_offsets_left[]:	(-0.25, 0)
+	lane_offsets_left[]:	(-0.75, 0)
+	lane_offsets_right[]:   (-0.25, 0)
+	lane_offsets_right[]:   (-0.75, 0)
+
+	compatible_edges_right[]: kb_jp
+	compatible_edges_right[]: kb2_jp
+	compatible_edges_right[]: sw_jp_3m
+	compatible_edges_left[]: kb_jp
+	compatible_edges_left[]: kb2_jp
+	compatible_edges_left[]: sw_jp_3m
+
+
+	shoulder_space_left:		0.0
+	shoulder_space_right:		0.0
+}
+road_look : road.jp_templ6 {
+	name: 			"jp 3-2 national 50cm offset tmpl"
+	template_right:		"/road_template/jp/jp_2_kokdo.pmd"
+	template_left:		"/road_template/jp/jp_3_kokdo.pmd"
+	
+	template_repeat: 1
+	
+    road_offset: 0.25
+
+
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	
+	lane_offsets_left[]:	(-0.25, 0)
+	lane_offsets_left[]:	(-0.75, 0)
+	lane_offsets_left[]:	(-1.25, 0)
+	lane_offsets_right[]:   (-0.25, 0)
+	lane_offsets_right[]:   (-0.75, 0)
+	lane_offsets_right[]:   (-1.25, 0)
+
+
+	compatible_edges_right[]: kb_jp
+	compatible_edges_right[]: kb2_jp
+	compatible_edges_right[]: sw_jp_3m
+	compatible_edges_left[]: kb_jp
+	compatible_edges_left[]: kb2_jp
+	compatible_edges_left[]: sw_jp_3m
+
+
+	shoulder_space_left:		0.0
+	shoulder_space_right:		0.0
+
+}
+road_look : road.jp_templ7 {
+	name: 			"jp 2-2 shutoko 1m offset tmpl"
+	template_right:		"/road_template/jp/jp_2_kokdo.pmd"
+	template_left:		"/road_template/jp/jp_2_kokdo.pmd"
+	
+	template_repeat: 1
+	
+    road_offset: 0.5
+
+
+	lanes_left[]:	traffic_lane.road.shutoko
+	lanes_left[]:	traffic_lane.road.shutoko
+	lanes_right[]:	traffic_lane.road.shutoko
+	lanes_right[]:	traffic_lane.road.shutoko
+	
+	lane_offsets_left[]:	(-0.25, 0)
+	lane_offsets_left[]:	(-0.75, 0)
+	lane_offsets_right[]:   (-0.25, 0)
+	lane_offsets_right[]:   (-0.75, 0)
+
+
+	compatible_edges_right[]: kb_jp
+	compatible_edges_right[]: kb2_jp
+	compatible_edges_right[]: sw_jp_3m
+	compatible_edges_left[]: kb_jp
+	compatible_edges_left[]: kb2_jp
+	compatible_edges_left[]: sw_jp_3m
+
+
+	shoulder_space_left:		0.0
+	shoulder_space_right:		0.5
+
+}
+road_look : road.jp_templ8 {
+	name: 			"jp 3-3 national 5m offset tmpl"
+	template_right:		"/road_template/jp/jp_3_kokdo.pmd"
+	template_left:		"/road_template/jp/jp_3_kokdo.pmd"
+	
+	template_repeat: 1
+	
+    road_offset: 2.5
+
+
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	
+	lane_offsets_left[]:	(-0.25, 0)
+	lane_offsets_left[]:	(-0.75, 0)
+	lane_offsets_left[]:    (-1.25, 0)
+	lane_offsets_right[]:   (-0.25, 0)
+	lane_offsets_right[]:   (-0.75, 0)
+	lane_offsets_right[]:   (-1.25, 0)
+
+
+	compatible_edges_right[]: kb_jp
+	compatible_edges_right[]: kb2_jp
+	compatible_edges_right[]: sw_jp_3m
+	compatible_edges_left[]: kb_jp
+	compatible_edges_left[]: kb2_jp
+	compatible_edges_left[]: sw_jp_3m
+
+
+	shoulder_space_left:		0.0
+	shoulder_space_right:		0.0
+
+
+}
+road_look : road.jp_temp21 {
+	name: 			"jp 2-3 national 4m50cm offset tmpl"
+	template_right:		"/road_template/jp/jp_3_kokdo.pmd"
+	template_left:		"/road_template/jp/jp_2_kokdo.pmd"
+	
+	template_repeat: 1
+	
+    road_offset: 2.25
+
+
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	
+	lane_offsets_left[]:	(-0.25, 0)
+	lane_offsets_left[]:	(-0.75, 0)
+	lane_offsets_left[]:	(-1.25, 0)
+	lane_offsets_right[]:   (-0.25, 0)
+	lane_offsets_right[]:   (-0.75, 0)
+	lane_offsets_right[]:   (-1.25, 0)
+
+	
+	compatible_edges_right[]: kb_jp
+	compatible_edges_right[]: kb2_jp
+	compatible_edges_right[]: sw_jp_3m
+	compatible_edges_left[]: kb_jp
+	compatible_edges_left[]: kb2_jp
+	compatible_edges_left[]: sw_jp_3m
+
+
+	shoulder_space_left:		0.0
+	shoulder_space_right:		0.0
+
+}
+
+road_look : road.jp_templ22 {
+	name: 			"jp 2-2 highway no shoulder 1m offset tmpl"
+	template_right:		"/road_template/jp/jp_2_highway_no_shd.pmd"
+	template_left:		"/road_template/jp/jp_2_highway_no_shd.pmd"
+	
+	template_repeat: 4
+
+    road_offset: 0.5
+
+
+	lanes_left[]:	traffic_lane.road.motorway
+	lanes_left[]:	traffic_lane.road.motorway
+	lanes_right[]:	traffic_lane.road.motorway
+	lanes_right[]:	traffic_lane.road.motorway
+	
+	lane_offsets_left[]:	(0.25, 0)
+	lane_offsets_left[]:	(-0.25, 0)
+	lane_offsets_right[]:   (0.25, 0)
+	lane_offsets_right[]:   (-0.25, 0)
+
+	compatible_edges_right[]: kb_jp
+	compatible_edges_right[]: kb2_jp
+	compatible_edges_left[]: kb_jp
+	compatible_edges_left[]: kb2_jp
+
+
+	shoulder_space_left:		0.0
+	shoulder_space_right:		0.0
+}
+road_look : road.jp_templ23 {
+	name: 			"jp 2 highway no shoulder tmpl"
+	template_right:		"/road_template/jp/jp_2_1_highway_no_shd.pmd"
+	
+	template_repeat: 4
+
+
+	lanes_right[]:	traffic_lane.road.motorway
+	lanes_right[]:	traffic_lane.road.motorway
+	
+	lane_offsets_left[]:   (0.25, 0)
+	lane_offsets_left[]:   (-0.25, 0)
+
+	compatible_edges_right[]: kb_jp
+	compatible_edges_right[]: kb2_jp
+	compatible_edges_left[]: kb_jp
+	compatible_edges_left[]: kb2_jp
+
+
+	shoulder_space_left:		0.5
+	shoulder_space_right:		0.5
+}
+
+road_look : road.jp_temp23 {
+	name: 			"jp 2-2 national 25m offset tmpl"
+	template_right:		"/road_template/jp/jp_2_kokdo.pmd"
+	template_left:		"/road_template/jp/jp_2_kokdo.pmd"
+	
+	template_repeat: 1
+
+    road_offset: 12.5
+
+
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	
+	lane_offsets_left[]:	(-0.25, 0)
+	lane_offsets_left[]:	(-0.75, 0)
+	lane_offsets_right[]:   (-0.25, 0)
+	lane_offsets_right[]:   (-0.75, 0)
+
+	compatible_edges_right[]: kb_jp
+	compatible_edges_right[]: kb2_jp
+	compatible_edges_right[]: sw_jp_3m
+	compatible_edges_left[]: kb_jp
+	compatible_edges_left[]: kb2_jp
+	compatible_edges_left[]: sw_jp_3m
+
+
+	shoulder_space_left:		0.0
+	shoulder_space_right:		0.0
+}
+
+road_look : road.jp_temp24 {
+	name: 			"jp street 6m tmpl"
+	template_right:		"/road_template/jp/jp_street_6m.pmd"
+	
+	template_repeat: 1
+
+	lanes_left[]:	traffic_lane.road.street
+	lanes_right[]:	traffic_lane.road.street
+	
+	lane_offsets_left[]:	(-0.75, 0)
+	lane_offsets_right[]:   (-0.75, 0)
+
+	compatible_edges_right[]: kb_jp
+	compatible_edges_right[]: kb2_jp
+	compatible_edges_right[]: sw_jp_3m
+	compatible_edges_left[]: kb_jp
+	compatible_edges_left[]: kb2_jp
+	compatible_edges_left[]: sw_jp_3m
+
+
+	shoulder_space_left:		0.0
+	shoulder_space_right:		0.0
+}
+
+road_look : road.jp_temp25 {
+	name: 			"jp road 1 overtake tmpl"
+	template_right:		"/road_template/jp/jp_1_local_8m.pmd"
+	
+	template_repeat: 2
+
+	lanes_left[]:	traffic_lane.road.local
+	lanes_right[]:	traffic_lane.road.local
+	
+	lane_offsets_left[]:	(-0.25, 0)
+	lane_offsets_right[]:   (-0.25, 0)
+
+	compatible_edges_right[]: kb_jp
+	compatible_edges_right[]: kb2_jp
+	compatible_edges_right[]: sw_jp_3m
+	compatible_edges_left[]: kb_jp
+	compatible_edges_left[]: kb2_jp
+	compatible_edges_left[]: sw_jp_3m
+
+
+	shoulder_space_left:		0.0
+	shoulder_space_right:		0.0
+}
+
+road_look : road.jp_temp26 {
+	name: 			"jp road 1 no_overtake tmpl"
+	template_right:		"/road_template/jp/jp_1_local_8m_no_overtake.pmd"
+	
+	template_repeat: 1
+
+	lanes_left[]:	traffic_lane.road.local.no_overtake
+	lanes_right[]:	traffic_lane.road.local.no_overtake
+	
+	lane_offsets_left[]:	(-0.25, 0)
+	lane_offsets_right[]:   (-0.25, 0)
+
+	compatible_edges_right[]: kb_jp
+	compatible_edges_right[]: kb2_jp
+	compatible_edges_right[]: sw_jp_3m
+	compatible_edges_left[]: kb_jp
+	compatible_edges_left[]: kb2_jp
+	compatible_edges_left[]: sw_jp_3m
+
+
+	shoulder_space_left:		0.0
+	shoulder_space_right:		0.0
+
+}
+road_look : road.jp_templ27 {
+	name: 			"jp national 2 tmpl"
+	template_right:		"/road_template/jp/jp_2_1_kokdo.pmd"
+	
+	template_repeat: 1
+
+
+	lanes_right[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	
+	lane_offsets_right[]:   (-0.25, 0)
+	lane_offsets_right[]:   (-0.75, 0)
+
+	compatible_edges_right[]: kb_jp
+	compatible_edges_right[]: kb2_jp
+	compatible_edges_left[]: kb_jp
+	compatible_edges_left[]: kb2_jp
+
+
+	shoulder_space_left:		0.0
+	shoulder_space_right:		0.0
+}
+
+road_look : road.jp_templ28 {
+	name: 			"jp national 3 tmpl"
+	template_right:		"/road_template/jp/jp_2_1_kokdo.pmd"
+	
+	template_repeat: 1
+
+
+	lanes_right[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	
+	lane_offsets_right[]:   (-0.25, 0)
+	lane_offsets_right[]:   (-0.75, 0)
+	lane_offsets_right[]:   (-1.25, 0)
+
+	compatible_edges_right[]: kb_jp
+	compatible_edges_right[]: kb2_jp
+	compatible_edges_left[]: kb_jp
+	compatible_edges_left[]: kb2_jp
+
+
+	shoulder_space_left:		0.0
+	shoulder_space_right:		0.0
+}
+
+road_look : road.jp_temp29 {
+	name: 			"jp 2-3 city tmpl"
+	template_right:		"/road_template/jp/jp_3_city.pmd"
+	template_left:		"/road_template/jp/jp_2_city.pmd"
+	
+	template_repeat: 2
+
+
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	
+	lane_offsets_left[]:	(-0.25, 0)
+	lane_offsets_left[]:	(-0.75, 0)
+	lane_offsets_left[]:    (-1.25, 0)
+	lane_offsets_right[]:   (-0.25, 0)
+	lane_offsets_right[]:   (-0.75, 0)
+	lane_offsets_right[]:   (-1.25, 0)
+
+
+	compatible_edges_right[]: kb_jp
+	compatible_edges_right[]: kb2_jp
+	compatible_edges_right[]: sw_jp_3m
+	compatible_edges_left[]: kb_jp
+	compatible_edges_left[]: kb2_jp
+	compatible_edges_left[]: sw_jp_3m
+
+
+	shoulder_space_left:		0.0
+	shoulder_space_right:		0.0
+
+}
+road_look : road.jp_temp30 {
+	name: 			"jp 3-2 city tmpl"
+	template_right:		"/road_template/jp/jp_2_city.pmd"
+	template_left:		"/road_template/jp/jp_3_city.pmd"
+	
+	template_repeat: 2
+
+
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	
+	lane_offsets_left[]:	(-0.25, 0)
+	lane_offsets_left[]:	(-0.75, 0)
+	lane_offsets_left[]:    (-1.25, 0)
+	lane_offsets_right[]:   (-0.25, 0)
+	lane_offsets_right[]:   (-0.75, 0)
+	lane_offsets_right[]:   (-1.25, 0)
+
+
+	compatible_edges_right[]: kb_jp
+	compatible_edges_right[]: kb2_jp
+	compatible_edges_right[]: sw_jp_3m
+	compatible_edges_left[]: kb_jp
+	compatible_edges_left[]: kb2_jp
+	compatible_edges_left[]: sw_jp_3m
+
+
+	shoulder_space_left:		0.0
+	shoulder_space_right:		0.0
+
+}
+road_look : road.jp_temp31 {
+	name: 			"jp 2-2 city tmpl"
+	template_right:		"/road_template/jp/jp_2_city.pmd"
+	template_left:		"/road_template/jp/jp_2_city.pmd"
+	
+	template_repeat: 2
+
+
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_left[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	lanes_right[]:	traffic_lane.road.expressway
+	
+	lane_offsets_left[]:	(-0.25, 0)
+	lane_offsets_left[]:	(-0.75, 0)
+	lane_offsets_right[]:   (-0.25, 0)
+	lane_offsets_right[]:   (-0.75, 0)
+
+	compatible_edges_right[]: kb_jp
+	compatible_edges_right[]: kb2_jp
+	compatible_edges_right[]: sw_jp_3m
+	compatible_edges_left[]: kb_jp
+	compatible_edges_left[]: kb2_jp
+	compatible_edges_left[]: sw_jp_3m
+
+
+	shoulder_space_left:		0.0
+	shoulder_space_right:		0.0
+}
+
+road_look : road.jp_temp32 {
+	name: 			"rail1 temp rinko"
+	template_right:		"/road_template/jp/rail_jp_single.pmd"
+	
+	lanes_right[]:		traffic_lane.rail.train.rinko
+	lane_offsets_left[]:		(2.25, 0.3)
+
+	shoulder_space_left:		0.0
+	shoulder_space_right:		0.0
+}
+}

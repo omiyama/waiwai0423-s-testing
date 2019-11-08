@@ -1,0 +1,110 @@
+SiiNunit
+{
+mover_model : mover.jpse_1 {
+	mover_name: "Sound B777 Landing"
+	model_desc: "/model/sound/sound_b777_landing.pmd"
+	sound_path[]: "/sound/airplane/b777_landing.ogg"
+	sound_min_dist: 500
+	sound_max_dist: 1000
+}
+
+mover_model : mover.jpse_2 {
+	mover_name: "Sound Aburazemi"
+	model_desc: "/model/sound/sound_b777_landing.pmd"
+	sound_path[]: "/sound/bugs/aburazemi.ogg"
+	sound_max_dist: 200
+}
+
+mover_model : mover.jpse_3 {
+	mover_name: "Sound Aeroplane Pass"
+	model_desc: "/model/sound/sound_b777_landing.pmd"
+	sound_path[]: "/sound/airplane/jet_pass_takeoff.ogg"
+	sound_min_dist: 400
+	sound_max_dist: 700
+}
+
+mover_model : mover.jp_1 {
+	mover_name: "Road Blinker Light"
+	model_desc: "/model/sign/safety_facilities/blinker_light.pmd"
+	model_anim: "/model/sign/safety_facilities/blinker_light.pma"
+	model_coll: "/model/sign/safety_facilities/blinker_light.pmc"
+}
+
+mover_model : mover.jp_2 {
+	mover_name: "Train AGT Series 7200"
+	model_desc: "/model/jpn_train/train_agt7200.pmd"
+}
+
+mover_model : mover.jp_2a {
+	mover_name: "Train AGT Series 7200 LOD"
+	model_desc: "/model/jpn_train/train_agt7200_lod.pmd"
+}
+
+mover_model : mover.jp_3 {
+	mover_name: "JR N700 16Cars Out of Service"
+	model_desc: "/model/jpn_train/n700_out_of_service.pmd"
+}
+
+mover_model : mover.jp_4 {
+	mover_name: "Boeing 737-800 ANA DAY"
+	model_desc: "/model/jpn_aeroplane/b738ana.pmd"
+	model_anim: "/model/jpn_aeroplane/b738_taxing.pma"
+  	sound_path[]: "/sound/mover/boeing_loop_2.ogg" 
+	sound_min_dist: 30
+	sound_max_dist: 100
+}
+
+mover_model : mover.jp_5 {
+	mover_name: "Boeing 777-200 JAL"
+	model_desc: "/model/jpn_aeroplane/b772jal.pmd"
+  	sound_path[]: "/sound/airplane/b777_taxing.ogg" 
+	sound_min_dist: 30
+	sound_max_dist: 100
+}
+
+mover_model : mover.jp_6 {
+	mover_name: "Boeing 737-800 ANA NIGHT"
+	model_desc: "/model/jpn_aeroplane/b738ana_night.pmd"
+	model_anim: "/model/jpn_aeroplane/b738_taxing.pma"
+  	sound_path[]: "/sound/mover/boeing_loop_2.ogg" 
+	sound_min_dist: 30
+	sound_max_dist: 100
+}
+
+mover_model : mover.jp_7 {
+	mover_name: "Boeing 737-800 ANA Landing NIGHT"
+	model_desc: "/model/jpn_aeroplane/b738ana_land_night.pmd"
+	model_anim: "/model/jpn_aeroplane/b738_landing.pma"
+}
+
+mover_model : mover.jp_8 {
+	mover_name: "Boeing 777-200 JAL Taxing Day"
+	model_desc: "/model/jpn_aeroplane/b772jal_taxi_day.pmd"
+	model_anim: "/model/jpn_aeroplane/b772_taxing.pma"
+  	sound_path[]: "/sound/airplane/b777_taxing.ogg" 
+	sound_min_dist: 30
+	sound_max_dist: 100
+}
+
+mover_model : mover.jp_9 {
+	mover_name: "Boeing 777-200 JAL Taxing Night"
+	model_desc: "/model/jpn_aeroplane/b772jal_taxi_night.pmd"
+	model_anim: "/model/jpn_aeroplane/b772_taxing.pma"
+  	sound_path[]: "/sound/airplane/b777_taxing.ogg" 
+	sound_min_dist: 30
+	sound_max_dist: 100
+}
+
+mover_model : mover.jp_10 {
+	mover_name: "Gantry Crane importing"
+	model_desc: "/model/jpn_panorama/industry/gantry_anim.pmd"
+	model_anim: "/model/jpn_panorama/industry/gantry_anim.pma"
+}
+
+mover_model : mover.jp_11 {
+	mover_name: "DaishiBashi Flare"
+	model_desc: "/model/jpn_panorama/kawasaki/daishi_bashi_flare.pmd"
+	model_anim: "/model/jpn_panorama/kawasaki/daishi_bashi_flare.pma"
+
+}
+}

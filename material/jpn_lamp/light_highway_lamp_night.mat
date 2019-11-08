@@ -1,0 +1,10 @@
+material : "eut2.lightmap.night" {
+	texture[0] : "/material/jpn_lamp/light_highway_lamp_night.tobj"
+	texture_name[0] : "texture_base"
+	ambient : { 0.592157 , 0.592157 , 0.592157 }
+	diffuse : { 0.8 , 0.8 , 0.8 }
+	specular : { 0.498039 , 0.498039 , 0.498039 }
+	shininess : 20
+	aux[1] : { 0 , 0 }
+
+}

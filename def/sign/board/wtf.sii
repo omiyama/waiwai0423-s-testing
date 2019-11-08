@@ -1,0 +1,11 @@
+SiiNunit
+{
+sign_board_template : _nameless.d37.4a10 {
+ board_name: wtf
+ width: &40a23d71
+ height: &3fbc28f6
+ items: 0
+ dynamic_attributes: 0
+}
+
+}

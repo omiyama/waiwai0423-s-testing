@@ -1,0 +1,5 @@
+material : "eut2.unlit.tex.add.rfx" {
+	texture[0] : "/model/activation/scan_green.tobj"
+	texture_name[0] : "texture_base"
+	diffuse : { 1 , 1 , 1 }
+}

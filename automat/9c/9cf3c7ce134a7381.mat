@@ -1,0 +1,8 @@
+material : "eut2.sign.rfx" {
+	texture[0] : "/material/jpn_sign/nav/tokai_jct/tokai_jct_b.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 1 , 1 , 1 }
+	shininess : 50
+	specular : { 1 , 1 , 1 }
+}

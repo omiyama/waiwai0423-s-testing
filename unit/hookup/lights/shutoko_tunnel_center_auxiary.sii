@@ -1,0 +1,17 @@
+SiiNunit
+{
+light_source : shutoko.tunnel.center.auxiary
+{
+	ambient_color: (0.0000, 0.0000, 0.0000)
+	diffuse_color: (0.95, 0.4, 0.0)
+	specular_color: (0.99, 0.4, 0.0)
+
+	type: point
+	range: 11
+  
+  always_on: true
+
+
+}
+
+}

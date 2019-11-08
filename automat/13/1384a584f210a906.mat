@@ -1,0 +1,11 @@
+material : "eut2.dif.spec.oclu.rfx" {
+	texture[0] : "/material/jpnmod/concreate_loop.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/jpn_mansion/clio_daishi_ao.tobj"
+	texture_name[1] : "texture_oclu"
+	add_ambient : 0
+	diffuse : { 1 , 1 , 1 }
+	reflection : 1
+	shininess : 25
+	specular : { 1 , 1 , 1 }
+}

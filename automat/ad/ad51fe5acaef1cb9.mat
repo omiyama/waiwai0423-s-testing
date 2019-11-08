@@ -1,0 +1,9 @@
+material : "eut2.dif.flat.a.rfx" {
+	texture[0] : "/material/jpn_panorama/plane/city_laketown.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 10
+	diffuse : { 0.323032 , 0.323032 , 0.323032 }
+	reflection : 0
+	shininess : 50
+	specular : { 0 , 0 , 0 }
+}

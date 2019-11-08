@@ -1,0 +1,7 @@
+SiiNunit
+{
+accessory_wheel_data : 18in_crown1.rwheel
+{
+	model: "/vehicle/wheel/car/generic/18in_normal/18in_crown_athlete_1.pmd"
+}
+}

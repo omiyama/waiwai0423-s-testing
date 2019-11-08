@@ -1,0 +1,432 @@
+SiiNunit
+{
+
+country_traffic_info : .country.info.traffic.taxi_n_1 {
+	object: traffic.taxi_n_1
+	spawn_frequency: 0.00
+
+
+}
+
+country_traffic_info : .country.info.traffic.taxi_n_2 {
+	object: traffic.taxi_n_2
+	spawn_frequency: 0.1
+
+	
+}
+
+country_traffic_info : .country.info.traffic.taxi_n_3 {
+	object: traffic.taxi_n_3
+	spawn_frequency: 0.00
+
+}
+
+#################################################
+########### car not suitable for japan
+#################################################
+
+country_traffic_info : .country.info.traffic.astra {
+	object: traffic.astra
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.ducato {
+	object: traffic.ducato
+	spawn_frequency: 0.00
+	
+}
+
+
+country_traffic_info : .country.info.traffic.ducato.box {
+	object: traffic.ducato.box
+	spawn_frequency: 0.00
+	
+}
+
+
+country_traffic_info : .country.info.traffic.ducato.plat {
+	object: traffic.ducato.plat
+	spawn_frequency: 0.00
+	
+}
+
+
+country_traffic_info : .country.info.traffic.fabia {
+	object: traffic.fabia
+	spawn_frequency: 0.00
+	
+}
+
+
+country_traffic_info : .country.info.traffic.focus_2009 {
+	object: traffic.focus_2009
+	spawn_frequency: 0.00
+	
+}
+
+
+country_traffic_info : .country.info.traffic.ford_smax {
+	object: traffic.ford_smax
+	spawn_frequency: 0.00
+	
+}
+
+
+country_traffic_info : .country.info.traffic.ford_transit {
+	object: traffic.ford_transit
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.kia_ceed {
+	object: traffic.kia_ceed
+	spawn_frequency: 0.00
+	
+}
+
+
+country_traffic_info : .country.info.traffic.k_ceed_c {
+	object: traffic.k_ceed_c
+	spawn_frequency: 0.00
+	
+}
+
+
+country_traffic_info : .country.info.traffic.mondeo {
+	object: traffic.mondeo
+	spawn_frequency: 0.00
+	
+}
+
+
+country_traffic_info : .country.info.traffic.mondeo_2009 {
+	object: traffic.mondeo_2009
+	spawn_frequency: 0.00
+	
+}
+
+
+country_traffic_info : .country.info.traffic.octavia_2009 {
+	object: traffic.octavia_2009
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.seat {
+	object: traffic.seat
+	spawn_frequency: 0.00
+	
+}
+
+
+country_traffic_info : .country.info.traffic.octavia_iii {
+	object: traffic.octavia_iii
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.p3008 {
+	object: traffic.p3008
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.transit_16 {
+	object: traffic.transit_16
+	spawn_frequency: 0.00
+	
+}
+country_traffic_info : .country.info.traffic.transport_t6 {
+	object: traffic.transport_t6
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.transport_t6.hook {
+	object: traffic.transport_t6.hook
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.transport_t6.hook_ev {
+	object: traffic.transport_t6.hook_ev
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.panda {
+	object: traffic.panda
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.giulietta {
+	object: traffic.giulietta
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.hymer {
+	object: traffic.hymer
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.daily {
+	object: traffic.daily
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.santafe {
+	object: traffic.santafe
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.ducato.van {
+	object: traffic.ducato.van
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.crafter {
+	object: traffic.crafter
+	spawn_frequency: 0.00
+	
+}
+
+
+#################################################
+########### local bus companies
+#################################################
+
+country_traffic_info : .country.info.traffic.opalin {
+	object: traffic.opalin
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.selega_kql {
+	object: traffic.selega_kql
+	spawn_frequency: 2.0
+
+}
+
+country_traffic_info : .country.info.traffic.sele_jre {
+	object: traffic.sele_jre
+	spawn_frequency: 0.1
+
+}
+
+country_traffic_info : .country.info.traffic.gala.hato {
+	object: traffic.gala.hato
+	spawn_frequency: 1.0
+
+}
+
+#################################################
+########### police 
+#################################################
+
+country_traffic_info : .country.info.traffic.police_kng {
+	object: traffic.police_kng
+	spawn_frequency: 1.00
+
+}
+#################################################
+########### city_traffic
+#################################################
+
+country_traffic_info : .country.info.traffic.taxi_t_musen {
+	object: traffic.taxi_t_musen
+	spawn_frequency: 0.05
+
+}
+
+country_traffic_info : .country.info.traffic.taxi_4sha {
+	object: traffic.taxi_4sha
+	spawn_frequency: 0.5
+
+}
+
+country_traffic_info : .country.info.traffic.taxi_checker {
+	object: traffic.taxi_checker
+	spawn_frequency: 0.05
+
+}
+
+country_traffic_info : .country.info.traffic.econic {
+	object: traffic.econic
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.dutro_h_1 {
+	object: traffic.dutro_h_1
+	spawn_frequency: 3.00
+	
+}
+#################################################
+########### trailers not suitable for japan
+#################################################
+
+country_traffic_info : .country.info.traffic.trailer.livestock  {
+	object: traffic.trailer.livestock 
+	spawn_frequency: 0.00
+	
+}
+
+
+country_traffic_info : .country.info.traffic.trailer.fuel_cistern   {
+	object: traffic.trailer.fuel_cistern
+	spawn_frequency: 0.00
+	
+}
+
+
+country_traffic_info : .country.info.traffic.trailer.willig.fuel_cistern  {
+	object: traffic.trailer.willig.fuel_cistern
+	spawn_frequency: 0.00
+	
+}
+
+
+country_traffic_info : .country.info.traffic.trailer.food_cistern  {
+	object: traffic.trailer.food_cistern
+	spawn_frequency: 0.00
+	
+}
+
+
+country_traffic_info : .country.info.traffic.trailer.truck_trans  {
+	object: traffic.trailer.truck_trans
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.trailer.scs_box.aero_dynamic.default  {
+	object: traffic.trailer.scs_box.curtain.default
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.trailer.scs_box.curtain.default  {
+	object: traffic.trailer.scs_box.curtain.default
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.trailer.scs_box.dry_van.default   {
+	object: traffic.trailer.scs_box.dry_van.default
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.trailer.scs_box.m_floor.default   {
+	object: traffic.trailer.scs_box.m_floor.default
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.trailer.scs_box.reefer.default   {
+	object: traffic.trailer.scs_box.reefer.default
+	spawn_frequency: 0.00
+	
+}
+
+#################################################
+########### trucks not imported to japan
+#################################################
+
+country_traffic_info : .country.info.traffic.sem_crane  {
+	object: traffic.sem_crane
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.sem_mixer  {
+	object: traffic.sem_mixer
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.sem_dumper  {
+	object: traffic.sem_dumper
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.dafxf_b4x2  {
+	object: traffic.dafxf_b4x2
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.dafxf_c6x4  {
+	object: traffic.dafxf_c6x4
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.daf_e6_a4x2  {
+	object: traffic.daf_e6_a4x2
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.ivecoh_a6x4  {
+	object: traffic.ivecoh_a6x4
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.ivecos_c6x4  {
+	object: traffic.ivecos_c6x4
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.mantgx_a4x2  {
+	object: traffic.mantgx_a4x2
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.mantgx_c6x4  {
+	object: traffic.mantgx_c6x4
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.merc_a6x4  {
+	object: traffic.merc_a6x4
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.merc_2014.a4x2  {
+	object: traffic.merc_2014.a4x2
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.rmag_c_4x2  {
+	object: traffic.rmag_c_4x2
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.premium_a4x2  {
+	object: traffic.premium_a4x2
+	spawn_frequency: 0.00
+	
+}
+
+country_traffic_info : .country.info.traffic.premium_b4x2  {
+	object: traffic.premium_b4x2
+	spawn_frequency: 0.00
+	
+}
+}

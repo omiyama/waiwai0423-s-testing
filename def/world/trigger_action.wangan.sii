@@ -1,0 +1,19 @@
+SiiNunit
+{
+
+trigger_action : trig_action.jp_shutoko
+{
+	name: "ETC toll shutoko"
+
+	command: "pay_toll"
+	num_params[]: 20
+}
+
+trigger_action : trig_action.jp_free
+{
+	name: "ETC toll NoPayment"
+
+	command: "pay_toll"
+	num_params[]: 0
+}
+}

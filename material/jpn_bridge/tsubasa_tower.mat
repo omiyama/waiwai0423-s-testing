@@ -1,0 +1,8 @@
+material : "eut2.dif.spec" {
+	diffuse : { 0.937255 , 0.937255 , 0.937255 }
+	specular : { 0.498039 , 0.498039 , 0.498039 }
+	shininess : 18
+	add_ambient : 0
+	aux[1] : { 0 , 0 }
+
+}

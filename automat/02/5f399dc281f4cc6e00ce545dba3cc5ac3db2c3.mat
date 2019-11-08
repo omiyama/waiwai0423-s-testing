@@ -1,0 +1,8 @@
+material : "eut2.dif.spec" {
+	texture[0] : "/vehicle/wheel/ai_car/fabia.tobj"
+	texture_name[0] : "texture_base"
+	diffuse : { 0.16109 , 0.16109 , 0.16109 }
+	specular : { 0.00989604 , 0.00989604 , 0.00989604 }
+	shininess : 17
+	add_ambient : 0
+}

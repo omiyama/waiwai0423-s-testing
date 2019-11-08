@@ -1,0 +1,9 @@
+material : "eut2.dif.decal.over.rfx" {
+	texture[0] : "/vehicle/ai/comfort/color_checker.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 1 , 1 , 1 }
+	reflection : 0
+	shininess : 120
+	specular : { 0.00401522 , 0.00401522 , 0.00401522 }
+}

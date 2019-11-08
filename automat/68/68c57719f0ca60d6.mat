@@ -1,0 +1,9 @@
+material : "eut2.dif.spec.rfx" {
+	texture[0] : "/material/pjp_sign/kouji_kanban/kouji_kanban_look_white_big.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 1 , 1 , 1 }
+	reflection : 0
+	shininess : 100
+	specular : { 0.169018 , 0.169018 , 0.169018 }
+}

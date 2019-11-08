@@ -1,5 +1,0 @@
-material : "ui"
-{
-	texture : "rollbar.tobj"
-	texture_name : "texture"
-}

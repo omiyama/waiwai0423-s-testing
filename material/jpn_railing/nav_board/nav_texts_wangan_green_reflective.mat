@@ -1,0 +1,6 @@
+material : "eut2.reflective" {
+	texture[0] : "/material/jpn_railing/nav_board/nav_texts_wangan_green.tobj"
+	texture_name[0] : "texture_base"
+	aux[1] : { 0 , 0 }
+
+}

@@ -1,0 +1,10 @@
+material : "eut2.dif.spec" {
+	texture[0] : "/material/jpn_bridge/tsubasa_bridge.tobj"
+	texture_name[0] : "texture_base"
+	diffuse : { 0.756863 , 0.756863 , 0.756863 }
+	specular : { 0.12549 , 0.12549 , 0.12549 }
+	shininess : 20
+	add_ambient : 0
+	aux[1] : { 0 , 0 }
+
+}

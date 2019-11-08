@@ -1,0 +1,87 @@
+SiiNunit
+{
+sign_board_template : _nameless.947.5960 {
+ board_name: "expwy passinglane"
+ width: &40747ae1
+ height: &3fc28f5c
+ items: 4
+ items[0]: _nameless.8f1.c140
+ items[1]: _nameless.b94.c810
+ items[2]: _nameless.b94.c8e0
+ items[3]: _nameless.c34.ddf0
+ dynamic_attributes: 0
+}
+
+sign_template_frame : _nameless.8f1.c140 {
+ frame_path: "/def/sign/frame/green_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 1885601791
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40747ae1
+ coords_t: &3fc28f5c
+ coords_b: 0
+ z_order: 1
+}
+
+sign_template_text : _nameless.b94.c810 {
+ text: "PASSING LANE"
+ font_face: "/font/sign/dk.font"
+ font_size: &3eae147b
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3252158462
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40266666
+ coords_t: &3f6be2be
+ coords_b: 0
+ z_order: 2
+}
+
+sign_template_text : _nameless.b94.c8e0 {
+ text: "\xe8\xbf\xbd \xe8\xb6\x8a \xe8\xbb\x8a \xe7\xb7\x9a"
+ font_face: "/font/big.font"
+ font_size: &3f19999a
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1190264832
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40241d42
+ coords_t: &3fc28f5c
+ coords_b: &3f051eb8
+ z_order: 3
+}
+
+sign_template_image : _nameless.c34.ddf0 {
+ atlas_path: "/def/sign/atlas/overtaking.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 224395264
+ area_name: ""
+ area_idx: nil
+ coords_l: &402164ef
+ coords_r: &406e2608
+ coords_t: &3fa4924a
+ coords_b: &3e20ea10
+ z_order: 4
+}
+
+}

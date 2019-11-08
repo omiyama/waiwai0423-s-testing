@@ -1,0 +1,10 @@
+SiiNunit
+{
+flare_vehicle: flare.vehicle.selega.ornament
+{
+	dir_type: all
+	light_type: parking
+	model: "/vehicle/ai/selega/selega_ornament.pmd" 
+	scale_factor: 1.0
+}
+}

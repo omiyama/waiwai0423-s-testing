@@ -1,0 +1,68 @@
+SiiNunit
+{
+sign_board_template : _nameless.7e1.3c60 {
+ board_name: "expwy kanazawa"
+ width: &40a23d71
+ height: &3fbc28f6
+ items: 3
+ items[0]: _nameless.7c9.ce50
+ items[1]: _nameless.cc8.f8f0
+ items[2]: _nameless.cc8.f5b0
+ dynamic_attributes: 0
+}
+
+sign_template_frame : _nameless.7c9.ce50 {
+ frame_path: "/def/sign/frame/green_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 1443233791
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40a23d71
+ coords_t: &3fbc28f6
+ coords_b: 0
+ z_order: 1
+}
+
+sign_template_text : _nameless.cc8.f8f0 {
+ text: Kanazawa
+ font_face: "/font/sign/dk.font"
+ font_size: &3f333333
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 4010409982
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40a23d71
+ coords_t: &3f604e05
+ coords_b: 0
+ z_order: 2
+}
+
+sign_template_text : _nameless.cc8.f5b0 {
+ text: "\xe9\x87\x91     \xe6\xb2\xa2"
+ font_face: "/font/big.font"
+ font_size: &3f4ccccd
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1420558336
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40a23d71
+ coords_t: &3fbc28f6
+ coords_b: &3f31fb20
+ z_order: 3
+}
+
+}

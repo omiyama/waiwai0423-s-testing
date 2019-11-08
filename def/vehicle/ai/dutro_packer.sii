@@ -1,0 +1,100 @@
+traffic_vehicle : traffic.dutro_h_1
+{
+	accessories[]: .dutro_h_1.chassis
+	accessories[]: .dutro_h_1.fwheel
+	accessories[]: .dutro_h_1.rwheel
+
+	max_speed: 120
+	engine_torque: 420
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	
+	spawn_ratio: 0
+	spawn_condition[]: .traffic.dutro_h_1.condition.time
+
+	vehicle_mass: 6500
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .dutro_h_1.chassis
+{
+	data_path: "/def/vehicle/ai/hino_dutro/chassis_packer_kawasaki_h.sii"
+}
+
+vehicle_wheel_accessory: .dutro_h_1.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/17_5in_jis_f.sii"
+}
+
+vehicle_wheel_accessory: .dutro_h_1.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/17_5in_jis_r.sii"
+}
+
+
+
+traffic_vehicle : traffic.dutro_h_2
+{
+	accessories[]: .dutro_h_2.chassis
+	accessories[]: .dutro_h_2.fwheel
+	accessories[]: .dutro_h_2.rwheel
+
+	max_speed: 120
+	engine_torque: 420
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	
+	spawn_ratio: 0
+	spawn_condition[]: .traffic.dutro_h_2.condition.time
+
+	vehicle_mass: 6500
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .dutro_h_2.chassis
+{
+	data_path: "/def/vehicle/ai/hino_dutro/chassis_packer_tokyo_h.sii"
+}
+
+vehicle_wheel_accessory: .dutro_h_2.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/17_5in_jis_f.sii"
+}
+
+vehicle_wheel_accessory: .dutro_h_2.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/17_5in_jis_r.sii"
+}
+
+
+
+
+
+traffic_spawn_condition: .traffic.dutro_h_1.condition.time
+{
+	# spawn only in following game time intervals
+	type: time
+
+	
+	# 06:00 - 16:00
+	num_param[]: 360
+	num_param[]: 960
+}
+traffic_spawn_condition: .traffic.dutro_h_2.condition.time
+{
+	# spawn only in following game time intervals
+	type: time
+
+	
+	# 06:00 - 16:00
+	num_param[]: 360
+	num_param[]: 960
+}

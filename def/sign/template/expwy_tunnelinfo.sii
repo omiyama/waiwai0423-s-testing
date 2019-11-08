@@ -1,0 +1,25 @@
+SiiNunit
+{
+sign_template : _nameless.49e.1000 {
+ template_name: expwy_tunnelinfo
+ model_name: 1664
+ stand_model_name: ""
+ traffic_rule: null
+ boards: 2
+ boards[0]: _nameless.48f.bc40
+ boards[1]: _nameless.48f.bc90
+ items: 0
+ dynamic_attributes: 0
+}
+
+sign_template_board_binding : _nameless.48f.bc40 {
+ area_name: ml6
+ linked_board: sign_board.jp_4
+}
+
+sign_template_board_binding : _nameless.48f.bc90 {
+ area_name: ml2
+ linked_board: sign_board.jp_5
+}
+
+}

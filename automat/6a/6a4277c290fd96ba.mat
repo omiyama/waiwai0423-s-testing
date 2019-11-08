@@ -1,0 +1,9 @@
+material : "eut2.dif.rfx" {
+	texture[0] : "/material/jpn_panorama/tokyo_daiba/center_pillar.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 1 , 1 , 1 }
+	reflection : 0
+	shininess : 180
+	specular : { 0.43678 , 0.43678 , 0.43678 }
+}

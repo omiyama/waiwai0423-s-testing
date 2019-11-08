@@ -1,0 +1,44 @@
+SiiNunit
+{
+
+building_model : bld_model.jpn_0 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/guard/guardrail_jpn_single.pmd"
+}
+building_model : bld_model.jpn_1 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/guard/handrail_bridge.pmd"
+}
+building_model : bld_model.jpn_2 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/nav_boardbase.pmd"
+}
+building_model : bld_model.jpn_3 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/powerline/utility_pole_h10.pmd"
+}
+building_model : bld_model.jpn_4 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/fence/green_fence_jis3552.pmd"
+}
+building_model : bld_model.jpn_5 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/powerline/154kv.pmd"
+}
+building_model : bld_model.jpn_6 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/fence/concreate_wall_jp.pmd"
+}
+building_model : bld_model.jpn_7 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/fence/concreate_wall_house_jp_1.pmd"
+}
+}

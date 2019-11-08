@@ -1,0 +1,8 @@
+material : "eut2.unlit.tex.add" {
+	texture[0] : "/material/custom/scan.tobj"
+	texture_name[0] : "texture_base"
+	ambient : { 0 , 0 , 0 }
+	diffuse : { 0.521569 , 0.521569 , 0.521569 }
+	aux[1] : { 0 , 0 }
+
+}

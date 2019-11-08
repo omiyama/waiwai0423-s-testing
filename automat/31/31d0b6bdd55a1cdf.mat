@@ -1,0 +1,14 @@
+material : "eut2.glass.rfx" {
+	texture[0] : "/vehicle/ai/crown_athlete/patolamp.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/environment/vehicle_reflection.tobj"
+	texture_name[1] : "texture_reflection"
+	add_ambient : 0
+	diffuse : { 2.53715 , 0.000107256 , 0 }
+	env_factor : { 1 , 1 , 1 }
+	fresnel : { 1 , 2 }
+	shininess : 95
+	specular : { 0.21354 , 0.21354 , 0.21354 }
+	tint : { 1 , 0.0191843 , 0.0369564 }
+	tint_opacity : -0.01
+}

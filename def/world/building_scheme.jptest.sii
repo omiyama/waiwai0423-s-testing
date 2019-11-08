@@ -1,0 +1,18 @@
+SiiNunit
+{
+building_scheme : bld_scheme.pj_1blue {
+	name: "footbridge_jp480_blue"
+	models[]: bld_model.pj_1
+#	look: blue
+}
+building_scheme : bld_scheme.pj_1green {
+	name: "footbridge_jp480_green"
+	models[]: bld_model.pj_2
+#	look: green
+}
+building_scheme : bld_scheme.pj_1white {
+	name: "footbridge_jp480_white"
+	models[]: bld_model.pj_3
+#	look: white
+}
+}

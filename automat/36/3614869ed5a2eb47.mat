@@ -1,0 +1,9 @@
+material : "eut2.dif.spec.rfx" {
+	texture[0] : "/vehicle/ai/hino_dutro/empty.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 0.169018 , 0.169018 , 0.169018 }
+	reflection : 0
+	shininess : 160
+	specular : { 0.235482 , 0.235482 , 0.235482 }
+}

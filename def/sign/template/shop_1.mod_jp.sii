@@ -1,0 +1,47 @@
+SiiNunit
+{
+sign_template : _nameless.e9d.8998 {
+ template_name: shop_1
+ model_name: 1412
+ traffic_rule: null
+ items: 2
+ items[0]: _nameless.d24.2658
+ items[1]: _nameless.a4f.ed38
+ dynamic_attributes: 0
+}
+
+sign_template_frame : _nameless.d24.2658 {
+ frame_path: "/def/sign/frame/white_swe.sii"
+ color: 16777215
+ opacity: 1
+ id: 1447297023
+ area_name: ml1
+ area_idx: nil
+ coords_l: 0
+ coords_r: &403e147b
+ coords_t: 1
+ coords_b: 0
+ z_order: 1
+}
+
+sign_template_text : _nameless.a4f.ed38 {
+ text: "\xe5\x93\x81\xe5\xba\x97"
+ font_face: "/font/sign/jp_font.font"
+ font_size: &3f4ccccd
+ text_halign: center
+ text_valign: center
+ font_color: 3562498
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3528458238
+ area_name: ml1
+ area_idx: nil
+ coords_l: 0
+ coords_r: &403e147b
+ coords_t: 1
+ coords_b: 0
+ z_order: 2
+}
+
+}

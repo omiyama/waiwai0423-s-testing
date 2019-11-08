@@ -1,0 +1,11 @@
+SiiNunit
+{
+sign_board_template : _nameless.3b0.1ea0 {
+ board_name: "expwy tunnelinfo"
+ width: &40a23d71
+ height: &3fbc28f6
+ items: 0
+ dynamic_attributes: 0
+}
+
+}

@@ -1,0 +1,4 @@
+material : "ui.white_font" {
+	texture : "/font/sign/hiragino_3.tobj"
+	texture_name : "texture"
+}

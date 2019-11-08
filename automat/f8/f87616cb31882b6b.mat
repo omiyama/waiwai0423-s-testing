@@ -1,0 +1,4 @@
+material : "eut2.reflective.rfx" {
+	texture[0] : "/material/jpn_prefab/level_cross/level_cross.tobj"
+	texture_name[0] : "texture_base"
+}

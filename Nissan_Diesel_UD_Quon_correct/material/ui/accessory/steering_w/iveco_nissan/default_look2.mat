@@ -1,5 +1,0 @@
-material : "ui"
-{
-	texture:"default_look2.tobj"
-	texture_name:"texture"
-}
