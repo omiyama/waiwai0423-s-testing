@@ -2,9 +2,9 @@ SiiNunit
 {
 env_profile : env.data {
 
-	lamps_on_elevation: 5.0
+	lamps_on_elevation: 90.0
 
-	day_in_year: 80	//summer solstice
+	day_in_year: 173	//summer solstice
 	summer_time: 0		//+1 hour
 }
 }
