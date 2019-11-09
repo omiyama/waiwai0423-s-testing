@@ -1,5 +1,0 @@
-material : "ui"
-{
-	texture : "bonus_custom_icon.tobj"
-	texture_name : "texture"
-}
