@@ -1,0 +1,9 @@
+SiiNunit
+{
+flare_lamp : flare.lamp.natrium
+{
+	dir_type: all
+	model: "/model/flare/lamp_flare_natrium.pmd"
+	scale_factor: 2
+}
+}

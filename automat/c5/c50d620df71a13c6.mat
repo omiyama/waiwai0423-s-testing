@@ -1,0 +1,11 @@
+material : "eut2.dif.spec.mult.dif.spec.rfx" {
+	texture[0] : "/vehicle/ai/crown_athlete/color_police.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/vehicle/ai/crown_athlete/marking_kanagawa.tobj"
+	texture_name[1] : "texture_mult"
+	add_ambient : 0
+	diffuse : { 1 , 1 , 1 }
+	reflection : 0
+	shininess : 120
+	specular : { 1 , 1 , 1 }
+}

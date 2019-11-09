@@ -1,0 +1,8 @@
+SiiNunit
+{
+
+@include "ai/selega.sii"
+@include "ai/gala.sii"
+}
+
+

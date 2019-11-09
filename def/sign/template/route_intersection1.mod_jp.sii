@@ -1,0 +1,228 @@
+SiiNunit
+{
+sign_template : _nameless.b1b.50b0 {
+ template_name: route_intersection1
+ model_name: 1425
+ traffic_rule: null
+ items: 11
+ items[0]: _nameless.972.ddd0
+ items[1]: _nameless.e75.acd0
+ items[2]: _nameless.e75.a410
+ items[3]: _nameless.e75.a870
+ items[4]: _nameless.d90.2a10
+ items[5]: _nameless.e75.ae10
+ items[6]: _nameless.d90.2958
+ items[7]: _nameless.d90.28a0
+ items[8]: _nameless.d90.2ac8
+ items[9]: _nameless.d90.2b80
+ items[10]: _nameless.d90.2c38
+ dynamic_attributes: 0
+}
+
+sign_template_frame : _nameless.972.ddd0 {
+ frame_path: "/def/sign/frame/blue_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 1982988287
+ area_name: ml2
+ area_idx: nil
+ coords_l: 0
+ coords_r: &4068f5c2
+ coords_t: &406c28f6
+ coords_b: 0
+ z_order: 1
+}
+
+sign_template_image : _nameless.e75.acd0 {
+ atlas_path: "/def/sign/atlas/arrow_up_shorter_swe.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 4162322430
+ area_name: ml2
+ area_idx: nil
+ coords_l: &402dd67c
+ coords_r: &406375a0
+ coords_t: &402f914a
+ coords_b: &3e0a60e0
+ z_order: 2
+}
+
+sign_template_image : _nameless.e75.a410 {
+ atlas_path: "/def/sign/atlas/arrow_right_longer_swe.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: true
+ vflip: false
+ image_overridable: true
+ id: 2988179454
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3fc306eb
+ coords_r: &40448a60
+ coords_t: &3f954c1b
+ coords_b: &3ee914ba
+ z_order: 3
+}
+
+sign_template_image : _nameless.e75.a870 {
+ atlas_path: "/def/sign/atlas/jp_route.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 4021288958
+ area_name: ml2
+ area_idx: nil
+ coords_l: &4004c1bc
+ coords_r: &40406eb6
+ coords_t: &3f9306e9
+ coords_b: &3ec8a60a
+ z_order: 4
+}
+
+sign_template_text : _nameless.d90.2a10 {
+ text: 471
+ font_face: "/font/sign/dk.font"
+ font_size: &3ecccccd
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3003645950
+ area_name: ml2
+ area_idx: nil
+ coords_l: &4001bad0
+ coords_r: &4041bad0
+ coords_t: &3fa7c8a5
+ coords_b: &3e9f2294
+ z_order: 5
+}
+
+sign_template_image : _nameless.e75.ae10 {
+ atlas_path: "/def/sign/atlas/jp_route.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 1224867840
+ area_name: ml2
+ area_idx: nil
+ coords_l: &402d9f24
+ coords_r: &4061f22a
+ coords_t: &40098374
+ coords_b: &3fb22983
+ z_order: 6
+}
+
+sign_template_text : _nameless.d90.2958 {
+ text: 41
+ font_face: "/font/sign/dk.font"
+ font_size: &3ee147ae
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 211288064
+ area_name: ml2
+ area_idx: nil
+ coords_l: &4026eb3f
+ coords_r: &4066eb3f
+ coords_t: &40114c1c
+ coords_b: &3fa29837
+ z_order: 7
+}
+
+sign_template_text : _nameless.d90.28a0 {
+ text: Takayama
+ font_face: "/font/sign/dk.font"
+ font_size: &3ecccccd
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 640417792
+ area_name: ml2
+ area_idx: nil
+ coords_l: &34800000
+ coords_r: &4068f5c3
+ coords_t: &4053e453
+ coords_b: &4013e453
+ z_order: 8
+}
+
+sign_template_text : _nameless.d90.2ac8 {
+ text: "\xe9\xab\x98\xe5\xb1\xb1"
+ font_face: "/font/big.font"
+ font_size: &3f000000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1537212415
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3facf915
+ coords_r: &40167c8a
+ coords_t: &406c28f5
+ coords_b: &403d67c9
+ z_order: 9
+}
+
+sign_template_text : _nameless.d90.2b80 {
+ text: Matsumoto
+ font_face: "/font/sign/dk.font"
+ font_size: &3ecccccd
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1745747967
+ area_name: ml2
+ area_idx: nil
+ coords_l: 0
+ coords_r: &4020dd68
+ coords_t: &3ffacf92
+ coords_b: &3f759f24
+ z_order: 10
+}
+
+sign_template_text : _nameless.d90.2c38 {
+ text: "\xe6\x9d\xbe\xe6\x9c\xac"
+ font_face: "/font/sign/jp_font.font"
+ font_size: &3f000000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 586678272
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3f3acf94
+ coords_r: &3fdd67c9
+ coords_t: &4014c85f
+ coords_b: &3fcc0e66
+ z_order: 11
+}
+
+}

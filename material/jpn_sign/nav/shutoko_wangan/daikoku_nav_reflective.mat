@@ -1,0 +1,6 @@
+material : "eut2.reflective" {
+	texture[0] : "/material/jpn_sign/nav/shutoko_wangan/daikoku_a.tobj"
+	texture_name[0] : "texture_base"
+	aux[1] : { 0 , 0 }
+
+}

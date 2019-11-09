@@ -1,0 +1,10 @@
+SiiNunit
+{
+flare_vehicle: flare.vehicle.jp.shoulderl
+{
+	dir_type: narrow
+	light_type: low_beam
+	model: "/model/flare/vehicle_whitel.pmd" 
+	scale_factor: 1.0
+}
+}

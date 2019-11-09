@@ -1,0 +1,4 @@
+material : "ui.white_font" {
+	texture : "/font/sign/nar_4.tobj"
+	texture_name : "texture"
+}

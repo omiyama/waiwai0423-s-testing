@@ -1,0 +1,13 @@
+material : "eut2.dif.spec.add.env.rfx" {
+	texture[0] : "/vehicle/ai/crown_athlete/color_police.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/environment/vehicle_reflection.tobj"
+	texture_name[1] : "texture_reflection"
+	add_ambient : 0
+	diffuse : { 0.767779 , 0.767779 , 0.767779 }
+	env_factor : { 0.169018 , 0.169018 , 0.169018 }
+	fresnel : { 0.2 , 0.9 }
+	reflection : 0
+	shininess : 140
+	specular : { 1 , 1 , 1 }
+}

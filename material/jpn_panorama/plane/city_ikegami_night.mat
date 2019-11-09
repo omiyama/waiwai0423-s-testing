@@ -1,0 +1,9 @@
+material : "eut2.lightmap.night" {
+	texture[0] : "/material/jpn_panorama/plane/city_ikegami.tobj"
+	texture_name[0] : "texture_base"
+	diffuse : { 1 , 1 , 1 }
+	specular : { 0 , 0 , 0 }
+	shininess : 50
+	aux[1] : { 0 , 0 }
+
+}

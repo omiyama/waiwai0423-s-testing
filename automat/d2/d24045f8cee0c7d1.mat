@@ -1,0 +1,3 @@
+material : "eut2.shadowonly.nocull.rfx" {
+	shadow_bias : 0
+}

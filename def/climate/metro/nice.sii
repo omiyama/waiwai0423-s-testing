@@ -1,0 +1,3573 @@
+SiiNunit
+{
+sun_profile : metro.nice.01 {
+ low_elevation: &c11ffffc
+ high_elevation: &c11ffffc
+ sun_direction: 0
+ temperature: 3
+ temperature[0]: 28
+ temperature[1]: 27
+ temperature[2]: 29
+ skybox_texture: 3
+ skybox_texture[0]: "/model/skybox/nice0/nice0_23-24_g.tobj"
+ skybox_texture[1]: "/model/skybox/nice1/nice1_23-24_g.tobj"
+ skybox_texture[2]: "/model/skybox/nice0/nice0_23-24_g.tobj"
+ skycloud_texture: 3
+ skycloud_texture[0]: "/model/skybox/nice0/nice0_23-24_c.tobj"
+ skycloud_texture[1]: "/model/skybox/nice1/nice1_23-24_c.tobj"
+ skycloud_texture[2]: "/model/skybox/nice0/nice0_23-24_c.tobj"
+ skycloud_part: 3
+ skycloud_part[0]: day
+ skycloud_part[1]: day
+ skycloud_part[2]: day
+ ambient: 3
+ ambient[0]: (&3f2fafb0, &3f2fafb0, &3f2fafb0)
+ ambient[1]: (&3f068687, &3f46c6c8, &3f5cdcde)
+ ambient[2]: (&3f2fafb0, &3f2fafb0, &3f2fafb0)
+ ambient_hdr_coef: 3
+ ambient_hdr_coef[0]: &3ba3d70a
+ ambient_hdr_coef[1]: &3ba3d70a
+ ambient_hdr_coef[2]: &3ba3d70a
+ diffuse: 3
+ diffuse[0]: (&3ee8e8ea, &3f26a6a7, &3f54d4d6)
+ diffuse[1]: (&3ee8e8ea, &3f26a6a7, &3f54d4d6)
+ diffuse[2]: (&3ee8e8ea, &3f26a6a7, &3f54d4d6)
+ diffuse_hdr_coef: 3
+ diffuse_hdr_coef[0]: &3d4ccccd
+ diffuse_hdr_coef[1]: &3d4ccccd
+ diffuse_hdr_coef[2]: &3d4ccccd
+ specular: 3
+ specular[0]: (&3ec6c6c8, &3f21a1a2, &3f50d0d2)
+ specular[1]: (&3ec6c6c8, &3f21a1a2, &3f50d0d2)
+ specular[2]: (&3ec6c6c8, &3f21a1a2, &3f50d0d2)
+ specular_hdr_coef: 3
+ specular_hdr_coef[0]: &3d0f5c29
+ specular_hdr_coef[1]: &3d0f5c29
+ specular_hdr_coef[2]: &3d0f5c29
+ env: 3
+ env[0]: 1
+ env[1]: 1
+ env[2]: 1
+ env_static_mod: 3
+ env_static_mod[0]: &3dcccccd
+ env_static_mod[1]: &3dcccccd
+ env_static_mod[2]: &3dcccccd
+ sky_color: 3
+ sky_color[0]: (1, 1, 1)
+ sky_color[1]: (1, 1, 1)
+ sky_color[2]: (1, 1, 1)
+ sky_color_hdr_coef: 3
+ sky_color_hdr_coef[0]: 1
+ sky_color_hdr_coef[1]: 1
+ sky_color_hdr_coef[2]: 1
+ sun_color: 3
+ sun_color[0]: (&3f70f0f2, &3f27a7a8, &3f048485)
+ sun_color[1]: (&3f70f0f2, &3f27a7a8, &3f048485)
+ sun_color[2]: (&3f76f5af, &3f31a196, &3ef272b9)
+ sun_color_hdr_coef: 3
+ sun_color_hdr_coef[0]: 1
+ sun_color_hdr_coef[1]: 1
+ sun_color_hdr_coef[2]: 1
+ sun_shadow_strength: 3
+ sun_shadow_strength[0]: 1
+ sun_shadow_strength[1]: 1
+ sun_shadow_strength[2]: 1
+ fog_color: 3
+ fog_color[0]: (&3b808081, &3c40c0c2, &3ca0a0a1)
+ fog_color[1]: (&3b808081, &3c008081, &3c40c0c2)
+ fog_color[2]: (&3b808081, &3c40c0c2, &3ca0a0a1)
+ fog_color2: 3
+ fog_color2[0]: (&3b808081, &3c40c0c2, &3ca0a0a1)
+ fog_color2[1]: (&3b808081, &3c008081, &3c40c0c2)
+ fog_color2[2]: (&3b808081, &3c40c0c2, &3ca0a0a1)
+ fog_vgradient: 3
+ fog_vgradient[0]: &3c03126f
+ fog_vgradient[1]: &3c03126f
+ fog_vgradient[2]: &3c03126f
+ fog_offset: 3
+ fog_offset[0]: 180
+ fog_offset[1]: 120
+ fog_offset[2]: 180
+ fog_density: 3
+ fog_density[0]: &3ad1b717
+ fog_density[1]: &3b03126f
+ fog_density[2]: &3ad1b717
+ fog_speed: 3
+ fog_speed[0]: &3f000000
+ fog_speed[1]: &3f000000
+ fog_speed[2]: &3f000000
+ transition_fog_speed: 3
+ transition_fog_speed[0]: 5
+ transition_fog_speed[1]: 5
+ transition_fog_speed[2]: 5
+ speed_coef: 3
+ speed_coef[0]: &3e75c2a2
+ speed_coef[1]: &3e75c2a2
+ speed_coef[2]: &3e75c2a2
+ cloud_shadow_weight: 3
+ cloud_shadow_weight[0]: 0
+ cloud_shadow_weight[1]: 0
+ cloud_shadow_weight[2]: 0
+ cloud_shadow_texture: 3
+ cloud_shadow_texture[0]: "null"
+ cloud_shadow_texture[1]: "null"
+ cloud_shadow_texture[2]: "null"
+ cloud_shadow_area_size: 3
+ cloud_shadow_area_size[0]: (500, 500)
+ cloud_shadow_area_size[1]: (0, 0)
+ cloud_shadow_area_size[2]: (500, 500)
+ cloud_shadow_speed: 3
+ cloud_shadow_speed[0]: (0, 0)
+ cloud_shadow_speed[1]: (0, 0)
+ cloud_shadow_speed[2]: (0, 0)
+ rain_intensity: 3
+ rain_intensity[0]: 0
+ rain_intensity[1]: 0
+ rain_intensity[2]: 0
+ rain_max_wetness: 3
+ rain_max_wetness[0]: 1
+ rain_max_wetness[1]: 1
+ rain_max_wetness[2]: 1
+ rain_additional_ambient: 3
+ rain_additional_ambient[0]: 5
+ rain_additional_ambient[1]: 5
+ rain_additional_ambient[2]: 5
+# leaves_back_color: 3
+# leaves_back_color[0]: (1, 1, 1)
+# leaves_back_color[1]: (1, 1, 1)
+# leaves_back_color[2]: (1, 1, 1)
+ wind_type: 3
+ wind_type[0]: 1
+ wind_type[1]: 1
+ wind_type[2]: 1
+ dof_start: 3
+ dof_start[0]: 120
+ dof_start[1]: 120
+ dof_start[2]: 120
+ dof_transition: 3
+ dof_transition[0]: 700
+ dof_transition[1]: 700
+ dof_transition[2]: 700
+ dof_filter_size: 3
+ dof_filter_size[0]: 1
+ dof_filter_size[1]: 1
+ dof_filter_size[2]: 1
+ color_balance: 3
+ color_balance[0]: (0, 0, 0)
+ color_balance[1]: (0, 0, 0)
+ color_balance[2]: (0, 0, 0)
+ color_saturation: 3
+ color_saturation[0]: 1
+ color_saturation[1]: 1
+ color_saturation[2]: 1
+ sunshaft_color: 3
+ sunshaft_color[0]: (&3e949495, &3e78f8fa, &3e5cdcde)
+ sunshaft_color[1]: (&3e949495, &3e78f8fa, &3e5cdcde)
+ sunshaft_color[2]: (&3e949495, &3e78f8fa, &3e5cdcde)
+ sunshaft_strength: 3
+ sunshaft_strength[0]: 0
+ sunshaft_strength[1]: 0
+ sunshaft_strength[2]: 0
+ sunshaft_size: 3
+ sunshaft_size[0]: 2
+ sunshaft_size[1]: 2
+ sunshaft_size[2]: 2
+ low_intensity_minimum: 3
+ low_intensity_minimum[0]: 0
+ low_intensity_minimum[1]: 0
+ low_intensity_minimum[2]: 0
+ low_intensity_maximum: 3
+ low_intensity_maximum[0]: 0
+ low_intensity_maximum[1]: 0
+ low_intensity_maximum[2]: 0
+ low_intensity_color: 3
+ low_intensity_color[0]: (1, 1, 1)
+ low_intensity_color[1]: (1, 1, 1)
+ low_intensity_color[2]: (1, 1, 1)
+ target_gray: 3
+ target_gray[0]: &3df5c28f
+ target_gray[1]: &3df5c28f
+ target_gray[2]: &3df5c28f
+ min_scale: 3
+ min_scale[0]: 0
+ min_scale[1]: 0
+ min_scale[2]: 0
+ max_scale: 3
+ max_scale[0]: 100
+ max_scale[1]: 100
+ max_scale[2]: 100
+ target_white: 3
+ target_white[0]: &3f000000
+ target_white[1]: &3f000000
+ target_white[2]: &3f000000
+ eye_adaptation_speed: 3
+ eye_adaptation_speed[0]: &3f333333
+ eye_adaptation_speed[1]: &3f333333
+ eye_adaptation_speed[2]: &3f333333
+ bloom_minimal_color: 3
+ bloom_minimal_color[0]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_minimal_color[1]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_minimal_color[2]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_half_intensity_color: 3
+ bloom_half_intensity_color[0]: (1, 1, 1)
+ bloom_half_intensity_color[1]: (1, 1, 1)
+ bloom_half_intensity_color[2]: (1, 1, 1)
+ bloom_resizing_steps: 3
+ bloom_resizing_steps[0]: 3
+ bloom_resizing_steps[1]: 3
+ bloom_resizing_steps[2]: 3
+ bloom_filter_radius: 3
+ bloom_filter_radius[0]: 6
+ bloom_filter_radius[1]: 6
+ bloom_filter_radius[2]: 6
+ bloom_standard_deviation: 3
+ bloom_standard_deviation[0]: &3f000000
+ bloom_standard_deviation[1]: &3f000000
+ bloom_standard_deviation[2]: &3f000000
+ scene_multiplier: 3
+ scene_multiplier[0]: (1, 1, 1)
+ scene_multiplier[1]: (1, 1, 1)
+ scene_multiplier[2]: (1, 1, 1)
+ bloom_multiplier: 3
+ bloom_multiplier[0]: (1, 1, 1)
+ bloom_multiplier[1]: (1, 1, 1)
+ bloom_multiplier[2]: (1, 1, 1)
+ weight: 3
+ weight[0]: 1
+ weight[1]: 1
+ weight[2]: 1
+}
+
+sun_profile : metro.nice.02 {
+ low_elevation: -90
+ high_elevation: -15
+ sun_direction: 0
+ temperature: 3
+ temperature[0]: 28
+ temperature[1]: 26
+ temperature[2]: 27
+ skybox_texture: 3
+ skybox_texture[0]: "/model/skybox/nice0/nice0_1-4_g.tobj"
+ skybox_texture[1]: "/model/skybox/nice1/nice1_1-4_g.tobj"
+ skybox_texture[2]: "/model/skybox/nice0/nice0_1-4_g.tobj"
+ skycloud_texture: 3
+ skycloud_texture[0]: "/model/skybox/nice0/nice0_1-4_c.tobj"
+ skycloud_texture[1]: "/model/skybox/nice1/nice1_1-4_c.tobj"
+ skycloud_texture[2]: "/model/skybox/nice0/nice0_1-4_c.tobj"
+ skycloud_part: 3
+ skycloud_part[0]: day
+ skycloud_part[1]: day
+ skycloud_part[2]: day
+ ambient: 3
+ ambient[0]: (&3f068687, &3f46c6c8, &3f5cdcde)
+ ambient[1]: (&3f2fafb0, &3f2fafb0, &3f2fafb0)
+ ambient[2]: (&3f068687, &3f46c6c8, &3f5cdcde)
+ ambient_hdr_coef: 3
+ ambient_hdr_coef[0]: &3b03126f
+ ambient_hdr_coef[1]: &3b03126f
+ ambient_hdr_coef[2]: &3b03126f
+ diffuse: 3
+ diffuse[0]: (&3ee8e8ea, &3f26a6a7, &3f54d4d6)
+ diffuse[1]: (&3ec0c0c2, &3f26a6a7, &3f72f2f4)
+ diffuse[2]: (&3ee8e8ea, &3f26a6a7, &3f54d4d6)
+ diffuse_hdr_coef: 3
+ diffuse_hdr_coef[0]: &3ca3d70a
+ diffuse_hdr_coef[1]: &3ca3d70a
+ diffuse_hdr_coef[2]: &3ca3d70a
+ specular: 3
+ specular[0]: (&3ec6c6c8, &3f21a1a2, &3f50d0d2)
+ specular[1]: (&3ec6c6c8, &3f21a1a2, &3f50d0d2)
+ specular[2]: (&3ec6c6c8, &3f21a1a2, &3f50d0d2)
+ specular_hdr_coef: 3
+ specular_hdr_coef[0]: &3c23d70a
+ specular_hdr_coef[1]: &3c23d70a
+ specular_hdr_coef[2]: &3c23d70a
+ env: 3
+ env[0]: 1
+ env[1]: 1
+ env[2]: 1
+ env_static_mod: 3
+ env_static_mod[0]: &3dcccccd
+ env_static_mod[1]: &3dcccccd
+ env_static_mod[2]: &3dcccccd
+ sky_color: 3
+ sky_color[0]: (1, 1, 1)
+ sky_color[1]: (1, 1, 1)
+ sky_color[2]: (1, 1, 1)
+ sky_color_hdr_coef: 3
+ sky_color_hdr_coef[0]: 1
+ sky_color_hdr_coef[1]: 1
+ sky_color_hdr_coef[2]: 1
+ sun_color: 3
+ sun_color[0]: (&3f70f0f2, &3f27a7a8, &3f048485)
+ sun_color[1]: (&3f70f0f2, &3f27a7a8, &3f048485)
+ sun_color[2]: (&3f70f0f2, &3f27a7a8, &3f048485)
+ sun_color_hdr_coef: 3
+ sun_color_hdr_coef[0]: 1
+ sun_color_hdr_coef[1]: 1
+ sun_color_hdr_coef[2]: 1
+ sun_shadow_strength: 3
+ sun_shadow_strength[0]: 1
+ sun_shadow_strength[1]: 1
+ sun_shadow_strength[2]: 1
+ fog_color: 3
+ fog_color[0]: (0, &3b808081, &3c008081)
+ fog_color[1]: (0, &3b808081, &3b808081)
+ fog_color[2]: (0, &3b808081, &3c008081)
+ fog_color2: 3
+ fog_color2[0]: (0, &3b808081, &3c008081)
+ fog_color2[1]: (0, &3b808081, &3b808081)
+ fog_color2[2]: (0, &3b808081, &3c008081)
+ fog_vgradient: 3
+ fog_vgradient[0]: &3c03126f
+ fog_vgradient[1]: &3c03126f
+ fog_vgradient[2]: &3c03126f
+ fog_offset: 3
+ fog_offset[0]: 180
+ fog_offset[1]: 120
+ fog_offset[2]: 180
+ fog_density: 3
+ fog_density[0]: &3ad1b717
+ fog_density[1]: &3b03126f
+ fog_density[2]: &3ad1b717
+ fog_speed: 3
+ fog_speed[0]: &3f000000
+ fog_speed[1]: &3f000000
+ fog_speed[2]: &3f000000
+ transition_fog_speed: 3
+ transition_fog_speed[0]: 5
+ transition_fog_speed[1]: 5
+ transition_fog_speed[2]: 5
+ speed_coef: 3
+ speed_coef[0]: 0
+ speed_coef[1]: &3e75c2a2
+ speed_coef[2]: &3e75c2a2
+ cloud_shadow_weight: 3
+ cloud_shadow_weight[0]: 0
+ cloud_shadow_weight[1]: 0
+ cloud_shadow_weight[2]: 0
+ cloud_shadow_texture: 3
+ cloud_shadow_texture[0]: "null"
+ cloud_shadow_texture[1]: "null"
+ cloud_shadow_texture[2]: "null"
+ cloud_shadow_area_size: 3
+ cloud_shadow_area_size[0]: (500, 500)
+ cloud_shadow_area_size[1]: (0, 0)
+ cloud_shadow_area_size[2]: (500, 500)
+ cloud_shadow_speed: 3
+ cloud_shadow_speed[0]: (0, 0)
+ cloud_shadow_speed[1]: (0, 0)
+ cloud_shadow_speed[2]: (0, 0)
+ rain_intensity: 3
+ rain_intensity[0]: 0
+ rain_intensity[1]: 0
+ rain_intensity[2]: 0
+ rain_max_wetness: 3
+ rain_max_wetness[0]: 1
+ rain_max_wetness[1]: 1
+ rain_max_wetness[2]: 1
+ rain_additional_ambient: 3
+ rain_additional_ambient[0]: 5
+ rain_additional_ambient[1]: 5
+ rain_additional_ambient[2]: 5
+# leaves_back_color: 3
+# leaves_back_color[0]: (1, 1, 1)
+# leaves_back_color[1]: (1, 1, 1)
+# leaves_back_color[2]: (1, 1, 1)
+ wind_type: 3
+ wind_type[0]: 1
+ wind_type[1]: 1
+ wind_type[2]: 1
+ dof_start: 3
+ dof_start[0]: 120
+ dof_start[1]: 120
+ dof_start[2]: 120
+ dof_transition: 3
+ dof_transition[0]: 700
+ dof_transition[1]: 700
+ dof_transition[2]: 700
+ dof_filter_size: 3
+ dof_filter_size[0]: 1
+ dof_filter_size[1]: 1
+ dof_filter_size[2]: 1
+ color_balance: 3
+ color_balance[0]: (0, 0, 0)
+ color_balance[1]: (0, 0, 0)
+ color_balance[2]: (0, 0, 0)
+ color_saturation: 3
+ color_saturation[0]: 1
+ color_saturation[1]: 1
+ color_saturation[2]: 1
+ sunshaft_color: 3
+ sunshaft_color[0]: (&3e949495, &3e78f8fa, &3e5cdcde)
+ sunshaft_color[1]: (&3e949495, &3e78f8fa, &3e5cdcde)
+ sunshaft_color[2]: (&3e949495, &3e78f8fa, &3e5cdcde)
+ sunshaft_strength: 3
+ sunshaft_strength[0]: 0
+ sunshaft_strength[1]: 0
+ sunshaft_strength[2]: 0
+ sunshaft_size: 3
+ sunshaft_size[0]: 2
+ sunshaft_size[1]: 2
+ sunshaft_size[2]: 2
+ low_intensity_minimum: 3
+ low_intensity_minimum[0]: 0
+ low_intensity_minimum[1]: 0
+ low_intensity_minimum[2]: 0
+ low_intensity_maximum: 3
+ low_intensity_maximum[0]: 0
+ low_intensity_maximum[1]: 0
+ low_intensity_maximum[2]: 0
+ low_intensity_color: 3
+ low_intensity_color[0]: (1, 1, 1)
+ low_intensity_color[1]: (1, 1, 1)
+ low_intensity_color[2]: (1, 1, 1)
+ target_gray: 3
+ target_gray[0]: &3df5c28f
+ target_gray[1]: &3df5c28f
+ target_gray[2]: &3df5c28f
+ min_scale: 3
+ min_scale[0]: 0
+ min_scale[1]: 0
+ min_scale[2]: 0
+ max_scale: 3
+ max_scale[0]: 100
+ max_scale[1]: 100
+ max_scale[2]: 100
+ target_white: 3
+ target_white[0]: &3f000000
+ target_white[1]: &3f000000
+ target_white[2]: &3f000000
+ eye_adaptation_speed: 3
+ eye_adaptation_speed[0]: &3f333333
+ eye_adaptation_speed[1]: &3f333333
+ eye_adaptation_speed[2]: &3f333333
+ bloom_minimal_color: 3
+ bloom_minimal_color[0]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_minimal_color[1]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_minimal_color[2]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_half_intensity_color: 3
+ bloom_half_intensity_color[0]: (1, 1, 1)
+ bloom_half_intensity_color[1]: (1, 1, 1)
+ bloom_half_intensity_color[2]: (1, 1, 1)
+ bloom_resizing_steps: 3
+ bloom_resizing_steps[0]: 3
+ bloom_resizing_steps[1]: 3
+ bloom_resizing_steps[2]: 3
+ bloom_filter_radius: 3
+ bloom_filter_radius[0]: 6
+ bloom_filter_radius[1]: 6
+ bloom_filter_radius[2]: 6
+ bloom_standard_deviation: 3
+ bloom_standard_deviation[0]: &3f000000
+ bloom_standard_deviation[1]: &3f000000
+ bloom_standard_deviation[2]: &3f000000
+ scene_multiplier: 3
+ scene_multiplier[0]: (1, 1, 1)
+ scene_multiplier[1]: (1, 1, 1)
+ scene_multiplier[2]: (1, 1, 1)
+ bloom_multiplier: 3
+ bloom_multiplier[0]: (1, 1, 1)
+ bloom_multiplier[1]: (1, 1, 1)
+ bloom_multiplier[2]: (1, 1, 1)
+ weight: 3
+ weight[0]: 1
+ weight[1]: 1
+ weight[2]: 1
+}
+
+sun_profile : metro.nice.03 {
+ low_elevation: -5
+ high_elevation: -5
+ sun_direction: 1
+ temperature: 3
+ temperature[0]: 25
+ temperature[1]: 24
+ temperature[2]: 27
+ skybox_texture: 3
+ skybox_texture[0]: "/model/skybox/nice0/nice0_5-5_g.tobj"
+ skybox_texture[1]: "/model/skybox/nice1/nice1_5-5_g.tobj"
+ skybox_texture[2]: "/model/skybox/nice0/nice0_5-5_g.tobj"
+ skycloud_texture: 3
+ skycloud_texture[0]: "/model/skybox/nice0/nice0_5-5_c.tobj"
+ skycloud_texture[1]: "/model/skybox/nice1/nice1_5-5_c.tobj"
+ skycloud_texture[2]: "/model/skybox/nice0/nice0_5-5_c.tobj"
+ skycloud_part: 3
+ skycloud_part[0]: day
+ skycloud_part[1]: day
+ skycloud_part[2]: day
+ ambient: 3
+ ambient[0]: (&3f068687, &3f45c5c7, &3f5ddddf)
+ ambient[1]: (&3f068687, &3f45c5c7, &3f5ddddf)
+ ambient[2]: (&3f068687, &3f45c5c7, &3f5ddddf)
+ ambient_hdr_coef: 3
+ ambient_hdr_coef[0]: &3c23d70a
+ ambient_hdr_coef[1]: &3c23d70a
+ ambient_hdr_coef[2]: &3c23d70a
+ diffuse: 3
+ diffuse[0]: (&3f5adadc, &3f30b0b1, &3ef0f0f2)
+ diffuse[1]: (&3f5adadc, &3f30b0b1, &3ef0f0f2)
+ diffuse[2]: (&3f5adadc, &3f30b0b1, &3ef0f0f2)
+ diffuse_hdr_coef: 3
+ diffuse_hdr_coef[0]: &3dcccccd
+ diffuse_hdr_coef[1]: &3dcccccd
+ diffuse_hdr_coef[2]: &3dcccccd
+ specular: 3
+ specular[0]: (1, 1, 1)
+ specular[1]: (1, 1, 1)
+ specular[2]: (1, 1, 1)
+ specular_hdr_coef: 3
+ specular_hdr_coef[0]: &3e4ccccd
+ specular_hdr_coef[1]: &3e4ccccd
+ specular_hdr_coef[2]: &3e4ccccd
+ env: 3
+ env[0]: 1
+ env[1]: 1
+ env[2]: 1
+ env_static_mod: 3
+ env_static_mod[0]: &3dcccccd
+ env_static_mod[1]: &3dcccccd
+ env_static_mod[2]: &3dcccccd
+ sky_color: 3
+ sky_color[0]: (1, 1, 1)
+ sky_color[1]: (1, 1, 1)
+ sky_color[2]: (1, 1, 1)
+ sky_color_hdr_coef: 3
+ sky_color_hdr_coef[0]: 1
+ sky_color_hdr_coef[1]: 1
+ sky_color_hdr_coef[2]: 1
+ sun_color: 3
+ sun_color[0]: (&3db0b0b1, &3d989899, &3d20a0a1)
+ sun_color[1]: (&3db0b0b1, &3d989899, &3d20a0a1)
+ sun_color[2]: (&3db0b0b1, &3d989899, &3d20a0a1)
+ sun_color_hdr_coef: 3
+ sun_color_hdr_coef[0]: 1
+ sun_color_hdr_coef[1]: 1
+ sun_color_hdr_coef[2]: 1
+ sun_shadow_strength: 3
+ sun_shadow_strength[0]: 1
+ sun_shadow_strength[1]: 1
+ sun_shadow_strength[2]: 1
+ fog_color: 3
+ fog_color[0]: (&3b808081, &3c808081, &3d008081)
+ fog_color[1]: (&3b808081, &3ca0a0a1, &3d109091)
+ fog_color[2]: (&3b808081, &3c808081, &3d008081)
+ fog_color2: 3
+ fog_color2[0]: (&3b808081, &3c808081, &3d008081)
+ fog_color2[1]: (&3b808081, &3ca0a0a1, &3d109091)
+ fog_color2[2]: (&3b808081, &3c808081, &3d008081)
+ fog_vgradient: 3
+ fog_vgradient[0]: &3ba3d70a
+ fog_vgradient[1]: &3ba3d70a
+ fog_vgradient[2]: &3ba3d70a
+ fog_offset: 3
+ fog_offset[0]: 180
+ fog_offset[1]: 120
+ fog_offset[2]: 180
+ fog_density: 3
+ fog_density[0]: &3ad1b717
+ fog_density[1]: &3b03126f
+ fog_density[2]: &3ad1b717
+ fog_speed: 3
+ fog_speed[0]: &3f000000
+ fog_speed[1]: &3f000000
+ fog_speed[2]: &3f000000
+ transition_fog_speed: 3
+ transition_fog_speed[0]: 3
+ transition_fog_speed[1]: 3
+ transition_fog_speed[2]: 3
+ speed_coef: 3
+ speed_coef[0]: &3e75c2a2
+ speed_coef[1]: &3e75c2a2
+ speed_coef[2]: &3e75c2a2
+ cloud_shadow_weight: 3
+ cloud_shadow_weight[0]: 1
+ cloud_shadow_weight[1]: 0
+ cloud_shadow_weight[2]: 1
+ cloud_shadow_texture: 3
+ cloud_shadow_texture[0]: "null"
+ cloud_shadow_texture[1]: "null"
+ cloud_shadow_texture[2]: "null"
+ cloud_shadow_area_size: 3
+ cloud_shadow_area_size[0]: (1000, 1000)
+ cloud_shadow_area_size[1]: (0, 0)
+ cloud_shadow_area_size[2]: (1000, 1000)
+ cloud_shadow_speed: 3
+ cloud_shadow_speed[0]: (50, 50)
+ cloud_shadow_speed[1]: (0, 0)
+ cloud_shadow_speed[2]: (50, 50)
+ rain_intensity: 3
+ rain_intensity[0]: 0
+ rain_intensity[1]: 0
+ rain_intensity[2]: 0
+ rain_max_wetness: 3
+ rain_max_wetness[0]: 1
+ rain_max_wetness[1]: 1
+ rain_max_wetness[2]: 1
+ rain_additional_ambient: 3
+ rain_additional_ambient[0]: 5
+ rain_additional_ambient[1]: 5
+ rain_additional_ambient[2]: 5
+# leaves_back_color: 3
+# leaves_back_color[0]: (1, 1, 1)
+# leaves_back_color[1]: (1, 1, 1)
+# leaves_back_color[2]: (1, 1, 1)
+ wind_type: 3
+ wind_type[0]: 1
+ wind_type[1]: 1
+ wind_type[2]: 1
+ dof_start: 3
+ dof_start[0]: 120
+ dof_start[1]: 120
+ dof_start[2]: 120
+ dof_transition: 3
+ dof_transition[0]: 700
+ dof_transition[1]: 700
+ dof_transition[2]: 700
+ dof_filter_size: 3
+ dof_filter_size[0]: 1
+ dof_filter_size[1]: 1
+ dof_filter_size[2]: 1
+ color_balance: 3
+ color_balance[0]: (0, 0, 0)
+ color_balance[1]: (0, 0, 0)
+ color_balance[2]: (0, 0, 0)
+ color_saturation: 3
+ color_saturation[0]: 1
+ color_saturation[1]: 1
+ color_saturation[2]: 1
+ sunshaft_color: 3
+ sunshaft_color[0]: (&3ec6c6c8, &3e48c8ca, &3de8e8ea)
+ sunshaft_color[1]: (&3ec6c6c8, &3e48c8ca, &3de8e8ea)
+ sunshaft_color[2]: (&3ec6c6c8, &3e48c8ca, &3de8e8ea)
+ sunshaft_strength: 3
+ sunshaft_strength[0]: 0
+ sunshaft_strength[1]: 0
+ sunshaft_strength[2]: 0
+ sunshaft_size: 3
+ sunshaft_size[0]: 0
+ sunshaft_size[1]: 0
+ sunshaft_size[2]: 0
+ low_intensity_minimum: 3
+ low_intensity_minimum[0]: 0
+ low_intensity_minimum[1]: 0
+ low_intensity_minimum[2]: 0
+ low_intensity_maximum: 3
+ low_intensity_maximum[0]: 0
+ low_intensity_maximum[1]: 0
+ low_intensity_maximum[2]: 0
+ low_intensity_color: 3
+ low_intensity_color[0]: (1, 1, 1)
+ low_intensity_color[1]: (1, 1, 1)
+ low_intensity_color[2]: (1, 1, 1)
+ target_gray: 3
+ target_gray[0]: &3df5c28f
+ target_gray[1]: &3df5c28f
+ target_gray[2]: &3df5c28f
+ min_scale: 3
+ min_scale[0]: 0
+ min_scale[1]: 0
+ min_scale[2]: 0
+ max_scale: 3
+ max_scale[0]: 100
+ max_scale[1]: 100
+ max_scale[2]: 100
+ target_white: 3
+ target_white[0]: &3f000000
+ target_white[1]: &3f000000
+ target_white[2]: &3f000000
+ eye_adaptation_speed: 3
+ eye_adaptation_speed[0]: &3f333333
+ eye_adaptation_speed[1]: &3f333333
+ eye_adaptation_speed[2]: &3f333333
+ bloom_minimal_color: 3
+ bloom_minimal_color[0]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_minimal_color[1]: (&3ecccccd, &3ecccccd, &3ecccccd)
+ bloom_minimal_color[2]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_half_intensity_color: 3
+ bloom_half_intensity_color[0]: (1, 1, 1)
+ bloom_half_intensity_color[1]: (1, 1, 1)
+ bloom_half_intensity_color[2]: (1, 1, 1)
+ bloom_resizing_steps: 3
+ bloom_resizing_steps[0]: 3
+ bloom_resizing_steps[1]: 3
+ bloom_resizing_steps[2]: 3
+ bloom_filter_radius: 3
+ bloom_filter_radius[0]: 6
+ bloom_filter_radius[1]: 6
+ bloom_filter_radius[2]: 6
+ bloom_standard_deviation: 3
+ bloom_standard_deviation[0]: &3f000000
+ bloom_standard_deviation[1]: &3f000000
+ bloom_standard_deviation[2]: &3f000000
+ scene_multiplier: 3
+ scene_multiplier[0]: (1, 1, 1)
+ scene_multiplier[1]: (1, 1, 1)
+ scene_multiplier[2]: (1, 1, 1)
+ bloom_multiplier: 3
+ bloom_multiplier[0]: (1, 1, 1)
+ bloom_multiplier[1]: (1, 1, 1)
+ bloom_multiplier[2]: (1, 1, 1)
+ weight: 3
+ weight[0]: 1
+ weight[1]: 1
+ weight[2]: 1
+}
+
+sun_profile : metro.nice.04 {
+ low_elevation: 0
+ high_elevation: 10
+ sun_direction: 1
+ temperature: 3
+ temperature[0]: 25
+ temperature[1]: 26
+ temperature[2]: 28
+ skybox_texture: 3
+ skybox_texture[0]: "/model/skybox/nice0/nice0_6-7_g.tobj"
+ skybox_texture[1]: "/model/skybox/nice1/nice1_6-7_g.tobj"
+ skybox_texture[2]: "/model/skybox/nice0/nice0_6-7_g.tobj"
+ skycloud_texture: 3
+ skycloud_texture[0]: "/model/skybox/nice0/nice0_6-7_c.tobj"
+ skycloud_texture[1]: "/model/skybox/nice1/nice1_6-7_c.tobj"
+ skycloud_texture[2]: "/model/skybox/nice0/nice0_6-7_c.tobj"
+ skycloud_part: 3
+ skycloud_part[0]: night
+ skycloud_part[1]: night
+ skycloud_part[2]: night
+ ambient: 3
+ ambient[0]: (&3ee0e0e2, &3f2fafb0, &3f7dfdff)
+ ambient[1]: (&3f068687, &3f45c5c7, &3f5ddddf)
+ ambient[2]: (&3ee0e0e2, &3f2fafb0, &3f7dfdff)
+ ambient_hdr_coef: 3
+ ambient_hdr_coef[0]: &3c9374bc
+ ambient_hdr_coef[1]: &3c9374bc
+ ambient_hdr_coef[2]: &3c9374bc
+ diffuse: 3
+ diffuse[0]: (&3f6feff1, &3f33b3b4, &3ed6d6d8)
+ diffuse[1]: (&3f5adadc, &3f30b0b1, &3ef0f0f2)
+ diffuse[2]: (&3f6feff1, &3f33b3b4, &3ed6d6d8)
+ diffuse_hdr_coef: 3
+ diffuse_hdr_coef[0]: &3e4ccccd
+ diffuse_hdr_coef[1]: &3e4ccccd
+ diffuse_hdr_coef[2]: &3e4ccccd
+ specular: 3
+ specular[0]: (1, 1, 1)
+ specular[1]: (1, 1, 1)
+ specular[2]: (1, 1, 1)
+ specular_hdr_coef: 3
+ specular_hdr_coef[0]: &3e4ccccd
+ specular_hdr_coef[1]: &3e4ccccd
+ specular_hdr_coef[2]: &3e4ccccd
+ env: 3
+ env[0]: 1
+ env[1]: 1
+ env[2]: 1
+ env_static_mod: 3
+ env_static_mod[0]: &3dcccccd
+ env_static_mod[1]: &3dcccccd
+ env_static_mod[2]: &3dcccccd
+ sky_color: 3
+ sky_color[0]: (1, 1, 1)
+ sky_color[1]: (1, 1, 1)
+ sky_color[2]: (1, 1, 1)
+ sky_color_hdr_coef: 3
+ sky_color_hdr_coef[0]: 1
+ sky_color_hdr_coef[1]: 1
+ sky_color_hdr_coef[2]: 1
+ sun_color: 3
+ sun_color[0]: (&3f69e9eb, &3f56d6d8, &3f0e8e8f)
+ sun_color[1]: (&3f69e9eb, &3f56d6d8, &3f0e8e8f)
+ sun_color[2]: (&3f69e9eb, &3f56d6d8, &3f0e8e8f)
+ sun_color_hdr_coef: 3
+ sun_color_hdr_coef[0]: 1
+ sun_color_hdr_coef[1]: 1
+ sun_color_hdr_coef[2]: 1
+ sun_shadow_strength: 3
+ sun_shadow_strength[0]: 1
+ sun_shadow_strength[1]: 1
+ sun_shadow_strength[2]: 1
+ fog_color: 3
+ fog_color[0]: (&3c808081, &3d20a0a1, &3d808081)
+ fog_color[1]: (&3c40c0c2, &3d20a0a1, &3d888889)
+ fog_color[2]: (&3c808081, &3d20a0a1, &3d808081)
+ fog_color2: 3
+ fog_color2[0]: (&3c808081, &3d20a0a1, &3d808081)
+ fog_color2[1]: (&3c40c0c2, &3d20a0a1, &3d888889)
+ fog_color2[2]: (&3c808081, &3d20a0a1, &3d808081)
+ fog_vgradient: 3
+ fog_vgradient[0]: &3ba3d70a
+ fog_vgradient[1]: &3ba3d70a
+ fog_vgradient[2]: &3ba3d70a
+ fog_offset: 3
+ fog_offset[0]: 180
+ fog_offset[1]: 120
+ fog_offset[2]: 180
+ fog_density: 3
+ fog_density[0]: &3ad1b717
+ fog_density[1]: &3b03126f
+ fog_density[2]: &3ad1b717
+ fog_speed: 3
+ fog_speed[0]: &3f000000
+ fog_speed[1]: &3f000000
+ fog_speed[2]: &3f000000
+ transition_fog_speed: 3
+ transition_fog_speed[0]: 5
+ transition_fog_speed[1]: 5
+ transition_fog_speed[2]: 5
+ speed_coef: 3
+ speed_coef[0]: &3e75c2a2
+ speed_coef[1]: &3e75c2a2
+ speed_coef[2]: &3e75c2a2
+ cloud_shadow_weight: 3
+ cloud_shadow_weight[0]: &3e99999a
+ cloud_shadow_weight[1]: &3e99999a
+ cloud_shadow_weight[2]: 0
+ cloud_shadow_texture: 3
+ cloud_shadow_texture[0]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_texture[1]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_texture[2]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_area_size: 3
+ cloud_shadow_area_size[0]: (1000, 1000)
+ cloud_shadow_area_size[1]: (1000, 1000)
+ cloud_shadow_area_size[2]: (1000, 1000)
+ cloud_shadow_speed: 3
+ cloud_shadow_speed[0]: (5, 5)
+ cloud_shadow_speed[1]: (5, 5)
+ cloud_shadow_speed[2]: (5, 5)
+ rain_intensity: 3
+ rain_intensity[0]: 0
+ rain_intensity[1]: 0
+ rain_intensity[2]: 0
+ rain_max_wetness: 3
+ rain_max_wetness[0]: 1
+ rain_max_wetness[1]: 1
+ rain_max_wetness[2]: 1
+ rain_additional_ambient: 3
+ rain_additional_ambient[0]: 5
+ rain_additional_ambient[1]: 5
+ rain_additional_ambient[2]: 5
+# leaves_back_color: 3
+# leaves_back_color[0]: (1, 1, 1)
+# leaves_back_color[1]: (1, 1, 1)
+# leaves_back_color[2]: (1, 1, 1)
+ wind_type: 3
+ wind_type[0]: 1
+ wind_type[1]: 1
+ wind_type[2]: 1
+ dof_start: 3
+ dof_start[0]: 120
+ dof_start[1]: 120
+ dof_start[2]: 120
+ dof_transition: 3
+ dof_transition[0]: 700
+ dof_transition[1]: 700
+ dof_transition[2]: 700
+ dof_filter_size: 3
+ dof_filter_size[0]: 1
+ dof_filter_size[1]: 1
+ dof_filter_size[2]: 1
+ color_balance: 3
+ color_balance[0]: (0, 0, 0)
+ color_balance[1]: (0, 0, 0)
+ color_balance[2]: (0, 0, 0)
+ color_saturation: 3
+ color_saturation[0]: 1
+ color_saturation[1]: 1
+ color_saturation[2]: 1
+ sunshaft_color: 3
+ sunshaft_color[0]: (1, &3f0e8e8f, &3e909091)
+ sunshaft_color[1]: (1, &3f0e8e8f, &3e909091)
+ sunshaft_color[2]: (1, &3f0e8e8f, &3e909091)
+ sunshaft_strength: 3
+ sunshaft_strength[0]: &3f000000
+ sunshaft_strength[1]: &3f000000
+ sunshaft_strength[2]: &3f000000
+ sunshaft_size: 3
+ sunshaft_size[0]: &3fc00000
+ sunshaft_size[1]: &3fc00000
+ sunshaft_size[2]: &3fc00000
+ low_intensity_minimum: 3
+ low_intensity_minimum[0]: 0
+ low_intensity_minimum[1]: 0
+ low_intensity_minimum[2]: 0
+ low_intensity_maximum: 3
+ low_intensity_maximum[0]: 0
+ low_intensity_maximum[1]: 0
+ low_intensity_maximum[2]: 0
+ low_intensity_color: 3
+ low_intensity_color[0]: (1, 1, 1)
+ low_intensity_color[1]: (1, 1, 1)
+ low_intensity_color[2]: (1, 1, 1)
+ target_gray: 3
+ target_gray[0]: &3df5c28f
+ target_gray[1]: &3df5c28f
+ target_gray[2]: &3df5c28f
+ min_scale: 3
+ min_scale[0]: 0
+ min_scale[1]: 0
+ min_scale[2]: 0
+ max_scale: 3
+ max_scale[0]: 100
+ max_scale[1]: 100
+ max_scale[2]: 100
+ target_white: 3
+ target_white[0]: &3f000000
+ target_white[1]: &3f000000
+ target_white[2]: &3f000000
+ eye_adaptation_speed: 3
+ eye_adaptation_speed[0]: &3f333333
+ eye_adaptation_speed[1]: &3f333333
+ eye_adaptation_speed[2]: &3f333333
+ bloom_minimal_color: 3
+ bloom_minimal_color[0]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_minimal_color[1]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_minimal_color[2]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_half_intensity_color: 3
+ bloom_half_intensity_color[0]: (1, 1, 1)
+ bloom_half_intensity_color[1]: (1, 1, 1)
+ bloom_half_intensity_color[2]: (1, 1, 1)
+ bloom_resizing_steps: 3
+ bloom_resizing_steps[0]: 3
+ bloom_resizing_steps[1]: 3
+ bloom_resizing_steps[2]: 3
+ bloom_filter_radius: 3
+ bloom_filter_radius[0]: 6
+ bloom_filter_radius[1]: 6
+ bloom_filter_radius[2]: 6
+ bloom_standard_deviation: 3
+ bloom_standard_deviation[0]: &3f000000
+ bloom_standard_deviation[1]: &3f000000
+ bloom_standard_deviation[2]: &3f000000
+ scene_multiplier: 3
+ scene_multiplier[0]: (1, 1, 1)
+ scene_multiplier[1]: (1, 1, 1)
+ scene_multiplier[2]: (1, 1, 1)
+ bloom_multiplier: 3
+ bloom_multiplier[0]: (1, 1, 1)
+ bloom_multiplier[1]: (1, 1, 1)
+ bloom_multiplier[2]: (1, 1, 1)
+ weight: 3
+ weight[0]: 1
+ weight[1]: 1
+ weight[2]: 1
+}
+
+sun_profile : metro.nice.05a {
+ low_elevation: 15
+ high_elevation: 25
+ sun_direction: 1
+ temperature: 3
+ temperature[0]: 30
+ temperature[1]: 30
+ temperature[2]: 30
+ skybox_texture: 3
+ skybox_texture[0]: "/model/skybox/nice0/nice0_8-10_g.tobj"
+ skybox_texture[1]: "/model/skybox/nice1/nice1_8-10_g.tobj"
+ skybox_texture[2]: "/model/skybox/nice0/nice0_8-10_g.tobj"
+ skycloud_texture: 3
+ skycloud_texture[0]: "/model/skybox/nice0/nice0_8-10_c.tobj"
+ skycloud_texture[1]: "/model/skybox/nice1/nice1_8-10_c.tobj"
+ skycloud_texture[2]: "/model/skybox/nice0/nice0_8-10_c.tobj"
+ skycloud_part: 3
+ skycloud_part[0]: day
+ skycloud_part[1]: day
+ skycloud_part[2]: day
+ ambient: 3
+ ambient[0]: (&3f068687, &3f45c5c7, &3f5ddddf)
+ ambient[1]: (&3f068687, &3f45c5c7, &3f5ddddf)
+ ambient[2]: (&3f068687, &3f45c5c7, &3f5ddddf)
+ ambient_hdr_coef: 3
+ ambient_hdr_coef[0]: &3dcccccd
+ ambient_hdr_coef[1]: &3dcccccd
+ ambient_hdr_coef[2]: &3dcccccd
+ diffuse: 3
+ diffuse[0]: (&3f67e7e9, &3f2fafb0, &3ededee0)
+ diffuse[1]: (&3f50d0d2, &3f2babac, &3f008081)
+ diffuse[2]: (&3f67e7e9, &3f2fafb0, &3ededee0)
+ diffuse_hdr_coef: 3
+ diffuse_hdr_coef[0]: &3f4ccccd
+ diffuse_hdr_coef[1]: &3f4ccccd
+ diffuse_hdr_coef[2]: &3f4ccccd
+ specular: 3
+ specular[0]: (1, 1, 1)
+ specular[1]: (1, 1, 1)
+ specular[2]: (1, 1, 1)
+ specular_hdr_coef: 3
+ specular_hdr_coef[0]: 1
+ specular_hdr_coef[1]: 1
+ specular_hdr_coef[2]: 1
+ env: 3
+ env[0]: 1
+ env[1]: 1
+ env[2]: 1
+ env_static_mod: 3
+ env_static_mod[0]: &3e99999a
+ env_static_mod[1]: &3e99999a
+ env_static_mod[2]: &3e99999a
+ sky_color: 3
+ sky_color[0]: (1, 1, 1)
+ sky_color[1]: (1, 1, 1)
+ sky_color[2]: (1, 1, 1)
+ sky_color_hdr_coef: 3
+ sky_color_hdr_coef[0]: 1
+ sky_color_hdr_coef[1]: 1
+ sky_color_hdr_coef[2]: 1
+ sun_color: 3
+ sun_color[0]: (&3f69e9eb, &3f56d6d8, &3f0e8e8f)
+ sun_color[1]: (&3f69e9eb, &3f56d6d8, &3f0e8e8f)
+ sun_color[2]: (&3f69e9eb, &3f56d6d8, &3f0e8e8f)
+ sun_color_hdr_coef: 3
+ sun_color_hdr_coef[0]: &3fcccccd
+ sun_color_hdr_coef[1]: &3fa66666
+ sun_color_hdr_coef[2]: &3fcccccd
+ sun_shadow_strength: 3
+ sun_shadow_strength[0]: 1
+ sun_shadow_strength[1]: 1
+ sun_shadow_strength[2]: 1
+ fog_color: 3
+ fog_color[0]: (&3dc8c8ca, &3e44c4c6, &3e78f8fa)
+ fog_color[1]: (&3d109091, &3d909091, &3df0f0f2)
+ fog_color[2]: (&3dc8c8ca, &3e44c4c6, &3e78f8fa)
+ fog_color2: 3
+ fog_color2[0]: (&3e149495, &3e909091, &3eaaaaab)
+ fog_color2[1]: (&3d60e0e2, &3db8b8b9, &3e008081)
+ fog_color2[2]: (&3e149495, &3e909091, &3eaaaaab)
+ fog_vgradient: 3
+ fog_vgradient[0]: &3ba3d70a
+ fog_vgradient[1]: &3ba3d70a
+ fog_vgradient[2]: &3ba3d70a
+ fog_offset: 3
+ fog_offset[0]: 250
+ fog_offset[1]: 150
+ fog_offset[2]: 250
+ fog_density: 3
+ fog_density[0]: &3aaa64c3
+ fog_density[1]: &3b03126f
+ fog_density[2]: &3aaa64c3
+ fog_speed: 3
+ fog_speed[0]: &3f000000
+ fog_speed[1]: &3f000000
+ fog_speed[2]: &3f000000
+ transition_fog_speed: 3
+ transition_fog_speed[0]: 5
+ transition_fog_speed[1]: 5
+ transition_fog_speed[2]: 5
+ speed_coef: 3
+ speed_coef[0]: &3e75c2a2
+ speed_coef[1]: &3e75c2a2
+ speed_coef[2]: &3e75c2a2
+ cloud_shadow_weight: 3
+ cloud_shadow_weight[0]: &3f333333
+ cloud_shadow_weight[1]: &3f333333
+ cloud_shadow_weight[2]: &3f333333
+ cloud_shadow_texture: 3
+ cloud_shadow_texture[0]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_texture[1]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_texture[2]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_area_size: 3
+ cloud_shadow_area_size[0]: (1000, 1000)
+ cloud_shadow_area_size[1]: (1000, 1000)
+ cloud_shadow_area_size[2]: (1000, 1000)
+ cloud_shadow_speed: 3
+ cloud_shadow_speed[0]: (5, 5)
+ cloud_shadow_speed[1]: (5, 5)
+ cloud_shadow_speed[2]: (5, 5)
+ rain_intensity: 3
+ rain_intensity[0]: 0
+ rain_intensity[1]: 0
+ rain_intensity[2]: 0
+ rain_max_wetness: 3
+ rain_max_wetness[0]: 1
+ rain_max_wetness[1]: 1
+ rain_max_wetness[2]: 1
+ rain_additional_ambient: 3
+ rain_additional_ambient[0]: 5
+ rain_additional_ambient[1]: 5
+ rain_additional_ambient[2]: 5
+# leaves_back_color: 3
+# leaves_back_color[0]: (1, 1, 1)
+# leaves_back_color[1]: (1, 1, 1)
+# leaves_back_color[2]: (1, 1, 1)
+ wind_type: 3
+ wind_type[0]: 1
+ wind_type[1]: 1
+ wind_type[2]: 1
+ dof_start: 3
+ dof_start[0]: 120
+ dof_start[1]: 120
+ dof_start[2]: 120
+ dof_transition: 3
+ dof_transition[0]: 700
+ dof_transition[1]: 700
+ dof_transition[2]: 700
+ dof_filter_size: 3
+ dof_filter_size[0]: 1
+ dof_filter_size[1]: 1
+ dof_filter_size[2]: 1
+ color_balance: 3
+ color_balance[0]: (0, 0, 0)
+ color_balance[1]: (0, 0, 0)
+ color_balance[2]: (0, 0, 0)
+ color_saturation: 3
+ color_saturation[0]: 1
+ color_saturation[1]: 1
+ color_saturation[2]: 1
+ sunshaft_color: 3
+ sunshaft_color[0]: (&3f62e2e4, &3f23a3a4, &3e6cecee)
+ sunshaft_color[1]: (&3f62e2e4, &3f23a3a4, &3e6cecee)
+ sunshaft_color[2]: (&3f62e2e4, &3f23a3a4, &3e6cecee)
+ sunshaft_strength: 3
+ sunshaft_strength[0]: &3f333333
+ sunshaft_strength[1]: &3f000000
+ sunshaft_strength[2]: &3f333333
+ sunshaft_size: 3
+ sunshaft_size[0]: 2
+ sunshaft_size[1]: 2
+ sunshaft_size[2]: 2
+ low_intensity_minimum: 3
+ low_intensity_minimum[0]: 0
+ low_intensity_minimum[1]: 0
+ low_intensity_minimum[2]: 0
+ low_intensity_maximum: 3
+ low_intensity_maximum[0]: 0
+ low_intensity_maximum[1]: 0
+ low_intensity_maximum[2]: 0
+ low_intensity_color: 3
+ low_intensity_color[0]: (1, 1, 1)
+ low_intensity_color[1]: (1, 1, 1)
+ low_intensity_color[2]: (1, 1, 1)
+ target_gray: 3
+ target_gray[0]: &3e19999a
+ target_gray[1]: &3e19999a
+ target_gray[2]: &3e19999a
+ min_scale: 3
+ min_scale[0]: 0
+ min_scale[1]: 0
+ min_scale[2]: 0
+ max_scale: 3
+ max_scale[0]: 100
+ max_scale[1]: 100
+ max_scale[2]: 100
+ target_white: 3
+ target_white[0]: &3f000000
+ target_white[1]: &3f000000
+ target_white[2]: &3f000000
+ eye_adaptation_speed: 3
+ eye_adaptation_speed[0]: &3f333333
+ eye_adaptation_speed[1]: &3f333333
+ eye_adaptation_speed[2]: &3f333333
+ bloom_minimal_color: 3
+ bloom_minimal_color[0]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_minimal_color[1]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_minimal_color[2]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_half_intensity_color: 3
+ bloom_half_intensity_color[0]: (1, 1, 1)
+ bloom_half_intensity_color[1]: (1, 1, 1)
+ bloom_half_intensity_color[2]: (1, 1, 1)
+ bloom_resizing_steps: 3
+ bloom_resizing_steps[0]: 3
+ bloom_resizing_steps[1]: 3
+ bloom_resizing_steps[2]: 3
+ bloom_filter_radius: 3
+ bloom_filter_radius[0]: 6
+ bloom_filter_radius[1]: 6
+ bloom_filter_radius[2]: 6
+ bloom_standard_deviation: 3
+ bloom_standard_deviation[0]: &3f000000
+ bloom_standard_deviation[1]: &3f000000
+ bloom_standard_deviation[2]: &3f000000
+ scene_multiplier: 3
+ scene_multiplier[0]: (1, 1, 1)
+ scene_multiplier[1]: (1, 1, 1)
+ scene_multiplier[2]: (1, 1, 1)
+ bloom_multiplier: 3
+ bloom_multiplier[0]: (1, 1, 1)
+ bloom_multiplier[1]: (1, 1, 1)
+ bloom_multiplier[2]: (1, 1, 1)
+ weight: 3
+ weight[0]: 1
+ weight[1]: 1
+ weight[2]: 1
+}
+
+sun_profile : metro.nice.05b {
+ low_elevation: 30
+ high_elevation: 35
+ sun_direction: 1
+ temperature: 3
+ temperature[0]: 30
+ temperature[1]: 31
+ temperature[2]: 30
+ skybox_texture: 3
+ skybox_texture[0]: "/model/skybox/nice0/nice0_8-10_g.tobj"
+ skybox_texture[1]: "/model/skybox/nice1/nice1_8-10_g.tobj"
+ skybox_texture[2]: "/model/skybox/nice0/nice0_8-10_g.tobj"
+ skycloud_texture: 3
+ skycloud_texture[0]: "/model/skybox/nice0/nice0_8-10_c.tobj"
+ skycloud_texture[1]: "/model/skybox/nice1/nice1_8-10_c.tobj"
+ skycloud_texture[2]: "/model/skybox/nice0/nice0_8-10_c.tobj"
+ skycloud_part: 3
+ skycloud_part[0]: day
+ skycloud_part[1]: day
+ skycloud_part[2]: day
+ ambient: 3
+ ambient[0]: (&3f068687, &3f45c5c7, &3f5ddddf)
+ ambient[1]: (&3f068687, &3f45c5c7, &3f5ddddf)
+ ambient[2]: (&3f068687, &3f45c5c7, &3f5ddddf)
+ ambient_hdr_coef: 3
+ ambient_hdr_coef[0]: &3e19999a
+ ambient_hdr_coef[1]: &3e19999a
+ ambient_hdr_coef[2]: &3e19999a
+ diffuse: 3
+ diffuse[0]: (&3f67e7e9, &3f2fafb0, &3ededee0)
+ diffuse[1]: (&3f50d0d2, &3f2babac, &3f008081)
+ diffuse[2]: (&3f67e7e9, &3f2fafb0, &3ededee0)
+ diffuse_hdr_coef: 3
+ diffuse_hdr_coef[0]: &3f8ccccd
+ diffuse_hdr_coef[1]: &3f8ccccd
+ diffuse_hdr_coef[2]: &3f59999a
+ specular: 3
+ specular[0]: (1, 1, 1)
+ specular[1]: (1, 1, 1)
+ specular[2]: (1, 1, 1)
+ specular_hdr_coef: 3
+ specular_hdr_coef[0]: 1
+ specular_hdr_coef[1]: 1
+ specular_hdr_coef[2]: 1
+ env: 3
+ env[0]: 1
+ env[1]: 1
+ env[2]: 1
+ env_static_mod: 3
+ env_static_mod[0]: &3e99999a
+ env_static_mod[1]: &3e99999a
+ env_static_mod[2]: &3e99999a
+ sky_color: 3
+ sky_color[0]: (1, 1, 1)
+ sky_color[1]: (1, 1, 1)
+ sky_color[2]: (1, 1, 1)
+ sky_color_hdr_coef: 3
+ sky_color_hdr_coef[0]: 1
+ sky_color_hdr_coef[1]: 1
+ sky_color_hdr_coef[2]: 1
+ sun_color: 3
+ sun_color[0]: (&3f69e9eb, &3f56d6d8, &3f0e8e8f)
+ sun_color[1]: (&3f69e9eb, &3f56d6d8, &3f0e8e8f)
+ sun_color[2]: (&3f69e9eb, &3f56d6d8, &3f0e8e8f)
+ sun_color_hdr_coef: 3
+ sun_color_hdr_coef[0]: 1
+ sun_color_hdr_coef[1]: 1
+ sun_color_hdr_coef[2]: 1
+ sun_shadow_strength: 3
+ sun_shadow_strength[0]: &3f666666
+ sun_shadow_strength[1]: &3f666666
+ sun_shadow_strength[2]: &3f666666
+ fog_color: 3
+ fog_color[0]: (&3dc8c8ca, &3e44c4c6, &3e78f8fa)
+ fog_color[1]: (&3d008081, &3d888889, &3e048485)
+ fog_color[2]: (&3dc8c8ca, &3e44c4c6, &3e78f8fa)
+ fog_color2: 3
+ fog_color2[0]: (&3e149495, &3e909091, &3eaaaaab)
+ fog_color2[1]: (&3d60e0e2, &3dc8c8ca, &3e088889)
+ fog_color2[2]: (&3e149495, &3e909091, &3eaaaaab)
+ fog_vgradient: 3
+ fog_vgradient[0]: &3ba3d70a
+ fog_vgradient[1]: &3ba3d70a
+ fog_vgradient[2]: &3ba3d70a
+ fog_offset: 3
+ fog_offset[0]: 250
+ fog_offset[1]: 150
+ fog_offset[2]: 250
+ fog_density: 3
+ fog_density[0]: &3aaa64c3
+ fog_density[1]: &3b03126f
+ fog_density[2]: &3aaa64c3
+ fog_speed: 3
+ fog_speed[0]: &3f000000
+ fog_speed[1]: &3f000000
+ fog_speed[2]: &3f000000
+ transition_fog_speed: 3
+ transition_fog_speed[0]: 5
+ transition_fog_speed[1]: 5
+ transition_fog_speed[2]: 5
+ speed_coef: 3
+ speed_coef[0]: &3e75c2a2
+ speed_coef[1]: &3e75c2a2
+ speed_coef[2]: &3e75c2a2
+ cloud_shadow_weight: 3
+ cloud_shadow_weight[0]: &3f333333
+ cloud_shadow_weight[1]: &3f333333
+ cloud_shadow_weight[2]: &3f333333
+ cloud_shadow_texture: 3
+ cloud_shadow_texture[0]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_texture[1]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_texture[2]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_area_size: 3
+ cloud_shadow_area_size[0]: (1000, 1000)
+ cloud_shadow_area_size[1]: (1000, 1000)
+ cloud_shadow_area_size[2]: (1000, 1000)
+ cloud_shadow_speed: 3
+ cloud_shadow_speed[0]: (5, 5)
+ cloud_shadow_speed[1]: (5, 5)
+ cloud_shadow_speed[2]: (5, 5)
+ rain_intensity: 3
+ rain_intensity[0]: 0
+ rain_intensity[1]: 0
+ rain_intensity[2]: 0
+ rain_max_wetness: 3
+ rain_max_wetness[0]: 1
+ rain_max_wetness[1]: 1
+ rain_max_wetness[2]: 1
+ rain_additional_ambient: 3
+ rain_additional_ambient[0]: 5
+ rain_additional_ambient[1]: 5
+ rain_additional_ambient[2]: 5
+# leaves_back_color: 3
+# leaves_back_color[0]: (1, 1, 1)
+# leaves_back_color[1]: (1, 1, 1)
+# leaves_back_color[2]: (1, 1, 1)
+ wind_type: 3
+ wind_type[0]: 1
+ wind_type[1]: 1
+ wind_type[2]: 1
+ dof_start: 3
+ dof_start[0]: 120
+ dof_start[1]: 120
+ dof_start[2]: 120
+ dof_transition: 3
+ dof_transition[0]: 700
+ dof_transition[1]: 700
+ dof_transition[2]: 700
+ dof_filter_size: 3
+ dof_filter_size[0]: 1
+ dof_filter_size[1]: 1
+ dof_filter_size[2]: 1
+ color_balance: 3
+ color_balance[0]: (0, 0, 0)
+ color_balance[1]: (0, 0, 0)
+ color_balance[2]: (0, 0, 0)
+ color_saturation: 3
+ color_saturation[0]: 1
+ color_saturation[1]: 1
+ color_saturation[2]: 1
+ sunshaft_color: 3
+ sunshaft_color[0]: (&3f62e2e4, &3f23a3a4, &3e6cecee)
+ sunshaft_color[1]: (&3f62e2e4, &3f23a3a4, &3e6cecee)
+ sunshaft_color[2]: (&3f62e2e4, &3f23a3a4, &3e6cecee)
+ sunshaft_strength: 3
+ sunshaft_strength[0]: &3f333333
+ sunshaft_strength[1]: &3f000000
+ sunshaft_strength[2]: &3f333333
+ sunshaft_size: 3
+ sunshaft_size[0]: 2
+ sunshaft_size[1]: 0
+ sunshaft_size[2]: 2
+ low_intensity_minimum: 3
+ low_intensity_minimum[0]: 0
+ low_intensity_minimum[1]: 0
+ low_intensity_minimum[2]: 0
+ low_intensity_maximum: 3
+ low_intensity_maximum[0]: 0
+ low_intensity_maximum[1]: 0
+ low_intensity_maximum[2]: 0
+ low_intensity_color: 3
+ low_intensity_color[0]: (1, 1, 1)
+ low_intensity_color[1]: (1, 1, 1)
+ low_intensity_color[2]: (1, 1, 1)
+ target_gray: 3
+ target_gray[0]: &3e19999a
+ target_gray[1]: &3e19999a
+ target_gray[2]: &3e19999a
+ min_scale: 3
+ min_scale[0]: 0
+ min_scale[1]: 0
+ min_scale[2]: 0
+ max_scale: 3
+ max_scale[0]: 100
+ max_scale[1]: 100
+ max_scale[2]: 100
+ target_white: 3
+ target_white[0]: &3f000000
+ target_white[1]: &3f000000
+ target_white[2]: &3f000000
+ eye_adaptation_speed: 3
+ eye_adaptation_speed[0]: &3f333333
+ eye_adaptation_speed[1]: &3f333333
+ eye_adaptation_speed[2]: &3f333333
+ bloom_minimal_color: 3
+ bloom_minimal_color[0]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_minimal_color[1]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_minimal_color[2]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_half_intensity_color: 3
+ bloom_half_intensity_color[0]: (1, 1, 1)
+ bloom_half_intensity_color[1]: (1, 1, 1)
+ bloom_half_intensity_color[2]: (1, 1, 1)
+ bloom_resizing_steps: 3
+ bloom_resizing_steps[0]: 3
+ bloom_resizing_steps[1]: 3
+ bloom_resizing_steps[2]: 3
+ bloom_filter_radius: 3
+ bloom_filter_radius[0]: 6
+ bloom_filter_radius[1]: 6
+ bloom_filter_radius[2]: 6
+ bloom_standard_deviation: 3
+ bloom_standard_deviation[0]: &3f000000
+ bloom_standard_deviation[1]: &3f000000
+ bloom_standard_deviation[2]: &3f000000
+ scene_multiplier: 3
+ scene_multiplier[0]: (1, 1, 1)
+ scene_multiplier[1]: (1, 1, 1)
+ scene_multiplier[2]: (1, 1, 1)
+ bloom_multiplier: 3
+ bloom_multiplier[0]: (1, 1, 1)
+ bloom_multiplier[1]: (1, 1, 1)
+ bloom_multiplier[2]: (1, 1, 1)
+ weight: 3
+ weight[0]: 1
+ weight[1]: 1
+ weight[2]: 1
+}
+
+sun_profile : metro.nice.06a {
+ low_elevation: 40
+ high_elevation: 45
+ sun_direction: 1
+ temperature: 3
+ temperature[0]: 31
+ temperature[1]: 32
+ temperature[2]: 32
+ skybox_texture: 3
+ skybox_texture[0]: "/model/skybox/nice0/nice0_11-15_g.tobj"
+ skybox_texture[1]: "/model/skybox/nice1/nice1_11-15_g.tobj"
+ skybox_texture[2]: "/model/skybox/nice0/nice0_11-15_g.tobj"
+ skycloud_texture: 3
+ skycloud_texture[0]: "/model/skybox/nice0/nice0_11-15_c.tobj"
+ skycloud_texture[1]: "/model/skybox/nice1/nice1_11-15_c.tobj"
+ skycloud_texture[2]: "/model/skybox/nice0/nice0_11-15_c.tobj"
+ skycloud_part: 3
+ skycloud_part[0]: day
+ skycloud_part[1]: day
+ skycloud_part[2]: day
+ ambient: 3
+ ambient[0]: (&3f068687, &3f45c5c7, &3f5ddddf)
+ ambient[1]: (&3f068687, &3f45c5c7, &3f5ddddf)
+ ambient[2]: (&3f068687, &3f45c5c7, &3f5ddddf)
+ ambient_hdr_coef: 3
+ ambient_hdr_coef[0]: &3e19999a
+ ambient_hdr_coef[1]: &3e19999a
+ ambient_hdr_coef[2]: &3e19999a
+ diffuse: 3
+ diffuse[0]: (&3f72f2f4, &3f24a4a5, &3ed2d2d4)
+ diffuse[1]: (&3f5adadc, &3f30b0b1, &3ef0f0f2)
+ diffuse[2]: (&3f72f2f4, &3f24a4a5, &3ed2d2d4)
+ diffuse_hdr_coef: 3
+ diffuse_hdr_coef[0]: &3f933333
+ diffuse_hdr_coef[1]: 1
+ diffuse_hdr_coef[2]: &3f933333
+ specular: 3
+ specular[0]: (1, 1, 1)
+ specular[1]: (1, 1, 1)
+ specular[2]: (1, 1, 1)
+ specular_hdr_coef: 3
+ specular_hdr_coef[0]: 1
+ specular_hdr_coef[1]: 1
+ specular_hdr_coef[2]: 1
+ env: 3
+ env[0]: 1
+ env[1]: 1
+ env[2]: 1
+ env_static_mod: 3
+ env_static_mod[0]: &3f000000
+ env_static_mod[1]: &3f000000
+ env_static_mod[2]: &3f000000
+ sky_color: 3
+ sky_color[0]: (1, 1, 1)
+ sky_color[1]: (1, 1, 1)
+ sky_color[2]: (1, 1, 1)
+ sky_color_hdr_coef: 3
+ sky_color_hdr_coef[0]: 1
+ sky_color_hdr_coef[1]: 1
+ sky_color_hdr_coef[2]: 1
+ sun_color: 3
+ sun_color[0]: (&3f72f2f4, &3f2fafb0, &3e828283)
+ sun_color[1]: (&3f7dfdff, &3f5adadc, &3f3ababb)
+ sun_color[2]: (&3f72f2f4, &3f2fafb0, &3e828283)
+ sun_color_hdr_coef: 3
+ sun_color_hdr_coef[0]: 1
+ sun_color_hdr_coef[1]: 1
+ sun_color_hdr_coef[2]: 1
+ sun_shadow_strength: 3
+ sun_shadow_strength[0]: &3f666666
+ sun_shadow_strength[1]: &3f666666
+ sun_shadow_strength[2]: &3f666666
+ fog_color: 3
+ fog_color[0]: (&3dd8d8da, &3e70f0f2, &3e989899)
+ fog_color[1]: (&3db8b8b9, &3e189899, &3e48c8ca)
+ fog_color[2]: (&3dd8d8da, &3e70f0f2, &3e989899)
+ fog_color2: 3
+ fog_color2[0]: (&3e3cbcbd, &3ec6c6c8, &3ededee0)
+ fog_color2[1]: (&3de8e8ea, &3e4cccce, &3e7cfcfe)
+ fog_color2[2]: (&3e3cbcbd, &3ec6c6c8, &3ededee0)
+ fog_vgradient: 3
+ fog_vgradient[0]: &3ba3d70a
+ fog_vgradient[1]: &3ba3d70a
+ fog_vgradient[2]: &3ba3d70a
+ fog_offset: 3
+ fog_offset[0]: 250
+ fog_offset[1]: 150
+ fog_offset[2]: 250
+ fog_density: 3
+ fog_density[0]: &3aaa64c3
+ fog_density[1]: &3aaa64c3
+ fog_density[2]: &3aaa64c3
+ fog_speed: 3
+ fog_speed[0]: &3f000000
+ fog_speed[1]: &3f000000
+ fog_speed[2]: &3f000000
+ transition_fog_speed: 3
+ transition_fog_speed[0]: 3
+ transition_fog_speed[1]: 3
+ transition_fog_speed[2]: 3
+ speed_coef: 3
+ speed_coef[0]: &3e75c2a2
+ speed_coef[1]: &3e75c2a2
+ speed_coef[2]: &3e75c2a2
+ cloud_shadow_weight: 3
+ cloud_shadow_weight[0]: &3f333333
+ cloud_shadow_weight[1]: &3f333333
+ cloud_shadow_weight[2]: &3f333333
+ cloud_shadow_texture: 3
+ cloud_shadow_texture[0]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_texture[1]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_texture[2]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_area_size: 3
+ cloud_shadow_area_size[0]: (1000, 1000)
+ cloud_shadow_area_size[1]: (1000, 1000)
+ cloud_shadow_area_size[2]: (1000, 1000)
+ cloud_shadow_speed: 3
+ cloud_shadow_speed[0]: (5, 5)
+ cloud_shadow_speed[1]: (5, 5)
+ cloud_shadow_speed[2]: (5, 5)
+ rain_intensity: 3
+ rain_intensity[0]: 0
+ rain_intensity[1]: 0
+ rain_intensity[2]: 0
+ rain_max_wetness: 3
+ rain_max_wetness[0]: 1
+ rain_max_wetness[1]: 0
+ rain_max_wetness[2]: 1
+ rain_additional_ambient: 3
+ rain_additional_ambient[0]: 5
+ rain_additional_ambient[1]: 5
+ rain_additional_ambient[2]: 5
+# leaves_back_color: 3
+# leaves_back_color[0]: (&3f7dfdff, &3f6dedef, &3eaeaeaf)
+# leaves_back_color[1]: (&3f7db8e0, &3f6e1bc2, &3eaf0f69)
+# leaves_back_color[2]: (&3f7db8e0, &3f6e1bc2, &3eaf0f69)
+ wind_type: 3
+ wind_type[0]: 1
+ wind_type[1]: 1
+ wind_type[2]: 1
+ dof_start: 3
+ dof_start[0]: 120
+ dof_start[1]: 120
+ dof_start[2]: 120
+ dof_transition: 3
+ dof_transition[0]: 700
+ dof_transition[1]: 700
+ dof_transition[2]: 700
+ dof_filter_size: 3
+ dof_filter_size[0]: 1
+ dof_filter_size[1]: 1
+ dof_filter_size[2]: 1
+ color_balance: 3
+ color_balance[0]: (0, 0, 0)
+ color_balance[1]: (0, 0, 0)
+ color_balance[2]: (0, 0, 0)
+ color_saturation: 3
+ color_saturation[0]: 1
+ color_saturation[1]: 1
+ color_saturation[2]: 1
+ sunshaft_color: 3
+ sunshaft_color[0]: (&3ec8c8ca, &3e929293, &3e24a4a5)
+ sunshaft_color[1]: (&3eacacad, &3e74f4f6, &3da0a0a1)
+ sunshaft_color[2]: (&3ec8c8ca, &3e929293, &3e24a4a5)
+ sunshaft_strength: 3
+ sunshaft_strength[0]: 1
+ sunshaft_strength[1]: 1
+ sunshaft_strength[2]: 1
+ sunshaft_size: 3
+ sunshaft_size[0]: 3
+ sunshaft_size[1]: 3
+ sunshaft_size[2]: 3
+ low_intensity_minimum: 3
+ low_intensity_minimum[0]: 0
+ low_intensity_minimum[1]: 0
+ low_intensity_minimum[2]: 0
+ low_intensity_maximum: 3
+ low_intensity_maximum[0]: 0
+ low_intensity_maximum[1]: 0
+ low_intensity_maximum[2]: 0
+ low_intensity_color: 3
+ low_intensity_color[0]: (1, 1, 1)
+ low_intensity_color[1]: (1, 1, 1)
+ low_intensity_color[2]: (1, 1, 1)
+ target_gray: 3
+ target_gray[0]: &3e3851ec
+ target_gray[1]: &3e3851ec
+ target_gray[2]: &3e3851ec
+ min_scale: 3
+ min_scale[0]: 0
+ min_scale[1]: 0
+ min_scale[2]: 0
+ max_scale: 3
+ max_scale[0]: 100
+ max_scale[1]: 100
+ max_scale[2]: 100
+ target_white: 3
+ target_white[0]: &3f000000
+ target_white[1]: &3f000000
+ target_white[2]: &3f000000
+ eye_adaptation_speed: 3
+ eye_adaptation_speed[0]: &3f333333
+ eye_adaptation_speed[1]: &3f333333
+ eye_adaptation_speed[2]: &3f333333
+ bloom_minimal_color: 3
+ bloom_minimal_color[0]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_minimal_color[1]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_minimal_color[2]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_half_intensity_color: 3
+ bloom_half_intensity_color[0]: (1, 1, 1)
+ bloom_half_intensity_color[1]: (1, 1, 1)
+ bloom_half_intensity_color[2]: (1, 1, 1)
+ bloom_resizing_steps: 3
+ bloom_resizing_steps[0]: 3
+ bloom_resizing_steps[1]: 3
+ bloom_resizing_steps[2]: 3
+ bloom_filter_radius: 3
+ bloom_filter_radius[0]: 6
+ bloom_filter_radius[1]: 6
+ bloom_filter_radius[2]: 6
+ bloom_standard_deviation: 3
+ bloom_standard_deviation[0]: &3f000000
+ bloom_standard_deviation[1]: &3f000000
+ bloom_standard_deviation[2]: &3f000000
+ scene_multiplier: 3
+ scene_multiplier[0]: (1, 1, 1)
+ scene_multiplier[1]: (1, 1, 1)
+ scene_multiplier[2]: (1, 1, 1)
+ bloom_multiplier: 3
+ bloom_multiplier[0]: (1, 1, 1)
+ bloom_multiplier[1]: (1, 1, 1)
+ bloom_multiplier[2]: (1, 1, 1)
+ weight: 3
+ weight[0]: 1
+ weight[1]: 1
+ weight[2]: 1
+}
+
+sun_profile : metro.nice.06b {
+ low_elevation: &4247fffe
+ high_elevation: &425bfffb
+ sun_direction: 1
+ temperature: 3
+ temperature[0]: 32
+ temperature[1]: 32
+ temperature[2]: 32
+ skybox_texture: 3
+ skybox_texture[0]: "/model/skybox/nice0/nice0_11-15_g.tobj"
+ skybox_texture[1]: "/model/skybox/nice1/nice1_11-15_g.tobj"
+ skybox_texture[2]: "/model/skybox/nice0/nice0_11-15_g.tobj"
+ skycloud_texture: 3
+ skycloud_texture[0]: "/model/skybox/nice0/nice0_11-15_c.tobj"
+ skycloud_texture[1]: "/model/skybox/nice1/nice1_11-15_c.tobj"
+ skycloud_texture[2]: "/model/skybox/nice0/nice0_11-15_c.tobj"
+ skycloud_part: 3
+ skycloud_part[0]: day
+ skycloud_part[1]: day
+ skycloud_part[2]: day
+ ambient: 3
+ ambient[0]: (&3f068687, &3f45c5c7, &3f5ddddf)
+ ambient[1]: (&3f068687, &3f45c5c7, &3f5ddddf)
+ ambient[2]: (&3f068687, &3f45c5c7, &3f5ddddf)
+ ambient_hdr_coef: 3
+ ambient_hdr_coef[0]: &3e19999a
+ ambient_hdr_coef[1]: &3e19999a
+ ambient_hdr_coef[2]: &3da3d70a
+ diffuse: 3
+ diffuse[0]: (&3f72f2f4, &3f24a4a5, &3ed2d2d4)
+ diffuse[1]: (&3f5adadc, &3f30b0b1, &3ef0f0f2)
+ diffuse[2]: (&3f72f2f4, &3f65e5e7, &3f38b8b9)
+ diffuse_hdr_coef: 3
+ diffuse_hdr_coef[0]: &3f933333
+ diffuse_hdr_coef[1]: 1
+ diffuse_hdr_coef[2]: 1
+ specular: 3
+ specular[0]: (1, 1, 1)
+ specular[1]: (1, 1, 1)
+ specular[2]: (1, 1, 1)
+ specular_hdr_coef: 3
+ specular_hdr_coef[0]: 1
+ specular_hdr_coef[1]: 1
+ specular_hdr_coef[2]: 1
+ env: 3
+ env[0]: 1
+ env[1]: 1
+ env[2]: 1
+ env_static_mod: 3
+ env_static_mod[0]: &3f000000
+ env_static_mod[1]: &3f000000
+ env_static_mod[2]: &3f000000
+ sky_color: 3
+ sky_color[0]: (1, 1, 1)
+ sky_color[1]: (1, 1, 1)
+ sky_color[2]: (1, 1, 1)
+ sky_color_hdr_coef: 3
+ sky_color_hdr_coef[0]: 1
+ sky_color_hdr_coef[1]: 1
+ sky_color_hdr_coef[2]: 1
+ sun_color: 3
+ sun_color[0]: (&3f72f2f4, &3f2fafb0, &3e828283)
+ sun_color[1]: (&3f7dfdff, &3f5adadc, &3f3ababb)
+ sun_color[2]: (&3f72f2f4, &3f2fafb0, &3e828283)
+ sun_color_hdr_coef: 3
+ sun_color_hdr_coef[0]: 1
+ sun_color_hdr_coef[1]: 1
+ sun_color_hdr_coef[2]: 1
+ sun_shadow_strength: 3
+ sun_shadow_strength[0]: &3f666666
+ sun_shadow_strength[1]: &3f666666
+ sun_shadow_strength[2]: &3f666666
+ fog_color: 3
+ fog_color[0]: (&3dd8d8da, &3e70f0f2, &3e989899)
+ fog_color[1]: (&3db8b8b9, &3e189899, &3e48c8ca)
+ fog_color[2]: (&3dd8d8da, &3e70f0f2, &3e989899)
+ fog_color2: 3
+ fog_color2[0]: (&3e3cbcbd, &3ec6c6c8, &3ededee0)
+ fog_color2[1]: (&3de8e8ea, &3e4cccce, &3e7cfcfe)
+ fog_color2[2]: (&3e3cbcbd, &3ec6c6c8, &3ededee0)
+ fog_vgradient: 3
+ fog_vgradient[0]: &3ba3d70a
+ fog_vgradient[1]: &3ba3d70a
+ fog_vgradient[2]: &3ba3d70a
+ fog_offset: 3
+ fog_offset[0]: 250
+ fog_offset[1]: 150
+ fog_offset[2]: 250
+ fog_density: 3
+ fog_density[0]: &3aaa64c3
+ fog_density[1]: &3aaa64c3
+ fog_density[2]: &3a902de0
+ fog_speed: 3
+ fog_speed[0]: &3f000000
+ fog_speed[1]: &3f000000
+ fog_speed[2]: &3f000000
+ transition_fog_speed: 3
+ transition_fog_speed[0]: 3
+ transition_fog_speed[1]: 3
+ transition_fog_speed[2]: 3
+ speed_coef: 3
+ speed_coef[0]: &3e75c2a2
+ speed_coef[1]: &3e75c2a2
+ speed_coef[2]: &3e75c2a2
+ cloud_shadow_weight: 3
+ cloud_shadow_weight[0]: &3f333333
+ cloud_shadow_weight[1]: &3f333333
+ cloud_shadow_weight[2]: &3f333333
+ cloud_shadow_texture: 3
+ cloud_shadow_texture[0]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_texture[1]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_texture[2]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_area_size: 3
+ cloud_shadow_area_size[0]: (1000, 1000)
+ cloud_shadow_area_size[1]: (1000, 1000)
+ cloud_shadow_area_size[2]: (1000, 1000)
+ cloud_shadow_speed: 3
+ cloud_shadow_speed[0]: (5, 5)
+ cloud_shadow_speed[1]: (5, 5)
+ cloud_shadow_speed[2]: (5, 5)
+ rain_intensity: 3
+ rain_intensity[0]: 0
+ rain_intensity[1]: 0
+ rain_intensity[2]: 0
+ rain_max_wetness: 3
+ rain_max_wetness[0]: 1
+ rain_max_wetness[1]: 1
+ rain_max_wetness[2]: 1
+ rain_additional_ambient: 3
+ rain_additional_ambient[0]: 5
+ rain_additional_ambient[1]: 5
+ rain_additional_ambient[2]: 5
+# leaves_back_color: 3
+# leaves_back_color[0]: (&3f7db8e0, &3f6e1bc2, &3eaf0f69)
+# leaves_back_color[1]: (&3f7db8e0, &3f6e1bc2, &3eaf0f69)
+# leaves_back_color[2]: (&3f7db8e0, &3f6e1bc2, &3eaf0f69)
+ wind_type: 3
+ wind_type[0]: 1
+ wind_type[1]: 1
+ wind_type[2]: 1
+ dof_start: 3
+ dof_start[0]: 120
+ dof_start[1]: 120
+ dof_start[2]: 120
+ dof_transition: 3
+ dof_transition[0]: 700
+ dof_transition[1]: 700
+ dof_transition[2]: 700
+ dof_filter_size: 3
+ dof_filter_size[0]: 1
+ dof_filter_size[1]: 1
+ dof_filter_size[2]: 1
+ color_balance: 3
+ color_balance[0]: (0, 0, 0)
+ color_balance[1]: (0, 0, 0)
+ color_balance[2]: (0, 0, 0)
+ color_saturation: 3
+ color_saturation[0]: 1
+ color_saturation[1]: 1
+ color_saturation[2]: 1
+ sunshaft_color: 3
+ sunshaft_color[0]: (&3ec8c8ca, &3e929293, &3e24a4a5)
+ sunshaft_color[1]: (&3eacacad, &3e74f4f6, &3da0a0a1)
+ sunshaft_color[2]: (&3ec8c8ca, &3e929293, &3e24a4a5)
+ sunshaft_strength: 3
+ sunshaft_strength[0]: 1
+ sunshaft_strength[1]: 1
+ sunshaft_strength[2]: 1
+ sunshaft_size: 3
+ sunshaft_size[0]: 3
+ sunshaft_size[1]: 3
+ sunshaft_size[2]: 3
+ low_intensity_minimum: 3
+ low_intensity_minimum[0]: 0
+ low_intensity_minimum[1]: 0
+ low_intensity_minimum[2]: 0
+ low_intensity_maximum: 3
+ low_intensity_maximum[0]: 0
+ low_intensity_maximum[1]: 0
+ low_intensity_maximum[2]: 0
+ low_intensity_color: 3
+ low_intensity_color[0]: (1, 1, 1)
+ low_intensity_color[1]: (1, 1, 1)
+ low_intensity_color[2]: (1, 1, 1)
+ target_gray: 3
+ target_gray[0]: &3e3851ec
+ target_gray[1]: &3e3851ec
+ target_gray[2]: &3e3851ec
+ min_scale: 3
+ min_scale[0]: 0
+ min_scale[1]: 0
+ min_scale[2]: 0
+ max_scale: 3
+ max_scale[0]: 100
+ max_scale[1]: 100
+ max_scale[2]: 100
+ target_white: 3
+ target_white[0]: &3f000000
+ target_white[1]: &3f000000
+ target_white[2]: &3f000000
+ eye_adaptation_speed: 3
+ eye_adaptation_speed[0]: &3f333333
+ eye_adaptation_speed[1]: &3f333333
+ eye_adaptation_speed[2]: &3f333333
+ bloom_minimal_color: 3
+ bloom_minimal_color[0]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_minimal_color[1]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_minimal_color[2]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_half_intensity_color: 3
+ bloom_half_intensity_color[0]: (1, 1, 1)
+ bloom_half_intensity_color[1]: (1, 1, 1)
+ bloom_half_intensity_color[2]: (1, 1, 1)
+ bloom_resizing_steps: 3
+ bloom_resizing_steps[0]: 3
+ bloom_resizing_steps[1]: 3
+ bloom_resizing_steps[2]: 3
+ bloom_filter_radius: 3
+ bloom_filter_radius[0]: 6
+ bloom_filter_radius[1]: 6
+ bloom_filter_radius[2]: 6
+ bloom_standard_deviation: 3
+ bloom_standard_deviation[0]: &3f000000
+ bloom_standard_deviation[1]: &3f000000
+ bloom_standard_deviation[2]: &3f000000
+ scene_multiplier: 3
+ scene_multiplier[0]: (1, 1, 1)
+ scene_multiplier[1]: (1, 1, 1)
+ scene_multiplier[2]: (1, 1, 1)
+ bloom_multiplier: 3
+ bloom_multiplier[0]: (1, 1, 1)
+ bloom_multiplier[1]: (1, 1, 1)
+ bloom_multiplier[2]: (1, 1, 1)
+ weight: 3
+ weight[0]: 1
+ weight[1]: 1
+ weight[2]: 1
+}
+
+sun_profile : metro.nice.06c {
+ low_elevation: 60
+ high_elevation: 90
+ sun_direction: 0
+ temperature: 3
+ temperature[0]: 35
+ temperature[1]: 33
+ temperature[2]: 36
+ skybox_texture: 3
+ skybox_texture[0]: "/model/skybox/nice0/nice0_high1_g.tobj"
+ skybox_texture[1]: "/model/skybox/nice1/nice1_high1_g.tobj"
+ skybox_texture[2]: "/model/skybox/nicejpsummer/nicejpsummer_11-15_g.tobj"
+ skycloud_texture: 3
+ skycloud_texture[0]: "/model/skybox/nice0/nice0_high1_c.tobj"
+ skycloud_texture[1]: "/model/skybox/nice1/nice1_high1_c.tobj"
+ skycloud_texture[2]: "/model/skybox/nicejpsummer/nicejpsummer_11-15_c.tobj"
+ skycloud_part: 3
+ skycloud_part[0]: day
+ skycloud_part[1]: day
+ skycloud_part[2]: day
+ ambient: 3
+ ambient[0]: (&3f068687, &3f45c5c7, &3f5ddddf)
+ ambient[1]: (&3f068687, &3f45c5c7, &3f5ddddf)
+ ambient[2]: (&3ef4f4f6, &3f0d8d8e, &3f61e1e3)
+ ambient_hdr_coef: 3
+ ambient_hdr_coef[0]: &3e4ccccd
+ ambient_hdr_coef[1]: &3e4ccccd
+ ambient_hdr_coef[2]: &3ecccccd
+ diffuse: 3
+ diffuse[0]: (&3f72f2f4, &3f69e9eb, &3f1a9a9b)
+ diffuse[1]: (&3f5adadc, &3f30b0b1, &3ef0f0f2)
+ diffuse[2]: (&3f77f7f9, &3f6dedef, &3f56d6d8)
+ diffuse_hdr_coef: 3
+ diffuse_hdr_coef[0]: &3f99999a
+ diffuse_hdr_coef[1]: &3f99999a
+ diffuse_hdr_coef[2]: 1
+ specular: 3
+ specular[0]: (1, 1, 1)
+ specular[1]: (1, 1, 1)
+ specular[2]: (1, 1, 1)
+ specular_hdr_coef: 3
+ specular_hdr_coef[0]: 1
+ specular_hdr_coef[1]: 1
+ specular_hdr_coef[2]: 1
+ env: 3
+ env[0]: 1
+ env[1]: 1
+ env[2]: 1
+ env_static_mod: 3
+ env_static_mod[0]: &3f000000
+ env_static_mod[1]: &3f000000
+ env_static_mod[2]: &3f000000
+ sky_color: 3
+ sky_color[0]: (1, 1, 1)
+ sky_color[1]: (1, 1, 1)
+ sky_color[2]: (&3f3cbcbd, &3f3cbcbd, &3f3cbcbd)
+ sky_color_hdr_coef: 3
+ sky_color_hdr_coef[0]: 1
+ sky_color_hdr_coef[1]: 1
+ sky_color_hdr_coef[2]: 1
+ sun_color: 3
+ sun_color[0]: (&3f70f0f2, &3f43c3c5, &3eeaeaec)
+ sun_color[1]: (&3f7dfdff, &3f5adadc, &3f3ababb)
+ sun_color[2]: (&3f078788, &3f028283, &3eececee)
+ sun_color_hdr_coef: 3
+ sun_color_hdr_coef[0]: 1
+ sun_color_hdr_coef[1]: 1
+ sun_color_hdr_coef[2]: 1
+ sun_shadow_strength: 3
+ sun_shadow_strength[0]: &3f666666
+ sun_shadow_strength[1]: &3f666666
+ sun_shadow_strength[2]: &3f666666
+ fog_color: 3
+ fog_color[0]: (&3dd8d8da, &3e70f0f2, &3e989899)
+ fog_color[1]: (&3db8b8b9, &3e189899, &3e48c8ca)
+ fog_color[2]: (&3d808081, &3de0e0e2, &3e048485)
+ fog_color2: 3
+ fog_color2[0]: (&3e3cbcbd, &3ec6c6c8, &3ededee0)
+ fog_color2[1]: (&3de8e8ea, &3e4cccce, &3e7cfcfe)
+ fog_color2[2]: (&3e44c4c6, &3e60e0e2, &3efcfcfe)
+ fog_vgradient: 3
+ fog_vgradient[0]: &3ba3d70a
+ fog_vgradient[1]: &3ba3d70a
+ fog_vgradient[2]: &3ba3d70a
+ fog_offset: 3
+ fog_offset[0]: 250
+ fog_offset[1]: 150
+ fog_offset[2]: 250
+ fog_density: 3
+ fog_density[0]: &3aaa64c3
+ fog_density[1]: &3aaa64c3
+ fog_density[2]: &3aaa64c3
+ fog_speed: 3
+ fog_speed[0]: &3f000000
+ fog_speed[1]: &3f000000
+ fog_speed[2]: &3f000000
+ transition_fog_speed: 3
+ transition_fog_speed[0]: 3
+ transition_fog_speed[1]: 3
+ transition_fog_speed[2]: 3
+ speed_coef: 3
+ speed_coef[0]: &3e75c2a2
+ speed_coef[1]: &3e75c2a2
+ speed_coef[2]: &3e75c2a2
+ cloud_shadow_weight: 3
+ cloud_shadow_weight[0]: &3f333333
+ cloud_shadow_weight[1]: &3f333333
+ cloud_shadow_weight[2]: &3f333333
+ cloud_shadow_texture: 3
+ cloud_shadow_texture[0]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_texture[1]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_texture[2]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_area_size: 3
+ cloud_shadow_area_size[0]: (1000, 1000)
+ cloud_shadow_area_size[1]: (1000, 1000)
+ cloud_shadow_area_size[2]: (1000, 1000)
+ cloud_shadow_speed: 3
+ cloud_shadow_speed[0]: (5, 5)
+ cloud_shadow_speed[1]: (5, 5)
+ cloud_shadow_speed[2]: (5, 5)
+ rain_intensity: 3
+ rain_intensity[0]: 0
+ rain_intensity[1]: 0
+ rain_intensity[2]: 0
+ rain_max_wetness: 3
+ rain_max_wetness[0]: 1
+ rain_max_wetness[1]: 1
+ rain_max_wetness[2]: 1
+ rain_additional_ambient: 3
+ rain_additional_ambient[0]: 5
+ rain_additional_ambient[1]: 5
+ rain_additional_ambient[2]: 5
+# leaves_back_color: 3
+# leaves_back_color[0]: (&3f7db8e0, &3f6e1bc2, &3eaf0f69)
+# leaves_back_color[1]: (&3f7db8e0, &3f6e1bc2, &3eaf0f69)
+# leaves_back_color[2]: (&3f7db8e0, &3f6e1bc2, &3eaf0f69)
+ wind_type: 3
+ wind_type[0]: 1
+ wind_type[1]: 1
+ wind_type[2]: 1
+ dof_start: 3
+ dof_start[0]: 120
+ dof_start[1]: 120
+ dof_start[2]: 120
+ dof_transition: 3
+ dof_transition[0]: 700
+ dof_transition[1]: 700
+ dof_transition[2]: 700
+ dof_filter_size: 3
+ dof_filter_size[0]: 1
+ dof_filter_size[1]: 1
+ dof_filter_size[2]: 1
+ color_balance: 3
+ color_balance[0]: (0, 0, 0)
+ color_balance[1]: (0, 0, 0)
+ color_balance[2]: (0, 0, 0)
+ color_saturation: 3
+ color_saturation[0]: 1
+ color_saturation[1]: 1
+ color_saturation[2]: 1
+ sunshaft_color: 3
+ sunshaft_color[0]: (&3ec8c8ca, &3e929293, &3e24a4a5)
+ sunshaft_color[1]: (&3eacacad, &3e74f4f6, &3da0a0a1)
+ sunshaft_color[2]: (&3ea2a2a3, &3e909091, &3e74f4f6)
+ sunshaft_strength: 3
+ sunshaft_strength[0]: 1
+ sunshaft_strength[1]: 1
+ sunshaft_strength[2]: 1
+ sunshaft_size: 3
+ sunshaft_size[0]: 3
+ sunshaft_size[1]: 3
+ sunshaft_size[2]: 2
+ low_intensity_minimum: 3
+ low_intensity_minimum[0]: 0
+ low_intensity_minimum[1]: 0
+ low_intensity_minimum[2]: 0
+ low_intensity_maximum: 3
+ low_intensity_maximum[0]: 0
+ low_intensity_maximum[1]: 0
+ low_intensity_maximum[2]: 0
+ low_intensity_color: 3
+ low_intensity_color[0]: (1, 1, 1)
+ low_intensity_color[1]: (1, 1, 1)
+ low_intensity_color[2]: (1, 1, 1)
+ target_gray: 3
+ target_gray[0]: &3e3851ec
+ target_gray[1]: &3e3851ec
+ target_gray[2]: &3e800000
+ min_scale: 3
+ min_scale[0]: 0
+ min_scale[1]: 0
+ min_scale[2]: 0
+ max_scale: 3
+ max_scale[0]: 100
+ max_scale[1]: 100
+ max_scale[2]: 100
+ target_white: 3
+ target_white[0]: &3f000000
+ target_white[1]: &3f000000
+ target_white[2]: &3f333333
+ eye_adaptation_speed: 3
+ eye_adaptation_speed[0]: &3f333333
+ eye_adaptation_speed[1]: &3f333333
+ eye_adaptation_speed[2]: &3f333333
+ bloom_minimal_color: 3
+ bloom_minimal_color[0]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_minimal_color[1]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_minimal_color[2]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_half_intensity_color: 3
+ bloom_half_intensity_color[0]: (1, 1, 1)
+ bloom_half_intensity_color[1]: (1, 1, 1)
+ bloom_half_intensity_color[2]: (1, 1, 1)
+ bloom_resizing_steps: 3
+ bloom_resizing_steps[0]: 3
+ bloom_resizing_steps[1]: 3
+ bloom_resizing_steps[2]: 3
+ bloom_filter_radius: 3
+ bloom_filter_radius[0]: 6
+ bloom_filter_radius[1]: 6
+ bloom_filter_radius[2]: 6
+ bloom_standard_deviation: 3
+ bloom_standard_deviation[0]: &3f000000
+ bloom_standard_deviation[1]: &3f000000
+ bloom_standard_deviation[2]: &3f000000
+ scene_multiplier: 3
+ scene_multiplier[0]: (1, 1, 1)
+ scene_multiplier[1]: (1, 1, 1)
+ scene_multiplier[2]: (1, 1, 1)
+ bloom_multiplier: 3
+ bloom_multiplier[0]: (1, 1, 1)
+ bloom_multiplier[1]: (1, 1, 1)
+ bloom_multiplier[2]: (1, 1, 1)
+ weight: 3
+ weight[0]: 1
+ weight[1]: 1
+ weight[2]: 1
+}
+
+sun_profile : metro.nice.06d {
+ low_elevation: &4247fffe
+ high_elevation: &425bfffb
+ sun_direction: -1
+ temperature: 3
+ temperature[0]: 34
+ temperature[1]: 32
+ temperature[2]: 35
+ skybox_texture: 3
+ skybox_texture[0]: "/model/skybox/nice0/nice0_11-15_g.tobj"
+ skybox_texture[1]: "/model/skybox/nice1/nice1_11-15_g.tobj"
+ skybox_texture[2]: "/model/skybox/nice0/nice0_11-15_g.tobj"
+ skycloud_texture: 3
+ skycloud_texture[0]: "/model/skybox/nice0/nice0_11-15_c.tobj"
+ skycloud_texture[1]: "/model/skybox/nice1/nice1_11-15_c.tobj"
+ skycloud_texture[2]: "/model/skybox/nice0/nice0_11-15_c.tobj"
+ skycloud_part: 3
+ skycloud_part[0]: day
+ skycloud_part[1]: day
+ skycloud_part[2]: day
+ ambient: 3
+ ambient[0]: (&3f068687, &3f45c5c7, &3f5ddddf)
+ ambient[1]: (&3f068687, &3f45c5c7, &3f5ddddf)
+ ambient[2]: (&3f068687, &3f45c5c7, &3f5ddddf)
+ ambient_hdr_coef: 3
+ ambient_hdr_coef[0]: &3e19999a
+ ambient_hdr_coef[1]: &3e19999a
+ ambient_hdr_coef[2]: &3e19999a
+ diffuse: 3
+ diffuse[0]: (&3f72f2f4, &3f24a4a5, &3ed2d2d4)
+ diffuse[1]: (&3f5adadc, &3f30b0b1, &3ef0f0f2)
+ diffuse[2]: (&3f72f2f4, &3f24a4a5, &3ed2d2d4)
+ diffuse_hdr_coef: 3
+ diffuse_hdr_coef[0]: &3f933333
+ diffuse_hdr_coef[1]: 1
+ diffuse_hdr_coef[2]: &3f933333
+ specular: 3
+ specular[0]: (1, 1, 1)
+ specular[1]: (1, 1, 1)
+ specular[2]: (1, 1, 1)
+ specular_hdr_coef: 3
+ specular_hdr_coef[0]: 1
+ specular_hdr_coef[1]: 1
+ specular_hdr_coef[2]: 1
+ env: 3
+ env[0]: 1
+ env[1]: 1
+ env[2]: 1
+ env_static_mod: 3
+ env_static_mod[0]: &3f000000
+ env_static_mod[1]: &3f000000
+ env_static_mod[2]: &3f000000
+ sky_color: 3
+ sky_color[0]: (1, 1, 1)
+ sky_color[1]: (1, 1, 1)
+ sky_color[2]: (1, 1, 1)
+ sky_color_hdr_coef: 3
+ sky_color_hdr_coef[0]: 1
+ sky_color_hdr_coef[1]: 1
+ sky_color_hdr_coef[2]: 1
+ sun_color: 3
+ sun_color[0]: (&3f76f5af, &3f31a196, &3ef272b9)
+ sun_color[1]: (&3f7dfdff, &3f5adadc, &3f3ababb)
+ sun_color[2]: (&3f72f2f4, &3f2fafb0, &3e828283)
+ sun_color_hdr_coef: 3
+ sun_color_hdr_coef[0]: 1
+ sun_color_hdr_coef[1]: 1
+ sun_color_hdr_coef[2]: 1
+ sun_shadow_strength: 3
+ sun_shadow_strength[0]: &3f666666
+ sun_shadow_strength[1]: &3f666666
+ sun_shadow_strength[2]: &3f666666
+ fog_color: 3
+ fog_color[0]: (&3dd8d8da, &3e70f0f2, &3e989899)
+ fog_color[1]: (&3db8b8b9, &3e189899, &3e48c8ca)
+ fog_color[2]: (&3dd8d8da, &3e70f0f2, &3e989899)
+ fog_color2: 3
+ fog_color2[0]: (&3e3cbcbd, &3ec6c6c8, &3ededee0)
+ fog_color2[1]: (&3de8e8ea, &3e4cccce, &3e7cfcfe)
+ fog_color2[2]: (&3e3cbcbd, &3ec6c6c8, &3ededee0)
+ fog_vgradient: 3
+ fog_vgradient[0]: &3ba3d70a
+ fog_vgradient[1]: &3ba3d70a
+ fog_vgradient[2]: &3ba3d70a
+ fog_offset: 3
+ fog_offset[0]: 250
+ fog_offset[1]: 150
+ fog_offset[2]: 250
+ fog_density: 3
+ fog_density[0]: &3aaa64c3
+ fog_density[1]: &3aaa64c3
+ fog_density[2]: &3aaa64c3
+ fog_speed: 3
+ fog_speed[0]: &3f000000
+ fog_speed[1]: &3f000000
+ fog_speed[2]: &3f000000
+ transition_fog_speed: 3
+ transition_fog_speed[0]: 3
+ transition_fog_speed[1]: 3
+ transition_fog_speed[2]: 3
+ speed_coef: 3
+ speed_coef[0]: &3e75c2a2
+ speed_coef[1]: &3e75c2a2
+ speed_coef[2]: &3e75c2a2
+ cloud_shadow_weight: 3
+ cloud_shadow_weight[0]: &3f333333
+ cloud_shadow_weight[1]: &3f333333
+ cloud_shadow_weight[2]: &3f333333
+ cloud_shadow_texture: 3
+ cloud_shadow_texture[0]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_texture[1]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_texture[2]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_area_size: 3
+ cloud_shadow_area_size[0]: (1000, 1000)
+ cloud_shadow_area_size[1]: (0, 0)
+ cloud_shadow_area_size[2]: (1000, 1000)
+ cloud_shadow_speed: 3
+ cloud_shadow_speed[0]: (5, 5)
+ cloud_shadow_speed[1]: (5, 5)
+ cloud_shadow_speed[2]: (5, 5)
+ rain_intensity: 3
+ rain_intensity[0]: 0
+ rain_intensity[1]: 0
+ rain_intensity[2]: 0
+ rain_max_wetness: 3
+ rain_max_wetness[0]: 1
+ rain_max_wetness[1]: 1
+ rain_max_wetness[2]: 1
+ rain_additional_ambient: 3
+ rain_additional_ambient[0]: 5
+ rain_additional_ambient[1]: 5
+ rain_additional_ambient[2]: 5
+# leaves_back_color: 3
+# leaves_back_color[0]: (&3f7db8e0, &3f6e1bc2, &3eaf0f69)
+# leaves_back_color[1]: (&3f7db8e0, &3f6e1bc2, &3eaf0f69)
+# leaves_back_color[2]: (&3f7db8e0, &3f6e1bc2, &3eaf0f69)
+ wind_type: 3
+ wind_type[0]: 1
+ wind_type[1]: 1
+ wind_type[2]: 1
+ dof_start: 3
+ dof_start[0]: 120
+ dof_start[1]: 120
+ dof_start[2]: 120
+ dof_transition: 3
+ dof_transition[0]: 700
+ dof_transition[1]: 700
+ dof_transition[2]: 700
+ dof_filter_size: 3
+ dof_filter_size[0]: 1
+ dof_filter_size[1]: 1
+ dof_filter_size[2]: 1
+ color_balance: 3
+ color_balance[0]: (0, 0, 0)
+ color_balance[1]: (0, 0, 0)
+ color_balance[2]: (0, 0, 0)
+ color_saturation: 3
+ color_saturation[0]: 1
+ color_saturation[1]: 1
+ color_saturation[2]: 1
+ sunshaft_color: 3
+ sunshaft_color[0]: (&3ec8c8ca, &3e929293, &3e24a4a5)
+ sunshaft_color[1]: (&3eacacad, &3e74f4f6, &3da0a0a1)
+ sunshaft_color[2]: (&3ec8c8ca, &3e929293, &3e24a4a5)
+ sunshaft_strength: 3
+ sunshaft_strength[0]: 1
+ sunshaft_strength[1]: 1
+ sunshaft_strength[2]: 1
+ sunshaft_size: 3
+ sunshaft_size[0]: 3
+ sunshaft_size[1]: 3
+ sunshaft_size[2]: 3
+ low_intensity_minimum: 3
+ low_intensity_minimum[0]: 0
+ low_intensity_minimum[1]: 0
+ low_intensity_minimum[2]: 0
+ low_intensity_maximum: 3
+ low_intensity_maximum[0]: 0
+ low_intensity_maximum[1]: 0
+ low_intensity_maximum[2]: 0
+ low_intensity_color: 3
+ low_intensity_color[0]: (1, 1, 1)
+ low_intensity_color[1]: (1, 1, 1)
+ low_intensity_color[2]: (1, 1, 1)
+ target_gray: 3
+ target_gray[0]: &3e3851ec
+ target_gray[1]: &3e3851ec
+ target_gray[2]: &3e3851ec
+ min_scale: 3
+ min_scale[0]: 0
+ min_scale[1]: 0
+ min_scale[2]: 0
+ max_scale: 3
+ max_scale[0]: 100
+ max_scale[1]: 100
+ max_scale[2]: 100
+ target_white: 3
+ target_white[0]: &3f000000
+ target_white[1]: &3f000000
+ target_white[2]: &3f000000
+ eye_adaptation_speed: 3
+ eye_adaptation_speed[0]: &3f333333
+ eye_adaptation_speed[1]: &3f333333
+ eye_adaptation_speed[2]: &3f333333
+ bloom_minimal_color: 3
+ bloom_minimal_color[0]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_minimal_color[1]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_minimal_color[2]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_half_intensity_color: 3
+ bloom_half_intensity_color[0]: (1, 1, 1)
+ bloom_half_intensity_color[1]: (1, 1, 1)
+ bloom_half_intensity_color[2]: (1, 1, 1)
+ bloom_resizing_steps: 3
+ bloom_resizing_steps[0]: 3
+ bloom_resizing_steps[1]: 3
+ bloom_resizing_steps[2]: 3
+ bloom_filter_radius: 3
+ bloom_filter_radius[0]: 6
+ bloom_filter_radius[1]: 6
+ bloom_filter_radius[2]: 6
+ bloom_standard_deviation: 3
+ bloom_standard_deviation[0]: &3f000000
+ bloom_standard_deviation[1]: &3f000000
+ bloom_standard_deviation[2]: &3f000000
+ scene_multiplier: 3
+ scene_multiplier[0]: (1, 1, 1)
+ scene_multiplier[1]: (1, 1, 1)
+ scene_multiplier[2]: (1, 1, 1)
+ bloom_multiplier: 3
+ bloom_multiplier[0]: (1, 1, 1)
+ bloom_multiplier[1]: (1, 1, 1)
+ bloom_multiplier[2]: (1, 1, 1)
+ weight: 3
+ weight[0]: 1
+ weight[1]: 1
+ weight[2]: 1
+}
+
+sun_profile : metro.nice.06e {
+ low_elevation: &421ffffc
+ high_elevation: 45
+ sun_direction: -1
+ temperature: 3
+ temperature[0]: 33
+ temperature[1]: 32
+ temperature[2]: 32
+ skybox_texture: 3
+ skybox_texture[0]: "/model/skybox/nice0/nice0_11-15_g.tobj"
+ skybox_texture[1]: "/model/skybox/nice1/nice1_11-15_g.tobj"
+ skybox_texture[2]: "/model/skybox/nice0/nice0_11-15_g.tobj"
+ skycloud_texture: 3
+ skycloud_texture[0]: "/model/skybox/nice0/nice0_11-15_c.tobj"
+ skycloud_texture[1]: "/model/skybox/nice1/nice1_11-15_c.tobj"
+ skycloud_texture[2]: "/model/skybox/nice0/nice0_11-15_c.tobj"
+ skycloud_part: 3
+ skycloud_part[0]: day
+ skycloud_part[1]: day
+ skycloud_part[2]: day
+ ambient: 3
+ ambient[0]: (&3f068687, &3f45c5c7, &3f5ddddf)
+ ambient[1]: (&3f068687, &3f45c5c7, &3f5ddddf)
+ ambient[2]: (&3f068687, &3f45c5c7, &3f5ddddf)
+ ambient_hdr_coef: 3
+ ambient_hdr_coef[0]: &3e19999a
+ ambient_hdr_coef[1]: &3e19999a
+ ambient_hdr_coef[2]: &3e19999a
+ diffuse: 3
+ diffuse[0]: (&3f72f2f4, &3f24a4a5, &3ed2d2d4)
+ diffuse[1]: (&3f5adadc, &3f30b0b1, &3ef0f0f2)
+ diffuse[2]: (&3f72f2f4, &3f24a4a5, &3ed2d2d4)
+ diffuse_hdr_coef: 3
+ diffuse_hdr_coef[0]: &3f933333
+ diffuse_hdr_coef[1]: 1
+ diffuse_hdr_coef[2]: &3f933333
+ specular: 3
+ specular[0]: (1, 1, 1)
+ specular[1]: (1, 1, 1)
+ specular[2]: (1, 1, 1)
+ specular_hdr_coef: 3
+ specular_hdr_coef[0]: 1
+ specular_hdr_coef[1]: 1
+ specular_hdr_coef[2]: 1
+ env: 3
+ env[0]: 1
+ env[1]: 1
+ env[2]: 1
+ env_static_mod: 3
+ env_static_mod[0]: &3f000000
+ env_static_mod[1]: &3f000000
+ env_static_mod[2]: &3f000000
+ sky_color: 3
+ sky_color[0]: (1, 1, 1)
+ sky_color[1]: (1, 1, 1)
+ sky_color[2]: (1, 1, 1)
+ sky_color_hdr_coef: 3
+ sky_color_hdr_coef[0]: 1
+ sky_color_hdr_coef[1]: 1
+ sky_color_hdr_coef[2]: 1
+ sun_color: 3
+ sun_color[0]: (&3f72f2f4, &3f2fafb0, &3e828283)
+ sun_color[1]: (&3f7dfdff, &3f5adadc, &3f3ababb)
+ sun_color[2]: (&3f72f2f4, &3f2fafb0, &3e828283)
+ sun_color_hdr_coef: 3
+ sun_color_hdr_coef[0]: 1
+ sun_color_hdr_coef[1]: 1
+ sun_color_hdr_coef[2]: 1
+ sun_shadow_strength: 3
+ sun_shadow_strength[0]: &3f666666
+ sun_shadow_strength[1]: &3f666666
+ sun_shadow_strength[2]: &3f666666
+ fog_color: 3
+ fog_color[0]: (&3dd8d8da, &3e70f0f2, &3e989899)
+ fog_color[1]: (&3db8b8b9, &3e189899, &3e48c8ca)
+ fog_color[2]: (&3dd8d8da, &3e70f0f2, &3e989899)
+ fog_color2: 3
+ fog_color2[0]: (&3e3cbcbd, &3ec6c6c8, &3ededee0)
+ fog_color2[1]: (&3de8e8ea, &3e4cccce, &3e7cfcfe)
+ fog_color2[2]: (&3e3cbcbd, &3ec6c6c8, &3ededee0)
+ fog_vgradient: 3
+ fog_vgradient[0]: &3ba3d70a
+ fog_vgradient[1]: &3ba3d70a
+ fog_vgradient[2]: &3ba3d70a
+ fog_offset: 3
+ fog_offset[0]: 250
+ fog_offset[1]: 150
+ fog_offset[2]: 250
+ fog_density: 3
+ fog_density[0]: &3aaa64c3
+ fog_density[1]: &3aaa64c3
+ fog_density[2]: &3aaa64c3
+ fog_speed: 3
+ fog_speed[0]: &3f000000
+ fog_speed[1]: &3f000000
+ fog_speed[2]: &3f000000
+ transition_fog_speed: 3
+ transition_fog_speed[0]: 3
+ transition_fog_speed[1]: 3
+ transition_fog_speed[2]: 3
+ speed_coef: 3
+ speed_coef[0]: &3e75c2a2
+ speed_coef[1]: &3e75c2a2
+ speed_coef[2]: &3e75c2a2
+ cloud_shadow_weight: 3
+ cloud_shadow_weight[0]: &3f333333
+ cloud_shadow_weight[1]: &3f333333
+ cloud_shadow_weight[2]: &3f333333
+ cloud_shadow_texture: 3
+ cloud_shadow_texture[0]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_texture[1]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_texture[2]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_area_size: 3
+ cloud_shadow_area_size[0]: (1000, 1000)
+ cloud_shadow_area_size[1]: (1000, 1000)
+ cloud_shadow_area_size[2]: (1000, 1000)
+ cloud_shadow_speed: 3
+ cloud_shadow_speed[0]: (5, 5)
+ cloud_shadow_speed[1]: (5, 5)
+ cloud_shadow_speed[2]: (5, 5)
+ rain_intensity: 3
+ rain_intensity[0]: 0
+ rain_intensity[1]: 0
+ rain_intensity[2]: 0
+ rain_max_wetness: 3
+ rain_max_wetness[0]: 1
+ rain_max_wetness[1]: 1
+ rain_max_wetness[2]: 1
+ rain_additional_ambient: 3
+ rain_additional_ambient[0]: 5
+ rain_additional_ambient[1]: 5
+ rain_additional_ambient[2]: 5
+# leaves_back_color: 3
+# leaves_back_color[0]: (&3f7db8e0, &3f6e1bc2, &3eaf0f69)
+# leaves_back_color[1]: (&3f7db8e0, &3f6e1bc2, &3eaf0f69)
+# leaves_back_color[2]: (&3f7db8e0, &3f6e1bc2, &3eaf0f69)
+ wind_type: 3
+ wind_type[0]: 1
+ wind_type[1]: 1
+ wind_type[2]: 1
+ dof_start: 3
+ dof_start[0]: 120
+ dof_start[1]: 120
+ dof_start[2]: 120
+ dof_transition: 3
+ dof_transition[0]: 700
+ dof_transition[1]: 700
+ dof_transition[2]: 700
+ dof_filter_size: 3
+ dof_filter_size[0]: 1
+ dof_filter_size[1]: 1
+ dof_filter_size[2]: 1
+ color_balance: 3
+ color_balance[0]: (0, 0, 0)
+ color_balance[1]: (0, 0, 0)
+ color_balance[2]: (0, 0, 0)
+ color_saturation: 3
+ color_saturation[0]: 1
+ color_saturation[1]: 1
+ color_saturation[2]: 1
+ sunshaft_color: 3
+ sunshaft_color[0]: (&3ec8c8ca, &3e929293, &3e24a4a5)
+ sunshaft_color[1]: (&3eacacad, &3e74f4f6, &3da0a0a1)
+ sunshaft_color[2]: (&3ec8c8ca, &3e929293, &3e24a4a5)
+ sunshaft_strength: 3
+ sunshaft_strength[0]: 1
+ sunshaft_strength[1]: 1
+ sunshaft_strength[2]: 1
+ sunshaft_size: 3
+ sunshaft_size[0]: 0
+ sunshaft_size[1]: 3
+ sunshaft_size[2]: 3
+ low_intensity_minimum: 3
+ low_intensity_minimum[0]: 0
+ low_intensity_minimum[1]: 0
+ low_intensity_minimum[2]: 0
+ low_intensity_maximum: 3
+ low_intensity_maximum[0]: 0
+ low_intensity_maximum[1]: 0
+ low_intensity_maximum[2]: 0
+ low_intensity_color: 3
+ low_intensity_color[0]: (1, 1, 1)
+ low_intensity_color[1]: (1, 1, 1)
+ low_intensity_color[2]: (1, 1, 1)
+ target_gray: 3
+ target_gray[0]: &3e3851ec
+ target_gray[1]: &3e3851ec
+ target_gray[2]: &3e3851ec
+ min_scale: 3
+ min_scale[0]: 0
+ min_scale[1]: 0
+ min_scale[2]: 0
+ max_scale: 3
+ max_scale[0]: 100
+ max_scale[1]: 100
+ max_scale[2]: 100
+ target_white: 3
+ target_white[0]: &3f000000
+ target_white[1]: &3f000000
+ target_white[2]: &3f000000
+ eye_adaptation_speed: 3
+ eye_adaptation_speed[0]: &3f333333
+ eye_adaptation_speed[1]: &3f333333
+ eye_adaptation_speed[2]: &3f333333
+ bloom_minimal_color: 3
+ bloom_minimal_color[0]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_minimal_color[1]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_minimal_color[2]: (&3ecccccd, &3ecccccd, &3ecccccd)
+ bloom_half_intensity_color: 3
+ bloom_half_intensity_color[0]: (1, 1, 1)
+ bloom_half_intensity_color[1]: (1, 1, 1)
+ bloom_half_intensity_color[2]: (1, 1, 1)
+ bloom_resizing_steps: 3
+ bloom_resizing_steps[0]: 3
+ bloom_resizing_steps[1]: 3
+ bloom_resizing_steps[2]: 3
+ bloom_filter_radius: 3
+ bloom_filter_radius[0]: 6
+ bloom_filter_radius[1]: 6
+ bloom_filter_radius[2]: 6
+ bloom_standard_deviation: 3
+ bloom_standard_deviation[0]: &3f000000
+ bloom_standard_deviation[1]: &3f000000
+ bloom_standard_deviation[2]: &3f000000
+ scene_multiplier: 3
+ scene_multiplier[0]: (1, 1, 1)
+ scene_multiplier[1]: (1, 1, 1)
+ scene_multiplier[2]: (1, 1, 1)
+ bloom_multiplier: 3
+ bloom_multiplier[0]: (1, 1, 1)
+ bloom_multiplier[1]: (1, 1, 1)
+ bloom_multiplier[2]: (1, 1, 1)
+ weight: 3
+ weight[0]: 1
+ weight[1]: 1
+ weight[2]: 1
+}
+
+sun_profile : metro.nice.07a {
+ low_elevation: 30
+ high_elevation: &420bffff
+ sun_direction: -1
+ temperature: 3
+ temperature[0]: 32
+ temperature[1]: 31
+ temperature[2]: 31
+ skybox_texture: 3
+ skybox_texture[0]: "/model/skybox/nice0/nice0_16-18_g.tobj"
+ skybox_texture[1]: "/model/skybox/nice1/nice1_16-18_g.tobj"
+ skybox_texture[2]: "/model/skybox/nice0/nice0_16-18_g.tobj"
+ skycloud_texture: 3
+ skycloud_texture[0]: "/model/skybox/nice0/nice0_16-18_c.tobj"
+ skycloud_texture[1]: "/model/skybox/nice1/nice1_16-18_c.tobj"
+ skycloud_texture[2]: "/model/skybox/nice0/nice0_16-18_c.tobj"
+ skycloud_part: 3
+ skycloud_part[0]: day
+ skycloud_part[1]: day
+ skycloud_part[2]: day
+ ambient: 3
+ ambient[0]: (&3f31b1b2, &3f31b1b2, &3f31b1b2)
+ ambient[1]: (&3f31b1b2, &3f31b1b2, &3f31b1b2)
+ ambient[2]: (&3f31b1b2, &3f31b1b2, &3f31b1b2)
+ ambient_hdr_coef: 3
+ ambient_hdr_coef[0]: &3df5c28f
+ ambient_hdr_coef[1]: &3df5c28f
+ ambient_hdr_coef[2]: &3df5c28f
+ diffuse: 3
+ diffuse[0]: (&3f75f5f7, &3f25a5a6, &3eb8b8b9)
+ diffuse[1]: (&3f76f6f8, &3f24a4a5, &3eb8b8b9)
+ diffuse[2]: (&3f75f5f7, &3f25a5a6, &3eb8b8b9)
+ diffuse_hdr_coef: 3
+ diffuse_hdr_coef[0]: &3f666666
+ diffuse_hdr_coef[1]: &3f666666
+ diffuse_hdr_coef[2]: &3f666666
+ specular: 3
+ specular[0]: (1, 1, 1)
+ specular[1]: (1, 1, 1)
+ specular[2]: (1, 1, 1)
+ specular_hdr_coef: 3
+ specular_hdr_coef[0]: 1
+ specular_hdr_coef[1]: 1
+ specular_hdr_coef[2]: 1
+ env: 3
+ env[0]: 1
+ env[1]: 1
+ env[2]: 1
+ env_static_mod: 3
+ env_static_mod[0]: &3e99999a
+ env_static_mod[1]: &3e99999a
+ env_static_mod[2]: &3e99999a
+ sky_color: 3
+ sky_color[0]: (1, 1, 1)
+ sky_color[1]: (1, 1, 1)
+ sky_color[2]: (1, 1, 1)
+ sky_color_hdr_coef: 3
+ sky_color_hdr_coef[0]: 1
+ sky_color_hdr_coef[1]: 1
+ sky_color_hdr_coef[2]: 1
+ sun_color: 3
+ sun_color[0]: (&3f72f2f4, &3f40c0c2, &3f24a4a5)
+ sun_color[1]: (&3f2fafb0, &3f2fafb0, &3f2fafb0)
+ sun_color[2]: (&3f72f2f4, &3f40c0c2, &3f24a4a5)
+ sun_color_hdr_coef: 3
+ sun_color_hdr_coef[0]: 1
+ sun_color_hdr_coef[1]: 1
+ sun_color_hdr_coef[2]: 1
+ sun_shadow_strength: 3
+ sun_shadow_strength[0]: &3f666666
+ sun_shadow_strength[1]: &3f666666
+ sun_shadow_strength[2]: &3f666666
+ fog_color: 3
+ fog_color[0]: (&3d40c0c2, &3dd0d0d2, &3e149495)
+ fog_color[1]: (&3d808081, &3dd8d8da, &3e0c8c8d)
+ fog_color[2]: (&3d40c0c2, &3dd0d0d2, &3e149495)
+ fog_color2: 3
+ fog_color2[0]: (&3da0a0a1, &3e28a8a9, &3e70f0f2)
+ fog_color2[1]: (&3da8a8a9, &3e0c8c8d, &3e34b4b5)
+ fog_color2[2]: (&3da0a0a1, &3e28a8a9, &3e70f0f2)
+ fog_vgradient: 3
+ fog_vgradient[0]: &3ba3d70a
+ fog_vgradient[1]: &3ba3d70a
+ fog_vgradient[2]: &3ba3d70a
+ fog_offset: 3
+ fog_offset[0]: 250
+ fog_offset[1]: 150
+ fog_offset[2]: 250
+ fog_density: 3
+ fog_density[0]: &3aaa64c3
+ fog_density[1]: &3aaa64c3
+ fog_density[2]: &3aaa64c3
+ fog_speed: 3
+ fog_speed[0]: &3f000000
+ fog_speed[1]: &3f000000
+ fog_speed[2]: &3f000000
+ transition_fog_speed: 3
+ transition_fog_speed[0]: 3
+ transition_fog_speed[1]: 3
+ transition_fog_speed[2]: 3
+ speed_coef: 3
+ speed_coef[0]: &3e75c2a2
+ speed_coef[1]: &3e75c2a2
+ speed_coef[2]: &3e75c2a2
+ cloud_shadow_weight: 3
+ cloud_shadow_weight[0]: &3f333333
+ cloud_shadow_weight[1]: &3f333333
+ cloud_shadow_weight[2]: &3f333333
+ cloud_shadow_texture: 3
+ cloud_shadow_texture[0]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_texture[1]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_texture[2]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_area_size: 3
+ cloud_shadow_area_size[0]: (1000, 1000)
+ cloud_shadow_area_size[1]: (1000, 1000)
+ cloud_shadow_area_size[2]: (1000, 1000)
+ cloud_shadow_speed: 3
+ cloud_shadow_speed[0]: (5, 5)
+ cloud_shadow_speed[1]: (5, 5)
+ cloud_shadow_speed[2]: (5, 5)
+ rain_intensity: 3
+ rain_intensity[0]: 0
+ rain_intensity[1]: 0
+ rain_intensity[2]: 0
+ rain_max_wetness: 3
+ rain_max_wetness[0]: 1
+ rain_max_wetness[1]: 1
+ rain_max_wetness[2]: 1
+ rain_additional_ambient: 3
+ rain_additional_ambient[0]: 5
+ rain_additional_ambient[1]: 5
+ rain_additional_ambient[2]: 5
+# leaves_back_color: 3
+# leaves_back_color[0]: (&3f7db8e0, &3f6e1bc2, &3eaf0f69)
+# leaves_back_color[1]: (&3f7db8e0, &3f6e1bc2, &3eaf0f69)
+# leaves_back_color[2]: (&3f7db8e0, &3f6e1bc2, &3eaf0f69)
+ wind_type: 3
+ wind_type[0]: 1
+ wind_type[1]: 1
+ wind_type[2]: 1
+ dof_start: 3
+ dof_start[0]: 120
+ dof_start[1]: 120
+ dof_start[2]: 120
+ dof_transition: 3
+ dof_transition[0]: 700
+ dof_transition[1]: 700
+ dof_transition[2]: 700
+ dof_filter_size: 3
+ dof_filter_size[0]: 1
+ dof_filter_size[1]: 1
+ dof_filter_size[2]: 1
+ color_balance: 3
+ color_balance[0]: (&3d4ccccd, 0, &bd4ccccd)
+ color_balance[1]: (0, 0, 0)
+ color_balance[2]: (&3d4ccccd, 0, &bd4ccccd)
+ color_saturation: 3
+ color_saturation[0]: 1
+ color_saturation[1]: 1
+ color_saturation[2]: 1
+ sunshaft_color: 3
+ sunshaft_color[0]: (&3f3ababb, &3f008081, &3e149495)
+ sunshaft_color[1]: (&3f5adadc, &3f3ebebf, &3f088889)
+ sunshaft_color[2]: (&3f3ababb, &3f008081, &3e149495)
+ sunshaft_strength: 3
+ sunshaft_strength[0]: &3f000000
+ sunshaft_strength[1]: &3ecccccd
+ sunshaft_strength[2]: &3f000000
+ sunshaft_size: 3
+ sunshaft_size[0]: 3
+ sunshaft_size[1]: 2
+ sunshaft_size[2]: 3
+ low_intensity_minimum: 3
+ low_intensity_minimum[0]: 0
+ low_intensity_minimum[1]: 0
+ low_intensity_minimum[2]: 0
+ low_intensity_maximum: 3
+ low_intensity_maximum[0]: 0
+ low_intensity_maximum[1]: 0
+ low_intensity_maximum[2]: 0
+ low_intensity_color: 3
+ low_intensity_color[0]: (1, 1, 1)
+ low_intensity_color[1]: (1, 1, 1)
+ low_intensity_color[2]: (1, 1, 1)
+ target_gray: 3
+ target_gray[0]: &3e3851ec
+ target_gray[1]: &3e3851ec
+ target_gray[2]: &3e3851ec
+ min_scale: 3
+ min_scale[0]: 0
+ min_scale[1]: 0
+ min_scale[2]: 0
+ max_scale: 3
+ max_scale[0]: 100
+ max_scale[1]: 100
+ max_scale[2]: 100
+ target_white: 3
+ target_white[0]: &3f000000
+ target_white[1]: &3f000000
+ target_white[2]: &3f000000
+ eye_adaptation_speed: 3
+ eye_adaptation_speed[0]: &3f333333
+ eye_adaptation_speed[1]: &3f333333
+ eye_adaptation_speed[2]: &3f333333
+ bloom_minimal_color: 3
+ bloom_minimal_color[0]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_minimal_color[1]: (&3ecccccd, &3ecccccd, &3ecccccd)
+ bloom_minimal_color[2]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_half_intensity_color: 3
+ bloom_half_intensity_color[0]: (1, 1, 1)
+ bloom_half_intensity_color[1]: (1, 1, 1)
+ bloom_half_intensity_color[2]: (1, 1, 1)
+ bloom_resizing_steps: 3
+ bloom_resizing_steps[0]: 3
+ bloom_resizing_steps[1]: 3
+ bloom_resizing_steps[2]: 3
+ bloom_filter_radius: 3
+ bloom_filter_radius[0]: 6
+ bloom_filter_radius[1]: 6
+ bloom_filter_radius[2]: 6
+ bloom_standard_deviation: 3
+ bloom_standard_deviation[0]: &3f000000
+ bloom_standard_deviation[1]: &3f000000
+ bloom_standard_deviation[2]: &3f000000
+ scene_multiplier: 3
+ scene_multiplier[0]: (1, 1, 1)
+ scene_multiplier[1]: (1, 1, 1)
+ scene_multiplier[2]: (1, 1, 1)
+ bloom_multiplier: 3
+ bloom_multiplier[0]: (1, 1, 1)
+ bloom_multiplier[1]: (1, 1, 1)
+ bloom_multiplier[2]: (1, 1, 1)
+ weight: 3
+ weight[0]: 1
+ weight[1]: 1
+ weight[2]: 1
+}
+
+sun_profile : metro.nice.07b {
+ low_elevation: 15
+ high_elevation: &41c7fffe
+ sun_direction: -1
+ temperature: 3
+ temperature[0]: 31
+ temperature[1]: 31
+ temperature[2]: 30
+ skybox_texture: 3
+ skybox_texture[0]: "/model/skybox/nice0/nice0_16-18_g.tobj"
+ skybox_texture[1]: "/model/skybox/nice1/nice1_16-18_g.tobj"
+ skybox_texture[2]: "/model/skybox/nice0/nice0_16-18_g.tobj"
+ skycloud_texture: 3
+ skycloud_texture[0]: "/model/skybox/nice0/nice0_16-18_c.tobj"
+ skycloud_texture[1]: "/model/skybox/nice1/nice1_16-18_c.tobj"
+ skycloud_texture[2]: "/model/skybox/nice0/nice0_16-18_c.tobj"
+ skycloud_part: 3
+ skycloud_part[0]: day
+ skycloud_part[1]: day
+ skycloud_part[2]: day
+ ambient: 3
+ ambient[0]: (&3f31b1b2, &3f31b1b2, &3f31b1b2)
+ ambient[1]: (&3f31b1b2, &3f31b1b2, &3f31b1b2)
+ ambient[2]: (&3f31b1b2, &3f31b1b2, &3f31b1b2)
+ ambient_hdr_coef: 3
+ ambient_hdr_coef[0]: &3df5c28f
+ ambient_hdr_coef[1]: &3df5c28f
+ ambient_hdr_coef[2]: &3df5c28f
+ diffuse: 3
+ diffuse[0]: (&3f75f5f7, &3f25a5a6, &3eb8b8b9)
+ diffuse[1]: (&3f76f6f8, &3f24a4a5, &3eb8b8b9)
+ diffuse[2]: (&3f75f5f7, &3f25a5a6, &3eb8b8b9)
+ diffuse_hdr_coef: 3
+ diffuse_hdr_coef[0]: &3f666666
+ diffuse_hdr_coef[1]: &3f666666
+ diffuse_hdr_coef[2]: &3f666666
+ specular: 3
+ specular[0]: (1, 1, 1)
+ specular[1]: (1, 1, 1)
+ specular[2]: (1, 1, 1)
+ specular_hdr_coef: 3
+ specular_hdr_coef[0]: 1
+ specular_hdr_coef[1]: 1
+ specular_hdr_coef[2]: 1
+ env: 3
+ env[0]: 1
+ env[1]: 1
+ env[2]: 1
+ env_static_mod: 3
+ env_static_mod[0]: &3e99999a
+ env_static_mod[1]: &3e99999a
+ env_static_mod[2]: &3e99999a
+ sky_color: 3
+ sky_color[0]: (1, 1, 1)
+ sky_color[1]: (1, 1, 1)
+ sky_color[2]: (1, 1, 1)
+ sky_color_hdr_coef: 3
+ sky_color_hdr_coef[0]: 1
+ sky_color_hdr_coef[1]: 1
+ sky_color_hdr_coef[2]: 1
+ sun_color: 3
+ sun_color[0]: (&3f72f2f4, &3f40c0c2, &3f24a4a5)
+ sun_color[1]: (&3f2fafb0, &3f2fafb0, &3f2fafb0)
+ sun_color[2]: (&3f72f2f4, &3f40c0c2, &3f24a4a5)
+ sun_color_hdr_coef: 3
+ sun_color_hdr_coef[0]: 1
+ sun_color_hdr_coef[1]: 1
+ sun_color_hdr_coef[2]: 1
+ sun_shadow_strength: 3
+ sun_shadow_strength[0]: &3f666666
+ sun_shadow_strength[1]: &3f666666
+ sun_shadow_strength[2]: &3f666666
+ fog_color: 3
+ fog_color[0]: (&3d40c0c2, &3dd0d0d2, &3e149495)
+ fog_color[1]: (&3d808081, &3dd8d8da, &3e0c8c8d)
+ fog_color[2]: (&3d40c0c2, &3dd0d0d2, &3e149495)
+ fog_color2: 3
+ fog_color2[0]: (&3da0a0a1, &3e28a8a9, &3e70f0f2)
+ fog_color2[1]: (&3da8a8a9, &3e0c8c8d, &3e34b4b5)
+ fog_color2[2]: (&3da0a0a1, &3e28a8a9, &3e70f0f2)
+ fog_vgradient: 3
+ fog_vgradient[0]: &3ba3d70a
+ fog_vgradient[1]: &3ba3d70a
+ fog_vgradient[2]: &3ba3d70a
+ fog_offset: 3
+ fog_offset[0]: 250
+ fog_offset[1]: 150
+ fog_offset[2]: 250
+ fog_density: 3
+ fog_density[0]: &3aaa64c3
+ fog_density[1]: &3aaa64c3
+ fog_density[2]: &3aaa64c3
+ fog_speed: 3
+ fog_speed[0]: &3f000000
+ fog_speed[1]: &3f000000
+ fog_speed[2]: &3f000000
+ transition_fog_speed: 3
+ transition_fog_speed[0]: 3
+ transition_fog_speed[1]: 3
+ transition_fog_speed[2]: 3
+ speed_coef: 3
+ speed_coef[0]: &3e75c2a2
+ speed_coef[1]: &3e75c2a2
+ speed_coef[2]: &3e75c2a2
+ cloud_shadow_weight: 3
+ cloud_shadow_weight[0]: &3f333333
+ cloud_shadow_weight[1]: &3f333333
+ cloud_shadow_weight[2]: &3f333333
+ cloud_shadow_texture: 3
+ cloud_shadow_texture[0]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_texture[1]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_texture[2]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_area_size: 3
+ cloud_shadow_area_size[0]: (1000, 1000)
+ cloud_shadow_area_size[1]: (1000, 1000)
+ cloud_shadow_area_size[2]: (1000, 1000)
+ cloud_shadow_speed: 3
+ cloud_shadow_speed[0]: (5, 5)
+ cloud_shadow_speed[1]: (5, 5)
+ cloud_shadow_speed[2]: (5, 5)
+ rain_intensity: 3
+ rain_intensity[0]: 0
+ rain_intensity[1]: 0
+ rain_intensity[2]: 0
+ rain_max_wetness: 3
+ rain_max_wetness[0]: 1
+ rain_max_wetness[1]: 1
+ rain_max_wetness[2]: 1
+ rain_additional_ambient: 3
+ rain_additional_ambient[0]: 5
+ rain_additional_ambient[1]: 5
+ rain_additional_ambient[2]: 5
+# leaves_back_color: 3
+# leaves_back_color[0]: (&3f7db8e0, &3f6e1bc2, &3eaf0f69)
+# leaves_back_color[1]: (&3f7db8e0, &3f6e1bc2, &3eaf0f69)
+# leaves_back_color[2]: (&3f7db8e0, &3f6e1bc2, &3eaf0f69)
+ wind_type: 3
+ wind_type[0]: 1
+ wind_type[1]: 1
+ wind_type[2]: 1
+ dof_start: 3
+ dof_start[0]: 120
+ dof_start[1]: 120
+ dof_start[2]: 120
+ dof_transition: 3
+ dof_transition[0]: 700
+ dof_transition[1]: 700
+ dof_transition[2]: 700
+ dof_filter_size: 3
+ dof_filter_size[0]: 1
+ dof_filter_size[1]: 1
+ dof_filter_size[2]: 1
+ color_balance: 3
+ color_balance[0]: (&3d4ccccd, 0, &bd4ccccd)
+ color_balance[1]: (0, 0, 0)
+ color_balance[2]: (&3d4ccccd, 0, &bd4ccccd)
+ color_saturation: 3
+ color_saturation[0]: 1
+ color_saturation[1]: 1
+ color_saturation[2]: 1
+ sunshaft_color: 3
+ sunshaft_color[0]: (&3f3ababb, &3f008081, &3e149495)
+ sunshaft_color[1]: (&3f5adadc, &3f3ebebf, &3f088889)
+ sunshaft_color[2]: (&3f3ababb, &3f008081, &3e149495)
+ sunshaft_strength: 3
+ sunshaft_strength[0]: &3f000000
+ sunshaft_strength[1]: &3ecccccd
+ sunshaft_strength[2]: &3f000000
+ sunshaft_size: 3
+ sunshaft_size[0]: 3
+ sunshaft_size[1]: 2
+ sunshaft_size[2]: 3
+ low_intensity_minimum: 3
+ low_intensity_minimum[0]: 0
+ low_intensity_minimum[1]: 0
+ low_intensity_minimum[2]: 0
+ low_intensity_maximum: 3
+ low_intensity_maximum[0]: 0
+ low_intensity_maximum[1]: 0
+ low_intensity_maximum[2]: 0
+ low_intensity_color: 3
+ low_intensity_color[0]: (1, 1, 1)
+ low_intensity_color[1]: (1, 1, 1)
+ low_intensity_color[2]: (1, 1, 1)
+ target_gray: 3
+ target_gray[0]: &3e3851ec
+ target_gray[1]: &3e3851ec
+ target_gray[2]: &3e3851ec
+ min_scale: 3
+ min_scale[0]: 0
+ min_scale[1]: 0
+ min_scale[2]: 0
+ max_scale: 3
+ max_scale[0]: 100
+ max_scale[1]: 100
+ max_scale[2]: 100
+ target_white: 3
+ target_white[0]: &3f000000
+ target_white[1]: &3f000000
+ target_white[2]: &3f000000
+ eye_adaptation_speed: 3
+ eye_adaptation_speed[0]: &3f333333
+ eye_adaptation_speed[1]: &3f333333
+ eye_adaptation_speed[2]: &3f333333
+ bloom_minimal_color: 3
+ bloom_minimal_color[0]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_minimal_color[1]: (&3ecccccd, &3ecccccd, &3ecccccd)
+ bloom_minimal_color[2]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_half_intensity_color: 3
+ bloom_half_intensity_color[0]: (1, 1, 1)
+ bloom_half_intensity_color[1]: (1, 1, 1)
+ bloom_half_intensity_color[2]: (1, 1, 1)
+ bloom_resizing_steps: 3
+ bloom_resizing_steps[0]: 3
+ bloom_resizing_steps[1]: 3
+ bloom_resizing_steps[2]: 3
+ bloom_filter_radius: 3
+ bloom_filter_radius[0]: 6
+ bloom_filter_radius[1]: 6
+ bloom_filter_radius[2]: 6
+ bloom_standard_deviation: 3
+ bloom_standard_deviation[0]: &3f000000
+ bloom_standard_deviation[1]: &3f000000
+ bloom_standard_deviation[2]: &3f000000
+ scene_multiplier: 3
+ scene_multiplier[0]: (1, 1, 1)
+ scene_multiplier[1]: (1, 1, 1)
+ scene_multiplier[2]: (1, 1, 1)
+ bloom_multiplier: 3
+ bloom_multiplier[0]: (1, 1, 1)
+ bloom_multiplier[1]: (1, 1, 1)
+ bloom_multiplier[2]: (1, 1, 1)
+ weight: 3
+ weight[0]: 1
+ weight[1]: 1
+ weight[2]: 1
+}
+
+sun_profile : metro.nice.08 {
+ low_elevation: &409ffffc
+ high_elevation: &411ffffc
+ sun_direction: -1
+ temperature: 3
+ temperature[0]: 31
+ temperature[1]: 30
+ temperature[2]: 28
+ skybox_texture: 3
+ skybox_texture[0]: "/model/skybox/nice0/nice0_19-20_g.tobj"
+ skybox_texture[1]: "/model/skybox/nice1/nice1_19-20_g.tobj"
+ skybox_texture[2]: "/model/skybox/nicejpsummer/nicejpsummer_16_18_g.tobj"
+ skycloud_texture: 3
+ skycloud_texture[0]: "/model/skybox/nice0/nice0_19-20_c.tobj"
+ skycloud_texture[1]: "/model/skybox/nice1/nice1_19-20_c.tobj"
+ skycloud_texture[2]: "/model/skybox/nicejpsummer/nicejpsummer_16_18_c.tobj"
+ skycloud_part: 3
+ skycloud_part[0]: day
+ skycloud_part[1]: day
+ skycloud_part[2]: day
+ ambient: 3
+ ambient[0]: (&3f31b1b2, &3f31b1b2, &3f31b1b2)
+ ambient[1]: (&3f31b1b2, &3f31b1b2, &3f31b1b2)
+ ambient[2]: (&3f2c253d, &3f2c253d, &3f2c253d)
+ ambient_hdr_coef: 3
+ ambient_hdr_coef[0]: &3d4ccccd
+ ambient_hdr_coef[1]: &3e19999a
+ ambient_hdr_coef[2]: &3e19999a
+ diffuse: 3
+ diffuse[0]: (&3f75f5f7, &3f25a5a6, &3eb8b8b9)
+ diffuse[1]: (&3f75f5f7, &3f25a5a6, &3eb8b8b9)
+ diffuse[2]: (&3f67e7e9, &3f40c0c2, &3ebcbcbd)
+ diffuse_hdr_coef: 3
+ diffuse_hdr_coef[0]: &3f19999a
+ diffuse_hdr_coef[1]: &3f19999a
+ diffuse_hdr_coef[2]: &3f333333
+ specular: 3
+ specular[0]: (1, 1, 1)
+ specular[1]: (1, 1, 1)
+ specular[2]: (1, 1, 1)
+ specular_hdr_coef: 3
+ specular_hdr_coef[0]: &3f000000
+ specular_hdr_coef[1]: &3f000000
+ specular_hdr_coef[2]: &3f000000
+ env: 3
+ env[0]: 1
+ env[1]: 1
+ env[2]: 1
+ env_static_mod: 3
+ env_static_mod[0]: &3e4ccccd
+ env_static_mod[1]: &3e4ccccd
+ env_static_mod[2]: &3e4ccccd
+ sky_color: 3
+ sky_color[0]: (1, 1, 1)
+ sky_color[1]: (1, 1, 1)
+ sky_color[2]: (1, 1, 1)
+ sky_color_hdr_coef: 3
+ sky_color_hdr_coef[0]: 1
+ sky_color_hdr_coef[1]: 1
+ sky_color_hdr_coef[2]: 1
+ sun_color: 3
+ sun_color[0]: (&3f74f4f6, &3f38b8b9, &3f189899)
+ sun_color[1]: (&3f78f8fa, &3f3cbcbd, &3f1c9c9d)
+ sun_color[2]: (1, 1, 1)
+ sun_color_hdr_coef: 3
+ sun_color_hdr_coef[0]: 1
+ sun_color_hdr_coef[1]: &3fc00000
+ sun_color_hdr_coef[2]: 2
+ sun_shadow_strength: 3
+ sun_shadow_strength[0]: 1
+ sun_shadow_strength[1]: 1
+ sun_shadow_strength[2]: 1
+ fog_color: 3
+ fog_color[0]: (&3d888889, &3d40c0c2, &3d60e0e2)
+ fog_color[1]: (&3d989899, &3dd8d8da, &3dd8d8da)
+ fog_color[2]: (&3d989899, &3dd8d8da, &3dd8d8da)
+ fog_color2: 3
+ fog_color2[0]: (&3e008081, &3da0a0a1, &3db0b0b1)
+ fog_color2[1]: (&3dd0d0d2, &3e24a4a5, &3e24a4a5)
+ fog_color2[2]: (&3dd0d0d2, &3e24a4a5, &3e24a4a5)
+ fog_vgradient: 3
+ fog_vgradient[0]: &3ba3d70a
+ fog_vgradient[1]: &3ba3d70a
+ fog_vgradient[2]: &3ba3d70a
+ fog_offset: 3
+ fog_offset[0]: 180
+ fog_offset[1]: 120
+ fog_offset[2]: 180
+ fog_density: 3
+ fog_density[0]: &3aaa64c3
+ fog_density[1]: &3b03126f
+ fog_density[2]: &3aaa64c3
+ fog_speed: 3
+ fog_speed[0]: 1
+ fog_speed[1]: 2
+ fog_speed[2]: 1
+ transition_fog_speed: 3
+ transition_fog_speed[0]: 5
+ transition_fog_speed[1]: 5
+ transition_fog_speed[2]: 5
+ speed_coef: 3
+ speed_coef[0]: &3e75c2a2
+ speed_coef[1]: &3e75c2a2
+ speed_coef[2]: &3e75c2a2
+ cloud_shadow_weight: 3
+ cloud_shadow_weight[0]: &3f000000
+ cloud_shadow_weight[1]: &3f333333
+ cloud_shadow_weight[2]: &3f000000
+ cloud_shadow_texture: 3
+ cloud_shadow_texture[0]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_texture[1]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_texture[2]: "/model/skybox/clouds_shadows1.tobj"
+ cloud_shadow_area_size: 3
+ cloud_shadow_area_size[0]: (1000, 1000)
+ cloud_shadow_area_size[1]: (1000, 1000)
+ cloud_shadow_area_size[2]: (1000, 1000)
+ cloud_shadow_speed: 3
+ cloud_shadow_speed[0]: (5, 5)
+ cloud_shadow_speed[1]: (5, 5)
+ cloud_shadow_speed[2]: (5, 5)
+ rain_intensity: 3
+ rain_intensity[0]: 0
+ rain_intensity[1]: 0
+ rain_intensity[2]: 0
+ rain_max_wetness: 3
+ rain_max_wetness[0]: 1
+ rain_max_wetness[1]: 1
+ rain_max_wetness[2]: 1
+ rain_additional_ambient: 3
+ rain_additional_ambient[0]: 5
+ rain_additional_ambient[1]: 5
+ rain_additional_ambient[2]: 5
+# leaves_back_color: 3
+# leaves_back_color[0]: (1, 1, 1)
+# leaves_back_color[1]: (1, 1, 1)
+# leaves_back_color[2]: (1, 1, 1)
+ wind_type: 3
+ wind_type[0]: 1
+ wind_type[1]: 1
+ wind_type[2]: 1
+ dof_start: 3
+ dof_start[0]: 120
+ dof_start[1]: 120
+ dof_start[2]: 120
+ dof_transition: 3
+ dof_transition[0]: 700
+ dof_transition[1]: 700
+ dof_transition[2]: 700
+ dof_filter_size: 3
+ dof_filter_size[0]: 1
+ dof_filter_size[1]: 1
+ dof_filter_size[2]: 1
+ color_balance: 3
+ color_balance[0]: (&3d4ccccd, 0, &bd75c28f)
+ color_balance[1]: (0, 0, 0)
+ color_balance[2]: (&3d4ccccd, 0, &bca3d70a)
+ color_saturation: 3
+ color_saturation[0]: 1
+ color_saturation[1]: 1
+ color_saturation[2]: 1
+ sunshaft_color: 3
+ sunshaft_color[0]: (&3f50d0d2, &3e8a8a8b, &3dc8c8ca)
+ sunshaft_color[1]: (&3f4acacc, &3f038384, &3e9e9e9f)
+ sunshaft_color[2]: (&3f3dbdbe, &3ef0f0f2, &3e78f8fa)
+ sunshaft_strength: 3
+ sunshaft_strength[0]: &3f000000
+ sunshaft_strength[1]: &3f000000
+ sunshaft_strength[2]: &3e4ccccd
+ sunshaft_size: 3
+ sunshaft_size[0]: 3
+ sunshaft_size[1]: 2
+ sunshaft_size[2]: 4
+ low_intensity_minimum: 3
+ low_intensity_minimum[0]: 0
+ low_intensity_minimum[1]: 0
+ low_intensity_minimum[2]: 0
+ low_intensity_maximum: 3
+ low_intensity_maximum[0]: 0
+ low_intensity_maximum[1]: 0
+ low_intensity_maximum[2]: 0
+ low_intensity_color: 3
+ low_intensity_color[0]: (1, 1, 1)
+ low_intensity_color[1]: (1, 1, 1)
+ low_intensity_color[2]: (1, 1, 1)
+ target_gray: 3
+ target_gray[0]: &3df5c28f
+ target_gray[1]: &3df5c28f
+ target_gray[2]: &3e19999a
+ min_scale: 3
+ min_scale[0]: 0
+ min_scale[1]: 0
+ min_scale[2]: 0
+ max_scale: 3
+ max_scale[0]: 100
+ max_scale[1]: 100
+ max_scale[2]: 100
+ target_white: 3
+ target_white[0]: &3f000000
+ target_white[1]: &3f000000
+ target_white[2]: &3f000000
+ eye_adaptation_speed: 3
+ eye_adaptation_speed[0]: &3f333333
+ eye_adaptation_speed[1]: &3f333333
+ eye_adaptation_speed[2]: &3f333333
+ bloom_minimal_color: 3
+ bloom_minimal_color[0]: (&3ecccccd, &3ecccccd, &3ecccccd)
+ bloom_minimal_color[1]: (&3eccccce, &3eccccce, &3eccccce)
+ bloom_minimal_color[2]: (&3ecccccd, &3ecccccd, &3ecccccd)
+ bloom_half_intensity_color: 3
+ bloom_half_intensity_color[0]: (1, 1, 1)
+ bloom_half_intensity_color[1]: (1, 1, 1)
+ bloom_half_intensity_color[2]: (1, 1, 1)
+ bloom_resizing_steps: 3
+ bloom_resizing_steps[0]: 3
+ bloom_resizing_steps[1]: 3
+ bloom_resizing_steps[2]: 3
+ bloom_filter_radius: 3
+ bloom_filter_radius[0]: 6
+ bloom_filter_radius[1]: 6
+ bloom_filter_radius[2]: 6
+ bloom_standard_deviation: 3
+ bloom_standard_deviation[0]: &3f000000
+ bloom_standard_deviation[1]: &3f000000
+ bloom_standard_deviation[2]: &3f000000
+ scene_multiplier: 3
+ scene_multiplier[0]: (1, 1, 1)
+ scene_multiplier[1]: (1, 1, 1)
+ scene_multiplier[2]: (1, 1, 1)
+ bloom_multiplier: 3
+ bloom_multiplier[0]: (1, 1, 1)
+ bloom_multiplier[1]: (1, 1, 1)
+ bloom_multiplier[2]: (1, 1, 1)
+ weight: 3
+ weight[0]: 1
+ weight[1]: 1
+ weight[2]: 1
+}
+
+sun_profile : metro.nice.09 {
+ low_elevation: &c09ffffc
+ high_elevation: 0
+ sun_direction: -1
+ temperature: 3
+ temperature[0]: 30
+ temperature[1]: 29
+ temperature[2]: 27
+ skybox_texture: 3
+ skybox_texture[0]: "/model/skybox/nice0/nice0_21-22_g.tobj"
+ skybox_texture[1]: "/model/skybox/nice1/nice1_21-22_g.tobj"
+ skybox_texture[2]: "/model/skybox/nice0/nice0_21-22_g.tobj"
+ skycloud_texture: 3
+ skycloud_texture[0]: "/model/skybox/nice0/nice0_21-22_c.tobj"
+ skycloud_texture[1]: "/model/skybox/nice1/nice1_21-22_c.tobj"
+ skycloud_texture[2]: "/model/skybox/nice0/nice0_21-22_c.tobj"
+ skycloud_part: 3
+ skycloud_part[0]: night
+ skycloud_part[1]: night
+ skycloud_part[2]: night
+ ambient: 3
+ ambient[0]: (&3f068687, &3f46c6c8, &3f5cdcde)
+ ambient[1]: (&3ee6e6e8, &3f42c2c4, 1)
+ ambient[2]: (&3ee6e6e8, &3f42c2c4, 1)
+ ambient_hdr_coef: 3
+ ambient_hdr_coef[0]: &3c23d70a
+ ambient_hdr_coef[1]: &3c23d70a
+ ambient_hdr_coef[2]: &3c23d70a
+ diffuse: 3
+ diffuse[0]: (&3f65e5e7, &3f088889, &3ecacacc)
+ diffuse[1]: (&3f40c0c2, &3f139394, &3efeff00)
+ diffuse[2]: (&3f65e5e7, &3f088889, &3ecacacc)
+ diffuse_hdr_coef: 3
+ diffuse_hdr_coef[0]: &3e4ccccd
+ diffuse_hdr_coef[1]: &3e4ccccd
+ diffuse_hdr_coef[2]: &3e4ccccd
+ specular: 3
+ specular[0]: (1, 1, 1)
+ specular[1]: (1, 1, 1)
+ specular[2]: (1, 1, 1)
+ specular_hdr_coef: 3
+ specular_hdr_coef[0]: &3d8f5c29
+ specular_hdr_coef[1]: &3d8f5c29
+ specular_hdr_coef[2]: &3d8f5c29
+ env: 3
+ env[0]: 1
+ env[1]: 1
+ env[2]: 1
+ env_static_mod: 3
+ env_static_mod[0]: &3e4ccccd
+ env_static_mod[1]: &3e4ccccd
+ env_static_mod[2]: &3e4ccccd
+ sky_color: 3
+ sky_color[0]: (1, 1, 1)
+ sky_color[1]: (1, 1, 1)
+ sky_color[2]: (1, 1, 1)
+ sky_color_hdr_coef: 3
+ sky_color_hdr_coef[0]: 1
+ sky_color_hdr_coef[1]: 1
+ sky_color_hdr_coef[2]: 1
+ sun_color: 3
+ sun_color[0]: (&3f3ababb, &3ec8c8ca, &3e9c9c9d)
+ sun_color[1]: (&3c808081, &3d109091, &3d888889)
+ sun_color[2]: (&3f3ababb, &3ec8c8ca, &3e9c9c9d)
+ sun_color_hdr_coef: 3
+ sun_color_hdr_coef[0]: 1
+ sun_color_hdr_coef[1]: 1
+ sun_color_hdr_coef[2]: 1
+ sun_shadow_strength: 3
+ sun_shadow_strength[0]: 1
+ sun_shadow_strength[1]: 1
+ sun_shadow_strength[2]: 1
+ fog_color: 3
+ fog_color[0]: (&3cc0c0c2, &3ca0a0a1, &3d008081)
+ fog_color[1]: (&3b808081, &3c808081, &3d109091)
+ fog_color[2]: (&3b808081, &3c808081, &3d109091)
+ fog_color2: 3
+ fog_color2[0]: (&3d888889, &3d40c0c2, &3d50d0d2)
+ fog_color2[1]: (&3b808081, &3ca0a0a1, &3d40c0c2)
+ fog_color2[2]: (&3b808081, &3ca0a0a1, &3d40c0c2)
+ fog_vgradient: 3
+ fog_vgradient[0]: &3ba3d70a
+ fog_vgradient[1]: &3ba3d70a
+ fog_vgradient[2]: &3ba3d70a
+ fog_offset: 3
+ fog_offset[0]: 180
+ fog_offset[1]: 120
+ fog_offset[2]: 180
+ fog_density: 3
+ fog_density[0]: &3ad1b717
+ fog_density[1]: &3b03126f
+ fog_density[2]: &3ad1b717
+ fog_speed: 3
+ fog_speed[0]: &3f000000
+ fog_speed[1]: &3f000000
+ fog_speed[2]: &3f000000
+ transition_fog_speed: 3
+ transition_fog_speed[0]: 5
+ transition_fog_speed[1]: 5
+ transition_fog_speed[2]: 5
+ speed_coef: 3
+ speed_coef[0]: &3e75c2a2
+ speed_coef[1]: &3e75c2a2
+ speed_coef[2]: &3e75c2a2
+ cloud_shadow_weight: 3
+ cloud_shadow_weight[0]: 0
+ cloud_shadow_weight[1]: 0
+ cloud_shadow_weight[2]: 0
+ cloud_shadow_texture: 3
+ cloud_shadow_texture[0]: "null"
+ cloud_shadow_texture[1]: "null"
+ cloud_shadow_texture[2]: "null"
+ cloud_shadow_area_size: 3
+ cloud_shadow_area_size[0]: (0, 0)
+ cloud_shadow_area_size[1]: (0, 0)
+ cloud_shadow_area_size[2]: (0, 0)
+ cloud_shadow_speed: 3
+ cloud_shadow_speed[0]: (0, 0)
+ cloud_shadow_speed[1]: (0, 0)
+ cloud_shadow_speed[2]: (0, 0)
+ rain_intensity: 3
+ rain_intensity[0]: 0
+ rain_intensity[1]: 0
+ rain_intensity[2]: 0
+ rain_max_wetness: 3
+ rain_max_wetness[0]: 1
+ rain_max_wetness[1]: 1
+ rain_max_wetness[2]: 1
+ rain_additional_ambient: 3
+ rain_additional_ambient[0]: 5
+ rain_additional_ambient[1]: 5
+ rain_additional_ambient[2]: 5
+# leaves_back_color: 3
+# leaves_back_color[0]: (1, 1, 1)
+# leaves_back_color[1]: (1, 1, 1)
+# leaves_back_color[2]: (1, 1, 1)
+ wind_type: 3
+ wind_type[0]: 1
+ wind_type[1]: 1
+ wind_type[2]: 1
+ dof_start: 3
+ dof_start[0]: 120
+ dof_start[1]: 120
+ dof_start[2]: 120
+ dof_transition: 3
+ dof_transition[0]: 700
+ dof_transition[1]: 700
+ dof_transition[2]: 700
+ dof_filter_size: 3
+ dof_filter_size[0]: 1
+ dof_filter_size[1]: 1
+ dof_filter_size[2]: 1
+ color_balance: 3
+ color_balance[0]: (0, 0, 0)
+ color_balance[1]: (0, 0, 0)
+ color_balance[2]: (0, 0, 0)
+ color_saturation: 3
+ color_saturation[0]: 1
+ color_saturation[1]: 1
+ color_saturation[2]: 1
+ sunshaft_color: 3
+ sunshaft_color[0]: (&3e949495, &3e78f8fa, &3e5cdcde)
+ sunshaft_color[1]: (&3e949495, &3e78f8fa, &3e5cdcde)
+ sunshaft_color[2]: (&3e949495, &3e78f8fa, &3e5cdcde)
+ sunshaft_strength: 3
+ sunshaft_strength[0]: 0
+ sunshaft_strength[1]: 1
+ sunshaft_strength[2]: 0
+ sunshaft_size: 3
+ sunshaft_size[0]: 2
+ sunshaft_size[1]: 2
+ sunshaft_size[2]: 2
+ low_intensity_minimum: 3
+ low_intensity_minimum[0]: 0
+ low_intensity_minimum[1]: 0
+ low_intensity_minimum[2]: 0
+ low_intensity_maximum: 3
+ low_intensity_maximum[0]: 0
+ low_intensity_maximum[1]: 0
+ low_intensity_maximum[2]: 0
+ low_intensity_color: 3
+ low_intensity_color[0]: (1, 1, 1)
+ low_intensity_color[1]: (1, 1, 1)
+ low_intensity_color[2]: (1, 1, 1)
+ target_gray: 3
+ target_gray[0]: &3df5c28f
+ target_gray[1]: &3df5c28f
+ target_gray[2]: &3df5c28f
+ min_scale: 3
+ min_scale[0]: 0
+ min_scale[1]: 0
+ min_scale[2]: 0
+ max_scale: 3
+ max_scale[0]: 100
+ max_scale[1]: 100
+ max_scale[2]: 100
+ target_white: 3
+ target_white[0]: &3f000000
+ target_white[1]: &3f000000
+ target_white[2]: &3f000000
+ eye_adaptation_speed: 3
+ eye_adaptation_speed[0]: &3f333333
+ eye_adaptation_speed[1]: &3f333333
+ eye_adaptation_speed[2]: &3f333333
+ bloom_minimal_color: 3
+ bloom_minimal_color[0]: (&3ecccccd, &3ecccccd, &3ecccccd)
+ bloom_minimal_color[1]: (&3ecccccd, &3ecccccd, &3ecccccd)
+ bloom_minimal_color[2]: (&3ecccccd, &3ecccccd, &3ecccccd)
+ bloom_half_intensity_color: 3
+ bloom_half_intensity_color[0]: (1, 1, 1)
+ bloom_half_intensity_color[1]: (1, 1, 1)
+ bloom_half_intensity_color[2]: (1, 1, 1)
+ bloom_resizing_steps: 3
+ bloom_resizing_steps[0]: 3
+ bloom_resizing_steps[1]: 3
+ bloom_resizing_steps[2]: 3
+ bloom_filter_radius: 3
+ bloom_filter_radius[0]: 6
+ bloom_filter_radius[1]: 6
+ bloom_filter_radius[2]: 6
+ bloom_standard_deviation: 3
+ bloom_standard_deviation[0]: &3f000000
+ bloom_standard_deviation[1]: &3f000000
+ bloom_standard_deviation[2]: &3f000000
+ scene_multiplier: 3
+ scene_multiplier[0]: (1, 1, 1)
+ scene_multiplier[1]: (1, 1, 1)
+ scene_multiplier[2]: (1, 1, 1)
+ bloom_multiplier: 3
+ bloom_multiplier[0]: (1, 1, 1)
+ bloom_multiplier[1]: (1, 1, 1)
+ bloom_multiplier[2]: (1, 1, 1)
+ weight: 3
+ weight[0]: 1
+ weight[1]: 1
+ weight[2]: 1
+}
+
+}

@@ -1,0 +1,180 @@
+SiiNunit
+{
+sign_template : _nameless.48a.5380 {
+ template_name: expwy_exit
+ model_name: 1664
+ stand_model_name: ""
+ traffic_rule: null
+ boards: 0
+ items: 9
+ items[0]: _nameless.472.dca0
+ items[1]: _nameless.472.dd50
+ items[2]: _nameless.44c.7af0
+ items[3]: _nameless.44c.7bc0
+ items[4]: _nameless.44c.7d60
+ items[5]: _nameless.472.de00
+ items[6]: _nameless.472.deb0
+ items[7]: _nameless.44c.7c90
+ items[8]: _nameless.472.df60
+ dynamic_attributes: 0
+}
+
+sign_template_frame : _nameless.472.dca0 {
+ frame_path: "/def/sign/frame/green_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 651558912
+ area_name: ml6
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40a23d71
+ coords_t: &3fbc28f6
+ coords_b: 0
+ z_order: 1
+}
+
+sign_template_frame : _nameless.472.dd50 {
+ frame_path: "/def/sign/frame/white_swe.sii"
+ color: 16777215
+ opacity: 1
+ id: 530317312
+ area_name: ml6
+ area_idx: nil
+ coords_l: 0
+ coords_r: &3fbf63f7
+ coords_t: &3fbc28f6
+ coords_b: 0
+ z_order: 2
+}
+
+sign_template_text : _nameless.44c.7af0 {
+ text: 22
+ font_face: "/font/sign/dk.font"
+ font_size: 1
+ text_halign: center
+ text_valign: center
+ font_color: 3562498
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 2063728639
+ area_name: ml6
+ area_idx: nil
+ coords_l: &3c6a0e80
+ coords_r: &3fbcf3d0
+ coords_t: &3fa0ea0e
+ coords_b: &3e652e54
+ z_order: 3
+}
+
+sign_template_text : _nameless.44c.7bc0 {
+ text: Toyama
+ font_face: "/font/sign/dk.font"
+ font_size: &3f19999a
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 237502464
+ area_name: ml6
+ area_idx: nil
+ coords_l: &3fbcf3d0
+ coords_r: &40a22224
+ coords_t: &3f409c0a
+ coords_b: 0
+ z_order: 4
+}
+
+sign_template_text : _nameless.44c.7d60 {
+ text: "\xe5\xaf\x8c\xe5\xb1\xb1"
+ font_face: "/font/sign/jp_font.font"
+ font_size: &3f000000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 642646016
+ area_name: ml6
+ area_idx: nil
+ coords_l: &3ffad1ac
+ coords_r: &409394ba
+ coords_t: &3fbc28f6
+ coords_b: &3ef0a3dc
+ z_order: 5
+}
+
+sign_template_frame : _nameless.472.de00 {
+ frame_path: "/def/sign/frame/green_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 3928883198
+ area_name: ml2
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40a23d71
+ coords_t: &3fbc28f6
+ coords_b: 0
+ z_order: 6
+}
+
+sign_template_image : _nameless.472.deb0 {
+ atlas_path: "/def/sign/atlas/arrow_right_swe.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: true
+ vflip: false
+ image_overridable: false
+ id: 2941124606
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3e47ec7c
+ coords_r: &3fb8af8c
+ coords_t: &3fa70271
+ coords_b: &3daf8af8
+ z_order: 7
+}
+
+sign_template_text : _nameless.44c.7c90 {
+ text: EXIT
+ font_face: "/font/sign/dk.font"
+ font_size: &3f000000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1957167103
+ area_name: ml2
+ area_idx: nil
+ coords_l: &401b94ba
+ coords_r: &40792493
+ coords_t: &3f172973
+ coords_b: 0
+ z_order: 8
+}
+
+sign_template_image : _nameless.472.df60 {
+ atlas_path: "/def/sign/atlas/exit.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 1648361471
+ area_name: ml2
+ area_idx: nil
+ coords_l: &40155556
+ coords_r: &407f63f8
+ coords_t: &3fb6db6e
+ coords_b: 0
+ z_order: 9
+}
+
+}

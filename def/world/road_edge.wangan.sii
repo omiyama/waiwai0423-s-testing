@@ -1,0 +1,26 @@
+SiiNunit
+{
+
+
+road_edge : road_edge.kb_jp {
+	name: 		"kerb_jp"
+	model:		"/road_template/jp/kerb_jp.pmd"
+	variant_5: sw_kerb_5m
+	variant_15: sw_kerb_15m
+}
+
+road_edge : road_edge.kb2_jp {
+	name: 		"kerb_jp_20cm"
+	model:		"/road_template/jp/kerb_high_jp.pmd"
+	variant_5: sw_kerb_5m
+	variant_15: sw_kerb_15m
+}
+
+road_edge : road_edge.sw_jp_3m {
+	name: 		"sidewalk_jp_4m50cm"
+	model:		"/road_template/jp/kerb_sidewalk_4500mm.pmd"
+	variant_5: sw_kerb_5m
+	variant_15: sw_kerb_15m
+}
+
+}

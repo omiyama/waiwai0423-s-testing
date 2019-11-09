@@ -1,0 +1,14 @@
+material : "eut2.dif.spec.add.env.nofresnel.tsnmapuv.rfx" {
+	texture[0] : "/vehicle/truck/fuso_supergreat_5/metal_plate.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/environment/generic_reflection.tobj"
+	texture_name[1] : "texture_reflection"
+	texture[2] : "/vehicle/truck/fuso_supergreat_5/metal_plate_n.tobj"
+	texture_name[2] : "texture_nmap"
+	add_ambient : 0
+	diffuse : { 0.447988 , 0.447988 , 0.447988 }
+	env_factor : { 1 , 1 , 1 }
+	reflection : 0.25
+	shininess : 100
+	specular : { 1 , 1 , 1 }
+}

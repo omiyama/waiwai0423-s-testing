@@ -1,0 +1,18 @@
+SiiNunit
+{
+image_atlas : atlas.hokuriku
+{
+  atlas_name: "hokuriku"
+  material_path: "/material/sign/atlas/hokuriku.mat"
+  
+  # names
+  images_names: 1
+  images_names[0]: "hokuriku"
+  
+  # left right bottom top
+  images_coords: 1
+  images_coords[0]: (0, 1047, 364, 0)
+
+
+}
+}

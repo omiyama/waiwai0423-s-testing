@@ -1,0 +1,54 @@
+﻿SiiNunit
+{
+tollgate: tollgate.onetime.jp.free
+{
+	model: "/model/jpn_activation/tollgate_jp.pmd"
+	animation: "/model/activation/tollgate.pma"
+
+	type: start #startで入口の料金　endで出口従量課金　one_timeで出口なしの固定料金
+	trigger_distance: 3.0
+	reset_distance: 5.0
+	# overal price in euro
+	# 入口での課金額
+	
+}
+
+tollgate: tollgate.autopass.onetime.jp.free
+{
+
+	max_activation_speed: 30.0
+	type: start
+	trigger_distance: 3.0
+	reset_distance: 5.0
+	trigger_offset: -7.0
+	# overal price in euro
+	# 入口での課金額
+	
+}
+
+tollgate: tollgate.onetime.jp.shutoko
+{
+	model: "/model/jpn_activation/tollgate_jp.pmd"
+	animation: "/model/activation/tollgate.pma"
+
+	type: end
+	trigger_distance: 3.0
+	reset_distance: 5.0
+	# overal price in euro
+	# 出口での課金額　従量制
+	toll: 0.96
+}
+
+tollgate: tollgate.autopass.onetime.jp.shutoko
+{
+
+	max_activation_speed: 30.0
+	type: end
+	trigger_distance: 3.0
+	reset_distance: 5.0
+	trigger_offset: -7.0
+	# overal price in euro
+	# 出口での課金額　従量制
+	toll: 0.96
+}
+}

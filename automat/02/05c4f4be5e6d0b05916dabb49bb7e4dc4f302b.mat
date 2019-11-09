@@ -1,0 +1,12 @@
+material : "eut2.dif.spec" {
+	texture[0] : "/vehicle/wheel/ai_car/bus_cr.tobj"
+	texture_name[0] : "texture_base"
+	ambient : { 0.9 , 0.9 , 0.9 }
+	diffuse : { 1 , 1 , 1 }
+	specular : { 1.65 , 1.65 , 1.65 }
+	shininess : 76
+	tint : { 1 , 1 , 1 }
+	add_ambient : 1
+	reflection : 1
+	env_factor : { 1 , 1 , 1 }
+}

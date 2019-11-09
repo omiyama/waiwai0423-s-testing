@@ -1,0 +1,31 @@
+SiiNunit
+{
+# ".package_name" does not matter as the dot at the beginning of the file means that this unit is anonymous. 
+# Please keep this form to not make any conflicts with other mod packages (name collisions).
+mod_package : .package_name
+{
+
+	# Package version can be any string with any length.
+	package_version: "4.00"
+
+	# Display name can be any string with any length.
+	display_name: "Project Japan - Assets"
+
+	# Author can be any string with any length.
+	author: "Team Project Japan"
+
+	# Categories is an array of strings. 
+	category[]: "map"
+
+	# Icon inside the root directory of the mod.
+	icon: "mod_icon_assets.jpg"
+
+	# Description file inside the root directory of the mod.
+	description_file: "description.txt"
+
+	 
+	compatible_versions[]: "1.35.*" # Mod is compatible with 1.35.X..
+	
+
+}
+}

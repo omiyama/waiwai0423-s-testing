@@ -1,0 +1,68 @@
+SiiNunit
+{
+sign_board_template : _nameless.9ff.2c00 {
+ board_name: "expwy 2way"
+ width: &40747ae1
+ height: &3fc28f5c
+ items: 3
+ items[0]: _nameless.d83.a470
+ items[1]: _nameless.dd4.ef30
+ items[2]: _nameless.dd5.0110
+ dynamic_attributes: 0
+}
+
+sign_template_frame : _nameless.d83.a470 {
+ frame_path: "/def/sign/frame/yellow_rounded_dk.sii"
+ color: 16777215
+ opacity: 1
+ id: 2094137343
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40747ae1
+ coords_t: &3fc28f5c
+ coords_b: 0
+ z_order: 1
+}
+
+sign_template_text : _nameless.dd4.ef30 {
+ text: "\xe5\xaf\xbe \xe9\x9d\xa2 \xe9\x80\x9a \xe8\xa1\x8c"
+ font_face: "/font/big.font"
+ font_size: &3f4ccccd
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 2808479743
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40747ae1
+ coords_t: &3fc28f5c
+ coords_b: &3f20ea0f
+ z_order: 2
+}
+
+sign_template_text : _nameless.dd5.0110 {
+ text: 200m
+ font_face: "/font/sign/dk.font"
+ font_size: &3f19999a
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 720240640
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40747ae1
+ coords_t: &3f400000
+ coords_b: 0
+ z_order: 3
+}
+
+}

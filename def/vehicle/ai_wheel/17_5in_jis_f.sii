@@ -1,0 +1,7 @@
+SiiNunit
+{
+accessory_wheel_data : 17_5in_jis.fwheel
+{
+	model: "/vehicle/wheel/car/generic/17_5in_jis/17_5in_jis_front.pmd"
+}
+}

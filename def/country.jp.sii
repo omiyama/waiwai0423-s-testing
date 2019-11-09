@@ -1,0 +1,79 @@
+﻿SiiNunit
+{
+
+@include "country/aichi.sii"
+@include "country/ehime.sii"
+@include "country/fukui.sii"
+@include "country/gifu.sii"
+@include "country/hokkaido.sii"
+@include "country/ishikawa.sii"
+@include "country/kanagawa.sii"
+@include "country/niigata.sii"
+@include "country/toyama.sii"
+@include "country/tokyo.sii"
+
+}
+
+## HOKKAIDO ##
+# 204 Hokkaido
+
+## TOUHOKU ##
+# 205 Aomori
+# 206 Iwate
+# 207 Miyagi
+# 208 Akita
+# 209 Yamagata
+# 211 Fukushima
+
+## KANTO ##
+# 212 Ibaraki
+# 213 Tochigi
+# 214 Gunma
+# 215 Saitama
+# 216 Chiba
+# 217 Tokyo
+# 218 Kanagawa
+
+## CHUUBU ##
+# 219 Niigata
+# 220 Toyama
+# 223 Ishikawa
+# 224 Fukui
+# 225 Yamanashi
+# 226 Nagano
+# 227 Gifu
+# 228 Shizuoka
+# 229 Aichi
+
+## KANSAI ##
+# 230 Mie
+# 231 Shiga
+# 232 Kyoto
+# 233 Osaka
+# 236 Hyogo
+# 237 Nara
+# 238 Wakayama
+
+## CHUUGOKU ##
+# 239 Tottori
+# 240 Shimane
+# 241 Okayama
+# 242 Hiroshima
+# 243 Yamaguchi
+
+## SHIKOKU ##
+# 244 Tokushima
+# 245 Kagawa
+# 246 Ehime
+# 247 Kochi
+
+## KYUUSHUU ##
+# 248 Fukuoka
+# 249 Saga
+# 250 Nagasaki
+# 251 Kumamoto
+# 252 Oita
+# 253 Miyazaki
+# 254 Kagoshima
+# 255 Okinawa
+

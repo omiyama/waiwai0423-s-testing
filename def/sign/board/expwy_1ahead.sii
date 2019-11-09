@@ -1,0 +1,104 @@
+SiiNunit
+{
+sign_board_template : _nameless.8eb.6350 {
+ board_name: "expwy 1ahead"
+ width: &40551eb8
+ height: &3f028f5c
+ items: 5
+ items[0]: _nameless.cb3.08b0
+ items[1]: _nameless.cb3.0d80
+ items[2]: _nameless.b93.1580
+ items[3]: _nameless.b93.1a60
+ items[4]: _nameless.b93.18c0
+ dynamic_attributes: 0
+}
+
+sign_template_frame : _nameless.cb3.08b0 {
+ frame_path: "/def/sign/frame/green_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 4093378558
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40551eb8
+ coords_t: &3f028f5c
+ coords_b: 0
+ z_order: 1
+}
+
+sign_template_frame : _nameless.cb3.0d80 {
+ frame_path: "/def/sign/frame/white_swe.sii"
+ color: 16777215
+ opacity: 1
+ id: 3233546238
+ area_name: ""
+ area_idx: nil
+ coords_l: &3c910380
+ coords_r: &3f3d37a7
+ coords_t: &3ef886d7
+ coords_b: &3d18a560
+ z_order: 2
+}
+
+sign_template_text : _nameless.b93.1580 {
+ text: JCT
+ font_face: "/font/sign/dk.font"
+ font_size: &3ecccccd
+ text_halign: center
+ text_valign: center
+ font_color: 3562498
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 4046454782
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: &3f4393e0
+ coords_t: &3f028f5c
+ coords_b: 0
+ z_order: 3
+}
+
+sign_template_text : _nameless.b93.1a60 {
+ text: "\xe5\x8c\x97\xe9\x99\xb8\xe9\x81\x93"
+ font_face: "/font/big.font"
+ font_size: &3f000000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3041918974
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f282628
+ coords_r: &400d9d6b
+ coords_t: &3f028f5c
+ coords_b: &33000000
+ z_order: 4
+}
+
+sign_template_text : _nameless.b93.18c0 {
+ text: 50km
+ font_face: "/font/sign/dk.font"
+ font_size: &3ecccccd
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 77201408
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ffc6c20
+ coords_r: &40551eb8
+ coords_t: &3f028f5c
+ coords_b: 0
+ z_order: 5
+}
+
+}

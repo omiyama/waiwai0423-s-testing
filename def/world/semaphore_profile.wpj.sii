@@ -1,0 +1,358 @@
+SiiNunit
+{
+
+tr_semaphore_profile : tr_sem_prof.toll_pj {
+
+	name: "tollgate - projectjapan"
+	
+	model[]: "toll_jp"
+										
+
+	type[0]: barrier_manual
+	type[1]: barrier_manual
+	type[2]: barrier_manual
+	type[3]: barrier_manual
+	type[4]: barrier_manual
+	type[5]: barrier_manual
+	type[6]: barrier_manual
+	type[7]: barrier_manual
+	type[8]: barrier_manual
+	type[9]: barrier_manual
+	type[10]: barrier_automatic
+
+	interval[]: (1.0, 1.0, 0.5, 0.5)
+	cycle[]: 0.0
+}
+
+## aichi ##
+tr_semaphore_profile : tr_sem_prof.cr_1x1.jpai {
+
+	name: "crossroad 1x1 jpai"
+
+	inherited: tr_sem_prof.cr_1x1.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_2x2.jpai {
+
+	name: "crossroad 2x2 jpai"
+
+	inherited: tr_sem_prof.cr_2x2.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_2x1.jpai {
+
+	name: "crossroad 2x1 jpai"
+
+	inherited: tr_sem_prof.cr_2x1.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_1x2.jpai {
+
+	name: "crossroad 1x2 jpai"
+
+	inherited: tr_sem_prof.cr_1x2.jp
+
+}
+
+## fukui ##
+tr_semaphore_profile : tr_sem_prof.cr_1x1.jpfi {
+
+	name: "crossroad 1x1 jpfi"
+
+	inherited: tr_sem_prof.cr_1x1.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_2x2.jpfi {
+
+	name: "crossroad 2x2 jpfi"
+
+	inherited: tr_sem_prof.cr_2x2.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_2x1.jpfi {
+
+	name: "crossroad 2x1 jpfi"
+
+	inherited: tr_sem_prof.cr_2x1.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_1x2.jpfi {
+
+	name: "crossroad 1x2 jpfi"
+
+	inherited: tr_sem_prof.cr_1x2.jp
+
+}
+
+## gifu ##
+tr_semaphore_profile : tr_sem_prof.cr_1x1.jpgf {
+
+	name: "crossroad 1x1 jpgf"
+
+	inherited: tr_sem_prof.cr_1x1.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_2x2.jpgf {
+
+	name: "crossroad 2x2 jpgf"
+
+	inherited: tr_sem_prof.cr_2x2.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_2x1.jpgf {
+
+	name: "crossroad 2x1 jpgf"
+
+	inherited: tr_sem_prof.cr_2x1.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_1x2.jpgf {
+
+	name: "crossroad 1x2 jpgf"
+
+	inherited: tr_sem_prof.cr_1x2.jp
+
+}
+
+## hokkaido ##
+tr_semaphore_profile : tr_sem_prof.cr_1x1.jphk {
+
+	name: "crossroad 1x1 jphk"
+
+	inherited: tr_sem_prof.cr_1x1.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_2x2.jphk {
+
+	name: "crossroad 2x2 jphk"
+
+	inherited: tr_sem_prof.cr_2x2.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_2x1.jphk {
+
+	name: "crossroad 2x1 jphk"
+
+	inherited: tr_sem_prof.cr_2x1.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_1x2.jphk {
+
+	name: "crossroad 1x2 jphk"
+
+	inherited: tr_sem_prof.cr_1x2.jp
+
+}
+
+## ishikawa ##
+tr_semaphore_profile : tr_sem_prof.cr_1x1.jpis {
+
+	name: "crossroad 1x1 jpis"
+
+	inherited: tr_sem_prof.cr_1x1.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_2x2.jpis {
+
+	name: "crossroad 2x2 jpis"
+
+	inherited: tr_sem_prof.cr_2x2.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_2x1.jpis {
+
+	name: "crossroad 2x1 jpis"
+
+	inherited: tr_sem_prof.cr_2x1.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_1x2.jpis {
+
+	name: "crossroad 1x2 jpis"
+
+	inherited: tr_sem_prof.cr_1x2.jp
+
+}
+
+## kanagawa ##
+tr_semaphore_profile : tr_sem_prof.cr_1x1.jpkn {
+
+	name: "crossroad 1x1 jpkn"
+
+	inherited: tr_sem_prof.cr_1x1.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_2x2.jpkn {
+
+	name: "crossroad 2x2 jpkn"
+
+	inherited: tr_sem_prof.cr_2x2.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_2x1.jpkn {
+
+	name: "crossroad 2x1 jpkn"
+
+	inherited: tr_sem_prof.cr_2x1.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_1x2.jpkn {
+
+	name: "crossroad 1x2 jpkn"
+
+	inherited: tr_sem_prof.cr_1x2.jp
+
+}
+
+## niigata ##
+tr_semaphore_profile : tr_sem_prof.cr_1x1.jpni {
+
+	name: "crossroad 1x1 jpni"
+
+	inherited: tr_sem_prof.cr_1x1.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_2x2.jpni {
+
+	name: "crossroad 2x2 jpni"
+
+	inherited: tr_sem_prof.cr_2x2.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_2x1.jpni {
+
+	name: "crossroad 2x1 jpni"
+
+	inherited: tr_sem_prof.cr_2x1.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_1x2.jpni {
+
+	name: "crossroad 1x2 jpni"
+
+	inherited: tr_sem_prof.cr_1x2.jp
+
+}
+
+## toyama ##
+tr_semaphore_profile : tr_sem_prof.cr_1x1.jpty {
+
+	name: "crossroad 1x1 jpty"
+
+	inherited: tr_sem_prof.cr_1x1.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_2x2.jpty {
+
+	name: "crossroad 2x2 jpty"
+
+	inherited: tr_sem_prof.cr_2x2.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_2x1.jpty {
+
+	name: "crossroad 2x1 jpty"
+
+	inherited: tr_sem_prof.cr_2x1.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_1x2.jpty {
+
+	name: "crossroad 1x2 jpty"
+
+	inherited: tr_sem_prof.cr_1x2.jp
+
+}
+
+## tokyo ##
+tr_semaphore_profile : tr_sem_prof.cr_1x1.jptk {
+
+	name: "crossroad 1x1 jptk"
+
+	inherited: tr_sem_prof.cr_1x1.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_2x2.jptk {
+
+	name: "crossroad 2x2 jptk"
+
+	inherited: tr_sem_prof.cr_2x2.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_2x1.jptk {
+
+	name: "crossroad 2x1 jptk"
+
+	inherited: tr_sem_prof.cr_2x1.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_1x2.jptk {
+
+	name: "crossroad 1x2 jptk"
+
+	inherited: tr_sem_prof.cr_1x2.jp
+
+}
+
+## ehime ##
+tr_semaphore_profile : tr_sem_prof.cr_1x1.jpeh {
+
+	name: "crossroad 1x1 jpeh"
+
+	inherited: tr_sem_prof.cr_1x1.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_2x2.jpeh {
+
+	name: "crossroad 2x2 jpeh"
+
+	inherited: tr_sem_prof.cr_2x2.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_2x1.jpeh {
+
+	name: "crossroad 2x1 jpeh"
+
+	inherited: tr_sem_prof.cr_2x1.jp
+
+}
+
+tr_semaphore_profile : tr_sem_prof.cr_1x2.jpeh {
+
+	name: "crossroad 1x2 jpeh"
+
+	inherited: tr_sem_prof.cr_1x2.jp
+
+}
+
+
+}

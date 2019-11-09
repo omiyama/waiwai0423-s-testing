@@ -1,0 +1,47 @@
+SiiNunit
+{
+sign_template : _nameless.ca3.14d8 {
+ template_name: expwy_tunnellane
+ model_name: 1412
+ traffic_rule: null
+ items: 2
+ items[0]: _nameless.612.d640
+ items[1]: _nameless.ef2.b8f0
+ dynamic_attributes: 0
+}
+
+sign_template_frame : _nameless.612.d640 {
+ frame_path: "/def/sign/frame/white_swe.sii"
+ color: 16777215
+ opacity: 1
+ id: 4247781374
+ area_name: ml1
+ area_idx: nil
+ coords_l: &34800000
+ coords_r: &403e147b
+ coords_t: 1
+ coords_b: 0
+ z_order: 1
+}
+
+sign_template_text : _nameless.ef2.b8f0 {
+ text: "\xe6\xb3\x8a\xe3\x83\x88\xe3\x83\xb3\xe3\x83\x8d\xe3\x83\xab"
+ font_face: "/font/big.font"
+ font_size: &3f000000
+ text_halign: center
+ text_valign: center
+ font_color: 3562498
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3529113598
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3e360b60
+ coords_r: &40377778
+ coords_t: &3f755556
+ coords_b: &3eaeeef0
+ z_order: 2
+}
+
+}

@@ -1,0 +1,32 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "climate" for "/def/climate.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+
+climate_profile : climate.cooljapan {
+	bad_weather_factor: 0.09
+	wetting_factor: 0.125
+	drying_factor: 0.02
+
+	map_origin: (36, 140)
+	map_factor: (-1.763729e-4, 1.76689948e-4)
+}
+
+
+climate_profile : climate.warmjapan {
+	bad_weather_factor: 0.03
+	wetting_factor: 0.075
+	drying_factor: 0.01
+
+	map_origin: (50.521354, 10.5)
+	map_factor: (-1.763729e-4, 1.76689948e-4)
+}
+
+# EOF
+}

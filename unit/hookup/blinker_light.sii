@@ -1,0 +1,49 @@
+SiiNunit
+{
+flare_blink: flare.model.blinker.light
+{
+	ambient_color: (0.0000, 0.0000, 0.0000)
+	diffuse_color: ( 0.15632, 0.1, 0.0)
+	specular_color: ( 0.15911, 0.1, 0.0)
+
+	type: spot
+
+	range: 5.0
+	cut_range: 10.0
+	inner_angle: 20.0
+	outer_angle: 90.0
+
+	dir_type: angle
+	flare_inner_angle: 40.0
+	flare_outer_angle: 110.0
+
+	blink_pattern: "X-"     # String of X and - characters, where X represents ON state and - represents OFF state.
+	blink_step_length: 0.5
+	blink_desync:0.0
+	model: "/model/flare/tr_yellow.pmd"
+	scale_factor: 1
+}
+flare_blink: flare.model.blinker.light.offset
+{
+	ambient_color: (0.0000, 0.0000, 0.0000)
+	diffuse_color: ( 0.15632, 0.1, 0.0)
+	specular_color: ( 0.15911, 0.1, 0.0)
+
+	type: spot
+
+	range: 5.0
+	cut_range: 10.0
+	inner_angle: 20.0
+	outer_angle: 90.0
+
+	dir_type: angle
+	flare_inner_angle: 40.0
+	flare_outer_angle: 110.0
+
+	blink_pattern: "X-"     # String of X and - characters, where X represents ON state and - represents OFF state.
+	blink_step_length: 0.5
+	blink_desync:0.0
+	model: "/model/flare/tr_yellow.pmd"
+	scale_factor: 1
+}
+}

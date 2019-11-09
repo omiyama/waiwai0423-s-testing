@@ -1,0 +1,71 @@
+SiiNunit
+{
+
+railing_model : railing.jpn_1 {
+	model_desc: "/model/railing/tunnel/3lane_tunnel_shutoko.pmd"
+	look_name: default
+	tunnel: true
+	use_perlin: false
+}
+
+railing_model : railing.jpn_2 {
+	model_desc: "/model/railing/guard/guard_jpn_center_2m.pmd"
+}
+
+railing_model : railing.jpn_3 {
+	model_desc: "/model/railing/elevated/elev_8m_jpn.pmd"
+}
+	
+railing_model : railing.jpn_4 {
+	model_desc: "/model/railing/guard/guardrail_jpn_single.pmd"
+}
+
+railing_model : railing.jpn_5 {
+	model_desc: "/model/railing/elevated/elev_oneway2lane_jpn.pmd"
+}
+
+railing_model : railing.jpn_6 {
+	model_desc: "/model/railing/road_strip/planting_strip_standard.pmd"
+}
+
+railing_model : railing.jpn_7 {
+	model_desc: "/model/railing/elevated/elev_highway_3lane.pmd"
+}
+
+railing_model : railing.jpn_8 {
+	model_desc: "/model/railing/elevated/elev_highway_3lane_1p5m.pmd"
+}
+
+railing_model : railing.jpn_9 {
+	model_desc: "/model/railing/elevated/shutoko_elevated.pmd"
+}
+
+railing_model : railing.jpn_10 {
+	model_desc: "/model/railing/elevated/shutoko_elevated_center_island.pmd"
+}
+
+railing_model : railing.jpn_11 {
+	model_desc: "/model/railing/elevated/shutoko_elevated_noisebarrier.pmd"
+}
+
+railing_model : railing.jpn_12 {
+	model_desc: "/model/railing/bridge/daikoku_bridge.pmd"
+	bridge: true
+}
+
+railing_model : railing.jpn_13 {
+	model_desc: "/model/railing/tunnel/tunnel_shutoko_haneda.pmd"
+	look_name: default
+	tunnel: true
+	use_perlin: false
+}
+
+railing_model : railing.jpn_14 {
+	model_desc: "/model/railing/guard/guard_pipe.pmd"
+}
+
+railing_model : railing.jpn_15 {
+	model_desc: "/model/railing/elevated/elev_highway_2_no_shoulder.pmd"
+}
+
+}

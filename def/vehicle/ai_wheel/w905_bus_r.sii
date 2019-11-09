@@ -1,0 +1,9 @@
+SiiNunit
+{
+accessory_wheel_data : w905_bus.rwheel
+{
+	model: "/vehicle/wheel/w905/w905_295_80_r225_r.pmd"
+}
+}
+
+

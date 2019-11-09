@@ -1,0 +1,39 @@
+SiiNunit
+{
+map_sector_climate : map.japan.climate
+{
+
+ coordinate[]: (90, 24)
+ climate[]: warmjapan
+ coordinate[]: (91, 23)
+ climate[]: warmjapan
+ coordinate[]: (91, 24)
+ climate[]: warmjapan
+ coordinate[]: (92, 22)
+ climate[]: warmjapan
+ coordinate[]: (92, 22)
+ climate[]: warmjapan
+ coordinate[]: (92, 24)
+ climate[]: warmjapan
+ coordinate[]: (93, 23)
+ climate[]: warmjapan
+ coordinate[]: (96, 18)
+ climate[]: warmjapan
+ coordinate[]: (96, 19)
+ climate[]: warmjapan
+ coordinate[]: (97, 18)
+ climate[]: warmjapan
+ coordinate[]: (97, 19)
+ climate[]: warmjapan
+ coordinate[]: (97, 20)
+ climate[]: cooljapan
+ coordinate[]: (98, 17)
+ climate[]: warmjapan
+ coordinate[]: (98, 18)
+ climate[]: warmjapan
+ coordinate[]: (98, 19)
+ climate[]: cooljapan
+ coordinate[]: (99, 17)
+ climate[]: warmjapan
+ }
+ }

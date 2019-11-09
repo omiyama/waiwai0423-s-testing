@@ -1,0 +1,9 @@
+material : "eut2.dif.rfx" {
+	texture[0] : "/material/jpn_bridge/daishi_bashi.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 0.767779 , 0.767779 , 0.767779 }
+	reflection : 0
+	shininess : 50
+	specular : { 0.00401522 , 0.00401522 , 0.00401522 }
+}

@@ -1,0 +1,73 @@
+[white] Project
+[red] Japan
+[white] ASSETS
+
+------- UPDATES IN 4.00 ----------
+- Now Project Japan is supporting on ETS2 Ver1.35!!!
+- And now get to support DirectX11.
+- Special thanks to @ExtremorP, author of Asia Map.
+- Licence plates
+- Some optimisations
+
+------- UPDATES IN PATCH 3.01 ----------
+- Now Project Japan is supporting on ETS2 Ver1.34!!!
+- Fixed crashing bug for 1.34 Special thanks to @martin_ets2
+- Reduce error logs. Then its loading will be faster just a little. Thanks to @himopan_
+- Integrated SemaphoreFix for ProjectJapan Signals by @hab74dk. There are more realstic.
+
+------- UPDATES IN PATCH 3 ----------
+Fixed crashing bug for 1.31
+Added new models for houses.
+Added new models for props.
+
+
+CREDITS AND BIG THANKS TO 
+おかげさまで:
+
+Road templates, prefabs, etc: FLD
+https://forum.scssoft.com/viewtopic.php?f=176&t=2858&start=1000
+
+Wangan assets, models, and sounds:
+TokyoBayshore map by Koutuu.
+
+Big thanks to Koutuu in general for his amount of help towards the mod.
+
+https://twitter.com/KoutuuHAGE
+
+[white] Project Japan includes TokyoBayshore Mod Music 1.1 by
+
+[red]MusMus
+[blue]http://musmus.main.jp/
+
+[white] -midstream jam
+-Gunshot Straight
+
+
+[red]Music Atelier Amacha
+[blue]http://amachamusic.chagasi.com/
+
+[white]-Energy
+
+
+[red]H/MIX GALLERY
+[blue]http://www.hmix.net/
+
+[white]-Yoimatsuri no Kaze
+
+
+[red]Bensound
+[blue]http://www.bensound.com/
+
+[white]-Dance
+
+
+[red]Sharou
+[blue]http://dova-s.jp/bgm/play2452.html
+
+[white]-Morning
+
+
+[red]Losstime Life
+[blue]http://dova-s.jp/bgm/play2897.html
+
+[white]-Haru yo Tuyoku Utsukushiku

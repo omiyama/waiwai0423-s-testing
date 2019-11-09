@@ -1,0 +1,43 @@
+SiiNunit
+{
+
+building_scheme : bld_scheme.scheme_jpn_0 {
+	name: "guard_jpn_single"
+	models[]: bld_model.jpn_0
+}
+
+building_scheme : bld_scheme.scheme_jpn_1 {
+	name: "guard_bridge_handrail"
+	models[]: bld_model.jpn_1
+}
+
+building_scheme : bld_scheme.scheme_jpn_2 {
+	name: "Navigation_board_jpn_highway"
+	models[]: bld_model.jpn_2
+}
+
+building_scheme : bld_scheme.jpn_3 {
+	name: "Utility Pole 10m"
+	models[]: bld_model.jpn_3
+}
+
+building_scheme : bld_scheme.jpn_4 {
+	name: "Fence JIS G 3552"
+	models[]: bld_model.jpn_4
+}
+
+building_scheme : bld_scheme.jpn_5 {
+	name: "PowerLine 154KV"
+	models[]: bld_model.jpn_5
+}
+
+building_scheme : bld_scheme.jpn_6 {
+	name: "ConcreateWall_JP"
+	models[]: bld_model.jpn_6
+}
+
+building_scheme : bld_scheme.jpn_7 {
+	name: "ConcreateWall_JP_House"
+	models[]: bld_model.jpn_7
+}
+}

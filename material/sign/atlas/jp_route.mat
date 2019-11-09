@@ -1,0 +1,6 @@
+material : "ui" 
+{
+	texture: "jp_route.tobj"
+	texture_name : "texture"
+
+}

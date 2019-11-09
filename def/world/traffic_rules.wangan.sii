@@ -1,0 +1,248 @@
+SiiNunit
+{
+
+traffic_rule_data : traffic_rule.industry
+{
+	name: "Urban area - Industrial Area"
+
+	additional_rules[]: traffic_rule.urban_area
+	additional_rules[]: traffic_rule.s_car_l
+	additional_rules[]: traffic_rule.s_truck_ind
+	additional_rules[]: traffic_rule.s_bus_ind
+}
+
+traffic_rule_data : traffic_rule.sangyo
+{
+	name: "Urban area - Sangyo-Doro"
+
+	additional_rules[]: traffic_rule.urban_area
+	additional_rules[]: traffic_rule.s_car_h
+	additional_rules[]: traffic_rule.s_truck_sang
+	additional_rules[]: traffic_rule.s_bus_ind
+}
+
+traffic_rule_data : traffic_rule.jammer
+{
+	name: "Urban area - Jam not use city"
+
+	additional_rules[]: traffic_rule.s_car_shuto
+	additional_rules[]: traffic_rule.s_truck_bs
+	additional_rules[]: traffic_rule.s_bus_shuto
+}
+
+traffic_rule_data : traffic_rule.s_truck_ind
+{
+	# name: "Spawn density truck industrial"
+
+	rule: "density"
+
+	str_params[]: "truck"
+
+	num_params[]: 1.0	# 01:00
+	num_params[]: 0.1	# frequency
+	num_params[]: 6	    # count limit
+
+	num_params[]: 3.0	# 03:00
+	num_params[]: 0.1	# frequency
+	num_params[]: 6	    # count limit
+
+	num_params[]: 5.0	# 5:00
+	num_params[]: 1.0	# frequency
+	num_params[]: 15	# count limit
+	
+	num_params[]: 13.0	# 13:00
+	num_params[]: 3.0	# frequency
+	num_params[]: 40	# count limit
+
+	num_params[]: 17.0	# 17:00
+	num_params[]: 1.0	# frequency
+	num_params[]: 15	# count limit
+	
+	num_params[]: 22.0	# 22:00
+	num_params[]: 0.4	# frequency
+	num_params[]: 10	# count limit
+
+}
+
+traffic_rule_data : traffic_rule.s_truck_sang
+{
+	# name: "Spawn density truck sangyo-doro"
+
+	rule: "density"
+
+	str_params[]: "truck"
+
+	num_params[]: 1.0	# 01:00
+	num_params[]: 0.1	# frequency
+	num_params[]: 6	    # count limit
+
+	num_params[]: 3.0	# 03:00
+	num_params[]: 0.1	# frequency
+	num_params[]: 6	    # count limit
+
+	num_params[]: 5.0	# 5:00
+	num_params[]: 1.0	# frequency
+	num_params[]: 15	# count limit
+	
+	num_params[]: 13.0	# 13:00
+	num_params[]: 1.5	# frequency
+	num_params[]: 20	# count limit
+
+	num_params[]: 17.0	# 17:00
+	num_params[]: 1.0	# frequency
+	num_params[]: 15	# count limit
+	
+	num_params[]: 22.0	# 22:00
+	num_params[]: 0.4	# frequency
+	num_params[]: 10	# count limit
+
+}
+
+traffic_rule_data : traffic_rule.s_truck_bs
+{
+	# name: "Spawn density truck Wangan"
+
+	rule: "density"
+
+	str_params[]: "truck"
+
+	num_params[]: 1.0	# 01:00
+	num_params[]: 1.0	# frequency
+	num_params[]: 10	# count limit
+
+	num_params[]: 3.0	# 03:00
+	num_params[]: 1.0	# frequency
+	num_params[]: 10	# count limit
+
+	num_params[]: 5.0	# 5:00
+	num_params[]: 50.0	# frequency
+	num_params[]: 50	# count limit
+	
+	num_params[]: 13.0	# 13:00
+	num_params[]: 100	# frequency
+	num_params[]: 100	# count limit
+
+	num_params[]: 17.0	# 17:00
+	num_params[]: 50.0	# frequency
+	num_params[]: 60	# count limit
+	
+	num_params[]: 22.0	# 22:00
+	num_params[]: 2.0	# frequency
+	num_params[]: 30	# count limit
+
+}
+
+traffic_rule_data : traffic_rule.s_car_shuto
+{
+	# name: "Spawn density car shutoko"
+
+	rule: "density"
+
+	str_params[]: "car"
+
+	num_params[]: 4.0	# 04:00
+	num_params[]: 0.5	# frequency
+	num_params[]: 30	# count limit
+
+	num_params[]: 7.5	# 7:30
+	num_params[]: 200.0	# frequency
+	num_params[]: 100   # count limit
+
+	num_params[]: 12.0 	# 12:00
+	num_params[]: 120.0	# frequency
+	num_params[]: 100	# count limit
+
+	num_params[]: 18.0	# 18:00
+	num_params[]: 170.0	# frequency
+	num_params[]: 100	# count limit
+
+	num_params[]: 2.0	# 02:00
+	num_params[]: 0.1	# frequency
+	num_params[]: 30	# count limit
+}
+
+traffic_rule_data : traffic_rule.s_bus_ind
+{
+	# name: "Spawn density bus industrial"
+
+	rule: "density"
+
+	str_params[]: "bus"
+
+	num_params[]: 0.0	# 00:00
+	num_params[]: 0.001	# frequency
+	num_params[]: 1	    # count limit
+
+	num_params[]: 4.0	# 04:00
+	num_params[]: 0.001	# frequency
+	num_params[]: 1	    # count limit
+
+	num_params[]: 5.0	# 05:00
+	num_params[]: 0.015	# frequency
+	num_params[]: 1	    # count limit
+
+	num_params[]: 8.0	# 08:00
+	num_params[]: 0.08	# frequency
+	num_params[]: 2	    # count limit
+	
+	num_params[]: 9.0	# 09:00
+	num_params[]: 0.02	# frequency
+	num_params[]: 1	    # count limit
+	
+	num_params[]: 15.0	# 15:00
+	num_params[]: 0.02	# frequency
+	num_params[]: 1	    # count limit
+
+	num_params[]: 17.0	# 17:00
+	num_params[]: 0.08	# frequency
+	num_params[]: 2	    # count limit
+	
+	num_params[]: 20.0	# 20:00
+	num_params[]: 0.015	# frequency
+	num_params[]: 1 	# count limit
+
+}
+
+traffic_rule_data : traffic_rule.s_bus_shuto
+{
+	# name: "Spawn density bus shutoko"
+
+	rule: "density"
+
+	str_params[]: "bus"
+
+	num_params[]: 4.0	# 04:00
+	num_params[]: 0.001	# frequency
+	num_params[]: 1	    # count limit
+	
+	num_params[]: 8.0	# 08:00
+	num_params[]: 0.08	# frequency
+	num_params[]: 4	    # count limit
+
+	num_params[]: 19.0	# 19:00
+	num_params[]: 0.08	# frequency
+	num_params[]: 4	    # count limit
+	
+	num_params[]: 22.0	# 22:00
+	num_params[]: 0.001	# frequency
+	num_params[]: 1 	# count limit
+
+}
+
+traffic_rule_data : traffic_rule.s_rinko
+{
+	# name: "Spawn density rinko"
+
+	rule: "density"
+
+	str_params[]: "train"
+
+	num_params[]: 2.0	# 02:00
+	num_params[]: 0.001	# frequency
+	num_params[]: 1		# count limit
+	
+	num_params[]: 14.0	# 14:00
+	num_params[]: 5.0	# frequency
+	num_params[]: 1		# count limit
+}
+}

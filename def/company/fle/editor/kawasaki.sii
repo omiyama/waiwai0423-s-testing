@@ -1,0 +1,7 @@
+SiiNunit
+{
+company_def : .kawasaki {
+ city: kawasaki
+ prefab: dlc_fr_2
+}
+}

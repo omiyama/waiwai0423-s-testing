@@ -1,0 +1,10 @@
+material : "eut2.dif.spec.a.over.rfx" {
+	texture[0] : "/vehicle/ai/crown_athlete/color_police.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 1 , 1 , 1 }
+	reflection : 0
+	shininess : 50
+	specular : { 1 , 1 , 1 }
+	queue_bias : 1
+}

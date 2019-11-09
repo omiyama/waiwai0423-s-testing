@@ -1,0 +1,12 @@
+material : "eut2.dif.spec.add.env" {
+	texture[0] : "/material/jpn_panorama/haneda/tower.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/jpn_environment/building_reflection/skyrise_invert.tobj"
+	texture_name[1] : "texture_reflection"
+	diffuse : { 1 , 1 , 1 }
+	specular : { 0.698039 , 0.698039 , 0.698039 }
+	shininess : 28
+	add_ambient : 0
+	env_factor : { 0.211765 , 0.211765 , 0.211765 }
+
+}

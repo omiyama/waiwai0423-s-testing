@@ -1,0 +1,22 @@
+SiiNunit
+{
+
+model_def : model.pjp_1 {
+ 	model_desc: "/model/pjp_industry/slogan/kakigenkin.pmd"
+}
+
+model_def : model.pjp_2 {
+ 	model_desc: "/model/pjp_industry/slogan/safety_first.pmd"
+}
+
+model_def : model.pjp_3 {
+ 	model_desc: "/model/city_props/callbox.pmd"
+}
+
+model_def : model.pjp_4 {
+ 	model_desc: "/model/city_props/road_mirror_80.pmd"
+ 		static_lod_name[]: "lod from 50m"
+ 		static_lod_path[]: "/model/city_props/road_mirror_80_lod.pmd"
+}
+
+}

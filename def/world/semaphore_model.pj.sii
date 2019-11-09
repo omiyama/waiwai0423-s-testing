@@ -1,0 +1,32 @@
+SiiNunit
+{
+
+tr_semaphore_model : tr_sem_mdl.toll_pj {
+
+	name: "tollbar_pj_left"
+	
+	model_desc: "/prefab/tollgate/tollbar_jpn_left.pmd"
+	model_coll: "/prefab/tollgate/tollbar_jpn_left.pmc"
+	
+	state_anim: 4
+	state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: "/prefab/tollgate/tollbar_jpn_left_down.pma"
+	state_collision[0]: true
+
+	# red
+	state_anim[1]: ""
+	state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab/tollgate/tollbar_jpn_left.pma"
+	state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	state_collision[3]: false
+
+
+}
+}

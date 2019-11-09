@@ -1,0 +1,6 @@
+material : "ui" 
+{
+	texture: "road_jp41.tobj"
+	texture_name : "texture"
+
+}

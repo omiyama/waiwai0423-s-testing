@@ -1,0 +1,8 @@
+SiiNunit
+{
+
+country_traffic_info : .country.info.traffic.police_jp {
+	object: traffic.police_jp
+	spawn_frequency: 1.00
+}
+}

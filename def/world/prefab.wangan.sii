@@ -1,0 +1,489 @@
+SiiNunit
+{
+
+
+prefab_model : prefab.jpn_fork_1 {
+	model_desc: "/prefab/fork/gasstation_fork_3lines_bothsides_jpn_rev.pmd"
+	prefab_desc: "/prefab/fork/gasstation_fork_3lines_bothsides_jpn_rev.ppd"
+	category: "japan_mod"
+
+}
+
+prefab_model : prefab.jpn_fork_2 {
+	model_desc: "/prefab/fork/fork_shutoko_3lines.pmd"
+	prefab_desc: "/prefab/fork/fork_shutoko_3lines.ppd"
+	category: "japan_mod"
+
+}
+
+prefab_model : prefab.jpn_fork_3 {
+	model_desc: "/prefab/fork/fork_shutoko_3lane_1double_exit.pmd"
+	prefab_desc: "/prefab/fork/fork_shutoko_3lane_1double_exit.ppd"
+	category: "japan_mod"
+
+}
+
+prefab_model : prefab.jpn_fork_4 {
+	model_desc: "/prefab/fork/fork_merge_2exitway.pmd"
+	prefab_desc: "/prefab/fork/fork_merge_2exitway.ppd"
+	category: "japan_mod"
+
+}
+
+prefab_model : prefab.jpn_fork_5 {
+	model_desc: "/prefab/fork/fork_2exitway_1exitway.pmd"
+	prefab_desc: "/prefab/fork/fork_2exitway_1exitway.ppd"
+	category: "japan_mod"
+	
+
+}
+
+prefab_model : prefab.jpn_fork_6 {
+	model_desc: "/prefab/fork/fork_oneway2_diverge_1exit.pmd"
+	prefab_desc: "/prefab/fork/fork_oneway2_diverge_1exit.ppd"
+	category: "japan_mod"
+	
+
+}
+
+prefab_model : prefab.jpn_fork_7 {
+	model_desc: "/prefab/fork/fork_1exitway_diverge_2exitway.pmd"
+	prefab_desc: "/prefab/fork/fork_1exitway_diverge_2exitway.ppd"
+	category: "japan_mod"
+	
+
+}	
+
+prefab_model : prefab.jpn_fork_8 {
+	model_desc: "/prefab/fork/fork_shutoko_2x2oneway.pmd"
+	prefab_desc: "/prefab/fork/fork_shutoko_2x2oneway.ppd"
+	category: "japan_mod"
+	
+
+}
+
+prefab_model : prefab.jpn_fork_10 {
+	model_desc: "/prefab/fork/hw2_fork_jpn.pmd"
+	prefab_desc: "/prefab/fork/hw2_fork_jpn.ppd"
+	category: "japan_mod"
+	
+
+}
+
+prefab_model : prefab.jpn_fork_11 {
+	model_desc: "/prefab/fork/fork_1exitway_diverge_2exitway_rev.pmd"
+	prefab_desc: "/prefab/fork/fork_1exitway_diverge_2exitway_rev.ppd"
+	category: "japan_mod"
+	
+
+}	
+
+prefab_model : prefab.jpn_fork_12 {
+	model_desc: "/prefab/fork/fork_2exitway_1exitway_rev.pmd"
+	prefab_desc: "/prefab/fork/fork_2exitway_1exitway_rev.ppd"
+	category: "japan_mod"
+	
+
+}
+
+prefab_model : prefab.jpn_fork_13 {
+	model_desc: "/prefab/fork/fork_oneway2_diverge_1exit_rev.pmd"
+	prefab_desc: "/prefab/fork/fork_oneway2_diverge_1exit_rev.ppd"
+	category: "japan_mod"
+	
+
+}
+
+prefab_model : prefab.jpn_fork_14 {
+	model_desc: "/prefab/fork/fork_merge_2exitway_rev.pmd"
+	prefab_desc: "/prefab/fork/fork_merge_2exitway_rev.ppd"
+	category: "japan_mod"
+
+}
+
+prefab_model : prefab.jpn_fork_15 {
+	model_desc: "/prefab/fork/fork_oneway2_exitway_increase.pmd"
+	prefab_desc: "/prefab/fork/fork_oneway2_exitway_increase.ppd"
+	category: "japan_mod"
+
+
+}
+
+prefab_model : prefab.jpn_fork_16 {
+	model_desc: "/prefab/fork/fork_oneway2_exitway_increase_rev.pmd"
+	prefab_desc: "/prefab/fork/fork_oneway2_exitway_increase_rev.ppd"
+	category: "japan_mod"
+
+}
+prefab_model : prefab.jpn_fork_18 {
+	model_desc: "/prefab/fork/fork_oneway2_diverge_1exit_l.pmd"
+	prefab_desc: "/prefab/fork/fork_oneway2_diverge_1exit_l.ppd"
+	category: "japan_mod"
+
+}
+
+prefab_model : prefab.jpn_fork_19 {
+	model_desc: "/prefab/fork/fork_oneway2_diverge_1exit_l_rev.pmd"
+	prefab_desc: "/prefab/fork/fork_oneway2_diverge_1exit_l_rev.ppd"
+	category: "japan_mod"
+
+
+}
+
+prefab_model : prefab.jpn_fork_20 {
+	model_desc: "/prefab/fork/fork_shutoko_2x2_exitway_w.pmd"
+	prefab_desc: "/prefab/fork/fork_shutoko_2x2_exitway_w.ppd"
+	category: "japan_mod"
+
+
+}
+
+prefab_model : prefab.jpn_fork_21 {
+	model_desc: "/prefab/fork/fork_2exitway_1exitway_l.pmd"
+	prefab_desc: "/prefab/fork/fork_2exitway_1exitway_l.ppd"
+	category: "japan_mod"
+	
+
+}
+
+prefab_model : prefab.jpn_fork_23 {
+	model_desc: "/prefab/fork/fork_2exitway_merge_oneway2lane_straight.pmd"
+	prefab_desc: "/prefab/fork/fork_2exitway_merge_oneway2lane_straight.ppd"
+	category: "japan_mod"
+	
+
+}
+
+prefab_model : prefab.jpn_fork_25 {
+	model_desc: "/prefab/fork/fork_oneway2_diverge_y_shape.pmd"
+	prefab_desc: "/prefab/fork/fork_oneway2_diverge_y_shape.ppd"
+	category: "japan_mod"
+	
+
+}
+
+prefab_model : prefab.jpn_fork_27 {
+	model_desc: "/prefab/fork/joint_shutoko2lane_oneway_shutoko2lane.pmd"
+	prefab_desc: "/prefab/fork/joint_shutoko2lane_oneway_shutoko2lane.ppd"
+	category: "japan_mod"
+	
+
+}
+
+prefab_model : prefab.jpn_fork_28 {
+	model_desc: "/prefab/fork/joint_city2lane_oneway2lane.pmd"
+	prefab_desc: "/prefab/fork/joint_city2lane_oneway2lane.ppd"
+	category: "japan_mod"
+
+}
+
+prefab_model : prefab.jpn_fork_29 {
+	model_desc: "/prefab/fork/fork_shutoko_2x2_city2_w.pmd"
+	prefab_desc: "/prefab/fork/fork_shutoko_2x2_city2_w.ppd"
+	category: "japan_mod"
+	
+
+}
+
+prefab_model : prefab.jpn_fork_30 {
+	model_desc: "/prefab/fork/fork_exit_shutoko2_short.pmd"
+	prefab_desc: "/prefab/fork/fork_exit_shutoko2_short.ppd"
+	category: "japan_mod"
+	
+
+}
+
+prefab_model : prefab.jpn_fork_31 {
+	model_desc: "/prefab/fork/fork_exit_shutoko2_short_b.pmd"
+	prefab_desc: "/prefab/fork/fork_exit_shutoko2_short_b.ppd"
+	category: "japan_mod"
+	
+
+}
+
+prefab_model : prefab.jpn_fork_32 {
+	model_desc: "/prefab/fork/fork_shutoko_2x2_exitway_l.pmd"
+	prefab_desc: "/prefab/fork/fork_shutoko_2x2_exitway_l.ppd"
+	category: "japan_mod"
+	
+
+}
+
+prefab_model : prefab.jpn_cross_1 {
+	model_desc: "/prefab/cross/road2_oneway2_enter.pmd"
+	prefab_desc: "/prefab/cross/road2_oneway2_enter.ppd"
+	category: "japan_mod"
+	
+
+}
+
+prefab_model : prefab.jpn_cross_2 {
+	model_desc: "/prefab/cross/road2_oneway2_exit.pmd"
+	prefab_desc: "/prefab/cross/road2_oneway2_exit.ppd"
+	category: "japan_mod"
+
+
+}
+
+prefab_model : prefab.jpn_cross_3 {
+	model_desc: "/prefab/cross/road2_x_road2_t_jpn.pmd"
+	prefab_desc: "/prefab/cross/road2_x_road2_t_jpn.ppd"
+	category: "japan_mod"
+
+
+}
+
+prefab_model : prefab.jpn_cross_4 {
+	model_desc: "/prefab/cross/road2_x_road1_t_sidewalk_all_jpn.pmd"
+	prefab_desc: "/prefab/cross/road2_x_road1_t_sidewalk_all_jpn.ppd"
+	category: "japan_mod"
+
+
+}
+
+prefab_model : prefab.jpn_cross_5 {
+	model_desc: "/prefab/cross/road1_x_road2_t_sidewalk_all_jpn.pmd"
+	prefab_desc: "/prefab/cross/road1_x_road2_t_sidewalk_all_jpn.ppd"
+	category: "japan_mod"
+
+
+}
+
+prefab_model : prefab.jpn_cross_6 {
+	model_desc: "/prefab/cross/entrance_sidewalkcross_8m_jp.pmd"
+	prefab_desc: "/prefab/cross/entrance_sidewalkcross_8m_jp.ppd"
+	category: "japan_mod"
+
+
+}
+
+prefab_model : prefab.jpn_cross_7 {
+	model_desc: "/prefab/cross/cross_odaiba_chuoh.pmd"
+	prefab_desc: "/prefab/cross/cross_odaiba_chuoh.ppd"
+	category: "japan_mod"
+
+}
+
+prefab_model : prefab.jpn_cross_8 {
+	model_desc: "/prefab/cross/cross_odaiba_chuoh_reverse.pmd"
+	prefab_desc: "/prefab/cross/cross_odaiba_chuoh_reverse.ppd"
+	category: "japan_mod"
+
+}
+
+prefab_model : prefab.jpn_cross_9 {
+	model_desc: "/prefab/cross/cross_odaiba_yurikamome.pmd"
+	prefab_desc: "/prefab/cross/cross_odaiba_yurikamome.ppd"
+	category: "japan_mod"
+
+}
+
+prefab_model : prefab.jpn_cross_10 {
+	model_desc: "/prefab/cross/cross_city2x2_sw8m_corn_12m_mid_2x2.pmd"
+	prefab_desc: "/prefab/cross/cross_city2x2_sw8m_corn_12m_mid_2x2.ppd"
+	category: "japan_mod"
+	
+}
+
+prefab_model : prefab.jpn_cross_11 {
+	model_desc: "/prefab/cross/road2_x_road2_sidewalk_all_jp.pmd"
+	prefab_desc: "/prefab/cross/road2_x_road2_sidewalk_all_jp.ppd"
+	category: "japan_mod"
+
+}
+
+prefab_model : prefab.jpn_cross_12 {
+	model_desc: "/prefab/cross/cross_daishi_ic.pmd"
+	prefab_desc: "/prefab/cross/cross_daishi_ic.ppd"
+	category: "japan_mod"
+
+	
+}
+prefab_model : prefab.jpn_joint_1 {
+	model_desc: "/prefab/joint/joint_oneway2x2_oneway4.pmd"
+	prefab_desc: "/prefab/joint/joint_oneway2x2_oneway4.ppd"
+	category: "japan_mod"
+
+}
+
+prefab_model : prefab.jpn_joint_2 {
+	model_desc: "/prefab/joint/joint_oneway4_oneway2x2.pmd"
+	prefab_desc: "/prefab/joint/joint_oneway4_oneway2x2.ppd"
+	category: "japan_mod"
+
+}
+
+prefab_model : prefab.jpn_joint_3 {
+	model_desc: "/prefab/joint/joint_shutoko2lane_oneway_shutoko2lane.pmd"
+	prefab_desc: "/prefab/joint/joint_shutoko2lane_oneway_shutoko2lane.ppd"
+	category: "japan_mod"
+
+}
+
+prefab_model : prefab.jpn_joint_4 {
+	model_desc: "/prefab/joint/joint_shutoko_2x2.pmd"
+	prefab_desc: "/prefab/joint/joint_shutoko_2x2.ppd"
+	category: "japan_mod"
+
+}
+
+prefab_model : prefab.jpn_joint_5 {
+	model_desc: "/prefab/jp_highway_joint/jp_2_2highway_no_shoulder_2_1x2.pmd"
+	prefab_desc: "/prefab/jp_highway_joint/jp_2_2highway_no_shoulder_2_1x2.ppd"
+	category: "japan_highway"
+
+}
+
+prefab_model : prefab.jpn_toll_1 {
+	model_desc: "/prefab/tollgate/shutoko_tollgate_small/tollgate_oneway2_small.pmd"
+	prefab_desc: "/prefab/tollgate/shutoko_tollgate_small/tollgate_oneway2_small.ppd"
+	category: "jp_toll"
+	slow_time: true
+	
+}
+prefab_model : prefab.jpn_toll_2 {
+	model_desc: "/prefab/tollgate/shutoko_tollgate_main/tollgate_wangan_main.pmd"
+	prefab_desc: "/prefab/tollgate/shutoko_tollgate_main/tollgate_wangan_main.ppd"
+	category: "jp_toll"
+	slow_time: true
+	
+}
+
+prefab_model : prefab.jpn_bridge_1 {
+	model_desc: "/prefab/bridge/baybridge.pmd"
+	prefab_desc: "/prefab/bridge/baybridge.ppd"
+	category: "jp_bridge"
+	
+
+}
+	
+prefab_model : prefab.jpn_bridge_2 {
+	model_desc: "/prefab/bridge/tsubasa_bridge.pmd"
+	prefab_desc: "/prefab/bridge/tsubasa_bridge.ppd"
+	category: "jp_bridge"
+
+	
+}
+
+prefab_model : prefab.jpn_bridge_3 {
+	model_desc: "/prefab/bridge/k5_daikoku_bridge.pmd"
+	prefab_desc: "/prefab/bridge/k5_daikoku_bridge.ppd"
+	category: "jp_bridge"
+	
+
+}
+
+prefab_model : prefab.jpn_bridge_4 {
+	model_desc: "/prefab/bridge/daikoku_bridge_tower.pmd"
+	prefab_desc: "/prefab/bridge/daikoku_bridge_tower.ppd"
+	category: "jp_bridge"
+	
+
+}
+
+prefab_model : prefab.jpn_bridge_5 {
+	model_desc: "/model/jpn_panorama/kawasaki/daishi_bashi.pmd"
+	prefab_desc: "/model/jpn_panorama/kawasaki/daishi_bashi.ppd"
+	category: "jp_bridge"
+	
+
+}
+
+prefab_model : prefab.jpn_corner_1 {
+	model_desc: "/prefab/corner/corner_city2_city3_right_angle.pmd"
+	prefab_desc: "/prefab/corner/corner_city2_city3_right_angle.ppd"
+	category: "japan_mod"
+	
+
+}
+
+prefab_model : prefab.jpn_corner_2 {
+	model_desc: "/prefab/corner/corner_city2_city3_right_angle_invert.pmd"
+	prefab_desc: "/prefab/corner/corner_city2_city3_right_angle_invert.ppd"
+	category: "japan_mod"
+	
+
+}
+
+prefab_model : prefab.jpn_levl_1 {
+	model_desc: "/prefab/jp_city_level/level_crs_jp_2x3_city_single.pmd"
+	prefab_desc: "/prefab/jp_city_level/level_crs_jp_2x3_city_single.ppd"
+	category: "japan_level"
+
+}
+
+prefab_model : prefab.jpn_temp_1 {
+	model_desc: "/prefab/jp_city_temp/connector_jp2city_jp3city_cntr_50cm_20cm_kerb.pmd"
+	prefab_desc: "/prefab/jp_city_temp/connector_jp2city_jp3city_cntr_50cm_20cm_kerb.ppd"
+	category: "japan_city"
+	
+
+}
+
+prefab_model : prefab.jpn_temp_2 {
+	model_desc: "/prefab/jp_city_cross/cross_jp_2r_x_2r.pmd"
+	prefab_desc: "/prefab/jp_city_cross/cross_jp_2r_x_2r.ppd"
+	category: "japan_city"
+	
+
+}
+
+prefab_model : prefab.jpn_temp_3 {
+	model_desc: "/prefab/jp_city_cross/cross_jp_3_x_2r_5m.pmd"
+	prefab_desc: "/prefab/jp_city_cross/cross_jp_3_x_2r_5m.ppd"
+	category: "japan_city"
+	
+
+}
+
+prefab_model : prefab.jpn_temp_4 {
+	model_desc: "/prefab/jp_city_entrance/entrance_jp_2x3_national.pmd"
+	prefab_desc: "/prefab/jp_city_entrance/entrance_jp_2x3_national.ppd"
+	category: "japan_city"
+	
+}
+
+prefab_model : prefab.jpn_temp_5 {
+	model_desc: "/prefab/jp_city_cross/cross_jp_2lr_x2_t.pmd"
+	prefab_desc: "/prefab/jp_city_cross/cross_jp_2lr_x2_t.ppd"
+	category: "japan_city"
+}
+
+prefab_model : prefab.jpn_temp_6 {
+	model_desc: "/prefab/jp_city_temp/connector_jp2city_jp3city_cntr_450cm_20cm_kerb_l.pmd"
+	prefab_desc: "/prefab/jp_city_temp/connector_jp2city_jp3city_cntr_450cm_20cm_kerb_l.ppd"
+	category: "japan_city"
+}
+
+prefab_model : prefab.jpn_temp_7 {
+	model_desc: "/prefab/jp_city_cross/jp_cross_2-3_1x1_25m.pmd"
+	prefab_desc: "/prefab/jp_city_cross/jp_cross_2-3_1x1_25m.ppd"
+	category: "japan_city"
+}
+
+prefab_model : prefab.jpn_temp_8 {
+	model_desc: "/prefab/jp_city_temp/joint_jp_2_2_kokdo_2_kokdo.pmd"
+	prefab_desc: "/prefab/jp_city_temp/joint_jp_2_2_kokdo_2_kokdo.ppd"
+	category: "japan_city"
+}
+
+prefab_model : prefab.jpn_temp_9 {
+	model_desc: "/prefab/jp_city_cross/jp_cross_2-3_1x1_2x2_25m.pmd"
+	prefab_desc: "/prefab/jp_city_cross/jp_cross_2-3_1x1_2x2_25m.ppd"
+	category: "japan_city"
+}
+
+prefab_model : prefab.jpn_temp_10 {
+	model_desc: "/prefab/jp_city_entrance/entrance_jp_2x2_city.pmd"
+	prefab_desc: "/prefab/jp_city_entrance/entrance_jp_2x2_city.ppd"
+	category: "japan_city"
+
+}
+
+prefab_model : prefab.jpn_temp_11 {
+	model_desc: "/prefab/jp_city_temp/connector_jp2x2city_jp3x3city.pmd"
+	prefab_desc: "/prefab/jp_city_temp/connector_jp2x2city_jp3x3city.ppd"
+	category: "japan_city"
+
+}
+}

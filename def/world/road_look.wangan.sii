@@ -1,0 +1,663 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+
+road_look : road.japan1 {
+	name: 			"Highway 3 lanes 1.5m offset"
+
+	road_size_left: 	16
+	road_size_right: 	16
+
+	road_offset:		1.5
+
+
+	tex1_left:		0.885
+	tex0_left:		0.0
+	tex0_right:		0.0
+	tex1_right:		0.885
+
+	trans_tex0_left:	0.944
+	trans_tex1_left:	1.0
+	trans_tex0_right:	0.944
+	trans_tex1_right:	1.0
+	trans_tex0_center:	0.944
+	trans_tex1_center:	1.0
+
+	center_line_left_offset:	0.0
+	center_line_right_offset:	0.0
+
+	center_line_left_width:		0.25
+	center_line_right_width:	0.25
+
+	center_line_left_style:		3
+	center_line_right_style:	3
+	inner_line_style:		2
+	outer_line_style:		1
+
+	lanes_left[]:		traffic_lane.road.wangan
+	lanes_left[]:		traffic_lane.road.wangan
+	lanes_left[]:		traffic_lane.road.wangan
+	lanes_right[]:		traffic_lane.road.wangan
+	lanes_right[]:		traffic_lane.road.wangan
+	lanes_right[]:		traffic_lane.road.wangan
+
+}
+
+road_look : road.japan2 {
+	name: 			"*Obsolete Hw exit temp JPN"
+	template_right:		"/road_template/hw_exit_jpn.pmd"
+
+
+	lanes_right[]:		traffic_lane.road.expressway
+
+	compatible_edges_right[]: shldr_1m
+	compatible_edges_right[]: sh_curb_0_3m
+	compatible_edges_right[]: sw_3m_a
+	compatible_edges_right[]: sw_3m_b
+	compatible_edges_right[]: sw_3m_c
+	compatible_edges_right[]: center_np
+
+	shoulder_space_left:		2.5
+	shoulder_space_right:		0.0
+}
+
+//need to fix lines here
+
+road_look : road.japan3 {
+	name: 			"Highway 2 lanes one way JPN"
+
+	road_size_left: 	8.0
+	road_size_right: 	4.5
+
+	road_offset:		0.0
+
+
+	tex1_left:		0.944
+	tex0_left:		0.5
+	tex0_right:		0.5
+	tex1_right:		0.0
+
+	trans_tex0_left:	0.944
+	trans_tex1_left:	1.0
+	trans_tex0_right:	0.944
+	trans_tex1_right:	1.0
+	trans_tex0_center:	0.944
+	trans_tex1_center:	1.0
+
+	center_line_left_offset:	-0.14
+	center_line_right_offset:	4.24
+
+	center_line_left_width:		0.25
+	center_line_right_width:	0.25
+
+	center_line_left_style:		2
+	center_line_right_style:	3
+	inner_line_style:		0
+	outer_line_style:		1
+
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+
+}
+
+//need to fix lines here
+
+road_look : road.japan4 {
+	name: 			"Shutoko Oneway 2 lanes"
+
+	road_size_left: 	5.0
+	road_size_right: 	4.5
+
+	road_offset:		0.0
+
+
+	tex1_left:		0.752
+	tex0_left:		0.5
+	tex0_right:		0.5
+	tex1_right:		0.752
+
+	trans_tex0_left:	0.944
+	trans_tex1_left:	1.0
+	trans_tex0_right:	0.944
+	trans_tex1_right:	1.0
+	trans_tex0_center:	0.944
+	trans_tex1_center:	1.0
+
+	center_line_left_offset:	-0.125
+	center_line_right_offset:	4.375
+
+	center_line_left_width:		0.25
+	center_line_right_width:	0.25
+
+	center_line_left_style:		2
+	center_line_right_style:	3
+	inner_line_style:		0
+	outer_line_style:		1
+
+	lanes_right[]:		traffic_lane.road.shutoko
+	lanes_right[]:		traffic_lane.road.shutoko
+
+}
+
+road_look : road.japan5 {
+	name: 			"Highway 3 lanes 1m offset"
+
+	road_size_left: 	16
+	road_size_right: 	16
+
+	road_offset:		1
+
+
+	tex1_left:		0.944
+	tex0_left:		0.0
+	tex0_right:		0.0
+	tex1_right:		0.944
+
+	trans_tex0_left:	0.944
+	trans_tex1_left:	1.0
+	trans_tex0_right:	0.944
+	trans_tex1_right:	1.0
+	trans_tex0_center:	0.944
+	trans_tex1_center:	1.0
+
+	center_line_left_offset:	0.0
+	center_line_right_offset:	0.0
+
+	center_line_left_width:		0.25
+	center_line_right_width:	0.25
+
+	center_line_left_style:		3
+	center_line_right_style:	3
+	inner_line_style:		2
+	outer_line_style:		1
+
+	lanes_left[]:		traffic_lane.road.motorway
+	lanes_left[]:		traffic_lane.road.motorway
+	lanes_left[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+
+}
+
+road_look : road.japan6 {
+	name: 			"Shutoko 2 lanes 1m offset"
+
+	road_size_left: 	9
+	road_size_right: 	9
+
+	road_offset:		0.5
+
+
+	tex1_left:		0.22
+	tex0_left:		0.78
+	tex0_right:		0.78
+	tex1_right:		0.22
+
+	trans_tex0_left:	0.944
+	trans_tex1_left:	1.0
+	trans_tex0_right:	0.944
+	trans_tex1_right:	1.0
+	trans_tex0_center:	0.944
+	trans_tex1_center:	1.0
+
+	center_line_left_offset:	0.0
+	center_line_right_offset:	0.0
+
+	center_line_left_width:		0.32
+	center_line_right_width:	0.32
+
+	center_line_left_style:		3
+	center_line_right_style:	3
+	inner_line_style:		1
+	outer_line_style:		1
+
+	lanes_left[]:		traffic_lane.road.shutoko
+	lanes_left[]:		traffic_lane.road.shutoko
+	lanes_right[]:		traffic_lane.road.shutoko
+	lanes_right[]:		traffic_lane.road.shutoko
+
+
+}
+
+road_look : road.japan7 {
+	name: 			"City 2 lanes 3m offset"
+
+	road_size_left: 	8.0
+	road_size_right: 	8.0
+
+	road_offset:		3.0
+
+
+	tex1_left:		0.88
+	tex0_left:		0.25
+	tex0_right:		0.25
+	tex1_right:		0.88
+
+	trans_tex0_left:	0.944
+	trans_tex1_left:	1.0
+	trans_tex0_right:	0.944
+	trans_tex1_right:	1.0
+	trans_tex0_center:	0.944
+	trans_tex1_center:	1.0
+
+	shoulder_size_right:		1.0
+	shoulder_tex0_right:		0.88
+	shoulder_tex1_right:		0.944
+
+	shoulder_size_left:		1.0
+	shoulder_tex0_left:		0.88
+	shoulder_tex1_left:		0.944
+
+	center_line_left_offset:	0.0
+	center_line_right_offset:	0.0
+
+	center_line_left_width:		0.25
+	center_line_right_width:	0.25
+
+	center_line_left_style:		3
+	center_line_right_style:	3
+	inner_line_style:		1
+	outer_line_style:		0
+
+	lanes_left[]:		traffic_lane.road.expressway
+	lanes_left[]:		traffic_lane.road.expressway
+	lanes_right[]:		traffic_lane.road.expressway
+	lanes_right[]:		traffic_lane.road.expressway
+
+}
+
+road_look : road.japan8 {
+	name: 			"City 3 lanes 1m offset"
+
+	road_size_left: 	13.5
+	road_size_right: 	13.5
+
+	road_offset:		1.0
+
+
+	tex1_left:		0.750
+	tex0_left:		0.0
+	tex0_right:		0.0
+	tex1_right:		0.750
+
+	trans_tex0_left:	0.944
+	trans_tex1_left:	1.0
+	trans_tex0_right:	0.944
+	trans_tex1_right:	1.0
+	trans_tex0_center:	0.944
+	trans_tex1_center:	1.0
+
+	center_line_left_offset:	0.0
+	center_line_right_offset:	0.0
+
+	center_line_left_width:		0.25
+	center_line_right_width:	0.25
+
+	center_line_left_style:		3
+	center_line_right_style:	3
+	inner_line_style:		2
+	outer_line_style:		1
+
+	lanes_left[]:		traffic_lane.road.expressway
+	lanes_left[]:		traffic_lane.road.expressway
+	lanes_left[]:		traffic_lane.road.expressway
+	lanes_right[]:		traffic_lane.road.expressway
+	lanes_right[]:		traffic_lane.road.expressway
+	lanes_right[]:		traffic_lane.road.expressway
+
+}
+
+road_look : road.japan9 {
+	name: 			"Shutoko Oneway 2 lanes white"
+
+	road_size_left: 	5.0
+	road_size_right: 	4.5
+
+	road_offset:		0.0
+
+
+	tex1_left:		0.752
+	tex0_left:		0.5
+	tex0_right:		0.5
+	tex1_right:		0.752
+
+	trans_tex0_left:	0.944
+	trans_tex1_left:	1.0
+	trans_tex0_right:	0.944
+	trans_tex1_right:	1.0
+	trans_tex0_center:	0.944
+	trans_tex1_center:	1.0
+
+	center_line_left_offset:	-0.125
+	center_line_right_offset:	4.375
+
+	center_line_left_width:		0.25
+	center_line_right_width:	0.25
+
+	center_line_left_style:		3
+	center_line_right_style:	3
+	inner_line_style:		0
+	outer_line_style:		1
+
+	lanes_right[]:		traffic_lane.road.shutoko
+	lanes_right[]:		traffic_lane.road.shutoko
+
+
+}
+
+road_look : road.japan10 {
+	name: 			"City Oneway 2 lanes"
+
+	road_size_left: 	5.0
+	road_size_right: 	4.5
+
+	road_offset:		0.0
+
+
+	tex1_left:		0.752
+	tex0_left:		0.5
+	tex0_right:		0.5
+	tex1_right:		0.752
+
+	trans_tex0_left:	0.944
+	trans_tex1_left:	1.0
+	trans_tex0_right:	0.944
+	trans_tex1_right:	1.0
+	trans_tex0_center:	0.944
+	trans_tex1_center:	1.0
+
+	center_line_left_offset:	-0.125
+	center_line_right_offset:	4.375
+
+	center_line_left_width:		0.25
+	center_line_right_width:	0.25
+
+	center_line_left_style:		2
+	center_line_right_style:	3
+	inner_line_style:		0
+	outer_line_style:		1
+
+	lanes_right[]:		traffic_lane.road.expressway
+	lanes_right[]:		traffic_lane.road.expressway
+
+
+	}
+
+road_look : road.japan11 {
+	name: 			"City 3 lanes 3m offset"
+
+	road_size_left: 	13.5
+	road_size_right: 	13.5
+
+	road_offset:		3.0
+
+
+	tex1_left:		0.750
+	tex0_left:		0.0
+	tex0_right:		0.0
+	tex1_right:		0.750
+
+	trans_tex0_left:	0.944
+	trans_tex1_left:	1.0
+	trans_tex0_right:	0.944
+	trans_tex1_right:	1.0
+	trans_tex0_center:	0.944
+	trans_tex1_center:	1.0
+
+	center_line_left_offset:	0.0
+	center_line_right_offset:	0.0
+
+	center_line_left_width:		0.25
+	center_line_right_width:	0.25
+
+	center_line_left_style:		3
+	center_line_right_style:	3
+	inner_line_style:		2
+	outer_line_style:		1
+
+	lanes_left[]:		traffic_lane.road.expressway
+	lanes_left[]:		traffic_lane.road.expressway
+	lanes_left[]:		traffic_lane.road.expressway
+	lanes_right[]:		traffic_lane.road.expressway
+	lanes_right[]:		traffic_lane.road.expressway
+	lanes_right[]:		traffic_lane.road.expressway
+
+}
+
+road_look : road.japan12 {
+	name: 			"City Oneway 4 lanes"
+
+	road_size_left: 	9.5
+	road_size_right: 	9.0
+
+	road_offset:		0.0
+
+
+	tex1_left:		0.775
+	tex0_left:		0.250
+	tex0_right:		0.250
+	tex1_right:		0.775
+
+	trans_tex0_left:	0.944
+	trans_tex1_left:	1.0
+	trans_tex0_right:	0.944
+	trans_tex1_right:	1.0
+	trans_tex0_center:	0.944
+	trans_tex1_center:	1.0
+
+	center_line_left_offset:	-0.125
+	center_line_right_offset:	8.75
+
+	center_line_left_width:		0.25
+	center_line_right_width:	0.0
+
+	center_line_left_style:		2
+	center_line_right_style:	3
+	inner_line_style:		1
+	outer_line_style:		1
+
+	lanes_right[]:		traffic_lane.road.shutoko
+	lanes_right[]:		traffic_lane.road.shutoko
+	lanes_right[]:		traffic_lane.road.shutoko
+	lanes_right[]:		traffic_lane.road.shutoko
+
+
+}
+
+road_look : road.japan13 {
+	name: 			"City 2 lanes 2m offset"
+
+	road_size_left: 	8.0
+	road_size_right: 	8.0
+
+	road_offset:		2.0
+
+
+	tex1_left:		0.88
+	tex0_left:		0.25
+	tex0_right:		0.25
+	tex1_right:		0.88
+
+	trans_tex0_left:	0.944
+	trans_tex1_left:	1.0
+	trans_tex0_right:	0.944
+	trans_tex1_right:	1.0
+	trans_tex0_center:	0.944
+	trans_tex1_center:	1.0
+
+	shoulder_size_right:		1.0
+	shoulder_tex0_right:		0.88
+	shoulder_tex1_right:		0.944
+
+	shoulder_size_left:		1.0
+	shoulder_tex0_left:		0.88
+	shoulder_tex1_left:		0.944
+
+	center_line_left_offset:	0.0
+	center_line_right_offset:	0.0
+
+	center_line_left_width:		0.32
+	center_line_right_width:	0.32
+
+	center_line_left_style:		3
+	center_line_right_style:	3
+	inner_line_style:		1
+	outer_line_style:		0
+
+	lanes_left[]:		traffic_lane.road.expressway
+	lanes_left[]:		traffic_lane.road.expressway
+	lanes_right[]:		traffic_lane.road.expressway
+	lanes_right[]:		traffic_lane.road.expressway
+
+	
+	shoulder_space_left:	0.0
+	shoulder_space_right:	0.0
+}
+
+road_look : road.japan14 {
+	name: 			"City 3 lanes 1m offset Center Lane Only"
+
+	road_size_left: 	13.5
+	road_size_right: 	13.5
+
+	road_offset:		1.0
+
+
+	tex1_left:		0.750
+	tex0_left:		0.0
+	tex0_right:		0.0
+	tex1_right:		0.750
+
+	trans_tex0_left:	0.944
+	trans_tex1_left:	1.0
+	trans_tex0_right:	0.944
+	trans_tex1_right:	1.0
+	trans_tex0_center:	0.944
+	trans_tex1_center:	1.0
+
+	center_line_left_offset:	0.0
+	center_line_right_offset:	0.0
+
+	center_line_left_width:		0.25
+	center_line_right_width:	0.25
+
+	center_line_left_style:		3
+	center_line_right_style:	3
+	inner_line_style:		2
+	outer_line_style:		1
+
+	lanes_left[]:		traffic_lane.no_vehicles
+	lanes_left[]:		traffic_lane.road.local
+	lanes_left[]:		traffic_lane.no_vehicles
+	lanes_right[]:		traffic_lane.no_vehicles
+	lanes_right[]:		traffic_lane.road.local
+	lanes_right[]:		traffic_lane.no_vehicles
+
+}
+
+road_look : road.japan15 {
+	name: 			"Shutoko Oneway 2 lanes RIGHT ONLY"
+
+	road_size_left: 	5.0
+	road_size_right: 	4.5
+
+	road_offset:		0.0
+
+
+	tex1_left:		0.752
+	tex0_left:		0.5
+	tex0_right:		0.5
+	tex1_right:		0.752
+
+	trans_tex0_left:	0.944
+	trans_tex1_left:	1.0
+	trans_tex0_right:	0.944
+	trans_tex1_right:	1.0
+	trans_tex0_center:	0.944
+	trans_tex1_center:	1.0
+
+	center_line_left_offset:	-0.125
+	center_line_right_offset:	4.375
+
+	center_line_left_width:		0.25
+	center_line_right_width:	0.25
+
+	center_line_left_style:		2
+	center_line_right_style:	3
+	inner_line_style:		0
+	outer_line_style:		1
+
+	lanes_right[]:		traffic_lane.road.shutoko
+	lanes_right[]:		traffic_lane.no_vehicles
+
+}
+
+road_look : road.japan16 {
+	name: 			"Highway 3 lanes 2m offset Wangan"
+
+	road_size_left: 	17
+	road_size_right: 	17
+
+	road_offset:		2.0
+
+
+	tex1_left:		0.944
+	tex0_left:		0.0
+	tex0_right:		0.0
+	tex1_right:		0.944
+
+	trans_tex0_left:	0.944
+	trans_tex1_left:	1.0
+	trans_tex0_right:	0.944
+	trans_tex1_right:	1.0
+	trans_tex0_center:	0.944
+	trans_tex1_center:	1.0
+
+	center_line_left_offset:	0.0
+	center_line_right_offset:	0.0
+
+	center_line_left_width:		0.32
+	center_line_right_width:	0.32
+
+	center_line_left_style:		3
+	center_line_right_style:	3
+	inner_line_style:		2
+	outer_line_style:		1
+
+	lanes_left[]:		traffic_lane.road.wangan
+	lanes_left[]:		traffic_lane.road.wangan
+	lanes_left[]:		traffic_lane.road.wangan
+	lanes_right[]:		traffic_lane.road.wangan
+	lanes_right[]:		traffic_lane.road.wangan
+	lanes_right[]:		traffic_lane.road.wangan
+
+	
+	shoulder_space_left:	3.5
+	shoulder_space_right:	3.5
+}
+road_look : road.japan17 {
+	name: 			"*Hw exit temp LHD"
+	template_right:		"/road_template/hw_exit_jpn_new.pmd"
+
+
+	lanes_left[]:		traffic_lane.road.motorway.low_density
+
+	compatible_edges_right[]: shldr_1m
+	compatible_edges_right[]: sh_curb_0_3m
+	compatible_edges_right[]: sw_3m_a
+	compatible_edges_right[]: sw_3m_b
+	compatible_edges_right[]: sw_3m_c
+	compatible_edges_right[]: center_np
+
+	shoulder_space_left:		0.0
+	shoulder_space_right:		2.5
+}
+}

@@ -1,0 +1,9 @@
+material : "eut2.dif.decal.over.rfx" {
+	texture[0] : "/material/jpn_sign/speed_limit_paint.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 1 , 1 , 1 }
+	reflection : 0
+	shininess : 20
+	specular : { 0.00256229 , 0.00256229 , 0.00256229 }
+}

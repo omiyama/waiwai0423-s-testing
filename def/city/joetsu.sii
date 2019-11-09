@@ -1,13 +1,12 @@
+
 ﻿
 city_data: city.joetsu
 {
 	city_name: "上越"
 	short_city_name: "joetsu"
+
 	country: niigata
 
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
 	map_x_offsets[]: -50
 	map_x_offsets[]: -49
 	map_x_offsets[]: -46

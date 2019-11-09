@@ -1,0 +1,15 @@
+SiiNunit
+{
+
+@include "city/fukui.sii"
+@include "city/joetsu.sii"
+@include "city/kanazawa.sii"
+@include "city/matsuyama.sii"
+@include "city/nagoya.sii"
+@include "city/sapporo.sii"
+@include "city/takayama.sii"
+@include "city/tokyo.japan.sii"
+@include "city/toyama.sii"
+@include "city/yokohama.japan.sii"
+
+}

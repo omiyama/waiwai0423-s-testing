@@ -1,0 +1,10 @@
+material : "eut2.dif" {
+	texture[0] : "/material/jpn_panorama/haneda/tower_white.tobj"
+	texture_name[0] : "texture_base"
+	diffuse : { 1 , 1 , 1 }
+	specular : { 0.0862745 , 0.0862745 , 0.0862745 }
+	shininess : 7
+	add_ambient : 0
+	aux[1] : { 0 , 0 }
+
+}

@@ -1,0 +1,11 @@
+SiiNunit
+{
+sign_board_template : _nameless.e90.e9f0 {
+ board_name: "expwy kanazawa3"
+ width: &40a23d71
+ height: &3fbc28f6
+ items: 0
+ dynamic_attributes: 0
+}
+
+}

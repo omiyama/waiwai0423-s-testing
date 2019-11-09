@@ -1,0 +1,19 @@
+SiiNunit
+{
+sign_template : _nameless.eba.cf60 {
+ template_name: route_signA
+ model_name: 1425
+ stand_model_name: ""
+ traffic_rule: null
+ boards: 1
+ boards[0]: _nameless.55b8.5040
+ items: 0
+ dynamic_attributes: 0
+}
+
+sign_template_board_binding : _nameless.55b8.5040 {
+ area_name: ml2
+ linked_board: sign_board.jp_17
+}
+
+}

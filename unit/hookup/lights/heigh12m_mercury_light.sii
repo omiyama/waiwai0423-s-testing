@@ -1,0 +1,19 @@
+SiiNunit
+{
+light_source : heigh12m.mercury.light
+{
+	ambient_color: (0.0000, 0.0000, 0.0000)
+	diffuse_color: (0.7500, 0.9500, 0.8700)
+	specular_color: (0.9911, 0.9911, 0.9387)
+
+	range: 13.0
+	cut_range: 13.0
+	inner_angle: 80.0
+	outer_angle: 140.0
+	attenuation_start_range: 5
+
+	dir_type: all
+	model: "/model/flare/lamp_flare_mercury.pmd"
+	scale_factor: 2
+}
+}

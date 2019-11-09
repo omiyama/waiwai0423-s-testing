@@ -1,0 +1,144 @@
+traffic_vehicle : traffic.taxi_n_1
+{
+	accessories[]: .taxi_n_1.chassis
+	accessories[]: .taxi_n_1.fwheel
+	accessories[]: .taxi_n_1.rwheel
+
+	max_speed: 120
+
+	lod_dist[]: 70
+	lod_dist[]: 130
+	lod_dist[]: 200
+	vehicle_mass: 1500
+
+	spawn_ratio: 0
+	spawn_condition[]: .traffic.taxi_n_1.condition.time
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .taxi_n_1.chassis
+{
+	data_path: "/def/vehicle/ai/comfort/chassis_tokyo_musen.sii"
+}
+
+vehicle_wheel_accessory: .taxi_n_1.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/15in_comfort_f.sii"
+}
+
+vehicle_wheel_accessory: .taxi_n_1.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/15in_comfort_r.sii"
+}
+
+
+
+traffic_vehicle : traffic.taxi_n_2
+{
+	accessories[]: .taxi_n_2.chassis
+	accessories[]: .taxi_n_2.fwheel
+	accessories[]: .taxi_n_2.rwheel
+
+	max_speed: 120
+
+	lod_dist[]: 70
+	lod_dist[]: 130
+	lod_dist[]: 200
+	vehicle_mass: 1500
+
+	spawn_ratio: 0
+	spawn_condition[]: .traffic.taxi_n_2.condition.time
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .taxi_n_2.chassis
+{
+	data_path: "/def/vehicle/ai/comfort/chassis_tokyo_4sha.sii"
+}
+
+vehicle_wheel_accessory: .taxi_n_2.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/15in_comfort_f.sii"
+}
+
+vehicle_wheel_accessory: .taxi_n_2.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/15in_comfort_r.sii"
+}
+
+
+
+traffic_vehicle : traffic.taxi_n_3
+{
+	accessories[]: .taxi_n_3.chassis
+	accessories[]: .taxi_n_3.fwheel
+	accessories[]: .taxi_n_3.rwheel
+
+	max_speed: 120
+
+	lod_dist[]: 70
+	lod_dist[]: 130
+	lod_dist[]: 200
+	vehicle_mass: 1500
+
+	spawn_ratio: 0
+	spawn_condition[]: .traffic.taxi_n_3.condition.time
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .taxi_n_3.chassis
+{
+	data_path: "/def/vehicle/ai/comfort/chassis_checker_musen.sii"
+}
+
+vehicle_wheel_accessory: .taxi_n_3.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/15in_comfort_f.sii"
+}
+
+vehicle_wheel_accessory: .taxi_n_3.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/15in_comfort_r.sii"
+}
+
+
+
+traffic_spawn_condition: .traffic.taxi_n_1.condition.time
+{
+	# spawn only in following game time intervals
+	type: time
+
+	
+	# 24:00 - 05:00
+	num_param[]: 0
+	num_param[]: 300
+}
+traffic_spawn_condition: .traffic.taxi_n_2.condition.time
+{
+	# spawn only in following game time intervals
+	type: time
+
+	
+	# 24:00 - 05:00
+	num_param[]: 0
+	num_param[]: 300
+}
+traffic_spawn_condition: .traffic.taxi_n_3.condition.time
+{
+	# spawn only in following game time intervals
+	type: time
+
+	
+	# 24:00 - 05:00
+	num_param[]: 0
+	num_param[]: 300
+}

@@ -1,0 +1,13 @@
+material : "eut2.building.add.env.day.rfx" {
+	texture[0] : "/material/jpn_city_prop/vending_m/santory.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/environment/building_reflection/building_ref.tobj"
+	texture_name[1] : "texture_reflection"
+	add_ambient : 0
+	aux[5] : 1
+	diffuse : { 1 , 1 , 1 }
+	env_factor : { 0.00635978 , 0.00635978 , 0.00635978 }
+	fresnel : { 0.2 , 0.9 }
+	shininess : 80
+	specular : { 0.0376495 , 0.0376495 , 0.0376495 }
+}

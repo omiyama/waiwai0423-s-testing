@@ -1,0 +1,12 @@
+material : "eut2.dif.spec.add.env.decal" {
+	texture[0] : "/material/jpn_window/window_single_square.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/environment/building_reflection/building_ref6.tobj"
+	texture_name[1] : "texture_reflection"
+	diffuse : { 1 , 1 , 1 }
+	specular : { 0.372549 , 0.372549 , 0.372549 }
+	shininess : 110
+	add_ambient : 0
+	env_factor : { 0.196078 , 0.196078 , 0.196078 }
+
+}

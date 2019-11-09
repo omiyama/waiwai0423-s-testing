@@ -1,0 +1,9 @@
+SiiNunit
+{
+
+country_traffic_info : .country.info.traffic.accord {
+	object: traffic.accord
+	spawn_frequency: 4.00
+	
+}
+}

@@ -1,0 +1,213 @@
+traffic_vehicle : traffic.selega_kql
+{
+	accessories[]: .selega_kql.chassis
+	accessories[]: .selega_kql.fwheel
+	accessories[]: .selega_kql.rwheel
+
+	allow_parked: false
+
+	max_speed: 160
+	engine_torque: 1569
+
+	lod_dist[]: 80
+	lod_dist[]: 150
+	
+	
+	spawn_ratio: 0
+
+	vehicle_mass: 13000
+}
+
+vehicle_accessory: .selega_kql.chassis
+{
+	data_path: "/def/vehicle/ai/selega/chassis_kq_limousine.sii"
+}
+
+vehicle_wheel_accessory: .selega_kql.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/w905_bus_f.sii"
+}
+
+vehicle_wheel_accessory: .selega_kql.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/w905_bus_r.sii"
+}
+
+
+
+traffic_vehicle : traffic.sele_jre
+{
+	accessories[]: .sele_jre.chassis
+	accessories[]: .sele_jre.fwheel
+	accessories[]: .sele_jre.rwheel
+
+	allow_parked: false
+
+	max_speed: 80
+	engine_torque: 1569
+
+	lod_dist[]: 80
+	lod_dist[]: 150
+	
+	spawn_ratio: 0
+	spawn_condition[]: .traffic.sele_jre.condition.time
+
+	vehicle_mass: 14000
+}
+
+
+vehicle_accessory: .sele_jre.chassis
+{
+	data_path: "/def/vehicle/ai/selega/chassis_jrbus_kanto.sii"
+}
+
+vehicle_wheel_accessory: .sele_jre.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/w905_bus_f.sii"
+}
+
+vehicle_wheel_accessory: .sele_jre.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/w905_bus_r.sii"
+}
+
+
+
+traffic_vehicle : traffic.sele_japa
+{
+	accessories[]: .sele_japa.chassis
+	accessories[]: .sele_japa.fwheel
+	accessories[]: .sele_japa.rwheel
+
+	allow_parked: false
+
+	max_speed: 160
+	engine_torque: 1569
+
+	lod_dist[]: 80
+	lod_dist[]: 150
+	
+	spawn_ratio: 0
+	spawn_condition[]: .traffic.sele_japa.condition.time
+
+	vehicle_mass: 14000
+}
+
+vehicle_accessory: .sele_japa.chassis
+{
+	data_path: "/def/vehicle/ai/selega/chassis_selega_japari.sii"
+}
+
+vehicle_wheel_accessory: .sele_japa.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/w905_bus_f.sii"
+}
+
+vehicle_wheel_accessory: .sele_japa.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/w905_bus_r.sii"
+}
+
+
+
+
+traffic_vehicle : traffic.selega.toyama
+{
+	accessories[]: .selega.toyama.chassis
+	accessories[]: .selega.toyama.fwheel
+	accessories[]: .selega.toyama.rwheel
+
+	allow_parked: false
+
+	max_speed: 160
+	engine_torque: 1569
+
+	lod_dist[]: 80
+	lod_dist[]: 150
+	
+	spawn_ratio: 0
+
+	vehicle_mass: 14000
+}
+
+vehicle_accessory: .selega.toyama.chassis
+{
+	data_path: "/def/vehicle/ai/selega/chassis_selega_toyama.sii"
+}
+
+vehicle_wheel_accessory: .selega.toyama.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/w905_bus_f.sii"
+}
+
+vehicle_wheel_accessory: .selega.toyama.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/w905_bus_r.sii"
+}
+
+traffic_vehicle : traffic.selega.willer
+{
+	accessories[]: .selega.willer.chassis
+	accessories[]: .selega.willer.fwheel
+	accessories[]: .selega.willer.rwheel
+
+	allow_parked: false
+
+	max_speed: 100
+	engine_torque: 1569
+
+	lod_dist[]: 80
+	lod_dist[]: 150
+	
+	spawn_ratio: 1
+
+	vehicle_mass: 14000
+}
+
+vehicle_accessory: .selega.willer.chassis
+{
+	data_path: "/def/vehicle/ai/selega/chassis_selega_willer.sii"
+}
+
+vehicle_wheel_accessory: .selega.willer.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/w905_bus_f.sii"
+}
+
+vehicle_wheel_accessory: .selega.willer.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/w905_bus_r.sii"
+}
+
+
+
+traffic_spawn_condition: .traffic.sele_jre.condition.time
+{
+	# spawn only in following game time intervals
+	type: time
+
+	
+	# 06:00 - 23:00
+	num_param[]:  360
+	num_param[]: 1380
+}
+traffic_spawn_condition: .traffic.sele_japa.condition.time
+{
+	# spawn only in following game time intervals
+	type: time
+
+	
+	# 10:00 - 14:00
+	num_param[]: 600
+	num_param[]: 960
+}

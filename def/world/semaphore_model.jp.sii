@@ -1,0 +1,171 @@
+SiiNunit
+
+{
+tr_semaphore_model : tr_sem_mdl.single.jpai {
+
+	name: "single-ac"
+
+	model_desc: "/model/traffic_light/tokyo_led_1.pmd"
+	model_coll: "/model/traffic_light/tokyo_led_1.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.single_l.jpai {
+
+	name: "single_l-ac"
+
+	model_desc: "/model/traffic_light/tokyo_led_1_l.pmd"
+	model_coll: "/model/traffic_light/tokyo_led_1_l.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.city.jpai {
+
+	name: "city_ac"
+	
+	model_desc: "/model/traffic_light/jp_led_city.pmd"
+	model_coll: "/model/traffic_light/jp_led_city.pmc"
+
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single.jpfi {
+
+	name: "single-fi"
+
+	model_desc: "/model/traffic_light/tokyo_led_1.pmd"
+	model_coll: "/model/traffic_light/tokyo_led_1.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.single_l.jpfi {
+
+	name: "single_l-fi"
+
+	model_desc: "/model/traffic_light/tokyo_led_1_l.pmd"
+	model_coll: "/model/traffic_light/tokyo_led_1_l.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.city.jpfi {
+
+	name: "city_fi"
+	
+	model_desc: "/model/traffic_light/jp_led_city.pmd"
+	model_coll: "/model/traffic_light/jp_led_city.pmc"
+
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single.jpty {
+
+	name: "single-ty"
+
+	model_desc: "/model/traffic_light/tokyo_led_1.pmd"
+	model_coll: "/model/traffic_light/tokyo_led_1.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.single_l.jpty {
+
+	name: "single_l-ty"
+
+	model_desc: "/model/traffic_light/tokyo_led_1_l.pmd"
+	model_coll: "/model/traffic_light/tokyo_led_1_l.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.city.jpty {
+
+	name: "city_ty"
+	
+	model_desc: "/model/traffic_light/jp_led_city.pmd"
+	model_coll: "/model/traffic_light/jp_led_city.pmc"
+
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single.jpis {
+
+	name: "single-ik"
+
+	model_desc: "/model/traffic_light/tokyo_led_1.pmd"
+	model_coll: "/model/traffic_light/tokyo_led_1.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.single_l.jpis {
+
+	name: "single_l-ik"
+
+	model_desc: "/model/traffic_light/tokyo_led_1_l.pmd"
+	model_coll: "/model/traffic_light/tokyo_led_1_l.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.city.jpis {
+
+	name: "city_ik"
+	
+	model_desc: "/model/traffic_light/jp_led_city.pmd"
+	model_coll: "/model/traffic_light/jp_led_city.pmc"
+
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single.jpgf {
+
+	name: "single-gf"
+
+	model_desc: "/model/traffic_light/tokyo_led_1.pmd"
+	model_coll: "/model/traffic_light/tokyo_led_1.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.single_l.jpgf {
+
+	name: "single_l-gf"
+
+	model_desc: "/model/traffic_light/tokyo_led_1_l.pmd"
+	model_coll: "/model/traffic_light/tokyo_led_1_l.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.city.jpgf {
+
+	name: "city_gf"
+	
+	model_desc: "/model/traffic_light/jp_led_city.pmd"
+	model_coll: "/model/traffic_light/jp_led_city.pmc"
+
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single.jpni {
+
+	name: "single-ng"
+
+	model_desc: "/model/traffic_light/tokyo_led_1.pmd"
+	model_coll: "/model/traffic_light/tokyo_led_1.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.single_l.jpni {
+
+	name: "single_l-ng"
+
+	model_desc: "/model/traffic_light/tokyo_led_1_l.pmd"
+	model_coll: "/model/traffic_light/tokyo_led_1_l.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.city.jpni {
+
+	name: "city_ng"
+	
+	model_desc: "/model/traffic_light/jp_led_city.pmd"
+	model_coll: "/model/traffic_light/jp_led_city.pmc"
+
+
+}
+}

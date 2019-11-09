@@ -1,0 +1,18 @@
+SiiNunit
+{
+light_source : redflare.true
+{
+	ambient_color: (0.0000, 0.0000, 0.0000)
+	diffuse_color: (0.65, 0.05, 0.05)
+	specular_color: (0.65, 0.05, 0.05)
+
+	type: point
+	range: 4
+
+	dir_type: all
+	model: "/model/flare/lamp_flare_red.pmd"
+	scale_factor: 1
+
+}
+
+}

@@ -1,0 +1,15 @@
+SiiNunit
+{
+
+country_traffic_info : .country.info.traffic.selega.toyama {
+	object: traffic.selega.toyama
+	spawn_frequency: 2.0
+
+}
+
+country_traffic_info : .country.info.traffic.gala.hato {
+	object: traffic.gala.hato
+	spawn_frequency: 0.1
+
+}
+}

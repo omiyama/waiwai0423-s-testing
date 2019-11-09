@@ -1,0 +1,10 @@
+material : "eut2.dif.lum" {
+	texture[0] : "/material/jpn_aeroplane/b738ana_night.tobj"
+	texture_name[0] : "texture_base"
+	diffuse : { 0.568627 , 0.568627 , 0.568627 }
+	specular : { 0.203922 , 0.203922 , 0.203922 }
+	shininess : 20
+	add_ambient : 0
+	aux[1] : { 0 , 0 }
+
+}

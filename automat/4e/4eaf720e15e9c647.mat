@@ -1,0 +1,9 @@
+material : "eut2.dif.spec.rfx" {
+	texture[0] : "/material/jpn_city_prop/ozizousan/ozizousan.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 0.338592 , 0.338592 , 0.338592 }
+	reflection : 0
+	shininess : 83
+	specular : { 0.0942387 , 0.0942387 , 0.0942387 }
+}

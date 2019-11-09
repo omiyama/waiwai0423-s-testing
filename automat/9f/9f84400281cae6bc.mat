@@ -1,0 +1,4 @@
+material : "eut2.retroreflective.rfx" {
+	texture[0] : "/material/pjp_sign/snowpole/snowpole.tobj"
+	texture_name[0] : "texture_base"
+}

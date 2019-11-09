@@ -1,0 +1,10 @@
+material : "eut2.dif.shadow.rfx" {
+	texture[0] : "/material/jpn_panorama/tokyo_daiba/pallet_wheel.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 1 , 1 , 1 }
+	reflection : 0
+	shadow_bias : 0
+	shininess : 80
+	specular : { 0.323032 , 0.323032 , 0.323032 }
+}

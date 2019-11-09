@@ -1,0 +1,151 @@
+SiiNunit
+{
+
+tr_semaphore_model : tr_sem_mdl.single.jp {
+
+	name: "single-jp"
+
+	model_desc: "/model/traffic_light/tokyo_led_1.pmd"
+	model_coll: "/model/traffic_light/tokyo_led_1.pmc"
+
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.single_l.jp {
+
+	name: "single_l-jp"
+
+	model_desc: "/model/traffic_light/tokyo_led_1_l.pmd"
+	model_coll: "/model/traffic_light/tokyo_led_1_l.pmc"
+
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.city.jp {
+
+	name: "city-jp"
+	
+	model_desc: "/model/traffic_light/jp_led_city.pmd"
+	model_coll: "/model/traffic_light/jp_led_city.pmc"
+
+
+}
+
+
+
+tr_semaphore_model : tr_sem_mdl.toll_jp {
+
+	name: "tollbar_jpn_left"
+	
+	model_desc: "/prefab/tollgate/tollbar_jpn_left.pmd"
+	model_coll: "/prefab/tollgate/tollbar_jpn_left.pmc"
+	
+	state_anim: 4
+	state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: "/prefab/tollgate/tollbar_jpn_left_down.pma"
+	state_collision[0]: true
+
+	# red
+	state_anim[1]: ""
+	state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab/tollgate/tollbar_jpn_left.pma"
+	state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	state_collision[3]: false
+
+
+}
+
+tr_semaphore_model : tr_sem_mdl.rail_oh1 {
+
+	name: "ab_overhead_jp"
+
+	model_desc: "/model/traffic_light/level_crossing/signal_overhead_1.pmd"
+	model_coll: "/model/traffic_light/level_crossing/signal_overhead_1.pmc"
+	
+	state_anim: 4
+	state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	state_collision[0]: true
+
+	# red
+	state_anim[1]: ""
+	state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: ""
+	state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	state_collision[3]: true
+
+
+}
+tr_semaphore_model : tr_sem_mdl.rail_s5m_l {
+
+	name: "ab_5m_left"
+
+	model_desc: "/model/traffic_light/level_crossing/jp_rail_5m_l.pmd"
+	model_coll: "/model/traffic_light/level_crossing/jp_rail_5m_l.pmc"
+	
+	state_anim: 4
+	state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	state_collision[0]: false
+
+	# red
+	state_anim[1]: "/model/traffic_light/level_crossing/jp_rail_single_close.pma"
+	state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/model/traffic_light/level_crossing/jp_rail_single_open.pma"
+	state_collision[2]: false
+
+	# green
+	state_anim[3]: ""
+	state_collision[3]: false
+
+
+}
+tr_semaphore_model : tr_sem_mdl.rail_b12m_l {
+
+	name: "ab_12m_bend_left"
+
+	model_desc: "/model/traffic_light/level_crossing/jp_rail_12m_l.pmd"
+	model_coll: "/model/traffic_light/level_crossing/jp_rail_12m_l.pmc"
+	
+	state_anim: 4
+	state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	state_collision[0]: false
+
+	# red
+	state_anim[1]: "/model/traffic_light/level_crossing/jp_rail_bending_5m_close.pma"
+	state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/model/traffic_light/level_crossing/jp_rail_bending_5m_open.pma"
+	state_collision[2]: false
+
+	# green
+	state_anim[3]: ""
+	state_collision[3]: false
+
+
+}
+}

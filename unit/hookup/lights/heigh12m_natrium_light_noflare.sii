@@ -1,0 +1,16 @@
+SiiNunit
+{
+light_source : heigh12m.natrium.light.noflare
+{
+	ambient_color: (0.0000, 0.0000, 0.0000)
+	diffuse_color: (0.9800, 0.4000, 0.0000)
+	specular_color: (0.9900, 0.4000, 0.0000)
+
+	range: 13.0
+	cut_range: 13.0
+	inner_angle: 90.0
+	outer_angle: 160.0
+	attenuation_start_range: 5
+
+}
+}

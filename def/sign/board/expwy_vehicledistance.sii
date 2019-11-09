@@ -1,0 +1,68 @@
+SiiNunit
+{
+sign_board_template : _nameless.842.ae70 {
+ board_name: "expwy vehicledistance"
+ width: &40747ae1
+ height: &3fc28f5c
+ items: 3
+ items[0]: _nameless.9b1.39c0
+ items[1]: _nameless.c02.d280
+ items[2]: _nameless.c02.d420
+ dynamic_attributes: 0
+}
+
+sign_template_frame : _nameless.9b1.39c0 {
+ frame_path: "/def/sign/frame/yellow_rounded_dk.sii"
+ color: 16777215
+ opacity: 1
+ id: 888274944
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40747ae1
+ coords_t: &3fc28f5c
+ coords_b: 0
+ z_order: 1
+}
+
+sign_template_text : _nameless.c02.d280 {
+ text: "\xe6\xb3\xa8\xe6\x84\x8f\xe3\x82\x92\xe4\xbf\x83\xe3\x81\x99"
+ font_face: "/font/big.font"
+ font_size: &3f333333
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3942907902
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40741d42
+ coords_t: &3fbe2be3
+ coords_b: &3f283a84
+ z_order: 2
+}
+
+sign_template_text : _nameless.c02.d420 {
+ text: "\xe8\xbb\x8a\xe9\x96\x93\xe8\xb7\x9d\xe9\x9b\xa2\xe3\x82\x92\xe5\x8d\x81\xe5\x88\x86\xe3\x81\xab"
+ font_face: "/font/big.font"
+ font_size: &3f0ccccd
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1968046079
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40747ae1
+ coords_t: &3f78af8b
+ coords_b: 0
+ z_order: 3
+}
+
+}

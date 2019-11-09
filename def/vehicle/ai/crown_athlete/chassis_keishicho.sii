@@ -1,0 +1,18 @@
+SiiNunit
+{
+accessory_chassis_data : .chassis.police_tyo
+{
+	model: "/vehicle/ai/crown_athlete/ai_police.pmd"
+	lods[]: "/vehicle/ai/crown_athlete/lod_p1.pmd"	
+	lods[]: "/vehicle/ai/crown_athlete/lod_p2.pmd"	
+	collision: "/vehicle/ai/crown_athlete/ai_police.pmc" 
+
+	shadow_texture: "/vehicle/ai/share/shadow_occlusion.tobj"
+	shadow_intensity: 1.2
+
+	variant: keishicho
+	variant_uk: keishicho
+	
+	look: default
+}
+}

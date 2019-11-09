@@ -1,0 +1,13 @@
+material : "eut2.dif.spec.weight.mult2" {
+	texture[0] : "/material/road/road_template/sc/dirt_light_gray.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/road/road_template/sc/asphalt_light_gray.tobj"
+	texture_name[1] : "texture_mult"
+	diffuse : { 1 , 1 , 1 }
+	specular : { 1 , 1 , 1 }
+	shininess : 40
+	add_ambient : 0
+	substance : "road"
+	aux[5] : {4.4, 12}
+
+}

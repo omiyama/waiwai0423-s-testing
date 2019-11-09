@@ -1,0 +1,11 @@
+SiiNunit
+{
+flare_blink : flare.model.bridge.blinking.white
+{
+	dir_type: all
+	blink_pattern: "X----"     # String of X and - characters, where X represents ON state and - represents OFF state.
+	blink_step_length: 0.2
+	blink_desync:0.0
+	model: "/model/flare/lamp_flare_small.pmd"
+}
+}

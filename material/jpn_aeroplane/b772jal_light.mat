@@ -1,0 +1,10 @@
+material : "eut2.light.tex" {
+	texture[0] : "/material/jpn_aeroplane/b772jal_light.tobj"
+	texture_name[0] : "texture_base"
+	ambient : { 0 , 0 , 0 }
+	diffuse : { 1 , 1 , 1 }
+	specular : { 0 , 0 , 0 }
+	shininess : 53
+	aux[1] : { 0 , 0 }
+
+}

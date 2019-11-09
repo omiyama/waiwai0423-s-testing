@@ -1,0 +1,6 @@
+material : "ui" 
+{
+	texture: "hokuriku.tobj"
+	texture_name : "texture"
+
+}

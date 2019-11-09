@@ -1,0 +1,43 @@
+SiiNunit
+{
+sign_template : _nameless.5a0.7e40 {
+ template_name: expwy_exit2
+ model_name: 1708
+ stand_model_name: ""
+ traffic_rule: null
+ boards: 5
+ boards[0]: _nameless.59e.2390
+ boards[1]: _nameless.eb2.27e0
+ boards[2]: _nameless.ed0.68c0
+ boards[3]: _nameless.d72.3320
+ boards[4]: _nameless.4f51.c550
+ items: 0
+ dynamic_attributes: 0
+}
+
+sign_template_board_binding : _nameless.59e.2390 {
+ area_name: ml9
+ linked_board: sign_board.jp_12
+}
+
+sign_template_board_binding : _nameless.eb2.27e0 {
+ area_name: ml2
+ linked_board: sign_board.jp_13
+}
+
+sign_template_board_binding : _nameless.ed0.68c0 {
+ area_name: ml1
+ linked_board: sign_board.jp_14
+}
+
+sign_template_board_binding : _nameless.d72.3320 {
+ area_name: ml11
+ linked_board: sign_board.jp_15
+}
+
+sign_template_board_binding : _nameless.4f51.c550 {
+ area_name: ml6
+ linked_board: sign_board.jp_16
+}
+
+}

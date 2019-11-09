@@ -1,0 +1,22 @@
+SiiNunit
+{
+building_model : bld_model.pj_1 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/bridge/footbridge_jp48_1.pmd"
+	look_name: blue
+}
+
+building_model : bld_model.pj_2 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/bridge/footbridge_jp48_1.pmd"
+	look_name: green
+}
+building_model : bld_model.pj_3 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/bridge/footbridge_jp48_1.pmd"
+	look_name: white
+}
+}

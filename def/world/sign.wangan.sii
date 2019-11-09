@@ -1,0 +1,1042 @@
+SiiNunit
+{
+
+sign_model : sign.japan_lamp_1 {
+
+	sign_name: "lamp Japan MLIT 12m HID lamp R"
+
+	model_desc: "/model/lamp/lamp_japan_mlit_hid12m.pmd"
+	model_coll: "/model/lamp/lamp_japan_mlit_hid12m.pmc"
+	look_name: default
+	category: "japan_mod"
+
+	dynamic: false
+	distance_type: 2
+	mass: 100
+	road_model: true
+	instanced: true
+}
+
+sign_model : sign.japan_lamp_2 {
+
+	sign_name: "lamp Japan MLIT 12m HID lamp Natrium R "
+
+	model_desc: "/model/lamp/lamp_japan_mlit_hid12m_natrium.pmd"
+	model_coll: "/model/lamp/lamp_japan_mlit_hid12m.pmc"
+	look_name: default
+	category: "japan_mod"
+
+	dynamic: false
+	distance_type: 2
+	mass: 100
+	road_model: true
+	instanced: true
+}
+
+sign_model : sign.japan_lamp_3 {
+
+	sign_name: "lamp Japan MLIT Tshape 12m HID lamp"
+
+	model_desc: "/model/lamp/lamp_japan_mlit_tshape_hid12m.pmd"
+	model_coll: "/model/lamp/lamp_japan_mlit_hid12m.pmc"
+	look_name: default
+	category: "japan_mod"
+
+	dynamic: false
+	distance_type: 2
+	mass: 100
+	road_model: true
+	instanced: true
+}
+
+sign_model : sign.japan_lamp_4 {
+
+	sign_name: "lamp Japan MLIT Tshape 12m HID lamp Natrium"
+
+	model_desc: "/model/lamp/lamp_japan_mlit_tshape_hid12m_natrium.pmd"
+	model_coll: "/model/lamp/lamp_japan_mlit_hid12m.pmc"
+	look_name: default
+	category: "japan_mod"
+
+	dynamic: false
+	distance_type: 2
+	mass: 100
+	road_model: true
+	instanced: true
+}
+
+sign_model : sign.japan_lamp_5 {
+
+	sign_name: "lamp Japan Highway TsubasaBridge"
+
+	model_desc: "/model/lamp/highway_lamp_tsubasa.pmd"
+	model_coll: "/model/lamp/highway_lamp_tsubasa.pmc"
+	look_name: default
+	category: "japan_mod"
+
+	dynamic: false
+	distance_type: 2
+	mass: 100
+	road_model: true
+	instanced: true
+}
+
+sign_model : sign.japan_lamp_6 {
+
+	sign_name: "lamp Under Elevated Road"
+
+	model_desc: "/model/lamp/lamp_under_elevated.pmd"
+	model_coll: "/model/lamp/lamp_under_elevated.pmc"
+	look_name: default
+	category: "japan_mod"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+	road_model: true
+	instanced: true
+}
+
+sign_model : sign.japan_lamp_7 {
+
+	sign_name: "flare decal mansion"
+
+	model_desc: "/model/flare/flare_mansion_sign.pmd"
+	model_coll: "/model/flare/flare_mansion_sign.pmc"
+	look_name: default
+	category: "lamps"
+
+	dynamic: false
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.japan_road1 {
+
+	sign_name: "height limit eased road"
+
+	model_desc: "/model/sign/roadsign_highway/sign_jpn_height_limit_eased.pmd"
+	model_coll: "/model/sign/roadsign_highway/sign_jpn_height_limit_eased.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+	
+}
+
+sign_model : sign.japan_road2 {
+
+	sign_name: "nav Daikoku PA wangan"
+
+	model_desc: "/model/sign/wangan_nav/nav_daikoku_pa.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_daikoku_pa.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+	
+}
+
+sign_model : sign.japan_road3 {
+
+	sign_name: "nav Daikoku Wangan east"
+
+	model_desc: "/model/sign/wangan_nav/nav_daikoku_wangan_east.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_daikoku_wangan_east.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+	
+}
+
+sign_model : sign.japan_road4 {
+
+	sign_name: "nav Daikoku Wangan east A"
+
+	model_desc: "/model/sign/wangan_nav/nav_daikoku_wangan_east_a.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_daikoku_wangan_east_a.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+	
+}
+
+sign_model : sign.japan_road5 {
+
+	sign_name: "HeightLimitEased 120percent"
+
+	model_desc: "/model/sign/regulations/height_limit_eased_120per.pmd"
+	model_coll: "/model/sign/regulations/height_limit_eased_120per.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+	
+}
+
+sign_model : sign.japan_road_6 {
+
+	sign_name: "Pillar Shutoko"
+
+	model_desc: "/model/pillar/pillar_shutoko.pmd"
+	model_coll: "/model/pillar/pillar_shutoko.pmc"
+	look_name: default
+	category: "japan_pillar"
+
+	dynamic: false
+	distance_type: 2
+	mass: 100
+	road_model: true
+	instanced: true
+	
+}
+
+sign_model : sign.japan_road_7 {
+
+	sign_name: "Pillar Double Daikoku"
+
+	model_desc: "/model/pillar/double_pillar.pmd"
+	model_coll: "/model/pillar/double_pillar.pmc"
+	look_name: default
+	category: "japan_pillar"
+
+	dynamic: false
+	distance_type: 2
+	mass: 100
+	road_model: true
+	instanced: true
+	
+}
+
+sign_model : sign.japan_road_8 {
+
+	sign_name: "Pillar DoubleDeck Daikoku"
+
+	model_desc: "/model/pillar/middlepillar_dual_railing.pmd"
+	model_coll: "/model/pillar/middlepillar_dual_railing.pmc"
+	look_name: default
+	category: "japan_pillar"
+
+	dynamic: false
+	distance_type: 2
+	mass: 100
+	road_model: true
+	instanced: true
+	
+}
+
+sign_model : sign.japan_road_9 {
+
+	sign_name: "Pillar K5 DoubleDeck"
+
+	model_desc: "/model/pillar/pillar_k5_double.pmd"
+	model_coll: "/model/pillar/pillar_k5_double.pmc"
+	look_name: default
+	category: "japan_pillar"
+
+	dynamic: false
+	distance_type: 2
+	mass: 100
+	road_model: true
+	instanced: true
+	
+}
+
+sign_model : sign.japan_10 {
+
+	sign_name: "speedlimit_60"
+
+	model_desc: "/model/sign/regulations/speedlimit_60_jp.pmd"
+	model_coll: "/model/sign/regulations/round_single.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.limit_60
+	mass: 100
+}
+
+sign_model : sign.japan_11 {
+
+	sign_name: "speedlimit_50"
+
+	model_desc: "/model/sign/regulations/speedlimit_50_jp.pmd"
+	model_coll: "/model/sign/regulations/round_single.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.limit_50
+	mass: 100
+}
+
+sign_model : sign.japan_12 {
+
+	sign_name: "speedlimit_40"
+
+	model_desc: "/model/sign/regulations/speedlimit_40_jp.pmd"
+	model_coll: "/model/sign/regulations/round_single.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.limit_40
+	mass: 100
+}
+
+sign_model : sign.japan_13 {
+
+	sign_name: "stop"
+
+	model_desc: "/model/sign/regulations/stop_jp.pmd"
+	model_coll: "/model/sign/regulations/stop_jp.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.stop
+	mass: 100
+}
+
+sign_model : sign.japan_14 {
+
+	sign_name: "Pillar Single-T W8mH15m"
+
+	model_desc: "/model/pillar/pillar_single_t_shape.pmd"
+	model_coll: "/model/pillar/pillar_single_t_shape.pmc"
+	look_name: default
+	category: "japan_pillar"
+
+	dynamic: false
+	distance_type: 2
+	mass: 100
+	road_model: true
+	instanced: true
+
+}
+
+sign_model : sign.japan_15 {
+
+	sign_name: "60km/h Large"
+
+	model_desc: "/model/sign/regulations/speedlimit_60_jp_l.pmd"
+	model_coll: "/model/sign/regulations/speedlimit_60_jp_l.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: true
+	distance_type: 2
+	mass: 100
+	traffic_rule: traffic_rule.limit_60
+
+}
+
+sign_model : sign.japan_16 {
+
+	sign_name: "Expressway Large"
+
+	model_desc: "/model/sign/regulations/expressway_l.pmd"
+	model_coll: "/model/sign/regulations/expressway_l.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: true
+	distance_type: 2
+	mass: 100
+
+}
+
+sign_model : sign.japan_17 {
+
+	sign_name: "Direction Straight Only L"
+
+	model_desc: "/model/sign/regulations/direction_straight_only_l.pmd"
+	model_coll: "/model/sign/regulations/direction_straight_only_l.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: true
+	distance_type: 2
+	mass: 100
+
+}
+
+sign_model : sign.japan_18 {
+
+	sign_name: "No Parking"
+
+	model_desc: "/model/sign/regulations/no_parking.pmd"
+	model_coll: "/model/sign/regulations/round_single_offset_left.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: true
+	distance_type: 2
+	mass: 100
+
+}
+
+sign_model : sign.japan_19 {
+
+	sign_name: "Speedlimit 50km/h L(fake)"
+
+	model_desc: "/model/sign/regulations/speedlimit_50_jp_l.pmd"
+	model_coll: "/model/sign/regulations/speedlimit_50_jp_l.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: true
+	distance_type: 2
+	mass: 100
+
+}
+
+sign_model : sign.japan_20 {
+
+	sign_name: "Speedlimit 40km/h L(fake)"
+
+	model_desc: "/model/sign/regulations/speedlimit_40_jp_l.pmd"
+	model_coll: "/model/sign/regulations/speedlimit_40_jp_l.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: true
+	distance_type: 2
+	mass: 100
+
+}
+
+sign_model : sign.japan_21 {
+
+	sign_name: "Direction Straight Only L Pole"
+
+	model_desc: "/model/sign/regulations/direction_straight_only_l_pole.pmd"
+	model_coll: "/model/sign/regulations/direction_straight_only_l_pole.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: true
+	distance_type: 2
+	mass: 150
+
+}
+
+sign_model : sign.japan_22 {
+
+	sign_name: "NoEntry L Pole"
+
+	model_desc: "/model/sign/regulations/no_entry_l_pole.pmd"
+	model_coll: "/model/sign/regulations/no_entry_l_pole.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: true
+	distance_type: 2
+	mass: 150
+
+}
+
+sign_model : sign.japan_23 {
+
+	sign_name: "SpeedCam Warning Tokyo"
+
+	model_desc: "/model/sign/speedcamera/speedcam_warning_tokyo.pmd"
+	model_coll: "/model/sign/speedcamera/speedcam_warning_tokyo.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: false
+	distance_type: 2
+	mass: 100
+	
+}
+
+sign_model : sign.japan_24 {
+
+	sign_name: "Caution Marge Ahead"
+
+	model_desc: "/model/sign/regulations/caution_merge_ahead.pmd"
+	model_coll: "/model/sign/regulations/caution_l.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: true
+	distance_type: 2
+	mass: 100
+
+}
+
+sign_model : sign.japan_25 {
+
+	sign_name: "Caution Sharp Curve"
+
+	model_desc: "/model/sign/regulations/caution_curve_s_l.pmd"
+	model_coll: "/model/sign/regulations/caution_l.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: true
+	distance_type: 2
+	mass: 100
+	
+}
+
+sign_model : sign.japan_26 {
+
+	sign_name: "speedlimit_30"
+
+	model_desc: "/model/sign/regulations/speedlimit_30_jp.pmd"
+	model_coll: "/model/sign/regulations/round_single.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.limit_30
+	mass: 100
+	
+}
+
+sign_model : sign.japan_27 {
+
+	sign_name: "speedlimit_50_NoParking_double"
+
+	model_desc: "/model/sign/regulations/speedlimit_50_no_parking_jp.pmd"
+	model_coll: "/model/sign/regulations/round_double.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.limit_50
+	mass: 100
+
+}
+
+sign_model : sign.japan_28 {
+
+	sign_name: "No Entry"
+
+	model_desc: "/model/sign/regulations/no_entry.pmd"
+	model_coll: "/model/sign/regulations/round_single_offset_left.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: true
+	distance_type: 2
+	mass: 100
+
+}
+
+sign_model : sign.japan_29 {
+
+	sign_name: "StraightOnly"
+
+	model_desc: "/model/sign/regulations/direction_straight_only.pmd"
+	model_coll: "/model/sign/regulations/round_single_offset_left.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: true
+	distance_type: 2
+	mass: 100
+
+}
+
+sign_model : sign.japan_30 {
+
+	sign_name: "Oneway"
+
+	model_desc: "/model/sign/regulations/one_direction.pmd"
+	model_coll: "/model/sign/regulations/one_direction.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: true
+	distance_type: 2
+	mass: 100
+
+}
+
+sign_model : sign.japan_31 {
+
+	sign_name: "Oneway_aux_end"
+
+	model_desc: "/model/sign/regulations/one_direction_end.pmd"
+	model_coll: "/model/sign/regulations/one_direction_end.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: true
+	distance_type: 2
+	mass: 100
+
+}
+
+sign_model : sign.japan_32 {
+
+	sign_name: "Oneway_aux_start"
+
+	model_desc: "/model/sign/regulations/one_direction_start.pmd"
+	model_coll: "/model/sign/regulations/one_direction_end.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: true
+	distance_type: 2
+	mass: 100
+
+}
+
+sign_model : sign.japan_33 {
+
+	sign_name: "Shutoko Entry"
+
+	model_desc: "/model/sign/regulations/speedlimit_40_shutoko_entry.pmd"
+	model_coll: "/model/sign/regulations/speedlimit_40_shutoko_entry.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: false
+	distance_type: 2
+	traffic_rule: traffic_rule.limit_40
+	mass: 100
+
+}
+
+sign_model : sign.japan_34 {
+
+	sign_name: "Pedestrian Crossing overhead"
+
+	model_desc: "/model/sign/regulations/overhead_pedestrian_crossing.pmd"
+	model_coll: "/model/sign/regulations/overhead_pedestrian_crossing.pmc"
+	look_name: default
+	category: "signs/jp"
+
+	dynamic: false
+	distance_type: 2
+	mass: 100
+
+}
+
+sign_model : sign.japan_nav1 {
+
+	sign_name: "nav Rinkai-f Exit"
+
+	model_desc: "/model/sign/wangan_nav/nav_rinkai_f_exit.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_rinkai_f_exit.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+	
+}
+
+sign_model : sign.japan_nav2 {
+
+	sign_name: "nav Rinkai-f Mainlane"
+
+	model_desc: "/model/sign/wangan_nav/nav_rinkai_f_mainlane.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_rinkai_f_mainlane.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+	
+}
+
+sign_model : sign.japan_nav3 {
+
+	sign_name: "nav Daikoku A General"
+
+	model_desc: "/model/sign/wangan_nav/nav_daikoku_a_general.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_daikoku_a_general.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+	
+}
+
+sign_model : sign.japan_nav4 {
+
+	sign_name: "nav Daikoku A AuxDestinations"
+
+	model_desc: "/model/sign/wangan_nav/nav_daikoku_a_auxdestinations.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_daikoku_a_auxdestinations.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+	
+}
+
+sign_model : sign.japan_nav5 {
+
+	sign_name: "nav Daikoku A Straight"
+
+	model_desc: "/model/sign/wangan_nav/nav_daikoku_a_straight.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_daikoku_a_straight.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+	
+}
+
+sign_model : sign.japan_nav6 {
+
+	sign_name: "nav Daikoku A Left"
+
+	model_desc: "/model/sign/wangan_nav/nav_daikoku_a_left.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_daikoku_a_left.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+	
+}
+
+sign_model : sign.japan_nav7 {
+
+	sign_name: "nav Daikoku JCT"
+
+	model_desc: "/model/sign/wangan_nav/nav_daikoku_jct.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_daikoku_jct.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+	
+}
+
+sign_model : sign.japan_nav8 {
+
+	sign_name: "nav Daikoku-futo Exit"
+
+	model_desc: "/model/sign/wangan_nav/nav_daikoku_a_futo_exit.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_daikoku_a_futo_exit.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+	
+}
+
+sign_model : sign.japan_nav9 {
+
+	sign_name: "nav Daikoku PA Final"
+
+	model_desc: "/model/sign/wangan_nav/nav_daikoku_pa_final.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_daikoku_pa_final.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+	
+}
+
+sign_model : sign.japan_nav10 {
+
+	sign_name: "nav Daikoku Exit 400m"
+
+	model_desc: "/model/sign/wangan_nav/nav_daikoku_exit_400m.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_daikoku_exit_400m.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+	
+}
+
+sign_model : sign.japan_nav11 {
+
+	sign_name: "nav Daikoku Exit Final R"
+
+	model_desc: "/model/sign/wangan_nav/nav_daikoku_exit_final.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_daikoku_exit_final.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+	
+}
+
+sign_model : sign.japan_nav12 {
+
+	sign_name: "nav Daikoku PA 1500m"
+
+	model_desc: "/model/sign/wangan_nav/nav_daikoku_pa_1500m.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_daikoku_pa_1500m.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+	
+}
+
+sign_model : sign.japan_nav13 {
+
+	sign_name: "nav Daikoku PA 900m"
+
+	model_desc: "/model/sign/wangan_nav/nav_daikoku_pa_900m.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_daikoku_pa_900m.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+	
+}
+
+sign_model : sign.japan_nav14 {
+
+	sign_name: "nav Daikoku PA 400m"
+
+	model_desc: "/model/sign/wangan_nav/nav_daikoku_pa_400m.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_daikoku_pa_400m.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+	
+}
+
+sign_model : sign.japan_nav15 {
+
+	sign_name: "nav Daikoku PA RightFinal"
+
+	model_desc: "/model/sign/wangan_nav/nav_daikoku_pa_right_final.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_daikoku_pa_right_final.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+	
+}
+
+sign_model : sign.japan_nav16 {
+
+	sign_name: "nav Tokai JCT approach"
+
+	model_desc: "/model/sign/wangan_nav/nav_wangan_tokai_jct_a.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_wangan_tokai_jct_a.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+	
+}
+sign_model : sign.japan_nav17 {
+
+	sign_name: "nav Tokai JCT final l"
+
+	model_desc: "/model/sign/wangan_nav/nav_tokai_jct_l.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_tokai_jct_l.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+	
+}
+sign_model : sign.japan_nav18 {
+
+	sign_name: "nav Tokai JCT final s"
+
+	model_desc: "/model/sign/wangan_nav/nav_tokai_jct_s.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_tokai_jct_s.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+
+}
+sign_model : sign.japan_nav19 {
+
+	sign_name: "nav Showajima JCT notice"
+
+	model_desc: "/model/sign/wangan_nav/nav_showajima_jct_notice.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_showajima_jct_notice.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+}
+sign_model : sign.japan_nav20 {
+
+	sign_name: "nav Showajima JCT airport"
+
+	model_desc: "/model/sign/wangan_nav/nav_showajima_jct_airport.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_showajima_jct_airport.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+
+}
+sign_model : sign.japan_nav21 {
+
+	sign_name: "nav Showajima JCT final_l"
+
+	model_desc: "/model/sign/wangan_nav/nav_showajima_jct_l.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_showajima_jct_l.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+
+}
+sign_model : sign.japan_nav22 {
+
+	sign_name: "nav Showajima JCT name"
+
+	model_desc: "/model/sign/wangan_nav/nav_showajima_jct_name.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_showajima_jct_name.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+
+}
+sign_model : sign.japan_nav23 {
+
+	sign_name: "nav Showajima JCT final_r"
+
+	model_desc: "/model/sign/wangan_nav/nav_showajima_jct_r.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_showajima_jct_r.pmc"
+	look_name: default
+	category: "signs/shutoko"
+
+	dynamic: false
+	distance_type: 2
+	mass: 20
+
+
+}
+
+sign_model : sign.japan_toll_l {
+
+	sign_name: "Tollbar Left Japan "
+
+	model_desc: "/prefab/tollgate/tollbar_jpn_left_op.pmd"
+	model_coll: "/prefab/tollgate/tollbar_jpn_left_op.pmc"
+	look_name: default
+	category: "japan_mod"
+
+	dynamic: false
+	distance_type: 2
+	mass: 100
+	traffic_rule: traffic_rule.limit_30
+	
+}
+
+sign_model : sign.japan_elev1 {
+
+	sign_name: "Elevated hw2 Connect Parts"
+
+	model_desc: "/model/pillar/elev_highway2_no_shoulder_connector.pmd"
+	model_coll: "/model/sign/wangan_nav/nav_rinkai_f_exit.pmc"
+	look_name: default
+	category: "japan_pillar"
+
+	dynamic: false
+	distance_type: 2
+	mass: 100
+	road_model: true
+	instanced: true
+
+	
+}
+
+}

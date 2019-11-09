@@ -1,0 +1,10 @@
+material : "eut2.dif.decal.over" {
+	texture[0] : "/material/jpn_railing/nav_board/nav_text_route_symbol.tobj"
+	texture_name[0] : "texture_base"
+	diffuse : { 0.658824 , 0.658824 , 0.658824 }
+	specular : { 0 , 0 , 0 }
+	shininess : 20
+	add_ambient : 0
+	aux[1] : { 0 , 0 }
+
+}

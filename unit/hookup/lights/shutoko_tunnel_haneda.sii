@@ -1,0 +1,17 @@
+SiiNunit
+{
+light_source : shutoko.tunnel.haneda
+{
+	ambient_color: (0.0000, 0.0000, 0.0000)
+	diffuse_color: (0.189, 0.056, 0.0)
+	specular_color: (0.99, 0.3, 0.0)
+
+	type: point
+	range: 10
+  
+  always_on: false
+
+
+}
+
+}

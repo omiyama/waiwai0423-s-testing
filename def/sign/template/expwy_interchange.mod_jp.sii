@@ -1,0 +1,304 @@
+SiiNunit
+{
+sign_template : _nameless.78f.eee0 {
+ template_name: expwy_interchange
+ model_name: 1424
+ traffic_rule: null
+ items: 15
+ items[0]: _nameless.7b2.e808
+ items[1]: _nameless.855.7228
+ items[2]: _nameless.855.72c8
+ items[3]: _nameless.84a.a578
+ items[4]: _nameless.84a.a630
+ items[5]: _nameless.7b2.e8a0
+ items[6]: _nameless.84a.a6e8
+ items[7]: _nameless.84a.a7a0
+ items[8]: _nameless.84a.ba50
+ items[9]: _nameless.84a.dcd0
+ items[10]: _nameless.84a.db60
+ items[11]: _nameless.84a.d9f0
+ items[12]: _nameless.7b3.1198
+ items[13]: _nameless.84a.aed0
+ items[14]: _nameless.84a.e290
+ dynamic_attributes: 0
+}
+
+sign_template_frame : _nameless.7b2.e808 {
+ frame_path: "/def/sign/frame/green_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 800063488
+ area_name: ml1
+ area_idx: nil
+ coords_l: 0
+ coords_r: &41487ae1
+ coords_t: &408eb852
+ coords_b: 0
+ z_order: 1
+}
+
+sign_template_image : _nameless.855.7228 {
+ atlas_path: "/def/sign/atlas/arrow_up_shorter_swe.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 538312704
+ area_name: ml1
+ area_idx: nil
+ coords_l: &40be73cf
+ coords_r: &40e7a493
+ coords_t: &408750bc
+ coords_b: &3e7d8708
+ z_order: 2
+}
+
+sign_template_image : _nameless.855.72c8 {
+ atlas_path: "/def/sign/atlas/arrow_up_right_swe.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: true
+ vflip: false
+ image_overridable: false
+ id: 61079552
+ area_name: ml1
+ area_idx: nil
+ coords_l: &409d9000
+ coords_r: &40d026db
+ coords_t: &40479e7a
+ coords_b: &3f8f3cf4
+ z_order: 3
+}
+
+sign_template_text : _nameless.84a.a578 {
+ text: Takaoka
+ font_face: "/font/sign/dk.font"
+ font_size: &3f4ccccd
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 597819392
+ area_name: ml1
+ area_idx: nil
+ coords_l: &40ed5556
+ coords_r: &413f6db7
+ coords_t: &3f9b6db8
+ coords_b: &3e5b6db4
+ z_order: 4
+}
+
+sign_template_text : _nameless.84a.a630 {
+ text: "\xe9\xab\x98    \xe5\xb2\xa1"
+ font_face: "/font/big.font"
+ font_size: &3f99999a
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1865154559
+ area_name: ml1
+ area_idx: nil
+ coords_l: &40ee1862
+ coords_r: &413fcf3d
+ coords_t: &40186186
+ coords_b: &3fb0c30c
+ z_order: 5
+}
+
+sign_template_frame : _nameless.7b2.e8a0 {
+ frame_path: "/def/sign/frame/white_swe.sii"
+ color: 16777215
+ opacity: 1
+ id: 733216768
+ area_name: ml1
+ area_idx: nil
+ coords_l: &41012492
+ coords_r: &4135b6dc
+ coords_t: &4088c30c
+ coords_b: &40286187
+ z_order: 6
+}
+
+sign_template_text : _nameless.84a.a6e8 {
+ text: NOETSU
+ font_face: "/font/sign/dk.font"
+ font_size: &3f19999a
+ text_halign: center
+ text_valign: center
+ font_color: 3562498
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 570163200
+ area_name: ml1
+ area_idx: nil
+ coords_l: &41009249
+ coords_r: &4134c30d
+ coords_t: &4054f3cf
+ coords_b: &402b0c31
+ z_order: 7
+}
+
+sign_template_text : _nameless.84a.a7a0 {
+ text: "\xe8\x83\xbd \xe8\xb6\x8a \xe9\x81\x93"
+ font_face: "/font/big.font"
+ font_size: &3f4ccccd
+ text_halign: center
+ text_valign: center
+ font_color: 3562498
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 2338717695
+ area_name: ml1
+ area_idx: nil
+ coords_l: &4100f3cf
+ coords_r: &41352493
+ coords_t: &40880000
+ coords_b: &405db6dc
+ z_order: 8
+}
+
+sign_template_text : _nameless.84a.ba50 {
+ text: Kanazawa
+ font_face: "/font/sign/jp_font.font"
+ font_size: &3f666666
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 2747793407
+ area_name: ml1
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40649249
+ coords_t: &3f955556
+ coords_b: &3e2aaaa6
+ z_order: 9
+}
+
+sign_template_text : _nameless.84a.dcd0 {
+ text: Toyama
+ font_face: "/font/sign/jp_font.font"
+ font_size: &3f666666
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3255828478
+ area_name: ml1
+ area_idx: nil
+ coords_l: &40279e7a
+ coords_r: &40c61862
+ coords_t: &3f955556
+ coords_b: &3e2aaaa8
+ z_order: 10
+}
+
+sign_template_text : _nameless.84a.db60 {
+ text: "\xe9\x87\x91\xe6\xb2\xa2"
+ font_face: "/font/big.font"
+ font_size: &3f666666
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1890058239
+ area_name: ml1
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40649249
+ coords_t: 2
+ coords_b: &3f7ffffe
+ z_order: 11
+}
+
+sign_template_text : _nameless.84a.d9f0 {
+ text: "\xe5\xaf\x8c\xe5\xb1\xb1"
+ font_face: "/font/big.font"
+ font_size: &3f666666
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1718747135
+ area_name: ml1
+ area_idx: nil
+ coords_l: &4030c30e
+ coords_r: &40c79e7a
+ coords_t: 2
+ coords_b: 1
+ z_order: 12
+}
+
+sign_template_frame : _nameless.7b3.1198 {
+ frame_path: "/def/sign/frame/white_swe.sii"
+ color: 16777215
+ opacity: 1
+ id: 4133093374
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3f79e798
+ coords_r: &40886187
+ coords_t: &40880000
+ coords_b: &4026db6e
+ z_order: 13
+}
+
+sign_template_text : _nameless.84a.aed0 {
+ text: HOKURIKU
+ font_face: "/font/sign/dk.font"
+ font_size: &3f19999a
+ text_halign: center
+ text_valign: center
+ font_color: 3562498
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 37879808
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3f70c300
+ coords_r: &408679e8
+ coords_t: &4054f3cf
+ coords_b: &402b0c31
+ z_order: 14
+}
+
+sign_template_text : _nameless.84a.e290 {
+ text: "\xe5\x8c\x97\xe9\x99\xb8\xe9\x81\x93"
+ font_face: "/font/big.font"
+ font_size: &3f4ccccd
+ text_halign: center
+ text_valign: center
+ font_color: 3562498
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 742916096
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3f70c300
+ coords_r: &408679e8
+ coords_t: &408430c3
+ coords_b: &40561862
+ z_order: 15
+}
+
+}

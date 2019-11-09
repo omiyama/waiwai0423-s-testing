@@ -1,0 +1,32 @@
+SiiNunit
+{
+
+sign_model : sign.pjp_1 {
+
+	sign_name: "Construction Board White"
+
+	model_desc: "/model/pjp_sign/construction/kouji_kanban.pmd"
+	model_coll: "/model/pjp_sign/construction/kouji_kanban.pmc"
+	look_name: white
+	category: "signs/jp_construction"
+
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.pjp_2 {
+
+	sign_name: "KY Block"
+
+	model_desc: "/model/pjp_sign/construction/ky_block.pmd"
+	model_coll: "/model/pjp_sign/construction/ky_block.pmc"
+#	look_name: white
+	category: "signs/jp_construction"
+
+	dynamic: true
+	distance_type: 2
+	mass: 100
+}
+
+}

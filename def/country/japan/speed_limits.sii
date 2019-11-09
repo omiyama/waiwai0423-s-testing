@@ -1,0 +1,91 @@
+SiiNunit
+{
+
+country_speed_limit : .speed_limit.car {
+
+	vehicle_speed_class:    car
+
+	lane_speed_class[]:	local_road
+	limit[]: 		60
+	urban_limit[]:		60
+
+	lane_speed_class[]: 	expressway
+	limit[]:		60
+	urban_limit[]:		60
+
+	lane_speed_class[]: 	motorway
+	limit[]: 		120
+	urban_limit[]:  	120
+
+	lane_speed_class[]: 	shutoko
+	limit[]: 		100
+	urban_limit[]:  	100
+	
+	lane_speed_class[]: 	wangan
+	limit[]: 		110
+	urban_limit[]:  	110
+	
+	lane_speed_class[]: 	street
+	limit[]: 		30
+	urban_limit[]:  	30
+}
+
+country_speed_limit : .speed_limit.truck {
+
+	vehicle_speed_class:	truck
+
+	lane_speed_class[]:	local_road
+	limit[]: 		60
+	urban_limit[]:  	60
+
+	lane_speed_class[]: 	expressway
+	limit[]: 		60
+	urban_limit[]:  	60
+
+	lane_speed_class[]: 	motorway
+	limit[]: 		80
+	urban_limit[]:  	80
+	
+	lane_speed_class[]: 	shutoko
+	limit[]: 		60
+	urban_limit[]:  	60
+
+	lane_speed_class[]: 	wangan
+	limit[]: 		80
+	urban_limit[]:  	80
+
+	lane_speed_class[]: 	street
+	limit[]: 		30
+	urban_limit[]:  	30
+}
+
+country_speed_limit : .speed_limit.bus {
+
+	vehicle_speed_class:	bus
+
+	lane_speed_class[]:	local_road
+	limit[]: 		60
+	urban_limit[]:  	60
+
+	lane_speed_class[]: 	expressway
+	limit[]: 		60
+	urban_limit[]:  	60
+	
+	lane_speed_class[]: 	motorway
+	limit[]: 		100
+	urban_limit[]:  	100
+
+	lane_speed_class[]: 	shutoko
+	limit[]: 		80
+	urban_limit[]:  	80
+	
+	lane_speed_class[]: 	wangan
+	limit[]: 		100
+	urban_limit[]:  	100
+	
+	lane_speed_class[]: 	street
+	limit[]: 		30
+	urban_limit[]:  	30
+	
+}
+}

@@ -1,0 +1,8 @@
+material : "eut2.dif.spec.fx" {
+	texture[0] : "/model/railing/bridge/bridge01_cz.tobj"
+	texture_name[0] : "texture_base"
+	diffuse : { 1 , 1 , 1 }
+	specular : { 0.0100228 , 0.0100228 , 0.0100228 }
+	shininess : 10
+	add_ambient : 0
+}

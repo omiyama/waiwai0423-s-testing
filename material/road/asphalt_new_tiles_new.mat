@@ -1,0 +1,9 @@
+material : "eut2.dif.spec" {
+	texture[0] : "/material/road/asphalt_new_tiles.tobj"
+	texture_name[0] : "texture_base"
+	diffuse : { 0.3 , 0.3 , 0.3 }
+	specular : { 0, 0 , 0 }
+	shininess : 8
+	add_ambient : 0
+
+}

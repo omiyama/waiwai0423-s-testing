@@ -1,0 +1,60 @@
+SiiNunit
+{
+localization_db : .localization
+{
+    key[]:  "aichi"
+    val[]:  "Aichi"
+
+    key[]:  "chiba"
+    val[]:  "Chiba"
+
+    key[]:  "fukui"
+    val[]:  "Fukui"
+
+    key[]:  "gifu"
+    val[]:  "Gifu"
+
+    key[]:  "hokkaido"
+    val[]:  "Hokkaido"
+
+    key[]:  "ishikawa"
+    val[]:  "Ishikawa"
+
+    key[]:  "japan"
+    val[]:  "Japan"
+
+    key[]:  "joetsu"
+    val[]:  "Joetsu"
+
+    key[]:  "kanagawa"
+    val[]:  "Kanagawa"
+
+    key[]:  "kanazawa"
+    val[]:  "Kanazawa"
+
+    key[]:  "nagoya"
+    val[]:  "Nagoya"
+
+    key[]:  "niigata"
+    val[]:  "Niigata"
+
+    key[]:  "saitama"
+    val[]:  "Saitama"
+
+    key[]:  "sapporo"
+    val[]:  "Sapporo"
+
+    key[]:  "takayama"
+    val[]:  "Takayama"
+
+    key[]:  "tokyo"
+    val[]:  "Tokyo"
+
+    key[]:  "toyama"
+    val[]:  "Toyama"
+
+    key[]:  "yokohama"
+    val[]:  "Yokohama"
+
+}
+} # EOF

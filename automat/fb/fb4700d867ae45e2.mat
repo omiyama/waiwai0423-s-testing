@@ -1,0 +1,5 @@
+material : "eut2.unlit.vcol.tex.decal.rfx" {
+	texture[0] : "/material/jpn_railing/tunnel_light_glass_glow.tobj"
+	texture_name[0] : "texture_base"
+	diffuse : { 1 , 1 , 1 }
+}

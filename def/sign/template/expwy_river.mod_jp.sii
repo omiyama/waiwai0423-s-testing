@@ -1,0 +1,125 @@
+SiiNunit
+{
+sign_template : _nameless.f72.2200 {
+ template_name: expwy_river
+ model_name: 1759
+ traffic_rule: null
+ items: 6
+ items[0]: _nameless.a06.fea0
+ items[1]: _nameless.a06.f8b0
+ items[2]: _nameless.757.6880
+ items[3]: _nameless.757.6d88
+ items[4]: _nameless.757.69f0
+ items[5]: _nameless.757.6710
+ dynamic_attributes: 0
+}
+
+sign_template_frame : _nameless.a06.fea0 {
+ frame_path: "/def/sign/frame/green_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 470679552
+ area_name: ml2
+ area_idx: nil
+ coords_l: 0
+ coords_r: &405f5c28
+ coords_t: &402e147b
+ coords_b: 0
+ z_order: 1
+}
+
+sign_template_frame : _nameless.a06.f8b0 {
+ frame_path: "/def/sign/frame/white_swe.sii"
+ color: 16777215
+ opacity: 1
+ id: 3627679742
+ area_name: ml2
+ area_idx: nil
+ coords_l: 0
+ coords_r: &405f5c29
+ coords_t: &3f56be69
+ coords_b: 0
+ z_order: 2
+}
+
+sign_template_text : _nameless.757.6880 {
+ text: "\xe9\x95\xb7\xe3\x81\x95"
+ font_face: "/font/big.font"
+ font_size: &3f19999a
+ text_halign: center
+ text_valign: center
+ font_color: 3562498
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 4055105534
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3f06fcb5
+ coords_r: &3fc37e5a
+ coords_t: &3f5ead7c
+ coords_b: &3d20cb18
+ z_order: 3
+}
+
+sign_template_text : _nameless.757.6d88 {
+ text: 590m
+ font_face: "/font/sign/dk.font"
+ font_size: &3f0ccccd
+ text_halign: center
+ text_valign: center
+ font_color: 3562498
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1491337215
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3f9ae09b
+ coords_r: &405107b3
+ coords_t: &3f54a0cb
+ coords_b: 0
+ z_order: 4
+}
+
+sign_template_text : _nameless.757.69f0 {
+ text: "\xe7\xa5\x9e\xe9\x80\x9a\xe5\xb7\x9d"
+ font_face: "/font/big.font"
+ font_size: &3f333333
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 134348800
+ area_name: ml2
+ area_idx: nil
+ coords_l: 0
+ coords_r: &405f5c29
+ coords_t: &402e147b
+ coords_b: &3fdc28f7
+ z_order: 5
+}
+
+sign_template_text : _nameless.757.6710 {
+ text: "Jinzu River"
+ font_face: "/font/sign/dk.font"
+ font_size: &3ee66666
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3406168062
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3e0c8664
+ coords_r: &40509b0a
+ coords_t: &3fef9a72
+ coords_b: &3f5f34e4
+ z_order: 6
+}
+
+}

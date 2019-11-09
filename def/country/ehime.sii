@@ -1,0 +1,25 @@
+
+country_data: country.data.ehime
+{
+	country_id: 246
+	name: "Ehime"
+	name_localized: "@@ehime@@"
+	country_code: "JPEH"
+
+	pos:(-1677, 0, -2060)
+
+	fuel_price: 1.07
+
+	lights_mandatory: false
+	leftside_traffic: true
+	driving_tired_offence: true
+	
+	time_zone: 540		# +9 hours in minutes
+	time_zone_name: "JST"
+	
+	mass_limit_per_axle_count[]: 20000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 30000
+	mass_limit_per_axle_count[]: 40000
+	mass_limit_per_axle_count[]: 50000
+}
+

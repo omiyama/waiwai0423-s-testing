@@ -1,0 +1,48 @@
+SiiNunit
+{
+
+
+@include "ferry/tomakomai.sii"
+
+@include "ferry/kushiro.sii"
+
+@include "ferry/sendai.sii"
+
+@include "ferry/oarai.sii"
+
+@include "ferry/hitachi.sii"
+
+@include "ferry/omaezaki.sii"
+
+@include "ferry/nagoya.sii"
+
+@include "ferry/osaka.sii"
+
+@include "ferry/tokushima.sii"
+
+@include "ferry/uno.sii"
+
+@include "ferry/iwakuni.sii"
+
+@include "ferry/kitakyushu.sii"
+
+@include "ferry/shinmoji.sii"
+
+@include "ferry/kanda.sii"
+
+@include "ferry/hakata.sii"
+
+@include "ferry/oita.sii"
+
+@include "ferry/aburatsu.sii"
+
+@include "ferry/hososhima.sii"
+
+@include "ferry/shibushi.sii"
+
+@include "ferry/naha.sii"
+@include "ferry/kanazawa.sii"
+
+
+
+}

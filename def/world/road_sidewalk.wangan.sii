@@ -1,0 +1,19 @@
+SiiNunit
+{
+
+material_def : sidewalk.japan_1 {
+	path:"/material/jpn_road/japan_sidewalk.mat"
+}
+
+material_def : sidewalk.japan_2 {
+	path:"/material/terrain/asphalt.mat"
+}
+
+material_def : sidewalk.japan_3 {
+	path:"/material/terrain/asphalt_dirt.mat"
+}
+
+material_def : sidewalk.japan_4 {
+	path:"/material/terrain/asphalt_tiles_eu_01.mat"
+}
+}

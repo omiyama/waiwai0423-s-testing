@@ -1,0 +1,114 @@
+traffic_vehicle : traffic.taxi_t_musen
+{
+	accessories[]: .taxi_t_musen.chassis
+	accessories[]: .taxi_t_musen.fwheel
+	accessories[]: .taxi_t_musen.rwheel
+
+	max_speed: 120
+	engine_torque: 189
+
+	lod_dist[]: 70
+	lod_dist[]: 130
+	lod_dist[]: 200
+	
+	spawn_ratio: 0
+
+	vehicle_mass: 1500
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .taxi_t_musen.chassis
+{
+	data_path: "/def/vehicle/ai/comfort/chassis_tokyo_musen.sii"
+}
+
+vehicle_wheel_accessory: .taxi_t_musen.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/15in_comfort_f.sii"
+}
+
+vehicle_wheel_accessory: .taxi_t_musen.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/15in_comfort_r.sii"
+}
+
+
+
+traffic_vehicle : traffic.taxi_4sha
+{
+	accessories[]: .taxi_4sha.chassis
+	accessories[]: .taxi_4sha.fwheel
+	accessories[]: .taxi_4sha.rwheel
+
+	max_speed: 120
+	engine_torque: 189
+
+	lod_dist[]: 70
+	lod_dist[]: 130
+	lod_dist[]: 200
+	
+	spawn_ratio: 0
+
+	vehicle_mass: 1500
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .taxi_4sha.chassis
+{
+	data_path: "/def/vehicle/ai/comfort/chassis_tokyo_4sha.sii"
+}
+
+vehicle_wheel_accessory: .taxi_4sha.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/15in_comfort_f.sii"
+}
+
+vehicle_wheel_accessory: .taxi_4sha.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/15in_comfort_r.sii"
+}
+
+
+
+traffic_vehicle : traffic.taxi_checker
+{
+	accessories[]: .taxi_checker.chassis
+	accessories[]: .taxi_checker.fwheel
+	accessories[]: .taxi_checker.rwheel
+
+	max_speed: 120
+	engine_torque: 189
+
+	lod_dist[]: 70
+	lod_dist[]: 130
+	lod_dist[]: 200
+	
+	spawn_ratio: 0
+
+	vehicle_mass: 1500
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .taxi_checker.chassis
+{
+	data_path: "/def/vehicle/ai/comfort/chassis_checker_musen.sii"
+}
+
+vehicle_wheel_accessory: .taxi_checker.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/15in_comfort_f.sii"
+}
+
+vehicle_wheel_accessory: .taxi_checker.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/15in_comfort_r.sii"
+}

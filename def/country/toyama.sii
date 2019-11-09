@@ -1,0 +1,25 @@
+
+country_data: country.data.toyama
+{
+	country_id: 220
+	name: "Toyama"
+	name_localized: "@@toyama@@"
+	country_code: "JPTY"
+
+	pos:(1467, 0, -2682)
+
+	fuel_price: 1.03
+
+	lights_mandatory: false
+	leftside_traffic: true
+	driving_tired_offence: true
+	
+	time_zone: 540		# +9 hours in minutes
+	time_zone_name: "JST"
+	
+	mass_limit_per_axle_count[]: 20000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 30000
+	mass_limit_per_axle_count[]: 40000
+	mass_limit_per_axle_count[]: 50000
+}
+

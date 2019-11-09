@@ -1,0 +1,21 @@
+SiiNunit
+{
+sign_editor_project : _nameless.221.a164.a430 {
+ name: japan
+ fonts: 5
+ fonts[0]: "/font/sign/vialog.font"
+ fonts[1]: "/font/sign/hiragino.font"
+ fonts[2]: "/font/sign/frutiger.font"
+ fonts[3]: "/font/sign/nar.font"
+ fonts[4]: "/font/sign/helvectia.font"
+ colors: 2
+ colors[0]: 0
+ colors[1]: 16777215
+ city_name_upper: false
+ atlas_paths: 0
+ frame_paths: 0
+ sign_template_names: 0
+ quick_texts: 0
+}
+
+}

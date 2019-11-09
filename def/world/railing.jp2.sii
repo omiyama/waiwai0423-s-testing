@@ -1,0 +1,20 @@
+SiiNunit
+{
+railing_model : railing.igf14_01 {
+	model_desc: "/model/railing/lines/igf14/lines_02_yellow.pmd"
+}
+railing_model : railing.igf14_02 {
+	model_desc: "/model/railing/lines/igf14/lines_02p_yellow.pmd"
+}
+railing_model : railing.igf14_03 {
+	model_desc: "/model/railing/lines/igf14/lines_032_yellow.pmd"
+}
+railing_model : railing.igf14_04 {
+	model_desc: "/model/railing/lines/igf14/lines_05_yellow.pmd"
+
+}
+railing_model : railing.igf14_11 {
+	model_desc: "/model/railing/lines/igf14/lines_05p_yellow.pmd"
+
+}
+}

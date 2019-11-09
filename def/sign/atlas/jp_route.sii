@@ -1,0 +1,18 @@
+SiiNunit
+{
+image_atlas : atlas.jp_route
+{
+  atlas_name: "jp_route"
+  material_path: "/material/sign/atlas/jp_route.mat"
+  
+  # names
+  images_names: 1
+  images_names[0]: "jp_route"
+  
+  # left right bottom top
+  images_coords: 1
+  images_coords[0]: (0, 256, 256, 0)
+
+
+}
+}

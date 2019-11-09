@@ -1,0 +1,7 @@
+SiiNunit
+{
+company_def : .kanazawa {
+ city: kanazawa
+ prefab: dlc_fr_3
+}
+}
